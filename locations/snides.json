@@ -1,0 +1,649 @@
+[
+    {
+        "name": "Snide Turn-ins",
+        "chest_unopened_img": "images/items/snides.png",
+        "chest_opened_img": "images/items/snidesbw.png",
+        "children": [
+            {
+                "name": "Turn in 1 Blueprint",
+                "access_rules": ["$blueprintTotal|1"],
+                "sections": [
+                    {
+                        "name": "Turn in 1 Blueprint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "snidehq",
+                        "x": 140,
+                        "y": 131
+                    }
+                ]
+            },
+            {
+                "name": "Turn in 2 Blueprints",
+                "access_rules": ["$blueprintTotal|2"],
+                "sections": [
+                    {
+                        "name": "Turn in 2 Blueprints"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "snidehq",
+                        "x": 268,
+                        "y": 131
+                    }
+                ]
+            },
+            {
+                "name": "Turn in 3 Blueprints",
+                "access_rules": ["$blueprintTotal|3"],
+                "sections": [
+                    {
+                        "name": "Turn in 3 Blueprints"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "snidehq",
+                        "x": 396,
+                        "y": 131
+                    }
+                ]
+            },
+            {
+                "name": "Turn in 4 Blueprints",
+                "access_rules": ["$blueprintTotal|4"],
+                "sections": [
+                    {
+                        "name": "Turn in 4 Blueprints"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "snidehq",
+                        "x": 524,
+                        "y": 131
+                    }
+                ]
+            },
+            {
+                "name": "Turn in 5 Blueprints",
+                "access_rules": ["$blueprintTotal|5"],
+                "sections": [
+                    {
+                        "name": "Turn in 5 Blueprints"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "snidehq",
+                        "x": 652,
+                        "y": 131
+                    }
+                ]
+            },
+            {
+                "name": "Turn in 6 Blueprints",
+                "access_rules": ["$blueprintTotal|6"],
+                "sections": [
+                    {
+                        "name": "Turn in 6 Blueprints"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "snidehq",
+                        "x": 780,
+                        "y": 131
+                    }
+                ]
+            },
+            {
+                "name": "Turn in 7 Blueprints",
+                "access_rules": ["$blueprintTotal|7"],
+                "sections": [
+                    {
+                        "name": "Turn in 7 Blueprints"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "snidehq",
+                        "x": 908,
+                        "y": 131
+                    }
+                ]
+            },
+            {
+                "name": "Turn in 8 Blueprints",
+                "access_rules": ["$blueprintTotal|8"],
+                "sections": [
+                    {
+                        "name": "Turn in 8 Blueprints"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "snidehq",
+                        "x": 1040,
+                        "y": 131
+                    }
+                ]
+            },
+            {
+                "name": "Turn in 9 Blueprints",
+                "access_rules": ["$blueprintTotal|9"],
+                "sections": [
+                    {
+                        "name": "Turn in 9 Blueprints"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "snidehq",
+                        "x": 140,
+                        "y": 265
+                    }
+                ]
+            },
+            {
+                "name": "Turn in 10 Blueprints",
+                "access_rules": ["$blueprintTotal|10"],
+                "sections": [
+                    {
+                        "name": "Turn in 10 Blueprints"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "snidehq",
+                        "x": 268,
+                        "y": 265
+                    }
+                ]
+            },
+            {
+                "name": "Turn in 11 Blueprints",
+                "access_rules": ["$blueprintTotal|11"],
+                "sections": [
+                    {
+                        "name": "Turn in 11 Blueprints"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "snidehq",
+                        "x": 396,
+                        "y": 265
+                    }
+                ]
+            },
+            {
+                "name": "Turn in 12 Blueprints",
+                "access_rules": ["$blueprintTotal|12"],
+                "sections": [
+                    {
+                        "name": "Turn in 12 Blueprints"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "snidehq",
+                        "x": 524,
+                        "y": 265
+                    }
+                ]
+            },
+            {
+                "name": "Turn in 13 Blueprints",
+                "access_rules": ["$blueprintTotal|13"],
+                "sections": [
+                    {
+                        "name": "Turn in 13 Blueprints"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "snidehq",
+                        "x": 652,
+                        "y": 265
+                    }
+                ]
+            },
+            {
+                "name": "Turn in 14 Blueprints",
+                "access_rules": ["$blueprintTotal|14"],
+                "sections": [
+                    {
+                        "name": "Turn in 14 Blueprints"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "snidehq",
+                        "x": 780,
+                        "y": 265
+                    }
+                ]
+            },
+            {
+                "name": "Turn in 15 Blueprints",
+                "access_rules": ["$blueprintTotal|15"],
+                "sections": [
+                    {
+                        "name": "Turn in 15 Blueprints"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "snidehq",
+                        "x": 908,
+                        "y": 265
+                    }
+                ]
+            },
+            {
+                "name": "Turn in 16 Blueprints",
+                "access_rules": ["$blueprintTotal|16"],
+                "sections": [
+                    {
+                        "name": "Turn in 16 Blueprints"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "snidehq",
+                        "x": 1040,
+                        "y": 265
+                    }
+                ]
+            },
+            {
+                "name": "Turn in 17 Blueprints",
+                "access_rules": ["$blueprintTotal|17"],
+                "sections": [
+                    {
+                        "name": "Turn in 17 Blueprints"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "snidehq",
+                        "x": 140,
+                        "y": 399
+                    }
+                ]
+            },
+            {
+                "name": "Turn in 18 Blueprints",
+                "access_rules": ["$blueprintTotal|18"],
+                "sections": [
+                    {
+                        "name": "Turn in 18 Blueprints"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "snidehq",
+                        "x": 268,
+                        "y": 399
+                    }
+                ]
+            },
+            {
+                "name": "Turn in 19 Blueprints",
+                "access_rules": ["$blueprintTotal|19"],
+                "sections": [
+                    {
+                        "name": "Turn in 19 Blueprints"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "snidehq",
+                        "x": 396,
+                        "y": 399
+                    }
+                ]
+            },
+            {
+                "name": "Turn in 20 Blueprints",
+                "access_rules": ["$blueprintTotal|20"],
+                "sections": [
+                    {
+                        "name": "Turn in 20 Blueprints"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "snidehq",
+                        "x": 524,
+                        "y": 399
+                    }
+                ]
+            },
+            {
+                "name": "Turn in 21 Blueprints",
+                "access_rules": ["$blueprintTotal|21"],
+                "sections": [
+                    {
+                        "name": "Turn in 21 Blueprints"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "snidehq",
+                        "x": 652,
+                        "y": 399
+                    }
+                ]
+            },
+            {
+                "name": "Turn in 22 Blueprints",
+                "access_rules": ["$blueprintTotal|22"],
+                "sections": [
+                    {
+                        "name": "Turn in 22 Blueprints"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "snidehq",
+                        "x": 780,
+                        "y": 399
+                    }
+                ]
+            },
+            {
+                "name": "Turn in 23 Blueprints",
+                "access_rules": ["$blueprintTotal|23"],
+                "sections": [
+                    {
+                        "name": "Turn in 23 Blueprints"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "snidehq",
+                        "x": 908,
+                        "y": 399
+                    }
+                ]
+            },
+            {
+                "name": "Turn in 24 Blueprints",
+                "access_rules": ["$blueprintTotal|24"],
+                "sections": [
+                    {
+                        "name": "Turn in 24 Blueprints"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "snidehq",
+                        "x": 1040,
+                        "y": 399
+                    }
+                ]
+            },
+            {
+                "name": "Turn in 25 Blueprints",
+                "access_rules": ["$blueprintTotal|25"],
+                "sections": [
+                    {
+                        "name": "Turn in 25 Blueprints"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "snidehq",
+                        "x": 140,
+                        "y": 533
+                    }
+                ]
+            },
+            {
+                "name": "Turn in 26 Blueprints",
+                "access_rules": ["$blueprintTotal|26"],
+                "sections": [
+                    {
+                        "name": "Turn in 26 Blueprints"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "snidehq",
+                        "x": 268,
+                        "y": 533
+                    }
+                ]
+            },
+            {
+                "name": "Turn in 27 Blueprints",
+                "access_rules": ["$blueprintTotal|27"],
+                "sections": [
+                    {
+                        "name": "Turn in 27 Blueprints"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "snidehq",
+                        "x": 396,
+                        "y": 533
+                    }
+                ]
+            },
+            {
+                "name": "Turn in 28 Blueprints",
+                "access_rules": ["$blueprintTotal|28"],
+                "sections": [
+                    {
+                        "name": "Turn in 28 Blueprints"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "snidehq",
+                        "x": 524,
+                        "y": 533
+                    }
+                ]
+            },
+            {
+                "name": "Turn in 29 Blueprints",
+                "access_rules": ["$blueprintTotal|29"],
+                "sections": [
+                    {
+                        "name": "Turn in 29 Blueprints"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "snidehq",
+                        "x": 652,
+                        "y": 533
+                    }
+                ]
+            },
+            {
+                "name": "Turn in 30 Blueprints",
+                "access_rules": ["$blueprintTotal|30"],
+                "sections": [
+                    {
+                        "name": "Turn in 30 Blueprints"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "snidehq",
+                        "x": 780,
+                        "y": 533
+                    }
+                ]
+            },
+            {
+                "name": "Turn in 31 Blueprints",
+                "access_rules": ["$blueprintTotal|31"],
+                "sections": [
+                    {
+                        "name": "Turn in 31 Blueprints"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "snidehq",
+                        "x": 908,
+                        "y": 533
+                    }
+                ]
+            },
+            {
+                "name": "Turn in 32 Blueprints",
+                "access_rules": ["$blueprintTotal|32"],
+                "sections": [
+                    {
+                        "name": "Turn in 32 Blueprints"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "snidehq",
+                        "x": 1040,
+                        "y": 533
+                    }
+                ]
+            },
+            {
+                "name": "Turn in 33 Blueprints",
+                "access_rules": ["$blueprintTotal|33"],
+                "sections": [
+                    {
+                        "name": "Turn in 33 Blueprints"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "snidehq",
+                        "x": 140,
+                        "y": 667
+                    }
+                ]
+            },
+            {
+                "name": "Turn in 34 Blueprints",
+                "access_rules": ["$blueprintTotal|34"],
+                "sections": [
+                    {
+                        "name": "Turn in 34 Blueprints"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "snidehq",
+                        "x": 268,
+                        "y": 667
+                    }
+                ]
+            },
+            {
+                "name": "Turn in 35 Blueprints",
+                "access_rules": ["$blueprintTotal|35"],
+                "sections": [
+                    {
+                        "name": "Turn in 35 Blueprints"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "snidehq",
+                        "x": 396,
+                        "y": 667
+                    }
+                ]
+            },
+            {
+                "name": "Turn in 36 Blueprints",
+                "access_rules": ["$blueprintTotal|36"],
+                "sections": [
+                    {
+                        "name": "Turn in 36 Blueprints"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "snidehq",
+                        "x": 524,
+                        "y": 667
+                    }
+                ]
+            },
+            {
+                "name": "Turn in 37 Blueprints",
+                "access_rules": ["$blueprintTotal|37"],
+                "sections": [
+                    {
+                        "name": "Turn in 37 Blueprints"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "snidehq",
+                        "x": 652,
+                        "y": 667
+                    }
+                ]
+            },
+            {
+                "name": "Turn in 38 Blueprints",
+                "access_rules": ["$blueprintTotal|38"],
+                "sections": [
+                    {
+                        "name": "Turn in 38 Blueprints"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "snidehq",
+                        "x": 780,
+                        "y": 667
+                    }
+                ]
+            },
+            {
+                "name": "Turn in 39 Blueprints",
+                "access_rules": ["$blueprintTotal|39"],
+                "sections": [
+                    {
+                        "name": "Turn in 39 Blueprints"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "snidehq",
+                        "x": 908,
+                        "y": 667
+                    }
+                ]
+            },
+            {
+                "name": "Turn in 40 Blueprints",
+                "access_rules": ["$blueprintTotal|40"],
+                "sections": [
+                    {
+                        "name": "Turn in 40 Blueprints"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "snidehq",
+                        "x": 1040,
+                        "y": 667
+                    }
+                ]
+            }
+        ]
+    }
+]

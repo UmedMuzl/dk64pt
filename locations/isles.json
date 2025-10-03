@@ -1020,7 +1020,7 @@
       },
       {
         "name": "Isles Boulder: Caves Lobby",
-        "access_rules":["^$canEnterCavesLobby, $punch, boulder"],
+        "access_rules":["^$canEnterCavesLobby, $punch, barrel"],
         "visibility_rules":["bouldersanity"],
         "sections": [
           {

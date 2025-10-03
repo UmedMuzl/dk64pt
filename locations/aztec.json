@@ -41,30 +41,35 @@
                     },
                     {
                         "name": "Aztec DK Half-Medal",
+                        "visibility_rules": ["halfmedal"],
                         "access_rules": ["$aztecDKHalfMedal"],
                         "chest_unopened_img": "images/items/halfbananamedal.png",
                         "chest_opened_img": "images/items/halfbananamedalbw.png"
                     },
                     {
                         "name": "Aztec Diddy Half-Medal",
+                        "visibility_rules": ["halfmedal"],
                         "access_rules": ["$aztecDiddyHalfMedal"],
                         "chest_unopened_img": "images/items/halfbananamedal.png",
                         "chest_opened_img": "images/items/halfbananamedalbw.png"
                     },
                     {
                         "name": "Aztec Lanky Half-Medal",
+                        "visibility_rules": ["halfmedal"],
                         "access_rules": ["$aztecLankyHalfMedal"],
                         "chest_unopened_img": "images/items/halfbananamedal.png",
                         "chest_opened_img": "images/items/halfbananamedalbw.png"
                     },
                     {
                         "name": "Aztec Tiny Half-Medal",
+                        "visibility_rules": ["halfmedal"],
                         "access_rules": ["$aztecTinyHalfMedal"],
                         "chest_unopened_img": "images/items/halfbananamedal.png",
                         "chest_opened_img": "images/items/halfbananamedalbw.png"
                     },
                     {
                         "name": "Aztec Chunky Half-Medal",
+                        "visibility_rules": ["halfmedal"],
                         "access_rules": ["$aztecChunkyHalfMedal"],
                         "chest_unopened_img": "images/items/halfbananamedal.png",
                         "chest_opened_img": "images/items/halfbananamedalbw.png"

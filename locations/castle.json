@@ -41,30 +41,35 @@
                     },
                     {
                         "name": "Castle DK Half-Medal",
+                        "visibility_rules": ["halfmedal"],
                         "access_rules": ["$castleDKHalfMedal"],
                         "chest_unopened_img": "images/items/halfbananamedal.png",
                         "chest_opened_img": "images/items/halfbananamedalbw.png"
                     },
                     {
                         "name": "Castle Diddy Half-Medal",
+                        "visibility_rules": ["halfmedal"],
                         "access_rules": ["$castleDiddyHalfMedal"],
                         "chest_unopened_img": "images/items/halfbananamedal.png",
                         "chest_opened_img": "images/items/halfbananamedalbw.png"
                     },
                     {
                         "name": "Castle Lanky Half-Medal",
+                        "visibility_rules": ["halfmedal"],
                         "access_rules": ["$castleLankyHalfMedal"],
                         "chest_unopened_img": "images/items/halfbananamedal.png",
                         "chest_opened_img": "images/items/halfbananamedalbw.png"
                     },
                     {
                         "name": "Castle Tiny Half-Medal",
+                        "visibility_rules": ["halfmedal"],
                         "access_rules": ["$castleTinyHalfMedal"],
                         "chest_unopened_img": "images/items/halfbananamedal.png",
                         "chest_opened_img": "images/items/halfbananamedalbw.png"
                     },
                     {
                         "name": "Castle Chunky Half-Medal",
+                        "visibility_rules": ["halfmedal"],
                         "access_rules": ["$castleChunkyHalfMedal"],
                         "chest_unopened_img": "images/items/halfbananamedal.png",
                         "chest_opened_img": "images/items/halfbananamedalbw.png"

@@ -41,30 +41,35 @@
                     },
                     {
                         "name": "Forest DK Half-Medal",
+                        "visibility_rules": ["halfmedal"],
                         "access_rules": ["$forestDKHalfMedal"],
                         "chest_unopened_img": "images/items/halfbananamedal.png",
                         "chest_opened_img": "images/items/halfbananamedalbw.png"
                     },
                     {
                         "name": "Forest Diddy Half-Medal",
+                        "visibility_rules": ["halfmedal"],
                         "access_rules": ["$forestDiddyHalfMedal"],
                         "chest_unopened_img": "images/items/halfbananamedal.png",
                         "chest_opened_img": "images/items/halfbananamedalbw.png"
                     },
                     {
                         "name": "Forest Lanky Half-Medal",
+                        "visibility_rules": ["halfmedal"],
                         "access_rules": ["$forestLankyHalfMedal"],
                         "chest_unopened_img": "images/items/halfbananamedal.png",
                         "chest_opened_img": "images/items/halfbananamedalbw.png"
                     },
                     {
                         "name": "Forest Tiny Half-Medal",
+                        "visibility_rules": ["halfmedal"],
                         "access_rules": ["$forestTinyHalfMedal"],
                         "chest_unopened_img": "images/items/halfbananamedal.png",
                         "chest_opened_img": "images/items/halfbananamedalbw.png"
                     },
                     {
                         "name": "Forest Chunky Half-Medal",
+                        "visibility_rules": ["halfmedal"],
                         "access_rules": ["$forestChunkyHalfMedal"],
                         "chest_unopened_img": "images/items/halfbananamedal.png",
                         "chest_opened_img": "images/items/halfbananamedalbw.png"
@@ -143,7 +148,7 @@
                         "visibility_rules":["dropsanity"],
                         "chest_unopened_img": "images/settings/dropsanity.png",
                         "chest_opened_img": "images/settings/dropsanitybw.png",
-                        "access_rules": ["$flyingEnemy, $canClimbMushroom"]
+                        "access_rules": ["$applyEnemyLogic|ForestGMEnemy_AboveNightDoor, $canClimbMushroom"]
                     },
                     {
                         "name": "Forest Giant Mushroom Enemy: Path (0)",
@@ -245,7 +250,7 @@
             },
             {            
                 "name": "Face Puzzle Room",
-                "access_rules": ["$canClimbMushroom, $forestSlam"],
+                "access_rules": ["$canClimbMushroom, $forestSlam, chunky"],
                 "sections": [
                     {
                         "name": "Forest Chunky Face Puzzle",

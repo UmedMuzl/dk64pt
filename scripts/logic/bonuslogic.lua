@@ -152,7 +152,7 @@ function canPlayMinigame(minigame_name)
     elseif logic.minigameType == "SpeedySwingSortieEasy" then
         return has("vine")
     elseif logic.minigameType == "SpeedySwingSortieNormal" then
-        return has("vine") and twirl() and (has("monkey_maneuvers") and has("donkey") and has("climbing"))
+        return has("vine") and twirl() or (has("monkey_maneuvers") and has("donkey") and has("climbing"))
     elseif logic.minigameType == "SpeedySwingSortieHard" then
         return has("vine")
     -- Krazy Kong Klamour variants
@@ -797,14 +797,14 @@ function canPlayGalleonDiddy5DoorShip()
     local logic = getMinigameLogic("GalleonDiddy5DoorShip")
     
     if not logic.isMinigameSanity then
-        return ((loweredWater() and guitar()) or phaseswim()) and has("dive")
+        return (canActivateGalleonShipwreck() or phaseswim()) and has("dive") and ((loweredWater() and guitar()) or phaseswim())
     else
         if logic.minigameType == "NoGame" then
-            return ((loweredWater() and guitar()) or phaseswim()) and has("dive")
+            return (canActivateGalleonShipwreck() or phaseswim()) and has("dive") and ((loweredWater() and guitar()) or phaseswim())
         elseif logic.minigameType == "BusyBarrelBarrageEasy" or logic.minigameType == "BusyBarrelBarrageNormal" or logic.minigameType == "BusyBarrelBarrageHard" then
-            return ((loweredWater() and guitar()) or phaseswim()) and has("dive") and canPlayMinigame("GalleonDiddy5DoorShip")
+            return (canActivateGalleonShipwreck() or phaseswim()) and has("dive") and ((loweredWater() and guitar()) or phaseswim()) and canPlayMinigame("GalleonDiddy5DoorShip")
         else
-            return ((loweredWater() and guitar()) or phaseswim()) and has("dive") and canPlayMinigame("GalleonDiddy5DoorShip")
+            return (canActivateGalleonShipwreck() or phaseswim()) and has("dive") and ((loweredWater() and guitar()) or phaseswim()) and canPlayMinigame("GalleonDiddy5DoorShip")
         end
     end
 end

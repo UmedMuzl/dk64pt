@@ -50,6 +50,7 @@ Tracker:AddLocations("locations/forestdropsanity.json")
 Tracker:AddLocations("locations/cavesdropsanity.json")
 Tracker:AddLocations("locations/castledropsanity.json")
 Tracker:AddLocations("locations/helmdropsanity.json")
+Tracker:AddLocations("locations/snides.json")
 
 -- Default Layout
 Tracker:AddLayouts("layouts/moves.json")

@@ -41,30 +41,35 @@
                     },
                     {
                         "name": "Galleon DK Half-Medal",
+                        "visibility_rules": ["halfmedal"],
                         "access_rules": ["$galleonDKHalfMedal"],
                         "chest_unopened_img": "images/items/halfbananamedal.png",
                         "chest_opened_img": "images/items/halfbananamedalbw.png"
                     },
                     {
                         "name": "Galleon Diddy Half-Medal",
+                        "visibility_rules": ["halfmedal"],
                         "access_rules": ["$galleonDiddyHalfMedal"],
                         "chest_unopened_img": "images/items/halfbananamedal.png",
                         "chest_opened_img": "images/items/halfbananamedalbw.png"
                     },
                     {
                         "name": "Galleon Lanky Half-Medal",
+                        "visibility_rules": ["halfmedal"],
                         "access_rules": ["$galleonLankyHalfMedal"],
                         "chest_unopened_img": "images/items/halfbananamedal.png",
                         "chest_opened_img": "images/items/halfbananamedalbw.png"
                     },
                     {
                         "name": "Galleon Tiny Half-Medal",
+                        "visibility_rules": ["halfmedal"],
                         "access_rules": ["$galleonTinyHalfMedal"],
                         "chest_unopened_img": "images/items/halfbananamedal.png",
                         "chest_opened_img": "images/items/halfbananamedalbw.png"
                     },
                     {
                         "name": "Galleon Chunky Half-Medal",
+                        "visibility_rules": ["halfmedal"],
                         "access_rules": ["$galleonChunkyHalfMedal"],
                         "chest_unopened_img": "images/items/halfbananamedal.png",
                         "chest_opened_img": "images/items/halfbananamedalbw.png"

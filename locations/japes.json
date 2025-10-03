@@ -41,30 +41,35 @@
                     },
                     {
                         "name": "Japes DK Half-Medal",
+                        "visibility_rules": ["halfmedal"],
                         "access_rules": ["$japesDKHalfMedal"],
                         "chest_unopened_img": "images/items/halfbananamedal.png",
                         "chest_opened_img": "images/items/halfbananamedalbw.png"
                     },
                     {
                         "name": "Japes Diddy Half-Medal",
+                        "visibility_rules": ["halfmedal"],
                         "access_rules": ["$japesDiddyHalfMedal"],
                         "chest_unopened_img": "images/items/halfbananamedal.png",
                         "chest_opened_img": "images/items/halfbananamedalbw.png"
                     },
                     {
                         "name": "Japes Lanky Half-Medal",
+                        "visibility_rules": ["halfmedal"],
                         "access_rules": ["$japesLankyHalfMedal"],
                         "chest_unopened_img": "images/items/halfbananamedal.png",
                         "chest_opened_img": "images/items/halfbananamedalbw.png"
                     },
                     {
                         "name": "Japes Tiny Half-Medal",
+                        "visibility_rules": ["halfmedal"],
                         "access_rules": ["$japesTinyHalfMedal"],
                         "chest_unopened_img": "images/items/halfbananamedal.png",
                         "chest_opened_img": "images/items/halfbananamedalbw.png"
                     },
                     {
                         "name": "Japes Chunky Half-Medal",
+                        "visibility_rules": ["halfmedal"],
                         "access_rules": ["$japesChunkyHalfMedal"],
                         "chest_unopened_img": "images/items/halfbananamedal.png",
                         "chest_opened_img": "images/items/halfbananamedalbw.png"

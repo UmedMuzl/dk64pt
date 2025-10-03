@@ -3993,6 +3993,178 @@
                         "y": 483
                     }
                 ]
+            },
+            {
+                "name": "Snide Turn-ins",
+                "sections": [
+                    {
+                        "ref": "Snide Turn-ins/Turn in 1 Blueprint/Turn in 1 Blueprint",
+                        "name": "Turn in 1 Blueprint"
+                    },
+                    {
+                        "ref": "Snide Turn-ins/Turn in 2 Blueprints/Turn in 2 Blueprints",
+                        "name": "Turn in 2 Blueprints"
+                    },
+                    {
+                        "ref": "Snide Turn-ins/Turn in 3 Blueprints/Turn in 3 Blueprints",
+                        "name": "Turn in 3 Blueprints"
+                    },
+                    {
+                        "ref": "Snide Turn-ins/Turn in 4 Blueprints/Turn in 4 Blueprints",
+                        "name": "Turn in 4 Blueprints"
+                    },
+                    {
+                        "ref": "Snide Turn-ins/Turn in 5 Blueprints/Turn in 5 Blueprints",
+                        "name": "Turn in 5 Blueprints"
+                    },
+                    {
+                        "ref": "Snide Turn-ins/Turn in 6 Blueprints/Turn in 6 Blueprints",
+                        "name": "Turn in 6 Blueprints"
+                    },
+                    {
+                        "ref": "Snide Turn-ins/Turn in 7 Blueprints/Turn in 7 Blueprints",
+                        "name": "Turn in 7 Blueprints"
+                    },
+                    {
+                        "ref": "Snide Turn-ins/Turn in 8 Blueprints/Turn in 8 Blueprints",
+                        "name": "Turn in 8 Blueprints"
+                    },
+                    {
+                        "ref": "Snide Turn-ins/Turn in 9 Blueprints/Turn in 9 Blueprints",
+                        "name": "Turn in 9 Blueprints"
+                    },
+                    {
+                        "ref": "Snide Turn-ins/Turn in 10 Blueprints/Turn in 10 Blueprints",
+                        "name": "Turn in 10 Blueprints"
+                    },
+                    {
+                        "ref": "Snide Turn-ins/Turn in 11 Blueprints/Turn in 11 Blueprints",
+                        "name": "Turn in 11 Blueprints"
+                    },
+                    {
+                        "ref": "Snide Turn-ins/Turn in 12 Blueprints/Turn in 12 Blueprints",
+                        "name": "Turn in 12 Blueprints"
+                    },
+                    {
+                        "ref": "Snide Turn-ins/Turn in 13 Blueprints/Turn in 13 Blueprints",
+                        "name": "Turn in 13 Blueprints"
+                    },
+                    {
+                        "ref": "Snide Turn-ins/Turn in 14 Blueprints/Turn in 14 Blueprints",
+                        "name": "Turn in 14 Blueprints"
+                    },
+                    {
+                        "ref": "Snide Turn-ins/Turn in 15 Blueprints/Turn in 15 Blueprints",
+                        "name": "Turn in 15 Blueprints"
+                    },
+                    {
+                        "ref": "Snide Turn-ins/Turn in 16 Blueprints/Turn in 16 Blueprints",
+                        "name": "Turn in 16 Blueprints"
+                    },
+                    {
+                        "ref": "Snide Turn-ins/Turn in 17 Blueprints/Turn in 17 Blueprints",
+                        "name": "Turn in 17 Blueprints"
+                    },
+                    {
+                        "ref": "Snide Turn-ins/Turn in 18 Blueprints/Turn in 18 Blueprints",
+                        "name": "Turn in 18 Blueprints"
+                    },
+                    {
+                        "ref": "Snide Turn-ins/Turn in 19 Blueprints/Turn in 19 Blueprints",
+                        "name": "Turn in 19 Blueprints"
+                    },
+                    {
+                        "ref": "Snide Turn-ins/Turn in 20 Blueprints/Turn in 20 Blueprints",
+                        "name": "Turn in 20 Blueprints"
+                    },
+                    {
+                        "ref": "Snide Turn-ins/Turn in 21 Blueprints/Turn in 21 Blueprints",
+                        "name": "Turn in 21 Blueprints"
+                    },
+                    {
+                        "ref": "Snide Turn-ins/Turn in 22 Blueprints/Turn in 22 Blueprints",
+                        "name": "Turn in 22 Blueprints"
+                    },
+                    {
+                        "ref": "Snide Turn-ins/Turn in 23 Blueprints/Turn in 23 Blueprints",
+                        "name": "Turn in 23 Blueprints"
+                    },
+                    {
+                        "ref": "Snide Turn-ins/Turn in 24 Blueprints/Turn in 24 Blueprints",
+                        "name": "Turn in 24 Blueprints"
+                    },
+                    {
+                        "ref": "Snide Turn-ins/Turn in 25 Blueprints/Turn in 25 Blueprints",
+                        "name": "Turn in 25 Blueprints"
+                    },
+                    {
+                        "ref": "Snide Turn-ins/Turn in 26 Blueprints/Turn in 26 Blueprints",
+                        "name": "Turn in 26 Blueprints"
+                    },
+                    {
+                        "ref": "Snide Turn-ins/Turn in 27 Blueprints/Turn in 27 Blueprints",
+                        "name": "Turn in 27 Blueprints"
+                    },
+                    {
+                        "ref": "Snide Turn-ins/Turn in 28 Blueprints/Turn in 28 Blueprints",
+                        "name": "Turn in 28 Blueprints"
+                    },
+                    {
+                        "ref": "Snide Turn-ins/Turn in 29 Blueprints/Turn in 29 Blueprints",
+                        "name": "Turn in 29 Blueprints"
+                    },
+                    {
+                        "ref": "Snide Turn-ins/Turn in 30 Blueprints/Turn in 30 Blueprints",
+                        "name": "Turn in 30 Blueprints"
+                    },
+                    {
+                        "ref": "Snide Turn-ins/Turn in 31 Blueprints/Turn in 31 Blueprints",
+                        "name": "Turn in 31 Blueprints"
+                    },
+                    {
+                        "ref": "Snide Turn-ins/Turn in 32 Blueprints/Turn in 32 Blueprints",
+                        "name": "Turn in 32 Blueprints"
+                    },
+                    {
+                        "ref": "Snide Turn-ins/Turn in 33 Blueprints/Turn in 33 Blueprints",
+                        "name": "Turn in 33 Blueprints"
+                    },
+                    {
+                        "ref": "Snide Turn-ins/Turn in 34 Blueprints/Turn in 34 Blueprints",
+                        "name": "Turn in 34 Blueprints"
+                    },
+                    {
+                        "ref": "Snide Turn-ins/Turn in 35 Blueprints/Turn in 35 Blueprints",
+                        "name": "Turn in 35 Blueprints"
+                    },
+                    {
+                        "ref": "Snide Turn-ins/Turn in 36 Blueprints/Turn in 36 Blueprints",
+                        "name": "Turn in 36 Blueprints"
+                    },
+                    {
+                        "ref": "Snide Turn-ins/Turn in 37 Blueprints/Turn in 37 Blueprints",
+                        "name": "Turn in 37 Blueprints"
+                    },
+                    {
+                        "ref": "Snide Turn-ins/Turn in 38 Blueprints/Turn in 38 Blueprints",
+                        "name": "Turn in 38 Blueprints"
+                    },
+                    {
+                        "ref": "Snide Turn-ins/Turn in 39 Blueprints/Turn in 39 Blueprints",
+                        "name": "Turn in 39 Blueprints"
+                    },
+                    {
+                        "ref": "Snide Turn-ins/Turn in 40 Blueprints/Turn in 40 Blueprints",
+                        "name": "Turn in 40 Blueprints"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overview",
+                        "x": 527,
+                        "y": 483
+                    }
+                ]
             }
         ]
     }

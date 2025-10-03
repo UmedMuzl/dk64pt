@@ -165,6 +165,30 @@ function enguarde()
     return has("lanky") and has("dive")
 end
 
+-- Blueprints
+function blueprintTotal(amount)
+    local total = 0
+    local blueprintMap = {
+        {kong = "donkey", code = "dkbp"},
+        {kong = "diddy", code = "diddybp"},
+        {kong = "lanky", code = "lankybp"},
+        {kong = "tiny", code = "tinybp"},
+        {kong = "chunky", code = "chunkybp"}
+    }
+
+    for _, entry in ipairs(blueprintMap) do
+        if has(entry.kong) then
+            total = total + Tracker:ProviderCountForCode(entry.code)
+        end
+    end
+
+    if amount then
+        return total >= tonumber(amount)
+    else
+        return total
+    end
+end
+
 -- Other logic
 function canEnterTinyTemple()
     return pineapple() or peanuts() or feather() or grape()

@@ -56,8 +56,8 @@
 								"type": "dock",
 								"content": [
 									{
-										"type": "layout",
-										"key": "maps_factory"
+										"type": "map",
+										"maps": ["factory"]
 									}
 								]
 							}
@@ -68,8 +68,8 @@
 								"type": "dock",
 								"content": [
 									{
-										"type": "layout",
-										"key": "maps_galleon"
+										"type": "map",
+										"maps": ["galleon"]
 									}
 								]
 							}
@@ -92,8 +92,8 @@
 								"type": "dock",
 								"content": [
 									{
-										"type": "layout",
-										"key": "maps_caves"
+										"type": "map",
+										"maps": ["caves"]
 									}
 								]
 							}
@@ -111,17 +111,29 @@
 							}
 						},
             {
-							"title": "Hideout Helm",
-							"content": {
-								"type": "dock",
-								"content": [
-									{
-										"type": "layout",
-										"key": "maps_helm"
-									}
-								]
+						"title": "Hideout Helm",
+						"content": {
+							"type": "dock",
+							"content": [
+								{
+									"type": "map",
+									"maps": ["helm"]
+								}
+							]
 							}
-						}
+						},
+						{
+					"title": "Snide's HQ",
+					"content":{
+						"type": "dock",
+						"content": [
+							{
+								"type": "map",
+								"maps": ["snidehq"]
+							}
+						]
+					}
+				}
           ]
         }
 			},
@@ -250,6 +262,18 @@
 											{
 												"type": "layout",
 												"key": "maps_helm"
+											}
+										]
+									}
+								},
+								{
+									"title": "Snide's HQ",
+									"content":{
+										"type": "dock",
+										"content": [
+											{
+												"type": "map",
+												"maps": ["snidehq"]
 											}
 										]
 									}

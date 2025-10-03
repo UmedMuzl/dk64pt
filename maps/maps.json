@@ -232,5 +232,11 @@
     "location_size": 20,
     "location_border_thickness": 2,
     "img": "/images/maps/overview.png"
+  },
+  {
+    "name": "snidehq",
+    "location_size": 36,
+    "location_border_thickness": 2,
+    "img": "/images/maps/snide.png"
   }
 ]

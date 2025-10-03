@@ -41,30 +41,35 @@
                     },
                     {
                         "name": "Factory DK Half-Medal",
+                        "visibility_rules": ["halfmedal"],
                         "access_rules": ["$factoryDKHalfMedal"],
                         "chest_unopened_img": "images/items/halfbananamedal.png",
                         "chest_opened_img": "images/items/halfbananamedalbw.png"
                     },
                     {
                         "name": "Factory Diddy Half-Medal",
+                        "visibility_rules": ["halfmedal"],
                         "access_rules": ["$factoryDiddyHalfMedal"],
                         "chest_unopened_img": "images/items/halfbananamedal.png",
                         "chest_opened_img": "images/items/halfbananamedalbw.png"
                     },
                     {
                         "name": "Factory Lanky Half-Medal",
+                        "visibility_rules": ["halfmedal"],
                         "access_rules": ["$factoryLankyHalfMedal"],
                         "chest_unopened_img": "images/items/halfbananamedal.png",
                         "chest_opened_img": "images/items/halfbananamedalbw.png"
                     },
                     {
                         "name": "Factory Tiny Half-Medal",
+                        "visibility_rules": ["halfmedal"],
                         "access_rules": ["$factoryTinyHalfMedal"],
                         "chest_unopened_img": "images/items/halfbananamedal.png",
                         "chest_opened_img": "images/items/halfbananamedalbw.png"
                     },
                     {
                         "name": "Factory Chunky Half-Medal",
+                        "visibility_rules": ["halfmedal"],
                         "access_rules": ["$factoryChunkyHalfMedal"],
                         "chest_unopened_img": "images/items/halfbananamedal.png",
                         "chest_opened_img": "images/items/halfbananamedalbw.png"
