@@ -530,6 +530,10 @@ function factoryTinyHint()
     end
 end
 
+function shellhivePastFirstRoom()
+    return japesSlam() and (bongos() or guitar() or trombone() or sax() or triangle() or has("oranges"))
+end
+
 function lankyFreeing()
     if LANKY_FREEING_KONG == "donkey" then
         return bongos()

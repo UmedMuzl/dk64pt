@@ -6,7 +6,7 @@
         "children": [
             {
                 "name": "Turn in 1 Blueprint",
-                "access_rules": ["$blueprintTotal|1"],
+                "access_rules": ["snide, $blueprintTotal|1"],
                 "sections": [
                     {
                         "name": "Turn in 1 Blueprint"
@@ -22,7 +22,7 @@
             },
             {
                 "name": "Turn in 2 Blueprints",
-                "access_rules": ["$blueprintTotal|2"],
+                "access_rules": ["snide, $blueprintTotal|2"],
                 "sections": [
                     {
                         "name": "Turn in 2 Blueprints"
@@ -38,7 +38,7 @@
             },
             {
                 "name": "Turn in 3 Blueprints",
-                "access_rules": ["$blueprintTotal|3"],
+                "access_rules": ["snide, $blueprintTotal|3"],
                 "sections": [
                     {
                         "name": "Turn in 3 Blueprints"
@@ -54,7 +54,7 @@
             },
             {
                 "name": "Turn in 4 Blueprints",
-                "access_rules": ["$blueprintTotal|4"],
+                "access_rules": ["snide, $blueprintTotal|4"],
                 "sections": [
                     {
                         "name": "Turn in 4 Blueprints"
@@ -70,7 +70,7 @@
             },
             {
                 "name": "Turn in 5 Blueprints",
-                "access_rules": ["$blueprintTotal|5"],
+                "access_rules": ["snide, $blueprintTotal|5"],
                 "sections": [
                     {
                         "name": "Turn in 5 Blueprints"
@@ -86,7 +86,7 @@
             },
             {
                 "name": "Turn in 6 Blueprints",
-                "access_rules": ["$blueprintTotal|6"],
+                "access_rules": ["snide, $blueprintTotal|6"],
                 "sections": [
                     {
                         "name": "Turn in 6 Blueprints"
@@ -102,7 +102,7 @@
             },
             {
                 "name": "Turn in 7 Blueprints",
-                "access_rules": ["$blueprintTotal|7"],
+                "access_rules": ["snide, $blueprintTotal|7"],
                 "sections": [
                     {
                         "name": "Turn in 7 Blueprints"
@@ -118,7 +118,7 @@
             },
             {
                 "name": "Turn in 8 Blueprints",
-                "access_rules": ["$blueprintTotal|8"],
+                "access_rules": ["snide, $blueprintTotal|8"],
                 "sections": [
                     {
                         "name": "Turn in 8 Blueprints"
@@ -134,7 +134,7 @@
             },
             {
                 "name": "Turn in 9 Blueprints",
-                "access_rules": ["$blueprintTotal|9"],
+                "access_rules": ["snide, $blueprintTotal|9"],
                 "sections": [
                     {
                         "name": "Turn in 9 Blueprints"
@@ -150,7 +150,7 @@
             },
             {
                 "name": "Turn in 10 Blueprints",
-                "access_rules": ["$blueprintTotal|10"],
+                "access_rules": ["snide, $blueprintTotal|10"],
                 "sections": [
                     {
                         "name": "Turn in 10 Blueprints"
@@ -166,7 +166,7 @@
             },
             {
                 "name": "Turn in 11 Blueprints",
-                "access_rules": ["$blueprintTotal|11"],
+                "access_rules": ["snide, $blueprintTotal|11"],
                 "sections": [
                     {
                         "name": "Turn in 11 Blueprints"
@@ -182,7 +182,7 @@
             },
             {
                 "name": "Turn in 12 Blueprints",
-                "access_rules": ["$blueprintTotal|12"],
+                "access_rules": ["snide, $blueprintTotal|12"],
                 "sections": [
                     {
                         "name": "Turn in 12 Blueprints"
@@ -198,7 +198,7 @@
             },
             {
                 "name": "Turn in 13 Blueprints",
-                "access_rules": ["$blueprintTotal|13"],
+                "access_rules": ["snide, $blueprintTotal|13"],
                 "sections": [
                     {
                         "name": "Turn in 13 Blueprints"
@@ -214,7 +214,7 @@
             },
             {
                 "name": "Turn in 14 Blueprints",
-                "access_rules": ["$blueprintTotal|14"],
+                "access_rules": ["snide, $blueprintTotal|14"],
                 "sections": [
                     {
                         "name": "Turn in 14 Blueprints"
@@ -230,7 +230,7 @@
             },
             {
                 "name": "Turn in 15 Blueprints",
-                "access_rules": ["$blueprintTotal|15"],
+                "access_rules": ["snide, $blueprintTotal|15"],
                 "sections": [
                     {
                         "name": "Turn in 15 Blueprints"
@@ -246,7 +246,7 @@
             },
             {
                 "name": "Turn in 16 Blueprints",
-                "access_rules": ["$blueprintTotal|16"],
+                "access_rules": ["snide, $blueprintTotal|16"],
                 "sections": [
                     {
                         "name": "Turn in 16 Blueprints"
@@ -262,7 +262,7 @@
             },
             {
                 "name": "Turn in 17 Blueprints",
-                "access_rules": ["$blueprintTotal|17"],
+                "access_rules": ["snide, $blueprintTotal|17"],
                 "sections": [
                     {
                         "name": "Turn in 17 Blueprints"
@@ -278,7 +278,7 @@
             },
             {
                 "name": "Turn in 18 Blueprints",
-                "access_rules": ["$blueprintTotal|18"],
+                "access_rules": ["snide, $blueprintTotal|18"],
                 "sections": [
                     {
                         "name": "Turn in 18 Blueprints"
@@ -294,7 +294,7 @@
             },
             {
                 "name": "Turn in 19 Blueprints",
-                "access_rules": ["$blueprintTotal|19"],
+                "access_rules": ["snide, $blueprintTotal|19"],
                 "sections": [
                     {
                         "name": "Turn in 19 Blueprints"
@@ -310,7 +310,7 @@
             },
             {
                 "name": "Turn in 20 Blueprints",
-                "access_rules": ["$blueprintTotal|20"],
+                "access_rules": ["snide, $blueprintTotal|20"],
                 "sections": [
                     {
                         "name": "Turn in 20 Blueprints"
@@ -326,7 +326,7 @@
             },
             {
                 "name": "Turn in 21 Blueprints",
-                "access_rules": ["$blueprintTotal|21"],
+                "access_rules": ["snide, $blueprintTotal|21"],
                 "sections": [
                     {
                         "name": "Turn in 21 Blueprints"
@@ -342,7 +342,7 @@
             },
             {
                 "name": "Turn in 22 Blueprints",
-                "access_rules": ["$blueprintTotal|22"],
+                "access_rules": ["snide, $blueprintTotal|22"],
                 "sections": [
                     {
                         "name": "Turn in 22 Blueprints"
@@ -358,7 +358,7 @@
             },
             {
                 "name": "Turn in 23 Blueprints",
-                "access_rules": ["$blueprintTotal|23"],
+                "access_rules": ["snide, $blueprintTotal|23"],
                 "sections": [
                     {
                         "name": "Turn in 23 Blueprints"
@@ -374,7 +374,7 @@
             },
             {
                 "name": "Turn in 24 Blueprints",
-                "access_rules": ["$blueprintTotal|24"],
+                "access_rules": ["snide, $blueprintTotal|24"],
                 "sections": [
                     {
                         "name": "Turn in 24 Blueprints"
@@ -390,7 +390,7 @@
             },
             {
                 "name": "Turn in 25 Blueprints",
-                "access_rules": ["$blueprintTotal|25"],
+                "access_rules": ["snide, $blueprintTotal|25"],
                 "sections": [
                     {
                         "name": "Turn in 25 Blueprints"
@@ -406,7 +406,7 @@
             },
             {
                 "name": "Turn in 26 Blueprints",
-                "access_rules": ["$blueprintTotal|26"],
+                "access_rules": ["snide, $blueprintTotal|26"],
                 "sections": [
                     {
                         "name": "Turn in 26 Blueprints"
@@ -422,7 +422,7 @@
             },
             {
                 "name": "Turn in 27 Blueprints",
-                "access_rules": ["$blueprintTotal|27"],
+                "access_rules": ["snide, $blueprintTotal|27"],
                 "sections": [
                     {
                         "name": "Turn in 27 Blueprints"
@@ -438,7 +438,7 @@
             },
             {
                 "name": "Turn in 28 Blueprints",
-                "access_rules": ["$blueprintTotal|28"],
+                "access_rules": ["snide, $blueprintTotal|28"],
                 "sections": [
                     {
                         "name": "Turn in 28 Blueprints"
@@ -454,7 +454,7 @@
             },
             {
                 "name": "Turn in 29 Blueprints",
-                "access_rules": ["$blueprintTotal|29"],
+                "access_rules": ["snide, $blueprintTotal|29"],
                 "sections": [
                     {
                         "name": "Turn in 29 Blueprints"
@@ -470,7 +470,7 @@
             },
             {
                 "name": "Turn in 30 Blueprints",
-                "access_rules": ["$blueprintTotal|30"],
+                "access_rules": ["snide, $blueprintTotal|30"],
                 "sections": [
                     {
                         "name": "Turn in 30 Blueprints"
@@ -486,7 +486,7 @@
             },
             {
                 "name": "Turn in 31 Blueprints",
-                "access_rules": ["$blueprintTotal|31"],
+                "access_rules": ["snide, $blueprintTotal|31"],
                 "sections": [
                     {
                         "name": "Turn in 31 Blueprints"
@@ -502,7 +502,7 @@
             },
             {
                 "name": "Turn in 32 Blueprints",
-                "access_rules": ["$blueprintTotal|32"],
+                "access_rules": ["snide, $blueprintTotal|32"],
                 "sections": [
                     {
                         "name": "Turn in 32 Blueprints"
@@ -518,7 +518,7 @@
             },
             {
                 "name": "Turn in 33 Blueprints",
-                "access_rules": ["$blueprintTotal|33"],
+                "access_rules": ["snide, $blueprintTotal|33"],
                 "sections": [
                     {
                         "name": "Turn in 33 Blueprints"
@@ -534,7 +534,7 @@
             },
             {
                 "name": "Turn in 34 Blueprints",
-                "access_rules": ["$blueprintTotal|34"],
+                "access_rules": ["snide, $blueprintTotal|34"],
                 "sections": [
                     {
                         "name": "Turn in 34 Blueprints"
@@ -550,7 +550,7 @@
             },
             {
                 "name": "Turn in 35 Blueprints",
-                "access_rules": ["$blueprintTotal|35"],
+                "access_rules": ["snide, $blueprintTotal|35"],
                 "sections": [
                     {
                         "name": "Turn in 35 Blueprints"
@@ -566,7 +566,7 @@
             },
             {
                 "name": "Turn in 36 Blueprints",
-                "access_rules": ["$blueprintTotal|36"],
+                "access_rules": ["snide, $blueprintTotal|36"],
                 "sections": [
                     {
                         "name": "Turn in 36 Blueprints"
@@ -582,7 +582,7 @@
             },
             {
                 "name": "Turn in 37 Blueprints",
-                "access_rules": ["$blueprintTotal|37"],
+                "access_rules": ["snide, $blueprintTotal|37"],
                 "sections": [
                     {
                         "name": "Turn in 37 Blueprints"
@@ -598,7 +598,7 @@
             },
             {
                 "name": "Turn in 38 Blueprints",
-                "access_rules": ["$blueprintTotal|38"],
+                "access_rules": ["snide, $blueprintTotal|38"],
                 "sections": [
                     {
                         "name": "Turn in 38 Blueprints"
@@ -614,7 +614,7 @@
             },
             {
                 "name": "Turn in 39 Blueprints",
-                "access_rules": ["$blueprintTotal|39"],
+                "access_rules": ["snide, $blueprintTotal|39"],
                 "sections": [
                     {
                         "name": "Turn in 39 Blueprints"
@@ -630,7 +630,7 @@
             },
             {
                 "name": "Turn in 40 Blueprints",
-                "access_rules": ["$blueprintTotal|40"],
+                "access_rules": ["snide, $blueprintTotal|40"],
                 "sections": [
                     {
                         "name": "Turn in 40 Blueprints"

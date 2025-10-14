@@ -35,38 +35,7 @@ end
 function getBLockerItemCount(item_type)
     if item_type == "GoldenBanana" then
         local obj = Tracker:FindObjectForCode("gb")
-        local gb_count = obj and obj.AcquiredCount or 0
-        
-        -- Add blueprint count since turning in blueprints gives golden bananas
-        -- Only count blueprints for kongs you have and if you have Snide
-        local blueprint_total = 0
-        local snide_obj = Tracker:FindObjectForCode("snide")
-        local has_snide = snide_obj and snide_obj.Active
-        
-        if has_snide then
-            local kong_blueprint_map = {
-                {"donkey", "dkbp"},
-                {"diddy", "diddybp"}, 
-                {"lanky", "lankybp"},
-                {"tiny", "tinybp"},
-                {"chunky", "chunkybp"}
-            }
-            
-            for _, kong_bp_pair in ipairs(kong_blueprint_map) do
-                local kong_code = kong_bp_pair[1]
-                local blueprint_code = kong_bp_pair[2]
-                local kong_obj = Tracker:FindObjectForCode(kong_code)
-                
-                if kong_obj and kong_obj.Active then
-                    local blueprint_obj = Tracker:FindObjectForCode(blueprint_code)
-                    if blueprint_obj then
-                        local bp_count = blueprint_obj.AcquiredCount or 0
-                        blueprint_total = blueprint_total + bp_count
-                    end
-                end
-            end
-        end
-        return gb_count + blueprint_total
+        return obj and obj.AcquiredCount or 0
     elseif item_type == "Crown" then
         local obj = Tracker:FindObjectForCode("crowns")
         return obj and obj.AcquiredCount or 0

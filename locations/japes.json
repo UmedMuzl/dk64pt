@@ -439,7 +439,7 @@
             },
             {            
                 "name": "Japes Tiny Beehive",
-                "access_rules": ["$shellhive, $mini, $japesSlam, oranges"],
+                "access_rules": ["$shellhive, $mini, $shellhivePastFirstRoom"],
                 "sections": [
                     {
                         "name": "Golden Banana"

@@ -541,7 +541,7 @@ function canPlayCastleChunkyTree()
         return blast() and punch() and pineapple() and (has("sniper") or hard_shooting())
     else
         if logic.minigameType == "NoGame" then
-            return true
+            return blast() and punch() and pineapple() and (has("sniper") or hard_shooting())
         elseif logic.minigameType == "BusyBarrelBarrageEasy" or logic.minigameType == "BusyBarrelBarrageNormal" or logic.minigameType == "BusyBarrelBarrageHard" then
             return blast() and punch() and pineapple() and (has("sniper") or hard_shooting()) and canPlayMinigame("CastleChunkyTree")
         else

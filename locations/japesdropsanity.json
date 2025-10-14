@@ -534,7 +534,7 @@
             },
             {
                 "name": "Japes Tiny Hive Enemy: Second Room (0)",
-                "access_rules":["$shellhive, $mini, $japesSlam, $applyEnemyLogic|JapesTinyHiveEnemy_SecondRoom0"],
+                "access_rules":["$shellhive, $mini, $shellhivePastFirstRoom, $applyEnemyLogic|JapesTinyHiveEnemy_SecondRoom0"],
                 "sections": [
                     {
                         "name": "Enemy"
@@ -550,7 +550,7 @@
             },
             {
                 "name": "Japes Tiny Hive Enemy: Second Room (1)",
-                "access_rules": ["$shellhive, $mini, $japesSlam, $applyEnemyLogic|JapesTinyHiveEnemy_SecondRoom1"],
+                "access_rules": ["$shellhive, $mini, $shellhivePastFirstRoom, $applyEnemyLogic|JapesTinyHiveEnemy_SecondRoom1"],
                 "sections": [
                     {
                         "name": "Enemy"
@@ -566,7 +566,7 @@
             },
             {
                 "name": "Japes Tiny Hive Enemy: Third Room (0)",
-                "access_rules": ["$shellhive, $mini, $japesSlam, $applyEnemyLogic|JapesTinyHiveEnemy_ThirdRoom0"],
+                "access_rules": ["$shellhive, $mini, $shellhivePastFirstRoom, $applyEnemyLogic|JapesTinyHiveEnemy_ThirdRoom0"],
                 "sections": [
                     {
                         "name": "Enemy"
@@ -582,7 +582,7 @@
             },
             {
                 "name": "Japes Tiny Hive Enemy: Third Room (1)",
-                "access_rules":["$shellhive, $mini, $japesSlam, $applyEnemyLogic|JapesTinyHiveEnemy_ThirdRoom1"],
+                "access_rules":["$shellhive, $mini, $shellhivePastFirstRoom, $applyEnemyLogic|JapesTinyHiveEnemy_ThirdRoom1"],
                 "sections": [
                     {
                         "name": "Enemy"
@@ -598,7 +598,7 @@
             },
             {
                 "name": "Japes Tiny Hive Enemy: Third Room (2)",
-                "access_rules":["$shellhive, $mini, $japesSlam, $applyEnemyLogic|JapesTinyHiveEnemy_ThirdRoom2, $flyingEnemy"],
+                "access_rules":["$shellhive, $mini, $shellhivePastFirstRoom, $applyEnemyLogic|JapesTinyHiveEnemy_ThirdRoom2, $flyingEnemy"],
                 "sections": [
                     {
                         "name": "Enemy"
@@ -614,7 +614,7 @@
             },
             {
                 "name": "Japes Tiny Hive Enemy: Third Room (3)",
-                "access_rules":["$shellhive, $mini, $japesSlam, $applyEnemyLogic|JapesTinyHiveEnemy_ThirdRoom3, $flyingEnemy"],
+                "access_rules":["$shellhive, $mini, $shellhivePastFirstRoom, $applyEnemyLogic|JapesTinyHiveEnemy_ThirdRoom3, $flyingEnemy"],
                 "sections": [
                     {
                         "name": "Enemy"
@@ -639,8 +639,8 @@
                 "map_locations": [
                     {
                         "map": "shellhive",
-                        "x": 1093,
-                        "y": 702
+                        "x": 700,
+                        "y": 706
                     }
                 ]
             }
