@@ -1,85 +1,85 @@
 [
   {
     "name": "isles",
-    "location_size": 35,
+    "location_size": 16,
     "location_border_thickness": 2,
     "img": "/images/maps/isles.png"
   },
   {
     "name": "training",
-    "location_size": 35,
+    "location_size": 16,
     "location_border_thickness": 3,
     "img": "images/maps/training.PNG"
   },
   {
     "name": "snidelobby",
-    "location_size": 35,
+    "location_size": 16,
     "location_border_thickness": 3,
     "img": "images/maps/snideisles.PNG"
   },
   {
     "name": "japeslobby",
-    "location_size": 35,
+    "location_size": 16,
     "location_border_thickness": 2,
     "img": "/images/maps/japes_lobby.png"
   },
   {
     "name": "azteclobby",
-    "location_size": 35,
+    "location_size": 16,
     "location_border_thickness": 2,
     "img": "/images/maps/aztec_lobby.png"
   },
   {
     "name": "factorylobby",
-    "location_size": 35,
+    "location_size": 16,
     "location_border_thickness": 2,
     "img": "/images/maps/factory_lobby.png"
   },
   {
     "name": "galleonlobby",
-    "location_size": 35,
+    "location_size": 16,
     "location_border_thickness": 2,
     "img": "/images/maps/galleon_lobby.png"
   },
   {
     "name": "forestlobby",
-    "location_size": 35,
+    "location_size": 16,
     "location_border_thickness": 2,
     "img": "/images/maps/fungi_lobby.png"
   },
   {
     "name": "caveslobby",
-    "location_size": 35,
+    "location_size": 16,
     "location_border_thickness": 2,
     "img": "/images/maps/caves_lobby.png"
   },
   {
     "name": "castlelobby",
-    "location_size": 35,
+    "location_size": 16,
     "location_border_thickness": 2,
     "img": "/images/maps/castle_lobby.png"
   },
   {
     "name": "helmlobby",
-    "location_size": 35,
+    "location_size": 16,
     "location_border_thickness": 2,
     "img": "/images/maps/helm_lobby.png"
   },
   {
     "name": "japes",
-    "location_size": 35,
+    "location_size": 10,
     "location_border_thickness": 2,
     "img": "/images/maps/japes.png"
   },
   {
     "name": "japesunder",
-    "location_size": 35,
+    "location_size": 16,
     "location_border_thickness": 2,
     "img": "/images/maps/japes_underground.png"
   },
   {
     "name": "japesmountain",
-    "location_size": 35,
+    "location_size": 12,
     "location_border_thickness": 2,
     "img": "/images/maps/diddy_mountain.png"
   },
