@@ -1,9 +1,9 @@
 {
     "versions": [
         {
-            "package_version": "0.8.1",
+            "package_version": "0.8.2",
             "download_url": "https://github.com/UmedMuzl/dk64pt/releases/download/v0.8.1/dk64pt.zip",
-            "sha256": "DEA9B080170BA5EB016BA2C677CB54996EFB32D74D8EAD6258940F3C08AC3AD3",
+            "sha256": "2a1be777b59ef6abdefe38a17a806b2c4f67a2cc2ff05fb2cea502eb0a228a3b",
             "changelog": [
                 "Check Github for the full changelog."
             ]
