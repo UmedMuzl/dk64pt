@@ -1,107 +1,119 @@
 [
-    {
-        "name": "Galleon Dropsanity",
-        "chest_unopened_img": "images/settings/dropsanity.png",
-        "chest_opened_img": "images/settings/dropsanitybw.png",
-        "access_rules": ["^$canEnterGalleon"],
-        "visibility_rules": "dropsanity",
-        "children": [
-            {
-                "name": "Gloomy Galleon Enemy: Chest Room (0)",
-                "access_rules": ["$applyEnemyLogic|GalleonMainEnemy_ChestRoom0"],
-                "sections": [
-                    {
-                        "name": "Enemy"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "galleon",
-                        "x": 654,
-                        "y": 255
-                    }
-                ]
-            },
-            {
-                "name": "Gloomy Galleon Enemy: Chest Room (1)",
-                "access_rules": ["$applyEnemyLogic|GalleonMainEnemy_ChestRoom1"],
-                "sections": [
-                    {
-                        "name": "Enemy"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "galleon",
-                        "x": 665,
-                        "y": 255
-                    }
-                ]
-            },
-            {
-                "name": "Gloomy Galleon Enemy: Near Vine Cannon",
-                "access_rules": ["$applyEnemyLogic|GalleonMainEnemy_NearVineCannon"],
-                "sections": [
-                    {
-                        "name": "Enemy"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "galleon",
-                        "x": 564,
-                        "y": 290
-                    }
-                ]
-            },
-            {
-                "name": "Gloomy Galleon Enemy: Cranky Cannon",
-                "access_rules": ["$applyEnemyLogic|GalleonMainEnemy_CrankyCannon"],
-                "sections": [
-                    {
-                        "name": "Enemy"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "galleon",
-                        "x": 475,
-                        "y": 245
-                    }
-                ]
-            },
-            {
-                "name": "Gloomy Galleon Enemy: Peanut Tunnel",
-                "access_rules": ["$applyEnemyLogic|GalleonMainEnemy_PeanutTunnel"],
-                "sections": [
-                    {
-                        "name": "Enemy"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "galleon",
-                        "x": 507,
-                        "y": 394
-                    }
-                ]
-            },
-            {
-                "name": "Gloomy Galleon Enemy: Coconut Tunnel",
-                "access_rules": [],
-                "sections": [
-                    {
-                        "name": "Enemy"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "galleon",
-                        "x": 608,
-                        "y": 410
-                    }
-                ]
-            }
+  {
+    "name": "Galleon Dropsanity",
+    "chest_unopened_img": "images/settings/dropsanity.png",
+    "chest_opened_img": "images/settings/dropsanitybw.png",
+    "access_rules": [
+      "^$canEnterGalleon"
+    ],
+    "visibility_rules": "dropsanity",
+    "children": [
+      {
+        "name": "Gloomy Galleon Enemy: Chest Room (0)",
+        "access_rules": [
+          "$applyEnemyLogic|GalleonMainEnemy_ChestRoom0"
+        ],
+        "sections": [
+          {
+            "name": "Galleon Enemy: Chest Room (0)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "galleon",
+            "x": 654,
+            "y": 255
+          }
         ]
-    }
+      },
+      {
+        "name": "Gloomy Galleon Enemy: Chest Room (1)",
+        "access_rules": [
+          "$applyEnemyLogic|GalleonMainEnemy_ChestRoom1"
+        ],
+        "sections": [
+          {
+            "name": "Galleon Enemy: Chest Room (1)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "galleon",
+            "x": 665,
+            "y": 255
+          }
+        ]
+      },
+      {
+        "name": "Gloomy Galleon Enemy: Near Vine Cannon",
+        "access_rules": [
+          "$applyEnemyLogic|GalleonMainEnemy_NearVineCannon"
+        ],
+        "sections": [
+          {
+            "name": "Galleon Enemy: Near Vine Cannon"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "galleon",
+            "x": 564,
+            "y": 290
+          }
+        ]
+      },
+      {
+        "name": "Gloomy Galleon Enemy: Cranky Cannon",
+        "access_rules": [
+          "$applyEnemyLogic|GalleonMainEnemy_CrankyCannon"
+        ],
+        "sections": [
+          {
+            "name": "Galleon Enemy: Cranky Cannon"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "galleon",
+            "x": 475,
+            "y": 245
+          }
+        ]
+      },
+      {
+        "name": "Gloomy Galleon Enemy: Peanut Tunnel",
+        "access_rules": [
+          "$applyEnemyLogic|GalleonMainEnemy_PeanutTunnel"
+        ],
+        "sections": [
+          {
+            "name": "Galleon Enemy: Peanut Tunnel"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "galleon",
+            "x": 507,
+            "y": 394
+          }
+        ]
+      },
+      {
+        "name": "Gloomy Galleon Enemy: Coconut Tunnel",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Galleon Enemy: Coconut Tunnel"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "galleon",
+            "x": 608,
+            "y": 410
+          }
+        ]
+      }
+    ]
+  }
 ]

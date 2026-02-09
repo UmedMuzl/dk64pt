@@ -1,640 +1,770 @@
 [
-    {
-        "name": "Crystal Caves",
-        "access_rules": ["^$canEnterCaves"],
-        "chest_unopened_img": "images/items/GB.png",
-        "chest_opened_img": "images/items/GBbw.png",
-        "children": [
-            {
-                "name": "Medals",
-                "access_rules": [],
-                "sections": [
-                    {
-                        "name": "Caves DK Medal",
-                        "access_rules": ["$cavesDKMedal"],
-                        "chest_unopened_img": "images/items/bananamedal.png",
-                        "chest_opened_img": "images/items/bananamedalbw.png"
-                    },
-                    {
-                        "name": "Caves Diddy Medal",
-                        "access_rules": ["$cavesDiddyMedal"],
-                        "chest_unopened_img": "images/items/bananamedal.png",
-                        "chest_opened_img": "images/items/bananamedalbw.png"
-                    },
-                    {
-                        "name": "Caves Lanky Medal",
-                        "access_rules": ["$cavesLankyMedal"],
-                        "chest_unopened_img": "images/items/bananamedal.png",
-                        "chest_opened_img": "images/items/bananamedalbw.png"
-                    },
-                    {
-                        "name": "Caves Tiny Medal",
-                        "access_rules": ["$cavesTinyMedal"],
-                        "chest_unopened_img": "images/items/bananamedal.png",
-                        "chest_opened_img": "images/items/bananamedalbw.png"
-                    },
-                    {
-                        "name": "Caves Chunky Medal",
-                        "access_rules": ["$cavesChunkyMedal"],
-                        "chest_unopened_img": "images/items/bananamedal.png",
-                        "chest_opened_img": "images/items/bananamedalbw.png"
-                    },
-                    {
-                        "name": "Caves DK Half-Medal",
-                        "visibility_rules": ["halfmedal"],
-                        "access_rules": ["$cavesDKHalfMedal"],
-                        "chest_unopened_img": "images/items/halfbananamedal.png",
-                        "chest_opened_img": "images/items/halfbananamedalbw.png"
-                    },
-                    {
-                        "name": "Caves Diddy Half-Medal",
-                        "visibility_rules": ["halfmedal"],
-                        "access_rules": ["$cavesDiddyHalfMedal"],
-                        "chest_unopened_img": "images/items/halfbananamedal.png",
-                        "chest_opened_img": "images/items/halfbananamedalbw.png"
-                    },
-                    {
-                        "name": "Caves Lanky Half-Medal",
-                        "visibility_rules": ["halfmedal"],
-                        "access_rules": ["$cavesLankyHalfMedal"],
-                        "chest_unopened_img": "images/items/halfbananamedal.png",
-                        "chest_opened_img": "images/items/halfbananamedalbw.png"
-                    },
-                    {
-                        "name": "Caves Tiny Half-Medal",
-                        "visibility_rules": ["halfmedal"],
-                        "access_rules": ["$cavesTinyHalfMedal"],
-                        "chest_unopened_img": "images/items/halfbananamedal.png",
-                        "chest_opened_img": "images/items/halfbananamedalbw.png"
-                    },
-                    {
-                        "name": "Caves Chunky Half-Medal",
-                        "visibility_rules": ["halfmedal"],
-                        "access_rules": ["$cavesChunkyHalfMedal"],
-                        "chest_unopened_img": "images/items/halfbananamedal.png",
-                        "chest_opened_img": "images/items/halfbananamedalbw.png"
-                    },
-                    {
-                        "name": "Boss",
-                        "access_rules": ["$cavesBossLogic"],
-                        "chest_unopened_img": "images/items/scoff.png",
-                        "chest_opened_img": "images/items/scoffbw.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "caves",
-                        "x": 859,
-                        "y": 32,
-                        "size": 24
-                    }
-                ]
-            },
-            {
-                "name": "Caves Diddy Jetpack Barrel",
-                "access_rules": ["^$canPlayCavesDiddyJetpackBarrel"],
-                "sections": [
-                    {
-                        "name": "Golden Banana"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "caves",
-                        "x": 190,
-                        "y": 615,
-                        "size": 12
-                    }
-                ]
-            },
-            {
-                "name": "Caves Kasplat: Near Ice Castle",
-                "access_rules": [],
-                "sections": [
-                    {
-                        "name": "Kasplat",
-                        "chest_unopened_img": "images/items/dk_bp.png",
-                        "chest_opened_img": "images/items/blueprintbw.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "caves",
-                        "x": 500,
-                        "y": 773,
-                        "size": 12
-                    }
-                ]
-            },
-            {
-                "name": "Caves Chunky Gorilla Gone",
-                "access_rules": ["$cavesIce, $gone", "$phaseswim, $gone"],
-                "sections": [
-                    {
-                        "name": "Golden Banana"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "caves",
-                        "x": 297,
-                        "y": 890,
-                        "size": 12
-                    }
-                ]
-            },
-            {
-                "name": "Caves Kasplat: Mini Room by Funky",
-                "access_rules": ["$mini, $twirl"],
-                "sections": [
-                    {
-                        "name": "Kasplat",
-                        "chest_unopened_img": "images/items/diddy_bp.png",
-                        "chest_opened_img": "images/items/blueprintbw.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "caves",
-                        "x": 84,
-                        "y": 781,
-                        "size": 12
-                    }
-                ]
-            },
-            {
-                "name": "Caves Tiny Mini Cave Barrel",
-                "access_rules": ["$canPlayCavesTinyCaveBarrel"],
-                "sections": [
-                    {
-                        "name": "Golden Banana"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "caves",
-                        "x": 780,
-                        "y": 376,
-                        "size": 12
-                    }
-                ]
-            },
-            {
-                "name": "Caves Kasplat: On the Pillar",
-                "access_rules": ["$rocket", "^$avp, $balloon", "^$avp, $twirl"],
-                "sections": [
-                    {
-                        "name": "Kasplat",
-                        "chest_unopened_img": "images/items/lanky_bp.png",
-                        "chest_opened_img": "images/items/blueprintbw.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "caves",
-                        "x": 255,
-                        "y": 725,
-                        "size": 12
-                    }
-                ]
-            },
-            {
-                "name": "Caves DK Baboon Blast",
-                "access_rules": ["$canPlayCavesDonkeyBaboonBlast"],
-                "sections": [
-                    {
-                        "name": "Golden Banana"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "caves",
-                        "x": 580,
-                        "y": 430,
-                        "size": 12
-                    }
-                ]
-            },
-            {
-                "name": "Caves Lanky Beetle Race",
-                "access_rules": ["$cavesSlam, $balloon, $sprint", "$cavesSlam, $sprint, ^$avp"],
-                "sections": [
-                    {
-                        "name": "Golden Banana"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "caves",
-                        "x": 383,
-                        "y": 720,
-                        "size": 12
-                    }
-                ]
-            },
-            {
-                "name": "Caves Lanky Ice Castle Slam Challenge",
-                "access_rules": ["$cavesSlam, lanky"],
-                "sections": [
-                    {
-                        "name": "Golden Banana"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "caves",
-                        "x": 367,
-                        "y": 703,
-                        "size": 12
-                    }
-                ]
-            },
-            {
-                "name": "Caves Tiny Monkeyport Igloo",
-                "access_rules": ["$mini, $port, $twirl", "$phaseswim"],
-                "sections": [
-                    {
-                        "name": "Golden Banana"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "caves",
-                        "x": 819,
-                        "y": 542,
-                        "size": 12
-                    }
-                ]
-            },
-            {
-                "name": "Caves Chunky Transparent Igloo",
-                "access_rules": ["barrel, $hunky, $cavesIce", "$phaseswim"],
-                "sections": [
-                    {
-                        "name": "Golden Banana"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "caves",
-                        "x": 798,
-                        "y": 721,
-                        "size": 12
-                    }
-                ]
-            },
-            {
-                "name": "Caves Kasplat: On 5-Door Igloo",
-                "access_rules": [],
-                "sections": [
-                    {
-                        "name": "Kasplat",
-                        "chest_unopened_img": "images/items/chunky_bp.png",
-                        "chest_opened_img": "images/items/blueprintbw.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "caves",
-                        "x": 756,
-                        "y": 647,
-                        "size": 12
-                    }
-                ]
-            },
-            {
-                "name": "Caves Dirt: Giant Kosha",
-                "access_rules": ["@Crystal Caves/Caves Chunky Transparent Igloo/Golden Banana, $port, shockwave"],
-                "sections": [
-                    {
-                        "name": "Rainbow Coin",
-                        "chest_unopened_img": "images/items/rainbowcoin.png",
-                        "chest_opened_img": "images/items/rainbowcoinbw.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "caves",
-                        "x": 471,
-                        "y": 116,
-                        "size": 12
-                    }
-                ]
-            },
-            {
-                "name": "Caves DK 5 Door Igloo",
-                "access_rules": ["$igloo, $beginningDK5DI"],
-                "sections": [
-                    {
-                        "name": "Golden Banana",
-                        "access_rules":["$dk5DI"]
-                    },
-                    {
-                        "name": "Caves Donkey Igloo Enemy: Right",
-                        "access_rules":["$applyEnemyLogic|Caves5DIDKEnemy_Right"],
-                        "visibility_rules":["dropsanity"],
-                        "chest_unopened_img": "images/settings/dropsanity.png",
-                        "chest_opened_img": "images/settings/dropsanitybw.png"
-                    },
-                    {
-                        "name": "Caves Donkey Igloo Enemy: Left",
-                        "access_rules":["$applyEnemyLogic|Caves5DIDKEnemy_Left"],
-                        "visibility_rules":["dropsanity"],
-                        "chest_unopened_img": "images/settings/dropsanity.png",
-                        "chest_opened_img": "images/settings/dropsanitybw.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "caves",
-                        "x": 772,
-                        "y": 616,
-                        "size": 12
-                    }
-                ]
-            },
-            {
-                "name": "Caves Diddy 5 Door Igloo",
-                "access_rules": ["$igloo, $diddy5DI"],
-                "sections": [
-                    {
-                        "name": "Golden Banana"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "caves",
-                        "x": 732,
-                        "y": 616,
-                        "size": 12
-                    }
-                ]
-            },
-            {
-                "name": "Caves Lanky 5 Door Igloo",
-                "access_rules": ["$igloo, ^$lanky5DI"],
-                "sections": [
-                    {
-                        "name": "Golden Banana"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "caves",
-                        "x": 792,
-                        "y": 658,
-                        "size": 12
-                    }
-                ]
-            },
-            {
-                "name": "Caves Tiny 5 Door Igloo",
-                "access_rules": ["$igloo"],
-                "sections": [
-                    {
-                        "name": "Golden Banana",
-                        "access_rules":["$tiny5DI, tiny"]
-                    },
-                    {
-                        "name": "Fairy",
-                        "access_rules": ["$tiny5DI, tiny, camera"],
-                        "chest_unopened_img": "images/items/fairy.png",
-                        "chest_opened_img": "images/items/fairybw.png"
-                    },
-                    {
-                        "name": "Caves Tiny Igloo Enemy: Big Enemy",
-                        "access_rules":["$applyEnemyLogic|Caves5DITinyEnemy_BigEnemy, $beginningTiny5DI"],
-                        "visibility_rules":["dropsanity"],
-                        "chest_unopened_img": "images/settings/dropsanity.png",
-                        "chest_opened_img": "images/settings/dropsanitybw.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "caves",
-                        "x": 721,
-                        "y": 658,
-                        "size": 12
-                    }
-                ]
-            },
-            {
-                "name": "Caves Chunky 5 Door Igloo",
-                "access_rules": ["$igloo, $chunky5DI"],
-                "sections": [
-                    {
-                        "name": "Golden Banana"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "caves",
-                        "x": 756,
-                        "y": 685,
-                        "size": 12
-                    }
-                ]
-            },
-            {
-                "name": "Caves Kasplat: By the Far Warp 2",
-                "access_rules": [],
-                "sections": [
-                    {
-                        "name": "Kasplat",
-                        "chest_unopened_img": "images/items/tiny_bp.png",
-                        "chest_opened_img": "images/items/blueprintbw.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "caves",
-                        "x": 220,
-                        "y": 514,
-                        "size": 12
-                    }
-                ]
-            },
-            {
-                "name": "Rotating Cabin",
-                "access_rules": ["$bongos"],
-                "sections": [
-                    {
-                        "name": "Caves DK Rotating Cabin",
-                        "access_rules": ["slam", "$moonkicks"]
-                    },
-                    {
-                        "name": "Caves Battle Arena",
-                        "access_rules": ["slam"],
-                        "chest_unopened_img": "images/items/crown.png",
-                        "chest_opened_img": "images/items/crownbw.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "caves",
-                        "x": 253,
-                        "y": 401,
-                        "size": 12
-                    }
-                ]
-            },
-            {
-                "name": "Caves DK 5 Door Cabin",
-                "access_rules": ["^$dkCabin"],
-                "sections": [
-                    {
-                        "name": "Golden Banana"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "caves",
-                        "x": 105,
-                        "y": 581,
-                        "size": 12
-                    }
-                ]
-            },
-            {
-                "name": "Caves Diddy 5 Door Cabin Lower",
-                "access_rules": ["$guitar, $rocket, oranges", "^$avp, $guitar, oranges"],
-                "sections": [
-                    {
-                        "name": "Golden Banana"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "caves",
-                        "x": 88,
-                        "y": 565,
-                        "size": 12
-                    }
-                ]
-            },
-            {
-                "name": "Caves Diddy 5 Door Cabin Upper",
-                "access_rules": ["$guitar"],
-                "sections": [
-                    {
-                        "name": "Golden Banana",
-                        "access_rules": ["$spring, $rocket", "$moontail, $rocket"]
-                    },
-                    {
-                        "name": "Fairy",
-                        "access_rules": ["$spring, $rocket, camera", "$moontail, $rocket, camera"],
-                        "chest_unopened_img": "images/items/fairy.png",
-                        "chest_opened_img": "images/items/fairybw.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "caves",
-                        "x": 72,
-                        "y": 553,
-                        "size": 12
-                    }
-                ]
-            },
-            {
-                "name": "Caves Lanky Sprint Cabin",
-                "access_rules": ["$canEnterSprintCabin"],
-                "sections": [
-                    {
-                        "name": "Golden Banana",
-                        "access_rules":["$balloon, $sprint"]
-                    },
-                    {
-                        "name": "Caves Lanky Cabin Enemy: Near",
-                        "access_rules":["$applyEnemyLogic|Caves1DCEnemy_Near"],
-                        "visibility_rules":["dropsanity"],
-                        "chest_unopened_img": "images/settings/dropsanity.png",
-                        "chest_opened_img": "images/settings/dropsanitybw.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "caves",
-                        "x": 370,
-                        "y": 469,
-                        "size": 12
-                    }
-                ]
-            },
-            {
-                "name": "Caves Tiny 5 Door Cabin",
-                "access_rules": ["$sax, oranges"],
-                "sections": [
-                    {
-                        "name": "Golden Banana"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "caves",
-                        "x": 88,
-                        "y": 526,
-                        "size": 12
-                    }
-                ]
-            },
-            {
-                "name": "Caves Chunky 5 Door Cabin",
-                "access_rules": ["$canPlayCavesChunky5DoorCabin"],
-                "sections": [
-                    {
-                        "name": "Golden Banana"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "caves",
-                        "x": 105,
-                        "y": 523,
-                        "size": 12
-                    }
-                ]
-            },
-            {
-                "name": "Caves Boulder: Small",
-                "access_rules":["barrel, chunky"],
-                "visibility_rules":["bouldersanity"],
-                "sections": [
-                    {
-                        "name": "Boulder",
-                        "chest_unopened_img": "images/items/boulder.png",
-                        "chest_opened_img": "images/items/boulderbw.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "caves",
-                        "x": 509,
-                        "y": 713,
-                        "size": 12
-                    }
-                ]
-            },
-                        {
-                "name": "Caves Boulder: Large",
-                "access_rules":["barrel, $cavesIce, $hunky"],
-                "visibility_rules":["bouldersanity"],
-                "sections": [
-                    {
-                        "name": "Boulder",
-                        "chest_unopened_img": "images/items/boulder.png",
-                        "chest_opened_img": "images/items/boulderbw.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "caves",
-                        "x": 447,
-                        "y": 373,
-                        "size": 12
-                    }
-                ]
-            }
+  {
+    "name": "Crystal Caves",
+    "access_rules": [
+      "^$canEnterCaves"
+    ],
+    "chest_unopened_img": "images/items/GB.png",
+    "chest_opened_img": "images/items/GBbw.png",
+    "children": [
+      {
+        "name": "Medals",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Caves Donkey Medal",
+            "access_rules": [
+              "$cavesDKMedal"
+            ],
+            "chest_unopened_img": "images/items/bananamedal.png",
+            "chest_opened_img": "images/items/bananamedalbw.png"
+          },
+          {
+            "name": "Caves Diddy Medal",
+            "access_rules": [
+              "$cavesDiddyMedal"
+            ],
+            "chest_unopened_img": "images/items/bananamedal.png",
+            "chest_opened_img": "images/items/bananamedalbw.png"
+          },
+          {
+            "name": "Caves Lanky Medal",
+            "access_rules": [
+              "$cavesLankyMedal"
+            ],
+            "chest_unopened_img": "images/items/bananamedal.png",
+            "chest_opened_img": "images/items/bananamedalbw.png"
+          },
+          {
+            "name": "Caves Tiny Medal",
+            "access_rules": [
+              "$cavesTinyMedal"
+            ],
+            "chest_unopened_img": "images/items/bananamedal.png",
+            "chest_opened_img": "images/items/bananamedalbw.png"
+          },
+          {
+            "name": "Caves Chunky Medal",
+            "access_rules": [
+              "$cavesChunkyMedal"
+            ],
+            "chest_unopened_img": "images/items/bananamedal.png",
+            "chest_opened_img": "images/items/bananamedalbw.png"
+          },
+          {
+            "name": "Caves Donkey Half Medal",
+            "visibility_rules": [
+              "halfmedal"
+            ],
+            "access_rules": [
+              "$cavesDKHalfMedal"
+            ],
+            "chest_unopened_img": "images/items/halfbananamedal.png",
+            "chest_opened_img": "images/items/halfbananamedalbw.png"
+          },
+          {
+            "name": "Caves Diddy Half Medal",
+            "visibility_rules": [
+              "halfmedal"
+            ],
+            "access_rules": [
+              "$cavesDiddyHalfMedal"
+            ],
+            "chest_unopened_img": "images/items/halfbananamedal.png",
+            "chest_opened_img": "images/items/halfbananamedalbw.png"
+          },
+          {
+            "name": "Caves Lanky Half Medal",
+            "visibility_rules": [
+              "halfmedal"
+            ],
+            "access_rules": [
+              "$cavesLankyHalfMedal"
+            ],
+            "chest_unopened_img": "images/items/halfbananamedal.png",
+            "chest_opened_img": "images/items/halfbananamedalbw.png"
+          },
+          {
+            "name": "Caves Tiny Half Medal",
+            "visibility_rules": [
+              "halfmedal"
+            ],
+            "access_rules": [
+              "$cavesTinyHalfMedal"
+            ],
+            "chest_unopened_img": "images/items/halfbananamedal.png",
+            "chest_opened_img": "images/items/halfbananamedalbw.png"
+          },
+          {
+            "name": "Caves Chunky Half Medal",
+            "visibility_rules": [
+              "halfmedal"
+            ],
+            "access_rules": [
+              "$cavesChunkyHalfMedal"
+            ],
+            "chest_unopened_img": "images/items/halfbananamedal.png",
+            "chest_opened_img": "images/items/halfbananamedalbw.png"
+          },
+          {
+            "name": "Caves Boss Defeated",
+            "access_rules": [
+              "$cavesBossLogic"
+            ],
+            "chest_unopened_img": "images/items/scoff.png",
+            "chest_opened_img": "images/items/scoffbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "caves",
+            "x": 859,
+            "y": 32,
+            "size": 24
+          }
         ]
-    }
+      },
+      {
+        "name": "Caves Diddy Jetpack Barrel",
+        "access_rules": [
+          "^$canPlayCavesDiddyJetpackBarrel"
+        ],
+        "sections": [
+          {
+            "name": "Caves Diddy Jetpack Barrel"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "caves",
+            "x": 190,
+            "y": 615,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Caves Kasplat: Near Ice Castle",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Caves Kasplat: Near Ice Castle",
+            "chest_unopened_img": "images/items/dk_bp.png",
+            "chest_opened_img": "images/items/blueprintbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "caves",
+            "x": 500,
+            "y": 773,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Caves Chunky Gorilla Gone",
+        "access_rules": [
+          "$cavesIce, $gone",
+          "$phaseswim, $gone"
+        ],
+        "sections": [
+          {
+            "name": "Caves Chunky Gorilla Gone"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "caves",
+            "x": 297,
+            "y": 890,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Caves Kasplat: Mini Room by Funky",
+        "access_rules": [
+          "$mini, $twirl"
+        ],
+        "sections": [
+          {
+            "name": "Caves Kasplat: Mini Room by Funky",
+            "chest_unopened_img": "images/items/diddy_bp.png",
+            "chest_opened_img": "images/items/blueprintbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "caves",
+            "x": 84,
+            "y": 781,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Caves Tiny Mini Cave Barrel",
+        "access_rules": [
+          "$canPlayCavesTinyCaveBarrel"
+        ],
+        "sections": [
+          {
+            "name": "Caves Tiny Mini Cave Barrel"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "caves",
+            "x": 780,
+            "y": 376,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Caves Kasplat: On the Pillar",
+        "access_rules": [
+          "$rocket",
+          "^$avp, $balloon",
+          "^$avp, $twirl"
+        ],
+        "sections": [
+          {
+            "name": "Caves Kasplat: On the Pillar",
+            "chest_unopened_img": "images/items/lanky_bp.png",
+            "chest_opened_img": "images/items/blueprintbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "caves",
+            "x": 255,
+            "y": 725,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Caves DK Baboon Blast",
+        "access_rules": [
+          "$canPlayCavesDonkeyBaboonBlast"
+        ],
+        "sections": [
+          {
+            "name": "Caves Donkey Baboon Blast"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "caves",
+            "x": 580,
+            "y": 430,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Caves Lanky Beetle Race",
+        "access_rules": [
+          "$cavesSlam, $balloon, $sprint",
+          "$cavesSlam, $sprint, ^$avp"
+        ],
+        "sections": [
+          {
+            "name": "Caves Lanky Beetle Race"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "caves",
+            "x": 383,
+            "y": 720,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Caves Lanky Ice Castle Slam Challenge",
+        "access_rules": [
+          "$cavesSlam, lanky"
+        ],
+        "sections": [
+          {
+            "name": "Caves Lanky Ice Castle Slam Challenge"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "caves",
+            "x": 367,
+            "y": 703,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Caves Tiny Monkeyport Igloo",
+        "access_rules": [
+          "$mini, $port, $twirl",
+          "$phaseswim"
+        ],
+        "sections": [
+          {
+            "name": "Caves Tiny Monkeyport Igloo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "caves",
+            "x": 819,
+            "y": 542,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Caves Chunky Transparent Igloo",
+        "access_rules": [
+          "barrel, $hunky, $cavesIce",
+          "$phaseswim"
+        ],
+        "sections": [
+          {
+            "name": "Caves Chunky Transparent Igloo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "caves",
+            "x": 798,
+            "y": 721,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Caves Kasplat: On 5-Door Igloo",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Caves Kasplat: On 5-Door Igloo",
+            "chest_unopened_img": "images/items/chunky_bp.png",
+            "chest_opened_img": "images/items/blueprintbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "caves",
+            "x": 756,
+            "y": 647,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Caves Dirt: Giant Kosha",
+        "access_rules": [
+          "@Crystal Caves/Caves Chunky Transparent Igloo/Golden Banana, $port, shockwave"
+        ],
+        "sections": [
+          {
+            "name": "Caves Dirt: Giant Kosha",
+            "chest_unopened_img": "images/items/rainbowcoin.png",
+            "chest_opened_img": "images/items/rainbowcoinbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "caves",
+            "x": 471,
+            "y": 116,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Caves DK 5 Door Igloo",
+        "access_rules": [
+          "$igloo, $beginningDK5DI"
+        ],
+        "sections": [
+          {
+            "name": "Caves Donkey 5 Door Igloo",
+            "access_rules": [
+              "$dk5DI"
+            ]
+          },
+          {
+            "name": "Caves Donkey Igloo Enemy: Right",
+            "access_rules": [
+              "$applyEnemyLogic|Caves5DIDKEnemy_Right"
+            ],
+            "visibility_rules": [
+              "dropsanity"
+            ],
+            "chest_unopened_img": "images/settings/dropsanity.png",
+            "chest_opened_img": "images/settings/dropsanitybw.png"
+          },
+          {
+            "name": "Caves Donkey Igloo Enemy: Left",
+            "access_rules": [
+              "$applyEnemyLogic|Caves5DIDKEnemy_Left"
+            ],
+            "visibility_rules": [
+              "dropsanity"
+            ],
+            "chest_unopened_img": "images/settings/dropsanity.png",
+            "chest_opened_img": "images/settings/dropsanitybw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "caves",
+            "x": 772,
+            "y": 616,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Caves Diddy 5 Door Igloo",
+        "access_rules": [
+          "$igloo, $diddy5DI"
+        ],
+        "sections": [
+          {
+            "name": "Caves Diddy 5 Door Igloo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "caves",
+            "x": 732,
+            "y": 616,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Caves Lanky 5 Door Igloo",
+        "access_rules": [
+          "$igloo, ^$lanky5DI"
+        ],
+        "sections": [
+          {
+            "name": "Caves Lanky 5 Door Igloo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "caves",
+            "x": 792,
+            "y": 658,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Caves Tiny 5 Door Igloo",
+        "access_rules": [
+          "$igloo"
+        ],
+        "sections": [
+          {
+            "name": "Caves Tiny 5 Door Igloo",
+            "access_rules": [
+              "$tiny5DI, tiny"
+            ]
+          },
+          {
+            "name": "Caves Fairy (Tiny Igloo)",
+            "access_rules": [
+              "$tiny5DI, tiny, camera"
+            ],
+            "chest_unopened_img": "images/items/fairy.png",
+            "chest_opened_img": "images/items/fairybw.png"
+          },
+          {
+            "name": "Caves Tiny Igloo Enemy: Big Enemy",
+            "access_rules": [
+              "$applyEnemyLogic|Caves5DITinyEnemy_BigEnemy, $beginningTiny5DI"
+            ],
+            "visibility_rules": [
+              "dropsanity"
+            ],
+            "chest_unopened_img": "images/settings/dropsanity.png",
+            "chest_opened_img": "images/settings/dropsanitybw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "caves",
+            "x": 721,
+            "y": 658,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Caves Chunky 5 Door Igloo",
+        "access_rules": [
+          "$igloo, $chunky5DI"
+        ],
+        "sections": [
+          {
+            "name": "Caves Chunky 5 Door Igloo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "caves",
+            "x": 756,
+            "y": 685,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Caves Kasplat: By the Far Warp 2",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Caves Kasplat: By the Far Warp 2",
+            "chest_unopened_img": "images/items/tiny_bp.png",
+            "chest_opened_img": "images/items/blueprintbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "caves",
+            "x": 220,
+            "y": 514,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Rotating Cabin",
+        "access_rules": [
+          "$bongos"
+        ],
+        "sections": [
+          {
+            "name": "Caves Donkey Rotating Cabin",
+            "access_rules": [
+              "slam",
+              "$moonkicks"
+            ]
+          },
+          {
+            "name": "Caves Battle Arena (Rotating Room: Left Portion)",
+            "access_rules": [
+              "slam"
+            ],
+            "chest_unopened_img": "images/items/crown.png",
+            "chest_opened_img": "images/items/crownbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "caves",
+            "x": 253,
+            "y": 401,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Caves DK 5 Door Cabin",
+        "access_rules": [
+          "^$dkCabin"
+        ],
+        "sections": [
+          {
+            "name": "Caves Donkey 5 Door Cabin"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "caves",
+            "x": 105,
+            "y": 581,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Caves Diddy 5 Door Cabin Lower",
+        "access_rules": [
+          "$guitar, $rocket, oranges",
+          "^$avp, $guitar, oranges"
+        ],
+        "sections": [
+          {
+            "name": "Caves Diddy 5 Door Cabin Lower"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "caves",
+            "x": 88,
+            "y": 565,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Caves Diddy 5 Door Cabin Upper",
+        "access_rules": [
+          "$guitar"
+        ],
+        "sections": [
+          {
+            "name": "Caves Diddy 5 Door Cabin Upper",
+            "access_rules": [
+              "$spring, $rocket",
+              "$moontail, $rocket"
+            ]
+          },
+          {
+            "name": "Caves Fairy (Diddy Candles Cabin)",
+            "access_rules": [
+              "$spring, $rocket, camera",
+              "$moontail, $rocket, camera"
+            ],
+            "chest_unopened_img": "images/items/fairy.png",
+            "chest_opened_img": "images/items/fairybw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "caves",
+            "x": 72,
+            "y": 553,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Caves Lanky Sprint Cabin",
+        "access_rules": [
+          "$canEnterSprintCabin"
+        ],
+        "sections": [
+          {
+            "name": "Caves Lanky Sprint Cabin",
+            "access_rules": [
+              "$balloon, $sprint"
+            ]
+          },
+          {
+            "name": "Caves Lanky Cabin Enemy: Near",
+            "access_rules": [
+              "$applyEnemyLogic|Caves1DCEnemy_Near"
+            ],
+            "visibility_rules": [
+              "dropsanity"
+            ],
+            "chest_unopened_img": "images/settings/dropsanity.png",
+            "chest_opened_img": "images/settings/dropsanitybw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "caves",
+            "x": 370,
+            "y": 469,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Caves Tiny 5 Door Cabin",
+        "access_rules": [
+          "$sax, oranges"
+        ],
+        "sections": [
+          {
+            "name": "Caves Tiny 5 Door Cabin"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "caves",
+            "x": 88,
+            "y": 526,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Caves Chunky 5 Door Cabin",
+        "access_rules": [
+          "$canPlayCavesChunky5DoorCabin"
+        ],
+        "sections": [
+          {
+            "name": "Caves Chunky 5 Door Cabin"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "caves",
+            "x": 105,
+            "y": 523,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Caves Boulder: Small",
+        "access_rules": [
+          "barrel, chunky"
+        ],
+        "visibility_rules": [
+          "bouldersanity"
+        ],
+        "sections": [
+          {
+            "name": "Caves Boulder: Small",
+            "chest_unopened_img": "images/items/boulder.png",
+            "chest_opened_img": "images/items/boulderbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "caves",
+            "x": 509,
+            "y": 713,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Caves Boulder: Large",
+        "access_rules": [
+          "barrel, $cavesIce, $hunky"
+        ],
+        "visibility_rules": [
+          "bouldersanity"
+        ],
+        "sections": [
+          {
+            "name": "Caves Boulder: Large",
+            "chest_unopened_img": "images/items/boulder.png",
+            "chest_opened_img": "images/items/boulderbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "caves",
+            "x": 447,
+            "y": 373,
+            "size": 12
+          }
+        ]
+      }
+    ]
+  }
 ]

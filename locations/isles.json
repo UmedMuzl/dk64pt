@@ -9,7 +9,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Golden Banana"
+            "name": "Isles Japes Lobby Entrance Item"
           }
         ],
         "map_locations": [
@@ -23,10 +23,13 @@
       },
       {
         "name": "Chunky Pineapple Cage",
-        "access_rules": ["$pineapple", "$sts"],
+        "access_rules": [
+          "$pineapple",
+          "$sts"
+        ],
         "sections": [
           {
-            "name": "Golden Banana",
+            "name": "Isles Chunky Pineapple Cage",
             "item_count": 1
           }
         ],
@@ -41,10 +44,13 @@
       },
       {
         "name": "Tiny Feather Cage",
-        "access_rules": ["$feather", "$sts"],
+        "access_rules": [
+          "$feather",
+          "$sts"
+        ],
         "sections": [
           {
-            "name": "Golden Banana"
+            "name": "Isles Tiny Feather Cage"
           }
         ],
         "map_locations": [
@@ -58,10 +64,12 @@
       },
       {
         "name": "Chunky Pound the X",
-        "access_rules": ["$canActivateIslesMonkeyport, $sax, $hunky, slam"],
+        "access_rules": [
+          "$canActivateIslesMonkeyport, $sax, $hunky, slam"
+        ],
         "sections": [
           {
-            "name": "Golden Banana"
+            "name": "Isles Chunky Pound the X"
           }
         ],
         "map_locations": [
@@ -75,13 +83,17 @@
       },
       {
         "name": "Isles Boulder: Near Level 2",
-        "access_rules":["barrel, chunky"],
+        "access_rules": [
+          "barrel, chunky"
+        ],
         "sections": [
           {
-            "name": "Boulder",
+            "name": "Isles Boulder: Near Level 2",
             "chest_unopened_img": "images/items/boulder.png",
             "chest_opened_img": "images/items/boulderbw.png",
-            "visibility_rules":["bouldersanity"]
+            "visibility_rules": [
+              "bouldersanity"
+            ]
           }
         ],
         "map_locations": [
@@ -95,16 +107,24 @@
       },
       {
         "name": "Isles Chunky Triangle Pad",
-        "access_rules": ["barrel"],
+        "access_rules": [
+          "barrel"
+        ],
         "sections": [
           {
-            "name": "Golden Banana",
-            "access_rules":["$triangle"]
+            "name": "Isles Chunky Triangle Pad",
+            "access_rules": [
+              "$triangle"
+            ]
           },
           {
             "name": "Isles Boulder: Near Level 6",
-            "access_rules":["chunky"],
-            "visibility_rules":["bouldersanity"],
+            "access_rules": [
+              "chunky"
+            ],
+            "visibility_rules": [
+              "bouldersanity"
+            ],
             "chest_unopened_img": "images/items/boulder.png",
             "chest_opened_img": "images/items/boulderbw.png"
           }
@@ -126,13 +146,17 @@
             "name": "Isles Lanky Sprint Cage",
             "chest_unopened_img": "images/items/GB.png",
             "chest_opened_img": "images/items/GBbw.png",
-            "access_rules": ["$sprint"]
+            "access_rules": [
+              "$sprint"
+            ]
           },
           {
             "name": "Isles Dirt: Back of Prison",
             "chest_unopened_img": "images/items/rainbowcoin.png",
             "chest_opened_img": "images/items/rainbowcoinbw.png",
-            "access_rules": ["shockwave"]
+            "access_rules": [
+              "shockwave"
+            ]
           }
         ],
         "map_locations": [
@@ -146,7 +170,10 @@
       },
       {
         "name": "Banana Fairy Island",
-        "access_rules": ["$mini", "$sts"],
+        "access_rules": [
+          "$mini",
+          "$sts"
+        ],
         "sections": [
           {
             "name": "The Banana Fairy's Gift",
@@ -158,7 +185,9 @@
             "name": "Returning the Banana Fairies",
             "chest_unopened_img": "images/items/GB.png",
             "chest_opened_img": "images/items/GBbw.png",
-            "access_rules": ["$BFI"]
+            "access_rules": [
+              "$BFI"
+            ]
           }
         ],
         "map_locations": [
@@ -172,15 +201,21 @@
       },
       {
         "name": "Isles Lanky Instrument Pad",
-        "access_rules": ["^$canEnterJapesLobby, barrel, chunky"],
+        "access_rules": [
+          "^$canEnterJapesLobby, barrel, chunky"
+        ],
         "sections": [
           {
-            "name": "Golden Banana",
-            "access_rules":["$trombone"]
+            "name": "Isles Lanky Japes Instrument",
+            "access_rules": [
+              "$trombone"
+            ]
           },
           {
             "name": "Isles Boulder: Japes Lobby",
-            "visibility_rules":["bouldersanity"],
+            "visibility_rules": [
+              "bouldersanity"
+            ],
             "chest_unopened_img": "images/items/boulder.png",
             "chest_opened_img": "images/items/boulderbw.png"
           }
@@ -196,11 +231,15 @@
       },
       {
         "name": "Japes DK Wrinkly Door",
-        "access_rules": ["^$canEnterJapesLobby"],
-        "visibility_rules": ["hintsinpool"],
+        "access_rules": [
+          "^$canEnterJapesLobby"
+        ],
+        "visibility_rules": [
+          "hintsinpool"
+        ],
         "sections": [
           {
-            "name": "Wrinkly Door",
+            "name": "Japes Donkey Hint Door",
             "chest_unopened_img": "images/items/wrinkly.png",
             "chest_opened_img": "images/items/wrinklybw.png"
           }
@@ -216,11 +255,15 @@
       },
       {
         "name": "Japes Diddy Wrinkly Door",
-        "access_rules": ["^$canEnterJapesLobby"],
-        "visibility_rules": ["hintsinpool"],
+        "access_rules": [
+          "^$canEnterJapesLobby"
+        ],
+        "visibility_rules": [
+          "hintsinpool"
+        ],
         "sections": [
           {
-            "name": "Wrinkly Door",
+            "name": "Japes Diddy Hint Door",
             "chest_unopened_img": "images/items/wrinkly.png",
             "chest_opened_img": "images/items/wrinklybw.png"
           }
@@ -236,11 +279,15 @@
       },
       {
         "name": "Japes Lanky Wrinkly Door",
-        "access_rules": ["^$canEnterJapesLobby"],
-        "visibility_rules": ["hintsinpool"],
+        "access_rules": [
+          "^$canEnterJapesLobby"
+        ],
+        "visibility_rules": [
+          "hintsinpool"
+        ],
         "sections": [
           {
-            "name": "Wrinkly Door",
+            "name": "Japes Lanky Hint Door",
             "chest_unopened_img": "images/items/wrinkly.png",
             "chest_opened_img": "images/items/wrinklybw.png"
           }
@@ -256,11 +303,15 @@
       },
       {
         "name": "Japes Tiny Wrinkly Door",
-        "access_rules": ["^$canEnterJapesLobby"],
-        "visibility_rules": ["hintsinpool"],
+        "access_rules": [
+          "^$canEnterJapesLobby"
+        ],
+        "visibility_rules": [
+          "hintsinpool"
+        ],
         "sections": [
           {
-            "name": "Wrinkly Door",
+            "name": "Japes Tiny Hint Door",
             "chest_unopened_img": "images/items/wrinkly.png",
             "chest_opened_img": "images/items/wrinklybw.png"
           }
@@ -276,11 +327,15 @@
       },
       {
         "name": "Japes Chunky Wrinkly Door",
-        "access_rules": ["^$canEnterJapesLobby"],
-        "visibility_rules": ["hintsinpool"],
+        "access_rules": [
+          "^$canEnterJapesLobby"
+        ],
+        "visibility_rules": [
+          "hintsinpool"
+        ],
         "sections": [
           {
-            "name": "Wrinkly Door",
+            "name": "Japes Chunky Hint Door",
             "chest_unopened_img": "images/items/wrinkly.png",
             "chest_opened_img": "images/items/wrinklybw.png"
           }
@@ -296,10 +351,12 @@
       },
       {
         "name": "Isles Tiny Aztec Lobby Barrel",
-        "access_rules": ["^$canEnterAztecLobby, $canPlayIslesTinyAztecLobby"],
+        "access_rules": [
+          "^$canEnterAztecLobby, $canPlayIslesTinyAztecLobby"
+        ],
         "sections": [
           {
-            "name": "Golden Banana"
+            "name": "Isles Tiny Aztec Lobby Barrel"
           }
         ],
         "map_locations": [
@@ -313,11 +370,15 @@
       },
       {
         "name": "Aztec DK Wrinkly Door",
-        "access_rules": ["^$canEnterAztecLobby"],
-        "visibility_rules": ["hintsinpool"],
+        "access_rules": [
+          "^$canEnterAztecLobby"
+        ],
+        "visibility_rules": [
+          "hintsinpool"
+        ],
         "sections": [
           {
-            "name": "Wrinkly Door",
+            "name": "Aztec Donkey Hint Door",
             "chest_unopened_img": "images/items/wrinkly.png",
             "chest_opened_img": "images/items/wrinklybw.png"
           }
@@ -333,11 +394,15 @@
       },
       {
         "name": "Aztec Diddy Wrinkly Door",
-        "access_rules": ["^$canEnterAztecLobby"],
-        "visibility_rules": ["hintsinpool"],
+        "access_rules": [
+          "^$canEnterAztecLobby"
+        ],
+        "visibility_rules": [
+          "hintsinpool"
+        ],
         "sections": [
           {
-            "name": "Wrinkly Door",
+            "name": "Aztec Diddy Hint Door",
             "chest_unopened_img": "images/items/wrinkly.png",
             "chest_opened_img": "images/items/wrinklybw.png"
           }
@@ -353,11 +418,15 @@
       },
       {
         "name": "Aztec Lanky Wrinkly Door",
-        "access_rules": ["^$canEnterAztecLobby"],
-        "visibility_rules": ["hintsinpool"],
+        "access_rules": [
+          "^$canEnterAztecLobby"
+        ],
+        "visibility_rules": [
+          "hintsinpool"
+        ],
         "sections": [
           {
-            "name": "Wrinkly Door",
+            "name": "Aztec Lanky Hint Door",
             "chest_unopened_img": "images/items/wrinkly.png",
             "chest_opened_img": "images/items/wrinklybw.png"
           }
@@ -373,11 +442,15 @@
       },
       {
         "name": "Aztec Tiny Wrinkly Door",
-        "access_rules": ["^$canEnterAztecLobby"],
-        "visibility_rules": ["hintsinpool"],
+        "access_rules": [
+          "^$canEnterAztecLobby"
+        ],
+        "visibility_rules": [
+          "hintsinpool"
+        ],
         "sections": [
           {
-            "name": "Wrinkly Door",
+            "name": "Aztec Tiny Hint Door",
             "chest_unopened_img": "images/items/wrinkly.png",
             "chest_opened_img": "images/items/wrinklybw.png"
           }
@@ -393,11 +466,15 @@
       },
       {
         "name": "Aztec Chunky Wrinkly Door",
-        "access_rules": ["^$canEnterAztecLobby, $canActivateIslesAztecLobbyFeather"],
-        "visibility_rules": ["hintsinpool"],
+        "access_rules": [
+          "^$canEnterAztecLobby, $canActivateIslesAztecLobbyFeather"
+        ],
+        "visibility_rules": [
+          "hintsinpool"
+        ],
         "sections": [
           {
-            "name": "Wrinkly Door",
+            "name": "Aztec Chunky Hint Door",
             "chest_unopened_img": "images/items/wrinkly.png",
             "chest_opened_img": "images/items/wrinklybw.png"
           }
@@ -413,10 +490,13 @@
       },
       {
         "name": "Isles Lanky Grape Cage",
-        "access_rules": ["$grape", "$phaseswim"],
+        "access_rules": [
+          "$grape",
+          "$phaseswim"
+        ],
         "sections": [
           {
-            "name": "Golden Banana"
+            "name": "Isles Lanky Grape Cage"
           }
         ],
         "map_locations": [
@@ -430,10 +510,12 @@
       },
       {
         "name": "Isles DK Coconut Cage",
-        "access_rules": ["$coconut"],
+        "access_rules": [
+          "$coconut"
+        ],
         "sections": [
           {
-            "name": "Golden Banana"
+            "name": "Isles Donkey Coconut Cage"
           }
         ],
         "map_locations": [
@@ -447,15 +529,21 @@
       },
       {
         "name": "Upper Krem Isles",
-        "access_rules": ["$canActivateIslesMonkeyport"],
+        "access_rules": [
+          "$canActivateIslesMonkeyport"
+        ],
         "sections": [
           {
             "name": "Isles Tiny Saxophone Pad",
-            "access_rules": ["$sax"]
+            "access_rules": [
+              "$sax"
+            ]
           },
           {
-            "name": "Isles Fairy (Upper Krem Isle)",
-            "access_rules": ["camera"],
+            "name": "Isles Fairy (Upper Krem Isles)",
+            "access_rules": [
+              "camera"
+            ],
             "chest_unopened_img": "images/items/fairy.png",
             "chest_opened_img": "images/items/fairybw.png"
           }
@@ -471,10 +559,12 @@
       },
       {
         "name": "Isles Diddy Snide Barrel",
-        "access_rules": ["$canPlayIslesDiddySnidesLobby"],
+        "access_rules": [
+          "$canPlayIslesDiddySnidesLobby"
+        ],
         "sections": [
           {
-            "name": "Golden Banana"
+            "name": "Isles Diddy Snides Spring Barrel"
           }
         ],
         "map_locations": [
@@ -488,10 +578,12 @@
       },
       {
         "name": "Isles Battle Arena 1",
-        "access_rules": ["barrel, chunky"],
+        "access_rules": [
+          "barrel, chunky"
+        ],
         "sections": [
           {
-            "name": "Crown",
+            "name": "Isles Battle Arena 1 (Snide's Room: Under Rock)",
             "chest_unopened_img": "images/items/crown.png",
             "chest_opened_img": "images/items/crownbw.png"
           }
@@ -507,10 +599,12 @@
       },
       {
         "name": "Isles DK Bongo Pad",
-        "access_rules": ["^$factoryTinyHint, $bongos"],
+        "access_rules": [
+          "^$factoryTinyHint, $bongos"
+        ],
         "sections": [
           {
-            "name": "Golden Banana"
+            "name": "Isles Donkey Bongos Pad"
           }
         ],
         "map_locations": [
@@ -524,16 +618,20 @@
       },
       {
         "name": "Isles Factory Lobby Box",
-        "access_rules": ["^$canEnterFactoryLobby, $punch"],
+        "access_rules": [
+          "^$canEnterFactoryLobby, $punch"
+        ],
         "sections": [
           {
-            "name": "Kasplat",
+            "name": "Isles Kasplat: Factory Lobby Box",
             "chest_unopened_img": "images/items/tiny_bp.png",
             "chest_opened_img": "images/items/blueprintbw.png"
           },
           {
             "name": "Isles Fairy (Factory Lobby)",
-            "access_rules": ["camera"],
+            "access_rules": [
+              "camera"
+            ],
             "chest_unopened_img": "images/items/fairy.png",
             "chest_opened_img": "images/items/fairybw.png"
           }
@@ -549,11 +647,15 @@
       },
       {
         "name": "Factory DK Wrinkly Door",
-        "access_rules": ["^$canEnterFactoryLobby"],
-        "visibility_rules": ["hintsinpool"],
+        "access_rules": [
+          "^$canEnterFactoryLobby"
+        ],
+        "visibility_rules": [
+          "hintsinpool"
+        ],
         "sections": [
           {
-            "name": "Wrinkly Door",
+            "name": "Factory Donkey Hint Door",
             "chest_unopened_img": "images/items/wrinkly.png",
             "chest_opened_img": "images/items/wrinklybw.png"
           }
@@ -569,11 +671,15 @@
       },
       {
         "name": "Factory Diddy Wrinkly Door",
-        "access_rules": ["^$factoryDiddyHint"],
-        "visibility_rules": ["hintsinpool"],
+        "access_rules": [
+          "^$factoryDiddyHint"
+        ],
+        "visibility_rules": [
+          "hintsinpool"
+        ],
         "sections": [
           {
-            "name": "Wrinkly Door",
+            "name": "Factory Diddy Hint Door",
             "chest_unopened_img": "images/items/wrinkly.png",
             "chest_opened_img": "images/items/wrinklybw.png"
           }
@@ -589,11 +695,15 @@
       },
       {
         "name": "Factory Lanky Wrinkly Door",
-        "access_rules": ["^$factoryLankyHint"],
-        "visibility_rules": ["hintsinpool"],
+        "access_rules": [
+          "^$factoryLankyHint"
+        ],
+        "visibility_rules": [
+          "hintsinpool"
+        ],
         "sections": [
           {
-            "name": "Wrinkly Door",
+            "name": "Factory Lanky Hint Door",
             "chest_unopened_img": "images/items/wrinkly.png",
             "chest_opened_img": "images/items/wrinklybw.png"
           }
@@ -609,11 +719,15 @@
       },
       {
         "name": "Factory Tiny Wrinkly Door",
-        "access_rules": ["^$factoryTinyHint"],
-        "visibility_rules": ["hintsinpool"],
+        "access_rules": [
+          "^$factoryTinyHint"
+        ],
+        "visibility_rules": [
+          "hintsinpool"
+        ],
         "sections": [
           {
-            "name": "Wrinkly Door",
+            "name": "Factory Tiny Hint Door",
             "chest_unopened_img": "images/items/wrinkly.png",
             "chest_opened_img": "images/items/wrinklybw.png"
           }
@@ -629,11 +743,15 @@
       },
       {
         "name": "Factory Chunky Wrinkly Door",
-        "access_rules": ["^$canEnterFactoryLobby"],
-        "visibility_rules": ["hintsinpool"],
+        "access_rules": [
+          "^$canEnterFactoryLobby"
+        ],
+        "visibility_rules": [
+          "hintsinpool"
+        ],
         "sections": [
           {
-            "name": "Wrinkly Door",
+            "name": "Factory Chunky Hint Door",
             "chest_unopened_img": "images/items/wrinkly.png",
             "chest_opened_img": "images/items/wrinklybw.png"
           }
@@ -649,10 +767,13 @@
       },
       {
         "name": "Isles Tiny Galleon Lobby Swim",
-        "access_rules": ["^$canEnterGalleonLobby, $mini, $galleonSlam, chunky, dive, $twirl", "^$canEnterGalleonLobby, phase_swimming"],
+        "access_rules": [
+          "^$canEnterGalleonLobby, $mini, $galleonSlam, chunky, dive, $twirl",
+          "^$canEnterGalleonLobby, phase_swimming"
+        ],
         "sections": [
           {
-            "name": "Golden Banana"
+            "name": "Isles Tiny Galleon Lobby Swim"
           }
         ],
         "map_locations": [
@@ -666,10 +787,12 @@
       },
       {
         "name": "Isles Kasplat: Galleon Lobby",
-        "access_rules": ["^$canEnterGalleonLobby"],
+        "access_rules": [
+          "^$canEnterGalleonLobby"
+        ],
         "sections": [
           {
-            "name": "Kasplat",
+            "name": "Isles Kasplat: Galleon Lobby",
             "chest_unopened_img": "images/items/chunky_bp.png",
             "chest_opened_img": "images/items/blueprintbw.png"
           }
@@ -685,11 +808,15 @@
       },
       {
         "name": "Galleon DK Hint Door",
-        "access_rules": ["^$canEnterGalleonLobby"],
-        "visibility_rules": ["hintsinpool"],
+        "access_rules": [
+          "^$canEnterGalleonLobby"
+        ],
+        "visibility_rules": [
+          "hintsinpool"
+        ],
         "sections": [
           {
-            "name": "Wrinkly Door",
+            "name": "Galleon Donkey Hint Door",
             "chest_unopened_img": "images/items/wrinkly.png",
             "chest_opened_img": "images/items/wrinklybw.png"
           }
@@ -705,11 +832,15 @@
       },
       {
         "name": "Galleon Diddy Hint Door",
-        "access_rules": ["^$canEnterGalleonLobby"],
-        "visibility_rules": ["hintsinpool"],
+        "access_rules": [
+          "^$canEnterGalleonLobby"
+        ],
+        "visibility_rules": [
+          "hintsinpool"
+        ],
         "sections": [
           {
-            "name": "Wrinkly Door",
+            "name": "Galleon Diddy Hint Door",
             "chest_unopened_img": "images/items/wrinkly.png",
             "chest_opened_img": "images/items/wrinklybw.png"
           }
@@ -725,11 +856,15 @@
       },
       {
         "name": "Galleon Lanky Hint Door",
-        "access_rules": ["^$canEnterGalleonLobby"],
-        "visibility_rules": ["hintsinpool"],
+        "access_rules": [
+          "^$canEnterGalleonLobby"
+        ],
+        "visibility_rules": [
+          "hintsinpool"
+        ],
         "sections": [
           {
-            "name": "Wrinkly Door",
+            "name": "Galleon Lanky Hint Door",
             "chest_unopened_img": "images/items/wrinkly.png",
             "chest_opened_img": "images/items/wrinklybw.png"
           }
@@ -745,11 +880,15 @@
       },
       {
         "name": "Galleon Tiny Hint Door",
-        "access_rules": ["^$canEnterGalleonLobby"],
-        "visibility_rules": ["hintsinpool"],
+        "access_rules": [
+          "^$canEnterGalleonLobby"
+        ],
+        "visibility_rules": [
+          "hintsinpool"
+        ],
         "sections": [
           {
-            "name": "Wrinkly Door",
+            "name": "Galleon Tiny Hint Door",
             "chest_unopened_img": "images/items/wrinkly.png",
             "chest_opened_img": "images/items/wrinklybw.png"
           }
@@ -765,11 +904,15 @@
       },
       {
         "name": "Galleon Chunky Hint Door",
-        "access_rules": ["^$canEnterGalleonLobby"],
-        "visibility_rules": ["hintsinpool"],
+        "access_rules": [
+          "^$canEnterGalleonLobby"
+        ],
+        "visibility_rules": [
+          "hintsinpool"
+        ],
         "sections": [
           {
-            "name": "Wrinkly Door",
+            "name": "Galleon Chunky Hint Door",
             "chest_unopened_img": "images/items/wrinkly.png",
             "chest_opened_img": "images/items/wrinklybw.png"
           }
@@ -785,10 +928,12 @@
       },
       {
         "name": "Isles Dirt: Cabin Isle",
-        "access_rules": ["k4, shockwave"],
+        "access_rules": [
+          "k4, shockwave"
+        ],
         "sections": [
           {
-            "name": "Rainbow Coin",
+            "name": "Isles Dirt: Cabin Isle",
             "chest_unopened_img": "images/items/rainbowcoin.png",
             "chest_opened_img": "images/items/rainbowcoinbw.png",
             "access_rules": []
@@ -805,10 +950,12 @@
       },
       {
         "name": "Isles Diddy Peanut Cage",
-        "access_rules": ["$pastCabinIsle, $peanuts"],
+        "access_rules": [
+          "$pastCabinIsle, $peanuts"
+        ],
         "sections": [
           {
-            "name": "Golden Banana"
+            "name": "Isles Diddy Peanut Cage"
           }
         ],
         "map_locations": [
@@ -822,10 +969,12 @@
       },
       {
         "name": "Isles Diddy Summit Barrel",
-        "access_rules": ["$canPlayIslesDiddySummit"],
+        "access_rules": [
+          "$canPlayIslesDiddySummit"
+        ],
         "sections": [
           {
-            "name": "Golden Banana"
+            "name": "Isles Diddy Summit Barrel"
           }
         ],
         "map_locations": [
@@ -847,7 +996,7 @@
         ],
         "sections": [
           {
-            "name": "Rainbow Coin",
+            "name": "Isles Dirt: Aztec Roof",
             "chest_unopened_img": "images/items/rainbowcoin.png",
             "chest_opened_img": "images/items/rainbowcoinbw.png",
             "access_rules": []
@@ -864,10 +1013,12 @@
       },
       {
         "name": "Isles Fairy (Fungi Lobby)",
-        "access_rules": ["^$canEnterForestLobby, $canActivateIslesFungiLobbyFeather, camera"],
+        "access_rules": [
+          "^$canEnterForestLobby, $canActivateIslesFungiLobbyFeather, camera"
+        ],
         "sections": [
           {
-            "name": "Fairy",
+            "name": "Isles Fairy (Forest Lobby)",
             "chest_unopened_img": "images/items/fairy.png",
             "chest_opened_img": "images/items/fairybw.png"
           }
@@ -883,10 +1034,12 @@
       },
       {
         "name": "Isles Battle Arena 2 (Fungi Lobby)",
-        "access_rules": ["^$canEnterForestLobby, $coconut, $peanuts, $grape, $feather, $pineapple, $gone"],
+        "access_rules": [
+          "^$canEnterForestLobby, $coconut, $peanuts, $grape, $feather, $pineapple, $gone"
+        ],
         "sections": [
           {
-            "name": "Crown",
+            "name": "Isles Battle Arena 2 (Fungi Lobby: Gorilla Gone Box)",
             "chest_unopened_img": "images/items/crown.png",
             "chest_opened_img": "images/items/crownbw.png",
             "access_rules": []
@@ -903,11 +1056,15 @@
       },
       {
         "name": "Forest DK Hint Door",
-        "access_rules": ["^$canEnterForestLobby"],
-        "visibility_rules": ["hintsinpool"],
+        "access_rules": [
+          "^$canEnterForestLobby"
+        ],
+        "visibility_rules": [
+          "hintsinpool"
+        ],
         "sections": [
           {
-            "name": "Wrinkly Door",
+            "name": "Forest Donkey Hint Door",
             "chest_unopened_img": "images/items/wrinkly.png",
             "chest_opened_img": "images/items/wrinklybw.png"
           }
@@ -923,11 +1080,15 @@
       },
       {
         "name": "Forest Diddy Hint Door",
-        "access_rules": ["^$canEnterForestLobby"],
-        "visibility_rules": ["hintsinpool"],
+        "access_rules": [
+          "^$canEnterForestLobby"
+        ],
+        "visibility_rules": [
+          "hintsinpool"
+        ],
         "sections": [
           {
-            "name": "Wrinkly Door",
+            "name": "Forest Diddy Hint Door",
             "chest_unopened_img": "images/items/wrinkly.png",
             "chest_opened_img": "images/items/wrinklybw.png"
           }
@@ -943,11 +1104,15 @@
       },
       {
         "name": "Forest Lanky Hint Door",
-        "access_rules": ["^$canEnterForestLobby"],
-        "visibility_rules": ["hintsinpool"],
+        "access_rules": [
+          "^$canEnterForestLobby"
+        ],
+        "visibility_rules": [
+          "hintsinpool"
+        ],
         "sections": [
           {
-            "name": "Wrinkly Door",
+            "name": "Forest Lanky Hint Door",
             "chest_unopened_img": "images/items/wrinkly.png",
             "chest_opened_img": "images/items/wrinklybw.png"
           }
@@ -963,11 +1128,15 @@
       },
       {
         "name": "Forest Tiny Hint Door",
-        "access_rules": ["^$canEnterForestLobby"],
-        "visibility_rules": ["hintsinpool"],
+        "access_rules": [
+          "^$canEnterForestLobby"
+        ],
+        "visibility_rules": [
+          "hintsinpool"
+        ],
         "sections": [
           {
-            "name": "Wrinkly Door",
+            "name": "Forest Tiny Hint Door",
             "chest_unopened_img": "images/items/wrinkly.png",
             "chest_opened_img": "images/items/wrinklybw.png"
           }
@@ -983,11 +1152,15 @@
       },
       {
         "name": "Forest Chunky Hint Door",
-        "access_rules": ["^$canEnterForestLobby"],
-        "visibility_rules": ["hintsinpool"],
+        "access_rules": [
+          "^$canEnterForestLobby"
+        ],
+        "visibility_rules": [
+          "hintsinpool"
+        ],
         "sections": [
           {
-            "name": "Wrinkly Door",
+            "name": "Forest Chunky Hint Door",
             "chest_unopened_img": "images/items/wrinkly.png",
             "chest_opened_img": "images/items/wrinklybw.png"
           }
@@ -1003,10 +1176,12 @@
       },
       {
         "name": "Isles DK Caves Lava",
-        "access_rules": ["^$canEnterCavesLobby, $punch, $strong"],
+        "access_rules": [
+          "^$canEnterCavesLobby, $punch, $strong"
+        ],
         "sections": [
           {
-            "name": "Golden Banana"
+            "name": "Isles Donkey Caves Lava"
           }
         ],
         "map_locations": [
@@ -1020,11 +1195,15 @@
       },
       {
         "name": "Isles Boulder: Caves Lobby",
-        "access_rules":["^$canEnterCavesLobby, $punch, barrel"],
-        "visibility_rules":["bouldersanity"],
+        "access_rules": [
+          "^$canEnterCavesLobby, $punch, barrel"
+        ],
+        "visibility_rules": [
+          "bouldersanity"
+        ],
         "sections": [
           {
-            "name": "Boulder",
+            "name": "Isles Boulder: Caves Lobby",
             "chest_unopened_img": "images/items/boulder.png",
             "chest_opened_img": "images/items/boulderbw.png"
           }
@@ -1040,10 +1219,12 @@
       },
       {
         "name": "Isles Diddy Guitar Pad",
-        "access_rules": ["^$canEnterCavesLobby, $rocket, $guitar"],
+        "access_rules": [
+          "^$canEnterCavesLobby, $rocket, $guitar"
+        ],
         "sections": [
           {
-            "name": "Golden Banana"
+            "name": "Isles Diddy Guitar Pad"
           }
         ],
         "map_locations": [
@@ -1057,10 +1238,12 @@
       },
       {
         "name": "Isles Kasplat: Caves Lobby Punch",
-        "access_rules": ["^$canEnterCavesLobby, $punch"],
+        "access_rules": [
+          "^$canEnterCavesLobby, $punch"
+        ],
         "sections": [
           {
-            "name": "Kasplat",
+            "name": "Isles Kasplat: Caves Lobby Punch",
             "chest_unopened_img": "images/items/lanky_bp.png",
             "chest_opened_img": "images/items/blueprintbw.png"
           }
@@ -1076,11 +1259,15 @@
       },
       {
         "name": "Caves DK Hint Door",
-        "access_rules": ["^$canEnterCavesLobby"],
-        "visibility_rules": ["hintsinpool"],
+        "access_rules": [
+          "^$canEnterCavesLobby"
+        ],
+        "visibility_rules": [
+          "hintsinpool"
+        ],
         "sections": [
           {
-            "name": "Wrinkly Door",
+            "name": "Caves Donkey Hint Door",
             "chest_unopened_img": "images/items/wrinkly.png",
             "chest_opened_img": "images/items/wrinklybw.png"
           }
@@ -1096,11 +1283,16 @@
       },
       {
         "name": "Caves Diddy Hint Door",
-        "access_rules": ["^$canEnterCavesLobby, $rocket", "^$canEnterCavesLobby, $moonkicks"],
-        "visibility_rules": ["hintsinpool"],
+        "access_rules": [
+          "^$canEnterCavesLobby, $rocket",
+          "^$canEnterCavesLobby, $moonkicks"
+        ],
+        "visibility_rules": [
+          "hintsinpool"
+        ],
         "sections": [
           {
-            "name": "Wrinkly Door",
+            "name": "Caves Diddy Hint Door",
             "chest_unopened_img": "images/items/wrinkly.png",
             "chest_opened_img": "images/items/wrinklybw.png"
           }
@@ -1116,11 +1308,15 @@
       },
       {
         "name": "Caves Lanky Hint Door",
-        "access_rules": ["^$canEnterCavesLobby"],
-        "visibility_rules": ["hintsinpool"],
+        "access_rules": [
+          "^$canEnterCavesLobby"
+        ],
+        "visibility_rules": [
+          "hintsinpool"
+        ],
         "sections": [
           {
-            "name": "Wrinkly Door",
+            "name": "Caves Lanky Hint Door",
             "chest_unopened_img": "images/items/wrinkly.png",
             "chest_opened_img": "images/items/wrinklybw.png"
           }
@@ -1136,11 +1332,15 @@
       },
       {
         "name": "Caves Tiny Hint Door",
-        "access_rules": ["^$canEnterCavesLobby"],
-        "visibility_rules": ["hintsinpool"],
+        "access_rules": [
+          "^$canEnterCavesLobby"
+        ],
+        "visibility_rules": [
+          "hintsinpool"
+        ],
         "sections": [
           {
-            "name": "Wrinkly Door",
+            "name": "Caves Tiny Hint Door",
             "chest_unopened_img": "images/items/wrinkly.png",
             "chest_opened_img": "images/items/wrinklybw.png"
           }
@@ -1156,11 +1356,15 @@
       },
       {
         "name": "Caves Chunky Hint Door",
-        "access_rules": ["^$canEnterCavesLobby"],
-        "visibility_rules": ["hintsinpool"],
+        "access_rules": [
+          "^$canEnterCavesLobby"
+        ],
+        "visibility_rules": [
+          "hintsinpool"
+        ],
         "sections": [
           {
-            "name": "Wrinkly Door",
+            "name": "Caves Chunky Hint Door",
             "chest_unopened_img": "images/items/wrinkly.png",
             "chest_opened_img": "images/items/wrinklybw.png"
           }
@@ -1176,11 +1380,15 @@
       },
       {
         "name": "Castle DK Hint Door",
-        "access_rules": ["^$canEnterCastleLobby"],
-        "visibility_rules": ["hintsinpool"],
+        "access_rules": [
+          "^$canEnterCastleLobby"
+        ],
+        "visibility_rules": [
+          "hintsinpool"
+        ],
         "sections": [
           {
-            "name": "Wrinkly Door",
+            "name": "Castle Donkey Hint Door",
             "chest_unopened_img": "images/items/wrinkly.png",
             "chest_opened_img": "images/items/wrinklybw.png"
           }
@@ -1196,11 +1404,15 @@
       },
       {
         "name": "Castle Diddy Hint Door",
-        "access_rules": ["^$canEnterCastleLobby"],
-        "visibility_rules": ["hintsinpool"],
+        "access_rules": [
+          "^$canEnterCastleLobby"
+        ],
+        "visibility_rules": [
+          "hintsinpool"
+        ],
         "sections": [
           {
-            "name": "Wrinkly Door",
+            "name": "Castle Diddy Hint Door",
             "chest_unopened_img": "images/items/wrinkly.png",
             "chest_opened_img": "images/items/wrinklybw.png"
           }
@@ -1216,11 +1428,15 @@
       },
       {
         "name": "Castle Lanky Hint Door",
-        "access_rules": ["^$canEnterCastleLobby"],
-        "visibility_rules": ["hintsinpool"],
+        "access_rules": [
+          "^$canEnterCastleLobby"
+        ],
+        "visibility_rules": [
+          "hintsinpool"
+        ],
         "sections": [
           {
-            "name": "Wrinkly Door",
+            "name": "Castle Lanky Hint Door",
             "chest_unopened_img": "images/items/wrinkly.png",
             "chest_opened_img": "images/items/wrinklybw.png"
           }
@@ -1236,11 +1452,15 @@
       },
       {
         "name": "Castle Tiny Hint Door",
-        "access_rules": ["^$canEnterCastleLobby"],
-        "visibility_rules": ["hintsinpool"],
+        "access_rules": [
+          "^$canEnterCastleLobby"
+        ],
+        "visibility_rules": [
+          "hintsinpool"
+        ],
         "sections": [
           {
-            "name": "Wrinkly Door",
+            "name": "Castle Tiny Hint Door",
             "chest_unopened_img": "images/items/wrinkly.png",
             "chest_opened_img": "images/items/wrinklybw.png"
           }
@@ -1256,11 +1476,15 @@
       },
       {
         "name": "Castle Chunky Hint Door",
-        "access_rules": ["^$canEnterCastleLobby"],
-        "visibility_rules": ["hintsinpool"],
+        "access_rules": [
+          "^$canEnterCastleLobby"
+        ],
+        "visibility_rules": [
+          "hintsinpool"
+        ],
         "sections": [
           {
-            "name": "Wrinkly Door",
+            "name": "Castle Chunky Hint Door",
             "chest_unopened_img": "images/items/wrinkly.png",
             "chest_opened_img": "images/items/wrinklybw.png"
           }
@@ -1276,11 +1500,15 @@
       },
       {
         "name": "Isles Boulder: Castle Lobby",
-        "access_rules":["^$canEnterCastleLobby, barrel, chunky"],
-        "visibility_rules":["bouldersanity"],
+        "access_rules": [
+          "^$canEnterCastleLobby, barrel, chunky"
+        ],
+        "visibility_rules": [
+          "bouldersanity"
+        ],
         "sections": [
           {
-            "name": "Boulder",
+            "name": "Isles Boulder: Castle Lobby",
             "chest_unopened_img": "images/items/boulder.png",
             "chest_opened_img": "images/items/boulderbw.png"
           }
@@ -1300,15 +1528,19 @@
           "^$canEnterCastleLobby, barrel, $balloon, chunky",
           "^$canEnterCastleLobby, ^$avp, $twirl",
           "^$canEnterCastleLobby, $moonkicks"
-          ],
+        ],
         "sections": [
           {
             "name": "Isles Lanky Castle Lobby Barrel",
-            "access_rules":["$canPlayIslesLankyCastleLobby"]
+            "access_rules": [
+              "$canPlayIslesLankyCastleLobby"
+            ]
           },
           {
             "name": "Isles Dirt: Castle Lobby",
-            "access_rules": ["shockwave"],
+            "access_rules": [
+              "shockwave"
+            ],
             "chest_unopened_img": "images/items/rainbowcoin.png",
             "chest_opened_img": "images/items/rainbowcoinbw.png"
           }
@@ -1324,10 +1556,12 @@
       },
       {
         "name": "Isles Kasplat: Castle Lobby",
-        "access_rules": ["^$canEnterCastleLobby, $coconut"],
+        "access_rules": [
+          "^$canEnterCastleLobby, $coconut"
+        ],
         "sections": [
           {
-            "name": "Kasplat",
+            "name": "Isles Kasplat: Castle Lobby",
             "chest_unopened_img": "images/items/diddy_bp.png",
             "chest_opened_img": "images/items/blueprintbw.png"
           }
@@ -1343,10 +1577,12 @@
       },
       {
         "name": "Isles Chunky Helm Lobby Barrel",
-        "access_rules": ["$canPlayIslesChunkyHelmLobby"],
+        "access_rules": [
+          "$canPlayIslesChunkyHelmLobby"
+        ],
         "sections": [
           {
-            "name": "Golden Banana"
+            "name": "Isles Chunky Helm Lobby Barrel"
           }
         ],
         "map_locations": [
@@ -1360,10 +1596,13 @@
       },
       {
         "name": "Isles Kasplat: Helm Lobby",
-        "access_rules": ["^$canEnterHelmLobby, $coconut, sniper", "^$canEnterHelmLobby, ^$avp, $twirl"],
+        "access_rules": [
+          "^$canEnterHelmLobby, $coconut, sniper",
+          "^$canEnterHelmLobby, ^$avp, $twirl"
+        ],
         "sections": [
           {
-            "name": "Kasplat",
+            "name": "Isles Kasplat: Helm Lobby",
             "chest_unopened_img": "images/items/dk_bp.png",
             "chest_opened_img": "images/items/blueprintbw.png"
           }
@@ -1379,10 +1618,12 @@
       },
       {
         "name": "Isles Dirt: Training Grounds Rear Tunnel",
-        "access_rules": ["shockwave"],
+        "access_rules": [
+          "shockwave"
+        ],
         "sections": [
           {
-            "name": "Rainbow Coin",
+            "name": "Isles Dirt: Training Grounds Rear Tunnel",
             "chest_unopened_img": "images/items/rainbowcoin.png",
             "chest_opened_img": "images/items/rainbowcoinbw.png",
             "access_rules": []
@@ -1399,10 +1640,13 @@
       },
       {
         "name": "Isles Dirt: Banana Hoard",
-        "access_rules": ["shockwave, vine, climb", "shockwave, climb, $moonkicks"],
+        "access_rules": [
+          "shockwave, vine, climb",
+          "shockwave, climb, $moonkicks"
+        ],
         "sections": [
           {
-            "name": "Rainbow Coin",
+            "name": "Isles Dirt: Banana Hoard",
             "chest_unopened_img": "images/items/rainbowcoin.png",
             "chest_opened_img": "images/items/rainbowcoinbw.png",
             "access_rules": []
@@ -1419,10 +1663,12 @@
       },
       {
         "name": "Isles Fairy (Small Island)",
-        "access_rules": ["camera"],
+        "access_rules": [
+          "camera"
+        ],
         "sections": [
           {
-            "name": "Fairy",
+            "name": "Isles Fairy (Small Island)",
             "chest_unopened_img": "images/items/fairy.png",
             "chest_opened_img": "images/items/fairybw.png",
             "access_rules": []
@@ -1439,10 +1685,12 @@
       },
       {
         "name": "Isles Dirt: Under Caves Lobby",
-        "access_rules": ["shockwave"],
+        "access_rules": [
+          "shockwave"
+        ],
         "sections": [
           {
-            "name": "Rainbow Coin",
+            "name": "Isles Dirt: Under Caves Lobby",
             "chest_unopened_img": "images/items/rainbowcoin.png",
             "chest_opened_img": "images/items/rainbowcoinbw.png",
             "access_rules": []

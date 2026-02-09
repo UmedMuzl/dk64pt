@@ -1,808 +1,995 @@
 [
-    {
-        "name": "Fungi Forest",
-        "access_rules": ["^$canEnterForest"],
-        "chest_unopened_img": "images/items/GB.png",
-        "chest_opened_img": "images/items/GBbw.png",
-        "children": [
-            {
-                "name": "Medals",
-                "access_rules": [],
-                "sections": [
-                    {
-                        "name": "Forest DK Medal",
-                        "access_rules": ["$forestDKMedal"],
-                        "chest_unopened_img": "images/items/bananamedal.png",
-                        "chest_opened_img": "images/items/bananamedalbw.png"
-                    },
-                    {
-                        "name": "Forest Diddy Medal",
-                        "access_rules": ["$forestDiddyMedal"],
-                        "chest_unopened_img": "images/items/bananamedal.png",
-                        "chest_opened_img": "images/items/bananamedalbw.png"
-                    },
-                    {
-                        "name": "Forest Lanky Medal",
-                        "access_rules": ["$forestLankyMedal"],
-                        "chest_unopened_img": "images/items/bananamedal.png",
-                        "chest_opened_img": "images/items/bananamedalbw.png"
-                    },
-                    {
-                        "name": "Forest Tiny Medal",
-                        "access_rules": ["$forestTinyMedal"],
-                        "chest_unopened_img": "images/items/bananamedal.png",
-                        "chest_opened_img": "images/items/bananamedalbw.png"
-                    },
-                    {
-                        "name": "Forest Chunky Medal",
-                        "access_rules": ["$forestChunkyMedal"],
-                        "chest_unopened_img": "images/items/bananamedal.png",
-                        "chest_opened_img": "images/items/bananamedalbw.png"
-                    },
-                    {
-                        "name": "Forest DK Half-Medal",
-                        "visibility_rules": ["halfmedal"],
-                        "access_rules": ["$forestDKHalfMedal"],
-                        "chest_unopened_img": "images/items/halfbananamedal.png",
-                        "chest_opened_img": "images/items/halfbananamedalbw.png"
-                    },
-                    {
-                        "name": "Forest Diddy Half-Medal",
-                        "visibility_rules": ["halfmedal"],
-                        "access_rules": ["$forestDiddyHalfMedal"],
-                        "chest_unopened_img": "images/items/halfbananamedal.png",
-                        "chest_opened_img": "images/items/halfbananamedalbw.png"
-                    },
-                    {
-                        "name": "Forest Lanky Half-Medal",
-                        "visibility_rules": ["halfmedal"],
-                        "access_rules": ["$forestLankyHalfMedal"],
-                        "chest_unopened_img": "images/items/halfbananamedal.png",
-                        "chest_opened_img": "images/items/halfbananamedalbw.png"
-                    },
-                    {
-                        "name": "Forest Tiny Half-Medal",
-                        "visibility_rules": ["halfmedal"],
-                        "access_rules": ["$forestTinyHalfMedal"],
-                        "chest_unopened_img": "images/items/halfbananamedal.png",
-                        "chest_opened_img": "images/items/halfbananamedalbw.png"
-                    },
-                    {
-                        "name": "Forest Chunky Half-Medal",
-                        "visibility_rules": ["halfmedal"],
-                        "access_rules": ["$forestChunkyHalfMedal"],
-                        "chest_unopened_img": "images/items/halfbananamedal.png",
-                        "chest_opened_img": "images/items/halfbananamedalbw.png"
-                    },
-                    {
-                        "name": "Boss",
-                        "access_rules": ["$forestBossLogic"],
-                        "chest_unopened_img": "images/items/scoff.png",
-                        "chest_opened_img": "images/items/scoffbw.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "forest",
-                        "x": 1023,
-                        "y": 30,
-                        "size": 25
-                    }
-                ]
-            },
-            {            
-                "name": "Forest Chunky Minecart",
-                "access_rules": ["slam, chunky"],
-                "sections": [
-                    {
-                        "name": "Golden Banana"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "forest",
-                        "x": 618,
-                        "y": 340,
-                        "size": 12
-                    }
-                ]
-            },
-            {            
-                "name": "Forest Diddy Top of Mushroom Barrel",
-                "access_rules": ["$canPlayForestDiddyTopofMushroom"],
-                "sections": [
-                    {
-                        "name": "Golden Banana"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "forest",
-                        "x": 851,
-                        "y": 739,
-                        "size": 12
-                    }
-                ]
-            },
-            {            
-                "name": "Inside the Mushroom",
-                "access_rules": [],
-                "sections": [
-                    {
-                        "name": "Forest DK Mushroom Cannons",
-                        "access_rules": ["$forestSlam, $coconut, $peanuts, $grape, $feather, $pineapple"]
-                    },
-                    {
-                        "name": "Forest Tiny Mushroom Barrel",
-                        "access_rules": ["$canPlayForestTinyMushroomBarrel"]
-                    },
-                    {
-                        "name": "Forest Kasplat: Inside Giant Mushroom",
-                        "access_rules": ["$canClimbMushroom"],
-                        "visibility_rules":["dropsanity"],
-                        "chest_unopened_img": "images/items/diddy_bp.png",
-                        "chest_opened_img": "images/items/blueprintbw.png"
-                    },
-                    {
-                        "name": "Forest Giant Mushroom Enemy: Above Night Door",
-                        "visibility_rules":["dropsanity"],
-                        "chest_unopened_img": "images/settings/dropsanity.png",
-                        "chest_opened_img": "images/settings/dropsanitybw.png",
-                        "access_rules": ["$applyEnemyLogic|ForestGMEnemy_AboveNightDoor, $canClimbMushroom"]
-                    },
-                    {
-                        "name": "Forest Giant Mushroom Enemy: Path (0)",
-                        "visibility_rules":["dropsanity"],
-                        "chest_unopened_img": "images/settings/dropsanity.png",
-                        "chest_opened_img": "images/settings/dropsanitybw.png",
-                        "access_rules": ["$flyingEnemy, $canClimbMushroom"]
-                    },
-                    {
-                        "name": "Forest Giant Mushroom Enemy: Path (1)",
-                        "visibility_rules":["dropsanity"],
-                        "chest_unopened_img": "images/settings/dropsanity.png",
-                        "chest_opened_img": "images/settings/dropsanitybw.png",
-                        "access_rules": ["$flyingEnemy, $canClimbMushroom"]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "forest",
-                        "x": 824,
-                        "y": 713,
-                        "size": 12
-                    }
-                ]
-            },
-            {            
-                "name": "Forest Kasplat: Lower Mushroom Exterior",
-                "access_rules": ["$canClimbMushroom"],
-                "sections": [
-                    {
-                        "name": "Kasplat",
-                        "chest_unopened_img": "images/items/tiny_bp.png",
-                        "chest_opened_img": "images/items/blueprintbw.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "forest",
-                        "x": 790,
-                        "y": 816,
-                        "size": 12
-                    }
-                ]
-            },
-            {            
-                "name": "Forest DK Baboon Blast",
-                "access_rules": ["$canPlayForestDonkeyBaboonBlast"],
-                "sections": [
-                    {
-                        "name": "Golden Banana"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "forest",
-                        "x": 970,
-                        "y": 751,
-                        "size": 12
-                    }
-                ]
-            },
-            {            
-                "name": "Forest Kasplat: Mushroom Night Door",
-                "access_rules": ["$canClimbMushroom"],
-                "sections": [
-                    {
-                        "name": "Kasplat",
-                        "chest_unopened_img": "images/items/chunky_bp.png",
-                        "chest_opened_img": "images/items/blueprintbw.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "forest",
-                        "x": 890,
-                        "y": 828,
-                        "size": 12
-                    }
-                ]
-            },
-            {            
-                "name": "Forest Battle Arena: High Ladder Platform",
-                "access_rules": ["$canClimbMushroom"],
-                "sections": [
-                    {
-                        "name": "Crown",
-                        "chest_unopened_img": "images/items/crown.png",
-                        "chest_opened_img": "images/items/crownbw.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "forest",
-                        "x": 774,
-                        "y": 675,
-                        "size": 12
-                    }
-                ]
-            },
-            {            
-                "name": "Face Puzzle Room",
-                "access_rules": ["$canClimbMushroom, $forestSlam, chunky"],
-                "sections": [
-                    {
-                        "name": "Forest Chunky Face Puzzle",
-                        "access_rules": ["$pineapple"]
-                    },
-                    {
-                        "name": "Forest Chunky Face Room Enemy: Enemy",
-                        "visibility_rules":["dropsanity"],
-                        "chest_unopened_img": "images/settings/dropsanity.png",
-                        "chest_opened_img": "images/settings/dropsanitybw.png",
-                        "access_rules": ["$flyingEnemy"]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "forest",
-                        "x": 775,
-                        "y": 765,
-                        "size": 12
-                    }
-                ]
-            },
-            {            
-                "name": "Zinger Room",
-                "access_rules": ["$topOfMushroom, $forestSlam, lanky"],
-                "sections": [
-                    {
-                        "name": "Forest Lanky Zinger Room"
-                    },
-                    {
-                        "name": "Forest Lanky Zingers Room Enemy: Enemy (0)",
-                        "visibility_rules":["dropsanity"],
-                        "chest_unopened_img": "images/settings/dropsanity.png",
-                        "chest_opened_img": "images/settings/dropsanitybw.png",
-                        "access_rules":["$flyingEnemy"]
-                    },
-                                        {
-                        "name": "Forest Lanky Zingers Room Enemy: Enemy (1)",
-                        "visibility_rules":["dropsanity"],
-                        "chest_unopened_img": "images/settings/dropsanity.png",
-                        "chest_opened_img": "images/settings/dropsanitybw.png",
-                        "access_rules":["$flyingEnemy"]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "forest",
-                        "x": 841,
-                        "y": 819,
-                        "size": 12
-                    }
-                ]
-            },
-            {            
-                "name": "Forest Lanky Coloured Mushroom Slam",
-                "access_rules": ["$canPlayForestLankyColoredMushrooms"],
-                "sections": [
-                    {
-                        "name": "Golden Banana"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "forest",
-                        "x": 865,
-                        "y": 655,
-                        "size": 12
-                    }
-                ]
-            },
-            {            
-                "name": "Forest Diddy Owl Race",
-                "access_rules": ["$canPlayForestDiddyOwlRace"],
-                "sections": [
-                    {
-                        "name": "Golden Banana"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "forest",
-                        "x": 785,
-                        "y": 161,
-                        "size": 12
-                    }
-                ]
-            },
-            {            
-                "name": "Forest Lanky Rabbit Race",
-                "access_rules": ["$yellowTunnel, $trombone, $sprint, $dayTime"],
-                "sections": [
-                    {
-                        "name": "Golden Banana"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "forest",
-                        "x": 613,
-                        "y": 221,
-                        "size": 12
-                    }
-                ]
-            },
-            {            
-                "name": "Forest Kasplat: Under Owl Tree",
-                "access_rules": ["$yellowTunnel"],
-                "sections": [
-                    {
-                        "name": "Kasplat",
-                        "chest_unopened_img": "images/items/lanky_bp.png",
-                        "chest_opened_img": "images/items/blueprintbw.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "forest",
-                        "x": 785,
-                        "y": 218,
-                        "size": 12
-                    }
-                ]
-            },
-            {            
-                "name": "Forest Crate: Near Owl Tree",
-                "access_rules": ["$yellowTunnel"],
-                "sections": [
-                    {
-                        "name": "Crate",
-                        "chest_unopened_img": "images/items/crate.png",
-                        "chest_opened_img": "images/items/cratebw.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "forest",
-                        "x": 940,
-                        "y": 197,
-                        "size": 12
-                    }
-                ]
-            },
-            {            
-                "name": "Forest Anthill",
-                "access_rules": ["$yellowTunnel, $mini, $sax"],
-                "sections": [
-                    {
-                        "name": "Forest Tiny Anthill Banana"
-                    },
-                    {
-                        "name": "Forest Tiny Bean",
-                        "chest_unopened_img": "images/items/bean.png",
-                        "chest_opened_img": "images/items/beanbw.png"
-                    },
-                    {
-                        "name": "Forest Anthill Enemy: Gauntlet (0)",
-                        "visibility_rules":["dropsanity"],
-                        "chest_unopened_img": "images/settings/dropsanity.png",
-                        "chest_opened_img": "images/settings/dropsanitybw.png",
-                        "access_rules": ["oranges", "$bongos", "$guitar", "$trombone", "$sax", "$triangle"]
-                    },
-                                        {
-                        "name": "Forest Anthill Enemy: Gauntlet (1)",
-                        "visibility_rules":["dropsanity"],
-                        "chest_unopened_img": "images/settings/dropsanity.png",
-                        "chest_opened_img": "images/settings/dropsanitybw.png",
-                        "access_rules": ["oranges", "$bongos", "$guitar", "$trombone", "$sax", "$triangle"]
-                    },
-                                        {
-                        "name": "Forest Anthill Enemy: Gauntlet (2)",
-                        "visibility_rules":["dropsanity"],
-                        "chest_unopened_img": "images/settings/dropsanity.png",
-                        "chest_opened_img": "images/settings/dropsanitybw.png",
-                        "access_rules": ["oranges", "$bongos", "$guitar", "$trombone", "$sax", "$triangle"]
-                    },
-                                        {
-                        "name": "Forest Anthill Enemy: Gauntlet (3)",
-                        "visibility_rules":["dropsanity"],
-                        "chest_unopened_img": "images/settings/dropsanity.png",
-                        "chest_opened_img": "images/settings/dropsanitybw.png",
-                        "access_rules": ["oranges", "$bongos", "$guitar", "$trombone", "$sax", "$triangle"]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "forest",
-                        "x": 782,
-                        "y": 49,
-                        "size": 12
-                    }
-                ]
-            },
-            {            
-                "name": "Forest DK Mill Levers",
-                "access_rules": ["^$forestDKLevers"],
-                "sections": [
-                    {
-                        "name": "Golden Banana"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "frontmill",
-                        "x": 594,
-                        "y": 175,
-                        "size": 16
-                    }
-                ]
-            },
-            {            
-                "name": "Winch Room",
-                "access_rules": ["$winch"],
-                "sections": [
-                    {
-                        "name": "Forest Diddy Winch Cage",
-                        "access_rules":["$winchCage"]
-                    },
-                    {
-                        "name": "Forest Winch Room Enemy: Enemy",
-                        "visibility_rules":["dropsanity"],
-                        "access_rules":["$flyingEnemy"],
-                        "chest_unopened_img": "images/settings/dropsanity.png",
-                        "chest_opened_img": "images/settings/dropsanitybw.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "forest",
-                        "x": 188,
-                        "y": 261,
-                        "size": 12
-                    }
-                ]
-            },
-            {            
-                "name": "Forest Dirt: Near Mills Grass",
-                "access_rules": ["shockwave"],
-                "sections": [
-                    {
-                        "name": "Rainbow Coin",
-                        "chest_unopened_img": "images/items/rainbowcoin.png",
-                        "chest_opened_img": "images/items/rainbowcoinbw.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "forest",
-                        "x": 151,
-                        "y": 155,
-                        "size": 12
-                    }
-                ]
-            },
-            {            
-                "name": "Forest Crate: Behind Dark Attic",
-                "access_rules": [],
-                "sections": [
-                    {
-                        "name": "Crate",
-                        "chest_unopened_img": "images/items/crate.png",
-                        "chest_opened_img": "images/items/cratebw.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "forest",
-                        "x": 433,
-                        "y": 104,
-                        "size": 12
-                    }
-                ]
-            },
-            {            
-                "name": "Forest Tiny Spider Boss",
-                "access_rules": ["$canBeatSpider"],
-                "sections": [
-                    {
-                        "name": "Golden Banana"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "rearmill",
-                        "x": 114,
-                        "y": 141,
-                        "size": 16
-                    }
-                ]
-            },
-            {            
-                "name": "Forest Chunky Keg Crushing",
-                "access_rules": ["$dayTime, barrel, $punch, $triangle, $grab, $forestSlam"],
-                "sections": [
-                    {
-                        "name": "Golden Banana"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "frontmill",
-                        "x": 443,
-                        "y": 689,
-                        "size": 16
-                    }
-                ]
-            },
-            {            
-                "name": "Dark Rafters",
-                "access_rules": ["$nightTime, $spring, $guitar", "$nightTime, $moontail, $guitar"],
-                "sections": [
-                    {
-                        "name": "Forest Diddy Dark Rafters"
-                    },
-                    {
-                        "name": "Forest Fairy (Dark Rafters)",
-                        "access_rules": ["camera"],
-                        "chest_unopened_img": "images/items/fairy.png",
-                        "chest_opened_img": "images/items/fairybw.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "forest",
-                        "x": 381,
-                        "y": 88,
-                        "size": 12
-                    }
-                ]
-            },
-            {            
-                "name": "Forest Lanky Attic Shooting",
-                "access_rules": ["^$lankyAttic"],
-                "sections": [
-                    {
-                        "name": "Golden Banana"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "forest",
-                        "x": 243,
-                        "y": 246,
-                        "size": 12
-                    }
-                ]
-            },
-            {            
-                "name": "Forest Kasplat: Behind DK's Barn",
-                "access_rules": ["$nightTime"],
-                "sections": [
-                    {
-                        "name": "Kasplat",
-                        "chest_unopened_img": "images/items/dk_bp.png",
-                        "chest_opened_img": "images/items/blueprintbw.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "forest",
-                        "x": 336,
-                        "y": 643,
-                        "size": 12
-                    }
-                ]
-            },
-            {            
-                "name": "Forest Crate: Near Thornvine Barn",
-                "access_rules": ["$nightTime"],
-                "sections": [
-                    {
-                        "name": "Crate",
-                        "chest_unopened_img": "images/items/crate.png",
-                        "chest_opened_img": "images/items/cratebw.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "forest",
-                        "x": 184,
-                        "y": 486,
-                        "size": 12
-                    }
-                ]
-            },
-            {            
-                "name": "Forest Donkey Thornvine Barn Barrel",
-                "access_rules": ["^$canPlayForestDonkeyBarn"],
-                "sections": [
-                    {
-                        "name": "Golden Banana"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "barn",
-                        "x": 370,
-                        "y": 88,
-                        "size": 16
-                    }
-                ]
-            },
-            {            
-                "name": "Forest Crate: In Thornvine Barn",
-                "access_rules": ["$nightTime, $strong, $forestSlam"],
-                "sections": [
-                    {
-                        "name": "Crate",
-                        "chest_unopened_img": "images/items/crate.png",
-                        "chest_opened_img": "images/items/cratebw.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "barn",
-                        "x": 118,
-                        "y": 158,
-                        "size": 16
-                    }
-                ]
-            },
-            {            
-                "name": "Forest Fairy (Thornvine Barn)",
-                "access_rules": ["$nightTime, $strong, $forestSlam, climb, camera"],
-                "sections": [
-                    {
-                        "name": "Fairy",
-                        "chest_unopened_img": "images/items/fairy.png",
-                        "chest_opened_img": "images/items/fairybw.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "barn",
-                        "x": 169,
-                        "y": 79,
-                        "size": 16
-                    }
-                ]
-            },
-            {            
-                "name": "Forest Tiny Top of Beanstalk",
-                "access_rules": ["bean, $mini, $sax, $greenTunnel"],
-                "sections": [
-                    {
-                        "name": "Golden Banana"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "forest",
-                        "x": 638,
-                        "y": 815,
-                        "size": 12
-                    }
-                ]
-            },
-            {            
-                "name": "Forest Dirt: Beanstalk",
-                "access_rules": ["$greenTunnel, shockwave"],
-                "sections": [
-                    {
-                        "name": "Rainbow Coin",
-                        "chest_unopened_img": "images/items/rainbowcoin.png",
-                        "chest_opened_img": "images/items/rainbowcoinbw.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "forest",
-                        "x": 610,
-                        "y": 807,
-                        "size": 12
-                    }
-                ]
-            },
-            {            
-                "name": "Forest Chunky Apple Rescue",
-                "access_rules": ["$greenTunnel, $hunky, barrel"],
-                "sections": [
-                    {
-                        "name": "Golden Banana"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "forest",
-                        "x": 449,
-                        "y": 548,
-                        "size": 12
-                    }
-                ]
-            },
-            {
-                "name": "Forest Keg: Mill Front Near",
-                "access_rules":["$dayTime, chunky, barrel"],
-                "visibility_rules":["bouldersanity"],
-                "sections": [
-                    {
-                        "name": "Boulder",
-                        "chest_unopened_img": "images/items/boulder.png",
-                        "chest_opened_img": "images/items/boulderbw.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "frontmill",
-                        "x": 668,
-                        "y": 625,
-                        "size": 16
-                    }
-                ]
-            },
-                        {
-                "name": "Forest Keg: Mill Front Far",
-                "access_rules":["$dayTime, chunky, barrel"],
-                "visibility_rules":["bouldersanity"],
-                "sections": [
-                    {
-                        "name": "Boulder",
-                        "chest_unopened_img": "images/items/boulder.png",
-                        "chest_opened_img": "images/items/boulderbw.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "frontmill",
-                        "x": 176,
-                        "y": 515,
-                        "size": 16
-                    }
-                ]
-            },
-                        {
-                "name": "Forest Keg: Mill Back",
-                "access_rules":["$dayTime, barrel, $punch", "$dayTime, chunky, barrel, $mini"],
-                "visibility_rules":["bouldersanity"],
-                "sections": [
-                    {
-                        "name": "Boulder",
-                        "chest_unopened_img": "images/items/boulder.png",
-                        "chest_opened_img": "images/items/boulderbw.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "rearmill",
-                        "x": 285,
-                        "y": 470,
-                        "size": 16
-                    }
-                ]
-            }
+  {
+    "name": "Fungi Forest",
+    "access_rules": [
+      "^$canEnterForest"
+    ],
+    "chest_unopened_img": "images/items/GB.png",
+    "chest_opened_img": "images/items/GBbw.png",
+    "children": [
+      {
+        "name": "Medals",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Forest Donkey Medal",
+            "access_rules": [
+              "$forestDKMedal"
+            ],
+            "chest_unopened_img": "images/items/bananamedal.png",
+            "chest_opened_img": "images/items/bananamedalbw.png"
+          },
+          {
+            "name": "Forest Diddy Medal",
+            "access_rules": [
+              "$forestDiddyMedal"
+            ],
+            "chest_unopened_img": "images/items/bananamedal.png",
+            "chest_opened_img": "images/items/bananamedalbw.png"
+          },
+          {
+            "name": "Forest Lanky Medal",
+            "access_rules": [
+              "$forestLankyMedal"
+            ],
+            "chest_unopened_img": "images/items/bananamedal.png",
+            "chest_opened_img": "images/items/bananamedalbw.png"
+          },
+          {
+            "name": "Forest Tiny Medal",
+            "access_rules": [
+              "$forestTinyMedal"
+            ],
+            "chest_unopened_img": "images/items/bananamedal.png",
+            "chest_opened_img": "images/items/bananamedalbw.png"
+          },
+          {
+            "name": "Forest Chunky Medal",
+            "access_rules": [
+              "$forestChunkyMedal"
+            ],
+            "chest_unopened_img": "images/items/bananamedal.png",
+            "chest_opened_img": "images/items/bananamedalbw.png"
+          },
+          {
+            "name": "Forest Donkey Half Medal",
+            "visibility_rules": [
+              "halfmedal"
+            ],
+            "access_rules": [
+              "$forestDKHalfMedal"
+            ],
+            "chest_unopened_img": "images/items/halfbananamedal.png",
+            "chest_opened_img": "images/items/halfbananamedalbw.png"
+          },
+          {
+            "name": "Forest Diddy Half Medal",
+            "visibility_rules": [
+              "halfmedal"
+            ],
+            "access_rules": [
+              "$forestDiddyHalfMedal"
+            ],
+            "chest_unopened_img": "images/items/halfbananamedal.png",
+            "chest_opened_img": "images/items/halfbananamedalbw.png"
+          },
+          {
+            "name": "Forest Lanky Half Medal",
+            "visibility_rules": [
+              "halfmedal"
+            ],
+            "access_rules": [
+              "$forestLankyHalfMedal"
+            ],
+            "chest_unopened_img": "images/items/halfbananamedal.png",
+            "chest_opened_img": "images/items/halfbananamedalbw.png"
+          },
+          {
+            "name": "Forest Tiny Half Medal",
+            "visibility_rules": [
+              "halfmedal"
+            ],
+            "access_rules": [
+              "$forestTinyHalfMedal"
+            ],
+            "chest_unopened_img": "images/items/halfbananamedal.png",
+            "chest_opened_img": "images/items/halfbananamedalbw.png"
+          },
+          {
+            "name": "Forest Chunky Half Medal",
+            "visibility_rules": [
+              "halfmedal"
+            ],
+            "access_rules": [
+              "$forestChunkyHalfMedal"
+            ],
+            "chest_unopened_img": "images/items/halfbananamedal.png",
+            "chest_opened_img": "images/items/halfbananamedalbw.png"
+          },
+          {
+            "name": "Forest Boss Defeated",
+            "access_rules": [
+              "$forestBossLogic"
+            ],
+            "chest_unopened_img": "images/items/scoff.png",
+            "chest_opened_img": "images/items/scoffbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest",
+            "x": 1023,
+            "y": 30,
+            "size": 25
+          }
         ]
-    }
+      },
+      {
+        "name": "Forest Chunky Minecart",
+        "access_rules": [
+          "slam, chunky"
+        ],
+        "sections": [
+          {
+            "name": "Forest Chunky Minecart"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest",
+            "x": 618,
+            "y": 340,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Forest Diddy Top of Mushroom Barrel",
+        "access_rules": [
+          "$canPlayForestDiddyTopofMushroom"
+        ],
+        "sections": [
+          {
+            "name": "Forest Diddy Top of Mushroom Barrel"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest",
+            "x": 851,
+            "y": 739,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Inside the Mushroom",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Forest Donkey Mushroom Cannons",
+            "access_rules": [
+              "$forestSlam, $coconut, $peanuts, $grape, $feather, $pineapple"
+            ]
+          },
+          {
+            "name": "Forest Tiny Mushroom Barrel",
+            "access_rules": [
+              "$canPlayForestTinyMushroomBarrel"
+            ]
+          },
+          {
+            "name": "Forest Kasplat: Inside Giant Mushroom",
+            "access_rules": [
+              "$canClimbMushroom"
+            ],
+            "visibility_rules": [
+              "dropsanity"
+            ],
+            "chest_unopened_img": "images/items/diddy_bp.png",
+            "chest_opened_img": "images/items/blueprintbw.png"
+          },
+          {
+            "name": "Forest Giant Mushroom Enemy: Above Night Door",
+            "visibility_rules": [
+              "dropsanity"
+            ],
+            "chest_unopened_img": "images/settings/dropsanity.png",
+            "chest_opened_img": "images/settings/dropsanitybw.png",
+            "access_rules": [
+              "$applyEnemyLogic|ForestGMEnemy_AboveNightDoor, $canClimbMushroom"
+            ]
+          },
+          {
+            "name": "Forest Giant Mushroom Enemy: Path (0)",
+            "visibility_rules": [
+              "dropsanity"
+            ],
+            "chest_unopened_img": "images/settings/dropsanity.png",
+            "chest_opened_img": "images/settings/dropsanitybw.png",
+            "access_rules": [
+              "$flyingEnemy, $canClimbMushroom"
+            ]
+          },
+          {
+            "name": "Forest Giant Mushroom Enemy: Path (1)",
+            "visibility_rules": [
+              "dropsanity"
+            ],
+            "chest_unopened_img": "images/settings/dropsanity.png",
+            "chest_opened_img": "images/settings/dropsanitybw.png",
+            "access_rules": [
+              "$flyingEnemy, $canClimbMushroom"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest",
+            "x": 824,
+            "y": 713,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Forest Kasplat: Lower Mushroom Exterior",
+        "access_rules": [
+          "$canClimbMushroom"
+        ],
+        "sections": [
+          {
+            "name": "Forest Kasplat: Low Mushroom Exterior",
+            "chest_unopened_img": "images/items/tiny_bp.png",
+            "chest_opened_img": "images/items/blueprintbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest",
+            "x": 790,
+            "y": 816,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Forest DK Baboon Blast",
+        "access_rules": [
+          "$canPlayForestDonkeyBaboonBlast"
+        ],
+        "sections": [
+          {
+            "name": "Forest Donkey Baboon Blast"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest",
+            "x": 970,
+            "y": 751,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Forest Kasplat: Mushroom Night Door",
+        "access_rules": [
+          "$canClimbMushroom"
+        ],
+        "sections": [
+          {
+            "name": "Forest Kasplat: Mushroom Night Door",
+            "chest_unopened_img": "images/items/chunky_bp.png",
+            "chest_opened_img": "images/items/blueprintbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest",
+            "x": 890,
+            "y": 828,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Forest Battle Arena: High Ladder Platform",
+        "access_rules": [
+          "$canClimbMushroom"
+        ],
+        "sections": [
+          {
+            "name": "Forest Battle Arena (Giant Mushroom High Ladder Platform)",
+            "chest_unopened_img": "images/items/crown.png",
+            "chest_opened_img": "images/items/crownbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest",
+            "x": 774,
+            "y": 675,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Face Puzzle Room",
+        "access_rules": [
+          "$canClimbMushroom, $forestSlam, chunky"
+        ],
+        "sections": [
+          {
+            "name": "Forest Chunky Face Puzzle",
+            "access_rules": [
+              "$pineapple"
+            ]
+          },
+          {
+            "name": "Forest Chunky Face Room Enemy: Enemy",
+            "visibility_rules": [
+              "dropsanity"
+            ],
+            "chest_unopened_img": "images/settings/dropsanity.png",
+            "chest_opened_img": "images/settings/dropsanitybw.png",
+            "access_rules": [
+              "$flyingEnemy"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest",
+            "x": 775,
+            "y": 765,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Zinger Room",
+        "access_rules": [
+          "$topOfMushroom, $forestSlam, lanky"
+        ],
+        "sections": [
+          {
+            "name": "Forest Lanky Zinger Bounce"
+          },
+          {
+            "name": "Forest Lanky Zingers Room Enemy: Enemy (0)",
+            "visibility_rules": [
+              "dropsanity"
+            ],
+            "chest_unopened_img": "images/settings/dropsanity.png",
+            "chest_opened_img": "images/settings/dropsanitybw.png",
+            "access_rules": [
+              "$flyingEnemy"
+            ]
+          },
+          {
+            "name": "Forest Lanky Zingers Room Enemy: Enemy (1)",
+            "visibility_rules": [
+              "dropsanity"
+            ],
+            "chest_unopened_img": "images/settings/dropsanity.png",
+            "chest_opened_img": "images/settings/dropsanitybw.png",
+            "access_rules": [
+              "$flyingEnemy"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest",
+            "x": 841,
+            "y": 819,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Forest Lanky Coloured Mushroom Slam",
+        "access_rules": [
+          "$canPlayForestLankyColoredMushrooms"
+        ],
+        "sections": [
+          {
+            "name": "Forest Lanky Colored Mushroom Slam"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest",
+            "x": 865,
+            "y": 655,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Forest Diddy Owl Race",
+        "access_rules": [
+          "$canPlayForestDiddyOwlRace"
+        ],
+        "sections": [
+          {
+            "name": "Forest Diddy Owl Race"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest",
+            "x": 785,
+            "y": 161,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Forest Lanky Rabbit Race",
+        "access_rules": [
+          "$yellowTunnel, $trombone, $sprint, $dayTime"
+        ],
+        "sections": [
+          {
+            "name": "Forest Lanky Rabbit Race"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest",
+            "x": 613,
+            "y": 221,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Forest Kasplat: Under Owl Tree",
+        "access_rules": [
+          "$yellowTunnel"
+        ],
+        "sections": [
+          {
+            "name": "Forest Kasplat: Under Owl Tree",
+            "chest_unopened_img": "images/items/lanky_bp.png",
+            "chest_opened_img": "images/items/blueprintbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest",
+            "x": 785,
+            "y": 218,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Forest Crate: Near Owl Tree",
+        "access_rules": [
+          "$yellowTunnel"
+        ],
+        "sections": [
+          {
+            "name": "Forest Crate: Near Owl Tree",
+            "chest_unopened_img": "images/items/crate.png",
+            "chest_opened_img": "images/items/cratebw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest",
+            "x": 940,
+            "y": 197,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Forest Anthill",
+        "access_rules": [
+          "$yellowTunnel, $mini, $sax"
+        ],
+        "sections": [
+          {
+            "name": "Forest Tiny Anthill Banana"
+          },
+          {
+            "name": "Forest Tiny Bean",
+            "chest_unopened_img": "images/items/bean.png",
+            "chest_opened_img": "images/items/beanbw.png"
+          },
+          {
+            "name": "Forest Anthill Enemy: Gauntlet (0)",
+            "visibility_rules": [
+              "dropsanity"
+            ],
+            "chest_unopened_img": "images/settings/dropsanity.png",
+            "chest_opened_img": "images/settings/dropsanitybw.png",
+            "access_rules": [
+              "oranges",
+              "$bongos",
+              "$guitar",
+              "$trombone",
+              "$sax",
+              "$triangle"
+            ]
+          },
+          {
+            "name": "Forest Anthill Enemy: Gauntlet (1)",
+            "visibility_rules": [
+              "dropsanity"
+            ],
+            "chest_unopened_img": "images/settings/dropsanity.png",
+            "chest_opened_img": "images/settings/dropsanitybw.png",
+            "access_rules": [
+              "oranges",
+              "$bongos",
+              "$guitar",
+              "$trombone",
+              "$sax",
+              "$triangle"
+            ]
+          },
+          {
+            "name": "Forest Anthill Enemy: Gauntlet (2)",
+            "visibility_rules": [
+              "dropsanity"
+            ],
+            "chest_unopened_img": "images/settings/dropsanity.png",
+            "chest_opened_img": "images/settings/dropsanitybw.png",
+            "access_rules": [
+              "oranges",
+              "$bongos",
+              "$guitar",
+              "$trombone",
+              "$sax",
+              "$triangle"
+            ]
+          },
+          {
+            "name": "Forest Anthill Enemy: Gauntlet (3)",
+            "visibility_rules": [
+              "dropsanity"
+            ],
+            "chest_unopened_img": "images/settings/dropsanity.png",
+            "chest_opened_img": "images/settings/dropsanitybw.png",
+            "access_rules": [
+              "oranges",
+              "$bongos",
+              "$guitar",
+              "$trombone",
+              "$sax",
+              "$triangle"
+            ]
+          },
+          {
+            "name": "Forest Second Anthill Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest",
+            "x": 782,
+            "y": 49,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Forest DK Mill Levers",
+        "access_rules": [
+          "^$forestDKLevers"
+        ],
+        "sections": [
+          {
+            "name": "Forest Donkey Mill Levers"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "frontmill",
+            "x": 594,
+            "y": 175,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Winch Room",
+        "access_rules": [
+          "$winch"
+        ],
+        "sections": [
+          {
+            "name": "Forest Diddy Winch Cage",
+            "access_rules": [
+              "$winchCage"
+            ]
+          },
+          {
+            "name": "Forest Winch Room Enemy: Enemy",
+            "visibility_rules": [
+              "dropsanity"
+            ],
+            "access_rules": [
+              "$flyingEnemy"
+            ],
+            "chest_unopened_img": "images/settings/dropsanity.png",
+            "chest_opened_img": "images/settings/dropsanitybw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest",
+            "x": 188,
+            "y": 261,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Forest Dirt: Near Mills Grass",
+        "access_rules": [
+          "shockwave"
+        ],
+        "sections": [
+          {
+            "name": "Forest Dirt: Mills Grass",
+            "chest_unopened_img": "images/items/rainbowcoin.png",
+            "chest_opened_img": "images/items/rainbowcoinbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest",
+            "x": 151,
+            "y": 155,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Forest Crate: Behind Dark Attic",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Forest Crate: Behind Dark Attic",
+            "chest_unopened_img": "images/items/crate.png",
+            "chest_opened_img": "images/items/cratebw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest",
+            "x": 433,
+            "y": 104,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Forest Tiny Spider Boss",
+        "access_rules": [
+          "$canBeatSpider"
+        ],
+        "sections": [
+          {
+            "name": "Forest Tiny Spider Boss"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rearmill",
+            "x": 114,
+            "y": 141,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Forest Chunky Keg Crushing",
+        "access_rules": [
+          "$dayTime, barrel, $punch, $triangle, $grab, $forestSlam"
+        ],
+        "sections": [
+          {
+            "name": "Forest Chunky Keg Crushing"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "frontmill",
+            "x": 443,
+            "y": 689,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Dark Rafters",
+        "access_rules": [
+          "$nightTime, $spring, $guitar",
+          "$nightTime, $moontail, $guitar"
+        ],
+        "sections": [
+          {
+            "name": "Forest Diddy Dark Rafters"
+          },
+          {
+            "name": "Forest Fairy (Dark Rafters)",
+            "access_rules": [
+              "camera"
+            ],
+            "chest_unopened_img": "images/items/fairy.png",
+            "chest_opened_img": "images/items/fairybw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest",
+            "x": 381,
+            "y": 88,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Forest Lanky Attic Shooting",
+        "access_rules": [
+          "^$lankyAttic"
+        ],
+        "sections": [
+          {
+            "name": "Forest Lanky Attic Shooting"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest",
+            "x": 243,
+            "y": 246,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Forest Kasplat: Behind DK's Barn",
+        "access_rules": [
+          "$nightTime"
+        ],
+        "sections": [
+          {
+            "name": "Forest Kasplat: Behind DK's Barn",
+            "chest_unopened_img": "images/items/dk_bp.png",
+            "chest_opened_img": "images/items/blueprintbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest",
+            "x": 336,
+            "y": 643,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Forest Crate: Near Thornvine Barn",
+        "access_rules": [
+          "$nightTime"
+        ],
+        "sections": [
+          {
+            "name": "Forest Crate: Near Thornvine Barn",
+            "chest_unopened_img": "images/items/crate.png",
+            "chest_opened_img": "images/items/cratebw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest",
+            "x": 184,
+            "y": 486,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Forest Donkey Thornvine Barn Barrel",
+        "access_rules": [
+          "^$canPlayForestDonkeyBarn"
+        ],
+        "sections": [
+          {
+            "name": "Forest Donkey Thornvine Barn Barrel"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "barn",
+            "x": 370,
+            "y": 88,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Forest Crate: In Thornvine Barn",
+        "access_rules": [
+          "$nightTime, $strong, $forestSlam"
+        ],
+        "sections": [
+          {
+            "name": "Forest Crate: In Thornvine Barn",
+            "chest_unopened_img": "images/items/crate.png",
+            "chest_opened_img": "images/items/cratebw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "barn",
+            "x": 118,
+            "y": 158,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Forest Fairy (Thornvine Barn)",
+        "access_rules": [
+          "$nightTime, $strong, $forestSlam, climb, camera"
+        ],
+        "sections": [
+          {
+            "name": "Forest Fairy (Thornvine Barn)",
+            "chest_unopened_img": "images/items/fairy.png",
+            "chest_opened_img": "images/items/fairybw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "barn",
+            "x": 169,
+            "y": 79,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Forest Tiny Top of Beanstalk",
+        "access_rules": [
+          "bean, $mini, $sax, $greenTunnel"
+        ],
+        "sections": [
+          {
+            "name": "Forest Tiny Top of the Beanstalk"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest",
+            "x": 638,
+            "y": 815,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Forest Dirt: Beanstalk",
+        "access_rules": [
+          "$greenTunnel, shockwave"
+        ],
+        "sections": [
+          {
+            "name": "Forest Dirt: Beanstalk",
+            "chest_unopened_img": "images/items/rainbowcoin.png",
+            "chest_opened_img": "images/items/rainbowcoinbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest",
+            "x": 610,
+            "y": 807,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Forest Chunky Apple Rescue",
+        "access_rules": [
+          "$greenTunnel, $hunky, barrel"
+        ],
+        "sections": [
+          {
+            "name": "Forest Chunky Apple Rescue"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest",
+            "x": 449,
+            "y": 548,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Forest Keg: Mill Front Near",
+        "access_rules": [
+          "$dayTime, chunky, barrel"
+        ],
+        "visibility_rules": [
+          "bouldersanity"
+        ],
+        "sections": [
+          {
+            "name": "Forest Keg: Mill Front Near",
+            "chest_unopened_img": "images/items/boulder.png",
+            "chest_opened_img": "images/items/boulderbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "frontmill",
+            "x": 668,
+            "y": 625,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Forest Keg: Mill Front Far",
+        "access_rules": [
+          "$dayTime, chunky, barrel"
+        ],
+        "visibility_rules": [
+          "bouldersanity"
+        ],
+        "sections": [
+          {
+            "name": "Forest Keg: Mill Front Far",
+            "chest_unopened_img": "images/items/boulder.png",
+            "chest_opened_img": "images/items/boulderbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "frontmill",
+            "x": 176,
+            "y": 515,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Forest Keg: Mill Back",
+        "access_rules": [
+          "$dayTime, barrel, $punch",
+          "$dayTime, chunky, barrel, $mini"
+        ],
+        "visibility_rules": [
+          "bouldersanity"
+        ],
+        "sections": [
+          {
+            "name": "Forest Keg: Mill Back",
+            "chest_unopened_img": "images/items/boulder.png",
+            "chest_opened_img": "images/items/boulderbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rearmill",
+            "x": 285,
+            "y": 470,
+            "size": 16
+          }
+        ]
+      }
+    ]
+  }
 ]

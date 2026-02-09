@@ -1,628 +1,755 @@
 [
-    {
-        "name": "Gloomy Galleon",
-        "access_rules": ["^$canEnterGalleon"],
-        "chest_unopened_img": "images/items/GB.png",
-        "chest_opened_img": "images/items/GBbw.png",
-        "children": [
-            {
-                "name": "Medals",
-                "access_rules": [],
-                "sections": [
-                    {
-                        "name": "Galleon DK Medal",
-                        "access_rules": ["$galleonDKMedal"],
-                        "chest_unopened_img": "images/items/bananamedal.png",
-                        "chest_opened_img": "images/items/bananamedalbw.png"
-                    },
-                    {
-                        "name": "Galleon Diddy Medal",
-                        "access_rules": ["$galleonDiddyMedal"],
-                        "chest_unopened_img": "images/items/bananamedal.png",
-                        "chest_opened_img": "images/items/bananamedalbw.png"
-                    },
-                    {
-                        "name": "Galleon Lanky Medal",
-                        "access_rules": ["$galleonLankyMedal"],
-                        "chest_unopened_img": "images/items/bananamedal.png",
-                        "chest_opened_img": "images/items/bananamedalbw.png"
-                    },
-                    {
-                        "name": "Galleon Tiny Medal",
-                        "access_rules": ["$galleonTinyMedal"],
-                        "chest_unopened_img": "images/items/bananamedal.png",
-                        "chest_opened_img": "images/items/bananamedalbw.png"
-                    },
-                    {
-                        "name": "Galleon Chunky Medal",
-                        "access_rules": ["$galleonChunkyMedal"],
-                        "chest_unopened_img": "images/items/bananamedal.png",
-                        "chest_opened_img": "images/items/bananamedalbw.png"
-                    },
-                    {
-                        "name": "Galleon DK Half-Medal",
-                        "visibility_rules": ["halfmedal"],
-                        "access_rules": ["$galleonDKHalfMedal"],
-                        "chest_unopened_img": "images/items/halfbananamedal.png",
-                        "chest_opened_img": "images/items/halfbananamedalbw.png"
-                    },
-                    {
-                        "name": "Galleon Diddy Half-Medal",
-                        "visibility_rules": ["halfmedal"],
-                        "access_rules": ["$galleonDiddyHalfMedal"],
-                        "chest_unopened_img": "images/items/halfbananamedal.png",
-                        "chest_opened_img": "images/items/halfbananamedalbw.png"
-                    },
-                    {
-                        "name": "Galleon Lanky Half-Medal",
-                        "visibility_rules": ["halfmedal"],
-                        "access_rules": ["$galleonLankyHalfMedal"],
-                        "chest_unopened_img": "images/items/halfbananamedal.png",
-                        "chest_opened_img": "images/items/halfbananamedalbw.png"
-                    },
-                    {
-                        "name": "Galleon Tiny Half-Medal",
-                        "visibility_rules": ["halfmedal"],
-                        "access_rules": ["$galleonTinyHalfMedal"],
-                        "chest_unopened_img": "images/items/halfbananamedal.png",
-                        "chest_opened_img": "images/items/halfbananamedalbw.png"
-                    },
-                    {
-                        "name": "Galleon Chunky Half-Medal",
-                        "visibility_rules": ["halfmedal"],
-                        "access_rules": ["$galleonChunkyHalfMedal"],
-                        "chest_unopened_img": "images/items/halfbananamedal.png",
-                        "chest_opened_img": "images/items/halfbananamedalbw.png"
-                    },
-                    {
-                        "name": "Boss",
-                        "access_rules": ["$galleonBossLogic, vine", "$galleonBossLogic, dive, $shipyard", "$galleonBossLogic, dive, $lighthouse"],
-                        "chest_unopened_img": "images/items/scoff.png",
-                        "chest_opened_img": "images/items/scoffbw.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "galleon",
-                        "x": 915,
-                        "y": 35,
-                        "size": 25
-                    }
-                ]
-            },
-            {            
-                "name": "Galleon Chunky Chest",
-                "access_rules": ["$punch"],
-                "sections": [
-                    {
-                        "name": "Golden Banana"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "galleon",
-                        "x": 679,
-                        "y": 197,
-                        "size": 10
-                    }
-                ]
-            },
-            {            
-                "name": "Galleon Battle Arena (Under Cranky)",
-                "access_rules": ["$punch"],
-                "sections": [
-                    {
-                        "name": "Crown",
-                        "chest_unopened_img": "images/items/crown.png",
-                        "chest_opened_img": "images/items/crownbw.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "galleon",
-                        "x": 435,
-                        "y": 242,
-                        "size": 10
-                    }
-                ]
-            },
-            {            
-                "name": "Galleon Fairy (In Punch Chest)",
-                "access_rules": ["$punch, camera"],
-                "sections": [
-                    {
-                        "name": "Fairy",
-                        "chest_unopened_img": "images/items/fairy.png",
-                        "chest_opened_img": "images/items/fairybw.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "galleon",
-                        "x": 640,
-                        "y": 197,
-                        "size": 10
-                    }
-                ]
-            },
-            {            
-                "name": "Galleon Kasplat: Past Vines",
-                "access_rules": ["vine", "$moonkicks"],
-                "sections": [
-                    {
-                        "name": "Kasplat",
-                        "chest_unopened_img": "images/items/tiny_bp.png",
-                        "chest_opened_img": "images/items/blueprintbw.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "galleon",
-                        "x": 514,
-                        "y": 335,
-                        "size": 10
-                    }
-                ]
-            },
-            {            
-                "name": "Galleon Chunky Cannon Game",
-                "access_rules": ["$canActivateGalleonCannonGame, barrel, $raisedWater, chunky", "$phaseswim, barrel, $raisedWater, chunky"],
-                "sections": [
-                    {
-                        "name": "Golden Banana"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "galleon",
-                        "x": 447,
-                        "y": 590,
-                        "size": 10
-                    }
-                ]
-            },
-            {            
-                "name": "Galleon Kasplat: Cannon Game Room",
-                "access_rules": ["$canActivateGalleonCannonGame, $raisedWater", "$phaseswim, $raisedWater"],
-                "sections": [
-                    {
-                        "name": "Kasplat",
-                        "chest_unopened_img": "images/items/lanky_bp.png",
-                        "chest_opened_img": "images/items/blueprintbw.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "galleon",
-                        "x": 487,
-                        "y": 590,
-                        "size": 10
-                    }
-                ]
-            },
-            {            
-                "name": "Galleon Kasplat: Lighthouse Alcove",
-                "access_rules": ["$lighthouse"],
-                "sections": [
-                    {
-                        "name": "Kasplat",
-                        "chest_unopened_img": "images/items/diddy_bp.png",
-                        "chest_opened_img": "images/items/blueprintbw.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "galleon",
-                        "x": 699,
-                        "y": 697,
-                        "size": 10
-                    }
-                ]
-            },
-            {            
-                "name": "Galleon Diddy Top of Lighthouse",
-                "access_rules": ["$lighthouse, ^$lighthousePlatform, $rocket, $galleonSlam, $seasick"],
-                "sections": [
-                    {
-                        "name": "Golden Banana"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "galleon",
-                        "x": 702,
-                        "y": 554,
-                        "size": 10
-                    }
-                ]
-            },
-            {            
-                "name": "Galleon Lanky Enguarde Chest",
-                "access_rules": ["$lighthouse, dive, lanky"],
-                "sections": [
-                    {
-                        "name": "Golden Banana"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "galleon",
-                        "x": 783,
-                        "y": 586,
-                        "size": 10
-                    }
-                ]
-            },            {            
-                "name": "Lighthouse",
-                "access_rules": ["^$lighthousePlatform, $lighthouse, $galleonSlam, climb, donkey"],
-                "sections": [
-                    {
-                        "name": "Galleon DK Lighthouse",
-                        "access_rules":["$galleonDKLighthouse"]
-                    },
-                    {
-                        "name": "Galleon Dirt: Lighthouse",
-                        "access_rules": ["shockwave"],
-                        "chest_unopened_img": "images/items/rainbowcoin.png",
-                        "chest_opened_img": "images/items/rainbowcoinbw.png"
-                    },
-                    {
-                        "name": "Galleon Lighthouse Enemy: Enemy (0)",
-                        "visibility_rules":["dropsanity"],
-                        "access_rules":["$applyEnemyLogic|GalleonLighthouseEnemy_Enemy0"],
-                        "chest_unopened_img": "images/settings/dropsanity.png",
-                        "chest_opened_img": "images/settings/dropsanitybw.png"
-                    },
-                                        {
-                        "name": "Galleon Lighthouse Enemy: Enemy (1)",
-                        "visibility_rules":["dropsanity"],
-                        "access_rules":["$applyEnemyLogic|GalleonLighthouseEnemy_Enemy1"],
-                        "chest_unopened_img": "images/settings/dropsanity.png",
-                        "chest_opened_img": "images/settings/dropsanitybw.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "galleon",
-                        "x": 680,
-                        "y": 556,
-                        "size": 10
-                    }
-                ]
-            },
-            {            
-                "name": "Galleon Tiny Mermaid Reward",
-                "access_rules": ["$mermaid, $lighthouse, dive, $mini", "$mermaid, $lighthouse, dive, $phaseswim"],
-                "sections": [
-                    {
-                        "name": "Golden Banana"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "galleon",
-                        "x": 771,
-                        "y": 671,
-                        "size": 10
-                    }
-                ]
-            },
-            {            
-                "name": "Galleon Chunky Seasick",
-                "access_rules": ["^$lighthousePlatform, $lighthouse, $seasick, slam, $punch"],
-                "sections": [
-                    {
-                        "name": "Golden Banana"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "galleon",
-                        "x": 614,
-                        "y": 465,
-                        "size": 10
-                    }
-                ]
-            },
-            {            
-                "name": "Galleon Seal",
-                "access_rules": [],
-                "sections": [
-                    {
-                        "name": "Free the Seal",
-                        "access_rules": ["$lighthouse, $shipyard, ^$lighthousePlatform, $blast"]
-                    },
-                    {
-                        "name": "Seal Race",
-                        "access_rules": ["$lighthouse, $shipyard, ^$lighthousePlatform, $blast", "$shipyard, $phaseswim"]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "galleon",
-                        "x": 21,
-                        "y": 235,
-                        "size": 10
-                    }
-                ]
-            },
-            {            
-                "name": "Galleon Kasplat: Musical Cactus",
-                "access_rules": ["$shipyard"],
-                "sections": [
-                    {
-                        "name": "Kasplat",
-                        "chest_unopened_img": "images/items/chunky_bp.png",
-                        "chest_opened_img": "images/items/blueprintbw.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "galleon",
-                        "x": 182,
-                        "y": 65,
-                        "size": 10
-                    }
-                ]
-            },
-            {            
-                "name": "Galleon Crate: Near Cactus",
-                "access_rules": ["$shipyard"],
-                "sections": [
-                    {
-                        "name": "Crate",
-                        "chest_unopened_img": "images/items/crate.png",
-                        "chest_opened_img": "images/items/cratebw.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "galleon",
-                        "x": 229,
-                        "y": 179,
-                        "size": 10
-                    }
-                ]
-            },
-            {            
-                "name": "Galleon Lanky Gold Tower Barrel",
-                "access_rules": ["^$canPlayGalleonLankyGoldTower"],
-                "sections": [
-                    {
-                        "name": "Golden Banana"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "galleon",
-                        "x": 99,
-                        "y": 536,
-                        "size": 10
-                    }
-                ]
-            },
-            {            
-                "name": "Galleon Diddy Gold Tower Barrel",
-                "access_rules": ["^$canPlayGalleonDiddyGoldTower"],
-                "sections": [
-                    {
-                        "name": "Golden Banana"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "galleon",
-                        "x": 144,
-                        "y": 453,
-                        "size": 10
-                    }
-                ]
-            },
-            {            
-                "name": "Galleon Kasplat: Diddy Gold Tower",
-                "access_rules": ["^$diddyGold"],
-                "sections": [
-                    {
-                        "name": "Kasplat",
-                        "chest_unopened_img": "images/items/dk_bp.png",
-                        "chest_opened_img": "images/items/blueprintbw.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "galleon",
-                        "x": 138,
-                        "y": 466,
-                        "size": 10
-                    }
-                ]
-            },
-            {            
-                "name": "Treasure Chest",
-                "access_rules": ["^$treasure, dive, $mini", "$shipyard, $phaseswim"],
-                "sections": [
-                    {
-                        "name": "Treasure Chest Far Left Clam",
-                        "chest_unopened_img": "images/items/pearl.png",
-                        "chest_opened_img": "images/items/pearlbw.png"
-                    },
-                    {
-                        "name": "Treasure Chest Center Clam",
-                        "chest_unopened_img": "images/items/pearl.png",
-                        "chest_opened_img": "images/items/pearlbw.png"
-                    },
-                    {
-                        "name": "Treasure Chest Far Right Clam",
-                        "chest_unopened_img": "images/items/pearl.png",
-                        "chest_opened_img": "images/items/pearlbw.png"
-                    },
-                    {
-                        "name": "Treasure Chest Close Right Clam",
-                        "chest_unopened_img": "images/items/pearl.png",
-                        "chest_opened_img": "images/items/pearlbw.png"
-                    },
-                    {
-                        "name": "Treasure Chest Close Left Clam",
-                        "chest_unopened_img": "images/items/pearl.png",
-                        "chest_opened_img": "images/items/pearlbw.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "galleon",
-                        "x": 95,
-                        "y": 481,
-                        "size": 10
-                    }
-                ]
-            },
-            {            
-                "name": "Galleon Tiny Submarine Barrel",
-                "access_rules": ["$canPlayGalleonTinySubmarine"],
-                "sections": [
-                    {
-                        "name": "Golden Banana"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "galleon",
-                        "x": 235,
-                        "y": 142,
-                        "size": 10
-                    }
-                ]
-            },
-            {            
-                "name": "Galleon Diddy Mechfish",
-                "access_rules": ["^$lighthousePlatform, $lighthouse, $shipyard, $rocket, $guitar, dive, $anyGun"],
-                "sections": [
-                    {
-                        "name": "Golden Banana"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "galleon",
-                        "x": 94,
-                        "y": 291,
-                        "size": 10
-                    }
-                ]
-            },
-            {            
-                "name": "2-Door Ship",
-                "access_rules": ["$shipyard, $galleonSlam", "$shipyard, $phaseswim"],
-                "sections": [
-                    {
-                        "name": "Lanky 2DS",
-                        "access_rules": ["lanky, dive", "$phaseswim"]
-                    },
-                    {
-                        "name": "Tiny 2DS",
-                        "access_rules": ["$canPlayGalleonTiny2DoorShip"]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "galleon",
-                        "x": 347,
-                        "y": 619,
-                        "size": 10
-                    }
-                ]
-            },
-            {            
-                "name": "Galleon DK 5-Door Ship",
-                "access_rules": ["$canPlayGalleonDonkey5DoorShip"],
-                "sections": [
-                    {
-                        "name": "Golden Banana"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "galleon",
-                        "x": 319,
-                        "y": 426,
-                        "size": 10
-                    }
-                ]
-            },
-            {            
-                "name": "Galleon Diddy 5-Door Ship",
-                "access_rules": ["$canPlayGalleonDiddy5DoorShip"],
-                "sections": [
-                    {
-                        "name": "Golden Banana"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "galleon",
-                        "x": 319,
-                        "y": 384,
-                        "size": 10
-                    }
-                ]
-            },
-            {            
-                "name": "Galleon Lanky 5-Door Ship",
-                "access_rules": ["$shipyard, $loweredWater, $trombone, dive", "$shipyard, $phaseswim"],
-                "sections": [
-                    {
-                        "name": "Golden Banana"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "galleon",
-                        "x": 382,
-                        "y": 384,
-                        "size": 10
-                    }
-                ]
-            },
-            {            
-                "name": "Galleon Tiny 5-Door Ship",
-                "access_rules": ["$shipyard, $sax, dive", "$shipyard, $phaseswim"],
-                "sections": [
-                    {
-                        "name": "Golden Banana"
-                    },
-                    {
-                        "name": "Fairy",
-                        "access_rules": ["camera"],
-                        "chest_unopened_img": "images/items/fairy.png",
-                        "chest_opened_img": "images/items/fairybw.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "galleon",
-                        "x": 382,
-                        "y": 426,
-                        "size": 10
-                    }
-                ]
-            },
-            {            
-                "name": "Galleon Chunky 5-Door Ship",
-                "access_rules": ["$canPlayGalleonChunky5DoorShip"],
-                "sections": [
-                    {
-                        "name": "Golden Banana"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "galleon",
-                        "x": 353,
-                        "y": 422,
-                        "size": 10
-                    }
-                ]
-            }
+  {
+    "name": "Gloomy Galleon",
+    "access_rules": [
+      "^$canEnterGalleon"
+    ],
+    "chest_unopened_img": "images/items/GB.png",
+    "chest_opened_img": "images/items/GBbw.png",
+    "children": [
+      {
+        "name": "Medals",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Galleon Donkey Medal",
+            "access_rules": [
+              "$galleonDKMedal"
+            ],
+            "chest_unopened_img": "images/items/bananamedal.png",
+            "chest_opened_img": "images/items/bananamedalbw.png"
+          },
+          {
+            "name": "Galleon Diddy Medal",
+            "access_rules": [
+              "$galleonDiddyMedal"
+            ],
+            "chest_unopened_img": "images/items/bananamedal.png",
+            "chest_opened_img": "images/items/bananamedalbw.png"
+          },
+          {
+            "name": "Galleon Lanky Medal",
+            "access_rules": [
+              "$galleonLankyMedal"
+            ],
+            "chest_unopened_img": "images/items/bananamedal.png",
+            "chest_opened_img": "images/items/bananamedalbw.png"
+          },
+          {
+            "name": "Galleon Tiny Medal",
+            "access_rules": [
+              "$galleonTinyMedal"
+            ],
+            "chest_unopened_img": "images/items/bananamedal.png",
+            "chest_opened_img": "images/items/bananamedalbw.png"
+          },
+          {
+            "name": "Galleon Chunky Medal",
+            "access_rules": [
+              "$galleonChunkyMedal"
+            ],
+            "chest_unopened_img": "images/items/bananamedal.png",
+            "chest_opened_img": "images/items/bananamedalbw.png"
+          },
+          {
+            "name": "Galleon Donkey Half Medal",
+            "visibility_rules": [
+              "halfmedal"
+            ],
+            "access_rules": [
+              "$galleonDKHalfMedal"
+            ],
+            "chest_unopened_img": "images/items/halfbananamedal.png",
+            "chest_opened_img": "images/items/halfbananamedalbw.png"
+          },
+          {
+            "name": "Galleon Diddy Half Medal",
+            "visibility_rules": [
+              "halfmedal"
+            ],
+            "access_rules": [
+              "$galleonDiddyHalfMedal"
+            ],
+            "chest_unopened_img": "images/items/halfbananamedal.png",
+            "chest_opened_img": "images/items/halfbananamedalbw.png"
+          },
+          {
+            "name": "Galleon Lanky Half Medal",
+            "visibility_rules": [
+              "halfmedal"
+            ],
+            "access_rules": [
+              "$galleonLankyHalfMedal"
+            ],
+            "chest_unopened_img": "images/items/halfbananamedal.png",
+            "chest_opened_img": "images/items/halfbananamedalbw.png"
+          },
+          {
+            "name": "Galleon Tiny Half Medal",
+            "visibility_rules": [
+              "halfmedal"
+            ],
+            "access_rules": [
+              "$galleonTinyHalfMedal"
+            ],
+            "chest_unopened_img": "images/items/halfbananamedal.png",
+            "chest_opened_img": "images/items/halfbananamedalbw.png"
+          },
+          {
+            "name": "Galleon Chunky Half Medal",
+            "visibility_rules": [
+              "halfmedal"
+            ],
+            "access_rules": [
+              "$galleonChunkyHalfMedal"
+            ],
+            "chest_unopened_img": "images/items/halfbananamedal.png",
+            "chest_opened_img": "images/items/halfbananamedalbw.png"
+          },
+          {
+            "name": "Galleon Boss Defeated",
+            "access_rules": [
+              "$galleonBossLogic, vine",
+              "$galleonBossLogic, dive, $shipyard",
+              "$galleonBossLogic, dive, $lighthouse"
+            ],
+            "chest_unopened_img": "images/items/scoff.png",
+            "chest_opened_img": "images/items/scoffbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "galleon",
+            "x": 915,
+            "y": 35,
+            "size": 25
+          }
         ]
-    }
+      },
+      {
+        "name": "Galleon Chunky Chest",
+        "access_rules": [
+          "$punch"
+        ],
+        "sections": [
+          {
+            "name": "Galleon Chunky Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "galleon",
+            "x": 679,
+            "y": 197,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Galleon Battle Arena (Under Cranky)",
+        "access_rules": [
+          "$punch"
+        ],
+        "sections": [
+          {
+            "name": "Galleon Battle Arena (Under Cranky)",
+            "chest_unopened_img": "images/items/crown.png",
+            "chest_opened_img": "images/items/crownbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "galleon",
+            "x": 435,
+            "y": 242,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Galleon Fairy (In Punch Chest)",
+        "access_rules": [
+          "$punch, camera"
+        ],
+        "sections": [
+          {
+            "name": "Galleon Fairy (In Punch Chest)",
+            "chest_unopened_img": "images/items/fairy.png",
+            "chest_opened_img": "images/items/fairybw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "galleon",
+            "x": 640,
+            "y": 197,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Galleon Kasplat: Past Vines",
+        "access_rules": [
+          "vine",
+          "$moonkicks"
+        ],
+        "sections": [
+          {
+            "name": "Galleon Kasplat: Past Vines",
+            "chest_unopened_img": "images/items/tiny_bp.png",
+            "chest_opened_img": "images/items/blueprintbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "galleon",
+            "x": 514,
+            "y": 335,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Galleon Chunky Cannon Game",
+        "access_rules": [
+          "$canActivateGalleonCannonGame, barrel, $raisedWater, chunky",
+          "$phaseswim, barrel, $raisedWater, chunky"
+        ],
+        "sections": [
+          {
+            "name": "Galleon Chunky Cannon Game"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "galleon",
+            "x": 447,
+            "y": 590,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Galleon Kasplat: Cannon Game Room",
+        "access_rules": [
+          "$canActivateGalleonCannonGame, $raisedWater",
+          "$phaseswim, $raisedWater"
+        ],
+        "sections": [
+          {
+            "name": "Galleon Kasplat: Cannon Game Room",
+            "chest_unopened_img": "images/items/lanky_bp.png",
+            "chest_opened_img": "images/items/blueprintbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "galleon",
+            "x": 487,
+            "y": 590,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Galleon Kasplat: Lighthouse Alcove",
+        "access_rules": [
+          "$lighthouse"
+        ],
+        "sections": [
+          {
+            "name": "Galleon Kasplat: Lighthouse Alcove",
+            "chest_unopened_img": "images/items/diddy_bp.png",
+            "chest_opened_img": "images/items/blueprintbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "galleon",
+            "x": 699,
+            "y": 697,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Galleon Diddy Top of Lighthouse",
+        "access_rules": [
+          "$lighthouse, ^$lighthousePlatform, $rocket, $galleonSlam, $seasick"
+        ],
+        "sections": [
+          {
+            "name": "Galleon Diddy Top of Lighthouse"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "galleon",
+            "x": 702,
+            "y": 554,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Galleon Lanky Enguarde Chest",
+        "access_rules": [
+          "$lighthouse, dive, lanky"
+        ],
+        "sections": [
+          {
+            "name": "Galleon Lanky Enguarde Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "galleon",
+            "x": 783,
+            "y": 586,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Lighthouse",
+        "access_rules": [
+          "^$lighthousePlatform, $lighthouse, $galleonSlam, climb, donkey"
+        ],
+        "sections": [
+          {
+            "name": "Galleon Donkey Lighthouse",
+            "access_rules": [
+              "$galleonDKLighthouse"
+            ]
+          },
+          {
+            "name": "Galleon Dirt: Lighthouse",
+            "access_rules": [
+              "shockwave"
+            ],
+            "chest_unopened_img": "images/items/rainbowcoin.png",
+            "chest_opened_img": "images/items/rainbowcoinbw.png"
+          },
+          {
+            "name": "Galleon Lighthouse Enemy: Enemy (0)",
+            "visibility_rules": [
+              "dropsanity"
+            ],
+            "access_rules": [
+              "$applyEnemyLogic|GalleonLighthouseEnemy_Enemy0"
+            ],
+            "chest_unopened_img": "images/settings/dropsanity.png",
+            "chest_opened_img": "images/settings/dropsanitybw.png"
+          },
+          {
+            "name": "Galleon Lighthouse Enemy: Enemy (1)",
+            "visibility_rules": [
+              "dropsanity"
+            ],
+            "access_rules": [
+              "$applyEnemyLogic|GalleonLighthouseEnemy_Enemy1"
+            ],
+            "chest_unopened_img": "images/settings/dropsanity.png",
+            "chest_opened_img": "images/settings/dropsanitybw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "galleon",
+            "x": 680,
+            "y": 556,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Galleon Tiny Mermaid Reward",
+        "access_rules": [
+          "$mermaid, $lighthouse, dive, $mini",
+          "$mermaid, $lighthouse, dive, $phaseswim"
+        ],
+        "sections": [
+          {
+            "name": "Galleon Tiny Mermaid Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "galleon",
+            "x": 771,
+            "y": 671,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Galleon Chunky Seasick",
+        "access_rules": [
+          "^$lighthousePlatform, $lighthouse, $seasick, slam, $punch"
+        ],
+        "sections": [
+          {
+            "name": "Galleon Chunky Seasick"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "galleon",
+            "x": 614,
+            "y": 465,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Galleon Seal",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Free the Seal",
+            "access_rules": [
+              "$lighthouse, $shipyard, ^$lighthousePlatform, $blast"
+            ]
+          },
+          {
+            "name": "Seal Race",
+            "access_rules": [
+              "$lighthouse, $shipyard, ^$lighthousePlatform, $blast",
+              "$shipyard, $phaseswim"
+            ]
+          },
+          {
+            "name": "Galleon Donkey Free the Seal"
+          },
+          {
+            "name": "Galleon Donkey Seal Race"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "galleon",
+            "x": 21,
+            "y": 235,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Galleon Kasplat: Musical Cactus",
+        "access_rules": [
+          "$shipyard"
+        ],
+        "sections": [
+          {
+            "name": "Galleon Kasplat: Musical Cactus",
+            "chest_unopened_img": "images/items/chunky_bp.png",
+            "chest_opened_img": "images/items/blueprintbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "galleon",
+            "x": 182,
+            "y": 65,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Galleon Crate: Near Cactus",
+        "access_rules": [
+          "$shipyard"
+        ],
+        "sections": [
+          {
+            "name": "Galleon Crate: Near Cactus",
+            "chest_unopened_img": "images/items/crate.png",
+            "chest_opened_img": "images/items/cratebw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "galleon",
+            "x": 229,
+            "y": 179,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Galleon Lanky Gold Tower Barrel",
+        "access_rules": [
+          "^$canPlayGalleonLankyGoldTower"
+        ],
+        "sections": [
+          {
+            "name": "Galleon Lanky Gold Tower Barrel"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "galleon",
+            "x": 99,
+            "y": 536,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Galleon Diddy Gold Tower Barrel",
+        "access_rules": [
+          "^$canPlayGalleonDiddyGoldTower"
+        ],
+        "sections": [
+          {
+            "name": "Galleon Diddy Gold Tower Barrel"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "galleon",
+            "x": 144,
+            "y": 453,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Galleon Kasplat: Diddy Gold Tower",
+        "access_rules": [
+          "^$diddyGold"
+        ],
+        "sections": [
+          {
+            "name": "Galleon Kasplat: Diddy Gold Tower",
+            "chest_unopened_img": "images/items/dk_bp.png",
+            "chest_opened_img": "images/items/blueprintbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "galleon",
+            "x": 138,
+            "y": 466,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Treasure Chest",
+        "access_rules": [
+          "^$treasure, dive, $mini",
+          "$shipyard, $phaseswim"
+        ],
+        "sections": [
+          {
+            "name": "Treasure Chest Far Left Clam",
+            "chest_unopened_img": "images/items/pearl.png",
+            "chest_opened_img": "images/items/pearlbw.png"
+          },
+          {
+            "name": "Treasure Chest Center Clam",
+            "chest_unopened_img": "images/items/pearl.png",
+            "chest_opened_img": "images/items/pearlbw.png"
+          },
+          {
+            "name": "Treasure Chest Far Right Clam",
+            "chest_unopened_img": "images/items/pearl.png",
+            "chest_opened_img": "images/items/pearlbw.png"
+          },
+          {
+            "name": "Treasure Chest Close Right Clam",
+            "chest_unopened_img": "images/items/pearl.png",
+            "chest_opened_img": "images/items/pearlbw.png"
+          },
+          {
+            "name": "Treasure Chest Close Left Clam",
+            "chest_unopened_img": "images/items/pearl.png",
+            "chest_opened_img": "images/items/pearlbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "galleon",
+            "x": 95,
+            "y": 481,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Galleon Tiny Submarine Barrel",
+        "access_rules": [
+          "$canPlayGalleonTinySubmarine"
+        ],
+        "sections": [
+          {
+            "name": "Galleon Tiny Submarine Barrel"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "galleon",
+            "x": 235,
+            "y": 142,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Galleon Diddy Mechfish",
+        "access_rules": [
+          "^$lighthousePlatform, $lighthouse, $shipyard, $rocket, $guitar, dive, $anyGun"
+        ],
+        "sections": [
+          {
+            "name": "Galleon Diddy Mechfish"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "galleon",
+            "x": 94,
+            "y": 291,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "2-Door Ship",
+        "access_rules": [
+          "$shipyard, $galleonSlam",
+          "$shipyard, $phaseswim"
+        ],
+        "sections": [
+          {
+            "name": "Galleon Lanky 2 Door Ship",
+            "access_rules": [
+              "lanky, dive",
+              "$phaseswim"
+            ]
+          },
+          {
+            "name": "Galleon Tiny 2 Door Ship",
+            "access_rules": [
+              "$canPlayGalleonTiny2DoorShip"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "galleon",
+            "x": 347,
+            "y": 619,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Galleon DK 5-Door Ship",
+        "access_rules": [
+          "$canPlayGalleonDonkey5DoorShip"
+        ],
+        "sections": [
+          {
+            "name": "Galleon Donkey 5 Door Ship"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "galleon",
+            "x": 319,
+            "y": 426,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Galleon Diddy 5-Door Ship",
+        "access_rules": [
+          "$canPlayGalleonDiddy5DoorShip"
+        ],
+        "sections": [
+          {
+            "name": "Galleon Diddy 5 Door Ship"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "galleon",
+            "x": 319,
+            "y": 384,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Galleon Lanky 5-Door Ship",
+        "access_rules": [
+          "$shipyard, $loweredWater, $trombone, dive",
+          "$shipyard, $phaseswim"
+        ],
+        "sections": [
+          {
+            "name": "Galleon Lanky 5 Door Ship"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "galleon",
+            "x": 382,
+            "y": 384,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Galleon Tiny 5-Door Ship",
+        "access_rules": [
+          "$shipyard, $sax, dive",
+          "$shipyard, $phaseswim"
+        ],
+        "sections": [
+          {
+            "name": "Galleon Tiny 5 Door Ship"
+          },
+          {
+            "name": "Galleon Fairy (In Tiny's 5-Door Ship)",
+            "access_rules": [
+              "camera"
+            ],
+            "chest_unopened_img": "images/items/fairy.png",
+            "chest_opened_img": "images/items/fairybw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "galleon",
+            "x": 382,
+            "y": 426,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Galleon Chunky 5-Door Ship",
+        "access_rules": [
+          "$canPlayGalleonChunky5DoorShip"
+        ],
+        "sections": [
+          {
+            "name": "Galleon Chunky 5 Door Ship"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "galleon",
+            "x": 353,
+            "y": 422,
+            "size": 10
+          }
+        ]
+      }
+    ]
+  }
 ]

@@ -1,1429 +1,1546 @@
 [
-    {
-        "name": "Isles Shops",
-        "chest_unopened_img": "images/items/cranky.png",
-        "chest_opened_img": "images/items/crankybw.png",
-        "children": [
-            {
-                "name": "Isles Cranky",
-                "access_rules": [],
-                "sections": [
-                    {
-                        "name": "Cranky DK",
-                        "visibility_rules": [
-                            "$isLocationJunk|Isles Cranky Donkey, $isShopVisible|DKIslesCrankyDonkey"
-                        ],
-                        "access_rules": [
-                            "donkey, cranky"
-                        ]
-                    },
-                    {
-                        "name": "Cranky Diddy",
-                        "visibility_rules": [
-                            "$isLocationJunk|Isles Cranky Diddy, $isShopVisible|DKIslesCrankyDiddy"
-                        ],
-                        "access_rules": [
-                            "diddy, cranky"
-                        ]
-                    },
-                    {
-                        "name": "Cranky Lanky",
-                        "visibility_rules": [
-                            "$isLocationJunk|Isles Cranky Lanky, $isShopVisible|DKIslesCrankyLanky"
-                        ],
-                        "access_rules": [
-                            "lanky, cranky"
-                        ]
-                    },
-                    {
-                        "name": "Cranky Tiny",
-                        "visibility_rules": [
-                            "$isLocationJunk|Isles Cranky Tiny, $isShopVisible|DKIslesCrankyTiny"
-                        ],
-                        "access_rules": [
-                            "tiny, cranky"
-                        ]
-                    },
-                    {
-                        "name": "Cranky Chunky",
-                        "visibility_rules": [
-                            "$isLocationJunk|Isles Cranky Chunky, $isShopVisible|DKIslesCrankyChunky"
-                        ],
-                        "access_rules": [
-                            "chunky, cranky"
-                        ]
-                    },
-                    {
-                        "name": "Jetpac",
-                        "access_rules": [
-                            "$jetPac, cranky"
-                        ],
-                        "chest_unopened_img": "images/items/n64rw_coin.png",
-                        "chest_opened_img": "images/items/n64rwbw.png"
-                    },
-                    {
-                        "name": "Cranky Shared",
-                        "access_rules": [
-                            "cranky"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "training",
-                        "x": 862,
-                        "y": 214,
-                        "size": 16
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Japes Shops",
-        "access_rules": [
-            "^$canEnterJapes"
+  {
+    "name": "Isles Shops",
+    "chest_unopened_img": "images/items/cranky.png",
+    "chest_opened_img": "images/items/crankybw.png",
+    "children": [
+      {
+        "name": "Isles Cranky",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Isles Cranky Donkey",
+            "visibility_rules": [
+              "$isLocationJunk|Isles Cranky Donkey, $isShopVisible|DKIslesCrankyDonkey"
+            ],
+            "access_rules": [
+              "donkey, cranky"
+            ]
+          },
+          {
+            "name": "Isles Cranky Diddy",
+            "visibility_rules": [
+              "$isLocationJunk|Isles Cranky Diddy, $isShopVisible|DKIslesCrankyDiddy"
+            ],
+            "access_rules": [
+              "diddy, cranky"
+            ]
+          },
+          {
+            "name": "Isles Cranky Lanky",
+            "visibility_rules": [
+              "$isLocationJunk|Isles Cranky Lanky, $isShopVisible|DKIslesCrankyLanky"
+            ],
+            "access_rules": [
+              "lanky, cranky"
+            ]
+          },
+          {
+            "name": "Isles Cranky Tiny",
+            "visibility_rules": [
+              "$isLocationJunk|Isles Cranky Tiny, $isShopVisible|DKIslesCrankyTiny"
+            ],
+            "access_rules": [
+              "tiny, cranky"
+            ]
+          },
+          {
+            "name": "Isles Cranky Chunky",
+            "visibility_rules": [
+              "$isLocationJunk|Isles Cranky Chunky, $isShopVisible|DKIslesCrankyChunky"
+            ],
+            "access_rules": [
+              "chunky, cranky"
+            ]
+          },
+          {
+            "name": "Jetpac",
+            "access_rules": [
+              "$jetPac, cranky"
+            ],
+            "chest_unopened_img": "images/items/n64rw_coin.png",
+            "chest_opened_img": "images/items/n64rwbw.png"
+          },
+          {
+            "name": "Isles Cranky Shared",
+            "access_rules": [
+              "cranky"
+            ],
+            "visibility_rules": [
+              "$isShopVisible|DKIslesCrankyShared"
+            ]
+          }
         ],
-        "chest_unopened_img": "images/items/cranky.png",
-        "chest_opened_img": "images/items/crankybw.png",
-        "children": [
-            {
-                "name": "Japes Cranky",
-                "access_rules": [
-                    "^$coconutCage"
-                ],
-                "sections": [
-                    {
-                        "name": "Cranky DK",
-                        "visibility_rules": [
-                            "$isLocationJunk|Japes Cranky Donkey, $isShopVisible|JungleJapesCrankyDonkey"
-                        ],
-                        "access_rules": [
-                            "donkey, cranky"
-                        ]
-                    },
-                    {
-                        "name": "Cranky Diddy",
-                        "visibility_rules": [
-                            "$isLocationJunk|Japes Cranky Diddy, $isShopVisible|JungleJapesCrankyDiddy"
-                        ],
-                        "access_rules": [
-                            "diddy, cranky"
-                        ]
-                    },
-                    {
-                        "name": "Cranky Lanky",
-                        "visibility_rules": [
-                            "$isLocationJunk|Japes Cranky Lanky, $isShopVisible|JungleJapesCrankyLanky"
-                        ],
-                        "access_rules": [
-                            "lanky, cranky"
-                        ]
-                    },
-                    {
-                        "name": "Cranky Tiny",
-                        "visibility_rules": [
-                            "$isLocationJunk|Japes Cranky Tiny, $isShopVisible|JungleJapesCrankyTiny"
-                        ],
-                        "access_rules": [
-                            "tiny, cranky"
-                        ]
-                    },
-                    {
-                        "name": "Cranky Chunky",
-                        "visibility_rules": [
-                            "$isLocationJunk|Japes Cranky Chunky, $isShopVisible|JungleJapesCrankyChunky"
-                        ],
-                        "access_rules": [
-                            "chunky, cranky"
-                        ]
-                    },
-                    {
-                        "name": "Cranky Shared",
-                        "access_rules": [
-                            "cranky"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "japes",
-                        "x": 364,
-                        "y": 134,
-                        "size": 10
-                    }
-                ]
-            },
-            {
-                "name": "Japes Funky",
-                "chest_unopened_img": "images/items/funky.png",
-                "chest_opened_img": "images/items/funkybw.png",
-                "access_rules": [
-                    "climb",
-                    "$ostand, ^$avp",
-                    "slope_resets, tiny"
-                ],
-                "sections": [
-                    {
-                        "name": "Funky DK",
-                        "visibility_rules": [
-                            "$isLocationJunk|Japes Funky Donkey, $isShopVisible|JungleJapesFunkyDonkey"
-                        ],
-                        "access_rules": [
-                            "donkey, funky"
-                        ]
-                    },
-                    {
-                        "name": "Funky Diddy",
-                        "visibility_rules": [
-                            "$isLocationJunk|Japes Funky Diddy, $isShopVisible|JungleJapesFunkyDiddy"
-                        ],
-                        "access_rules": [
-                            "diddy, funky"
-                        ]
-                    },
-                    {
-                        "name": "Funky Lanky",
-                        "visibility_rules": [
-                            "$isLocationJunk|Japes Funky Lanky, $isShopVisible|JungleJapesFunkyLanky"
-                        ],
-                        "access_rules": [
-                            "lanky, funky"
-                        ]
-                    },
-                    {
-                        "name": "Funky Tiny",
-                        "visibility_rules": [
-                            "$isLocationJunk|Japes Funky Tiny, $isShopVisible|JungleJapesFunkyTiny"
-                        ],
-                        "access_rules": [
-                            "tiny, funky"
-                        ]
-                    },
-                    {
-                        "name": "Funky Chunky",
-                        "visibility_rules": [
-                            "$isLocationJunk|Japes Funky Chunky, $isShopVisible|JungleJapesFunkyChunky"
-                        ],
-                        "access_rules": [
-                            "chunky, funky"
-                        ]
-                    },
-                    {
-                        "name": "Funky Shared",
-                        "access_rules": [
-                            "funky"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "japes",
-                        "x": 288,
-                        "y": 493,
-                        "size": 10
-                    }
-                ]
-            }
+        "map_locations": [
+          {
+            "map": "training",
+            "x": 862,
+            "y": 214,
+            "size": 16
+          }
         ]
-    },
-    {
-        "name": "Aztec Shops",
+      }
+    ]
+  },
+  {
+    "name": "Japes Shops",
+    "access_rules": [
+      "^$canEnterJapes"
+    ],
+    "chest_unopened_img": "images/items/cranky.png",
+    "chest_opened_img": "images/items/crankybw.png",
+    "children": [
+      {
+        "name": "Japes Cranky",
         "access_rules": [
-            "^$aztecAccess"
+          "^$coconutCage"
         ],
-        "chest_unopened_img": "images/items/cranky.png",
-        "chest_opened_img": "images/items/crankybw.png",
-        "children": [
-            {
-                "name": "Aztec Cranky",
-                "access_rules": [
-                    "^$tunnelDoor"
-                ],
-                "sections": [
-                    {
-                        "name": "Cranky DK",
-                        "visibility_rules": [
-                            "$isLocationJunk|Aztec Cranky Donkey, $isShopVisible|AngryAztecCrankyDonkey"
-                        ],
-                        "access_rules": [
-                            "donkey, cranky"
-                        ]
-                    },
-                    {
-                        "name": "Cranky Diddy",
-                        "visibility_rules": [
-                            "$isLocationJunk|Aztec Cranky Diddy, $isShopVisible|AngryAztecCrankyDiddy"
-                        ],
-                        "access_rules": [
-                            "diddy, cranky"
-                        ]
-                    },
-                    {
-                        "name": "Cranky Lanky",
-                        "visibility_rules": [
-                            "$isLocationJunk|Aztec Cranky Lanky, $isShopVisible|AngryAztecCrankyLanky"
-                        ],
-                        "access_rules": [
-                            "lanky, cranky"
-                        ]
-                    },
-                    {
-                        "name": "Cranky Tiny",
-                        "visibility_rules": [
-                            "$isLocationJunk|Aztec Cranky Tiny, $isShopVisible|AngryAztecCrankyTiny"
-                        ],
-                        "access_rules": [
-                            "tiny, cranky"
-                        ]
-                    },
-                    {
-                        "name": "Cranky Chunky",
-                        "visibility_rules": [
-                            "$isLocationJunk|Aztec Cranky Chunky, $isShopVisible|AngryAztecCrankyChunky"
-                        ],
-                        "access_rules": [
-                            "chunky, cranky"
-                        ]
-                    },
-                    {
-                        "name": "Cranky Shared",
-                        "access_rules": [
-                            "cranky"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "aztec",
-                        "x": 534,
-                        "y": 465,
-                        "size": 12
-                    }
-                ]
-            },
-            {
-                "name": "Aztec Funky",
-                "chest_unopened_img": "images/items/funky.png",
-                "chest_opened_img": "images/items/funkybw.png",
-                "access_rules": [
-                    "^$tunnelDoor"
-                ],
-                "sections": [
-                    {
-                        "name": "Funky DK",
-                        "visibility_rules": [
-                            "$isLocationJunk|Aztec Funky Donkey, $isShopVisible|AngryAztecFunkyDonkey"
-                        ],
-                        "access_rules": [
-                            "donkey, funky"
-                        ]
-                    },
-                    {
-                        "name": "Funky Diddy",
-                        "visibility_rules": [
-                            "$isLocationJunk|Aztec Funky Diddy, $isShopVisible|AngryAztecFunkyDiddy"
-                        ],
-                        "access_rules": [
-                            "diddy, funky"
-                        ]
-                    },
-                    {
-                        "name": "Funky Lanky",
-                        "visibility_rules": [
-                            "$isLocationJunk|Aztec Funky Lanky, $isShopVisible|AngryAztecFunkyLanky"
-                        ],
-                        "access_rules": [
-                            "lanky, funky"
-                        ]
-                    },
-                    {
-                        "name": "Funky Tiny",
-                        "visibility_rules": [
-                            "$isLocationJunk|Aztec Funky Tiny, $isShopVisible|AngryAztecFunkyTiny"
-                        ],
-                        "access_rules": [
-                            "tiny, funky"
-                        ]
-                    },
-                    {
-                        "name": "Funky Chunky",
-                        "visibility_rules": [
-                            "$isLocationJunk|Aztec Funky Chunky, $isShopVisible|AngryAztecFunkyChunky"
-                        ],
-                        "access_rules": [
-                            "chunky, funky"
-                        ]
-                    },
-                    {
-                        "name": "Funky Shared",
-                        "access_rules": [
-                            "funky"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "aztec",
-                        "x": 503,
-                        "y": 104,
-                        "size": 12
-                    }
-                ]
-            },
-            {
-                "name": "Aztec Candy",
-                "chest_unopened_img": "images/items/candy.png",
-                "chest_opened_img": "images/items/candybw.png",
-                "access_rules": [],
-                "sections": [
-                    {
-                        "name": "Candy DK",
-                        "visibility_rules": [
-                            "$isLocationJunk|Aztec Candy Donkey, $isShopVisible|AngryAztecCandyDonkey"
-                        ],
-                        "access_rules": [
-                            "donkey, candy"
-                        ]
-                    },
-                    {
-                        "name": "Candy Diddy",
-                        "visibility_rules": [
-                            "$isLocationJunk|Aztec Candy Diddy, $isShopVisible|AngryAztecCandyDiddy"
-                        ],
-                        "access_rules": [
-                            "diddy, candy"
-                        ]
-                    },
-                    {
-                        "name": "Candy Lanky",
-                        "visibility_rules": [
-                            "$isLocationJunk|Aztec Candy Lanky, $isShopVisible|AngryAztecCandyLanky"
-                        ],
-                        "access_rules": [
-                            "lanky, candy"
-                        ]
-                    },
-                    {
-                        "name": "Candy Tiny",
-                        "visibility_rules": [
-                            "$isLocationJunk|Aztec Candy Tiny, $isShopVisible|AngryAztecCandyTiny"
-                        ],
-                        "access_rules": [
-                            "tiny, candy"
-                        ]
-                    },
-                    {
-                        "name": "Candy Chunky",
-                        "visibility_rules": [
-                            "$isLocationJunk|Aztec Candy Chunky, $isShopVisible|AngryAztecCandyChunky"
-                        ],
-                        "access_rules": [
-                            "chunky, candy"
-                        ]
-                    },
-                    {
-                        "name": "Candy Shared",
-                        "access_rules": [
-                            "candy"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "aztec",
-                        "x": 600,
-                        "y": 858,
-                        "size": 12
-                    }
-                ]
-            }
+        "sections": [
+          {
+            "name": "Japes Cranky Donkey",
+            "visibility_rules": [
+              "$isLocationJunk|Japes Cranky Donkey, $isShopVisible|JungleJapesCrankyDonkey"
+            ],
+            "access_rules": [
+              "donkey, cranky"
+            ]
+          },
+          {
+            "name": "Japes Cranky Diddy",
+            "visibility_rules": [
+              "$isLocationJunk|Japes Cranky Diddy, $isShopVisible|JungleJapesCrankyDiddy"
+            ],
+            "access_rules": [
+              "diddy, cranky"
+            ]
+          },
+          {
+            "name": "Japes Cranky Lanky",
+            "visibility_rules": [
+              "$isLocationJunk|Japes Cranky Lanky, $isShopVisible|JungleJapesCrankyLanky"
+            ],
+            "access_rules": [
+              "lanky, cranky"
+            ]
+          },
+          {
+            "name": "Japes Cranky Tiny",
+            "visibility_rules": [
+              "$isLocationJunk|Japes Cranky Tiny, $isShopVisible|JungleJapesCrankyTiny"
+            ],
+            "access_rules": [
+              "tiny, cranky"
+            ]
+          },
+          {
+            "name": "Japes Cranky Chunky",
+            "visibility_rules": [
+              "$isLocationJunk|Japes Cranky Chunky, $isShopVisible|JungleJapesCrankyChunky"
+            ],
+            "access_rules": [
+              "chunky, cranky"
+            ]
+          },
+          {
+            "name": "Japes Cranky Shared",
+            "access_rules": [
+              "cranky"
+            ],
+            "visibility_rules": [
+              "$isShopVisible|JungleJapesCrankyShared"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "japes",
+            "x": 364,
+            "y": 134,
+            "size": 10
+          }
         ]
-    },
-    {
-        "name": "Factory Shops",
+      },
+      {
+        "name": "Japes Funky",
+        "chest_unopened_img": "images/items/funky.png",
+        "chest_opened_img": "images/items/funkybw.png",
         "access_rules": [
-            "^$canEnterFactory"
+          "climb",
+          "$ostand, ^$avp",
+          "slope_resets, tiny"
         ],
-        "chest_unopened_img": "images/items/cranky.png",
-        "chest_opened_img": "images/items/crankybw.png",
-        "children": [
-            {
-                "name": "Factory Cranky",
-                "access_rules": [],
-                "sections": [
-                    {
-                        "name": "Cranky DK",
-                        "visibility_rules": [
-                            "$isLocationJunk|Factory Cranky Donkey, $isShopVisible|FranticFactoryCrankyDonkey"
-                        ],
-                        "access_rules": [
-                            "donkey, cranky"
-                        ]
-                    },
-                    {
-                        "name": "Cranky Diddy",
-                        "visibility_rules": [
-                            "$isLocationJunk|Factory Cranky Diddy, $isShopVisible|FranticFactoryCrankyDiddy"
-                        ],
-                        "access_rules": [
-                            "diddy, cranky"
-                        ]
-                    },
-                    {
-                        "name": "Cranky Lanky",
-                        "visibility_rules": [
-                            "$isLocationJunk|Factory Cranky Lanky, $isShopVisible|FranticFactoryCrankyLanky"
-                        ],
-                        "access_rules": [
-                            "lanky, cranky"
-                        ]
-                    },
-                    {
-                        "name": "Cranky Tiny",
-                        "visibility_rules": [
-                            "$isLocationJunk|Factory Cranky Tiny, $isShopVisible|FranticFactoryCrankyTiny"
-                        ],
-                        "access_rules": [
-                            "tiny, cranky"
-                        ]
-                    },
-                    {
-                        "name": "Cranky Chunky",
-                        "visibility_rules": [
-                            "$isLocationJunk|Factory Cranky Chunky, $isShopVisible|FranticFactoryCrankyChunky"
-                        ],
-                        "access_rules": [
-                            "chunky, cranky"
-                        ]
-                    },
-                    {
-                        "name": "Cranky Shared",
-                        "access_rules": [
-                            "cranky"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "factory",
-                        "x": 205,
-                        "y": 300,
-                        "size": 14
-                    }
-                ]
-            },
-            {
-                "name": "Factory Candy",
-                "chest_unopened_img": "images/items/candy.png",
-                "chest_opened_img": "images/items/candybw.png",
-                "access_rules": [],
-                "sections": [
-                    {
-                        "name": "Candy DK",
-                        "visibility_rules": [
-                            "$isLocationJunk|Factory Candy Donkey, $isShopVisible|FranticFactoryCandyDonkey"
-                        ],
-                        "access_rules": [
-                            "donkey, candy"
-                        ]
-                    },
-                    {
-                        "name": "Candy Diddy",
-                        "visibility_rules": [
-                            "$isLocationJunk|Factory Candy Diddy, $isShopVisible|FranticFactoryCandyDiddy"
-                        ],
-                        "access_rules": [
-                            "diddy, candy"
-                        ]
-                    },
-                    {
-                        "name": "Candy Lanky",
-                        "visibility_rules": [
-                            "$isLocationJunk|Factory Candy Lanky, $isShopVisible|FranticFactoryCandyLanky"
-                        ],
-                        "access_rules": [
-                            "lanky, candy"
-                        ]
-                    },
-                    {
-                        "name": "Candy Tiny",
-                        "visibility_rules": [
-                            "$isLocationJunk|Factory Candy Tiny, $isShopVisible|FranticFactoryCandyTiny"
-                        ],
-                        "access_rules": [
-                            "tiny, candy"
-                        ]
-                    },
-                    {
-                        "name": "Candy Chunky",
-                        "visibility_rules": [
-                            "$isLocationJunk|Factory Candy Chunky, $isShopVisible|FranticFactoryCandyChunky"
-                        ],
-                        "access_rules": [
-                            "chunky, candy"
-                        ]
-                    },
-                    {
-                        "name": "Candy Shared",
-                        "access_rules": [
-                            "candy"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "factory",
-                        "x": 205,
-                        "y": 185,
-                        "size": 14
-                    }
-                ]
-            },
-            {
-                "name": "Factory Funky",
-                "chest_unopened_img": "images/items/funky.png",
-                "chest_opened_img": "images/items/funkybw.png",
-                "access_rules": [
-                    "$testing, climb"
-                ],
-                "sections": [
-                    {
-                        "name": "Funky DK",
-                        "visibility_rules": [
-                            "$isLocationJunk|Factory Funky Donkey, $isShopVisible|FranticFactoryFunkyDonkey"
-                        ],
-                        "access_rules": [
-                            "donkey, funky"
-                        ]
-                    },
-                    {
-                        "name": "Funky Diddy",
-                        "visibility_rules": [
-                            "$isLocationJunk|Factory Funky Diddy, $isShopVisible|FranticFactoryFunkyDiddy"
-                        ],
-                        "access_rules": [
-                            "diddy, funky"
-                        ]
-                    },
-                    {
-                        "name": "Funky Lanky",
-                        "visibility_rules": [
-                            "$isLocationJunk|Factory Funky Lanky, $isShopVisible|FranticFactoryFunkyLanky"
-                        ],
-                        "access_rules": [
-                            "lanky, funky"
-                        ]
-                    },
-                    {
-                        "name": "Funky Tiny",
-                        "visibility_rules": [
-                            "$isLocationJunk|Factory Funky Tiny, $isShopVisible|FranticFactoryFunkyTiny"
-                        ],
-                        "access_rules": [
-                            "tiny, funky"
-                        ]
-                    },
-                    {
-                        "name": "Funky Chunky",
-                        "visibility_rules": [
-                            "$isLocationJunk|Factory Funky Chunky, $isShopVisible|FranticFactoryFunkyChunky"
-                        ],
-                        "access_rules": [
-                            "chunky, funky"
-                        ]
-                    },
-                    {
-                        "name": "Funky Shared",
-                        "access_rules": [
-                            "funky"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "factory",
-                        "x": 626,
-                        "y": 161,
-                        "size": 14
-                    }
-                ]
-            }
+        "sections": [
+          {
+            "name": "Japes Funky Donkey",
+            "visibility_rules": [
+              "$isLocationJunk|Japes Funky Donkey, $isShopVisible|JungleJapesFunkyDonkey"
+            ],
+            "access_rules": [
+              "donkey, funky"
+            ]
+          },
+          {
+            "name": "Japes Funky Diddy",
+            "visibility_rules": [
+              "$isLocationJunk|Japes Funky Diddy, $isShopVisible|JungleJapesFunkyDiddy"
+            ],
+            "access_rules": [
+              "diddy, funky"
+            ]
+          },
+          {
+            "name": "Japes Funky Lanky",
+            "visibility_rules": [
+              "$isLocationJunk|Japes Funky Lanky, $isShopVisible|JungleJapesFunkyLanky"
+            ],
+            "access_rules": [
+              "lanky, funky"
+            ]
+          },
+          {
+            "name": "Japes Funky Tiny",
+            "visibility_rules": [
+              "$isLocationJunk|Japes Funky Tiny, $isShopVisible|JungleJapesFunkyTiny"
+            ],
+            "access_rules": [
+              "tiny, funky"
+            ]
+          },
+          {
+            "name": "Japes Funky Chunky",
+            "visibility_rules": [
+              "$isLocationJunk|Japes Funky Chunky, $isShopVisible|JungleJapesFunkyChunky"
+            ],
+            "access_rules": [
+              "chunky, funky"
+            ]
+          },
+          {
+            "name": "Japes Funky Shared",
+            "access_rules": [
+              "funky"
+            ],
+            "visibility_rules": [
+              "$isShopVisible|JungleJapesFunkyShared"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "japes",
+            "x": 288,
+            "y": 493,
+            "size": 10
+          }
         ]
-    },
-    {
-        "name": "Galleon Shops",
+      }
+    ]
+  },
+  {
+    "name": "Aztec Shops",
+    "access_rules": [
+      "^$aztecAccess"
+    ],
+    "chest_unopened_img": "images/items/cranky.png",
+    "chest_opened_img": "images/items/crankybw.png",
+    "children": [
+      {
+        "name": "Aztec Cranky",
         "access_rules": [
-            "^$canEnterGalleon"
+          "^$tunnelDoor"
         ],
-        "chest_unopened_img": "images/items/cranky.png",
-        "chest_opened_img": "images/items/crankybw.png",
-        "children": [
-            {
-                "name": "Galleon Cranky",
-                "access_rules": [],
-                "sections": [
-                    {
-                        "name": "Cranky DK",
-                        "visibility_rules": [
-                            "$isLocationJunk|Galleon Cranky Donkey, $isShopVisible|GloomyGalleonCrankyDonkey"
-                        ],
-                        "access_rules": [
-                            "donkey, cranky"
-                        ]
-                    },
-                    {
-                        "name": "Cranky Diddy",
-                        "visibility_rules": [
-                            "$isLocationJunk|Galleon Cranky Diddy, $isShopVisible|GloomyGalleonCrankyDiddy"
-                        ],
-                        "access_rules": [
-                            "diddy, cranky"
-                        ]
-                    },
-                    {
-                        "name": "Cranky Lanky",
-                        "visibility_rules": [
-                            "$isLocationJunk|Galleon Cranky Lanky, $isShopVisible|GloomyGalleonCrankyLanky"
-                        ],
-                        "access_rules": [
-                            "lanky, cranky"
-                        ]
-                    },
-                    {
-                        "name": "Cranky Tiny",
-                        "visibility_rules": [
-                            "$isLocationJunk|Galleon Cranky Tiny, $isShopVisible|GloomyGalleonCrankyTiny"
-                        ],
-                        "access_rules": [
-                            "tiny, cranky"
-                        ]
-                    },
-                    {
-                        "name": "Cranky Chunky",
-                        "visibility_rules": [
-                            "$isLocationJunk|Galleon Cranky Chunky, $isShopVisible|GloomyGalleonCrankyChunky"
-                        ],
-                        "access_rules": [
-                            "chunky, cranky"
-                        ]
-                    },
-                    {
-                        "name": "Cranky Shared",
-                        "access_rules": [
-                            "cranky"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "galleon",
-                        "x": 415,
-                        "y": 251,
-                        "size": 10
-                    }
-                ]
-            },
-            {
-                "name": "Galleon Funky",
-                "chest_unopened_img": "images/items/funky.png",
-                "chest_opened_img": "images/items/funkybw.png",
-                "access_rules": [
-                    "$shipyard"
-                ],
-                "sections": [
-                    {
-                        "name": "Funky DK",
-                        "visibility_rules": [
-                            "$isLocationJunk|Galleon Funky Donkey, $isShopVisible|GloomyGalleonFunkyDonkey"
-                        ],
-                        "access_rules": [
-                            "donkey, funky"
-                        ]
-                    },
-                    {
-                        "name": "Funky Diddy",
-                        "visibility_rules": [
-                            "$isLocationJunk|Galleon Funky Diddy, $isShopVisible|GloomyGalleonFunkyDiddy"
-                        ],
-                        "access_rules": [
-                            "diddy, funky"
-                        ]
-                    },
-                    {
-                        "name": "Funky Lanky",
-                        "visibility_rules": [
-                            "$isLocationJunk|Galleon Funky Lanky, $isShopVisible|GloomyGalleonFunkyLanky"
-                        ],
-                        "access_rules": [
-                            "lanky, funky"
-                        ]
-                    },
-                    {
-                        "name": "Funky Tiny",
-                        "visibility_rules": [
-                            "$isLocationJunk|Galleon Funky Tiny, $isShopVisible|GloomyGalleonFunkyTiny"
-                        ],
-                        "access_rules": [
-                            "tiny, funky"
-                        ]
-                    },
-                    {
-                        "name": "Funky Chunky",
-                        "visibility_rules": [
-                            "$isLocationJunk|Galleon Funky Chunky, $isShopVisible|GloomyGalleonFunkyChunky"
-                        ],
-                        "access_rules": [
-                            "chunky, funky"
-                        ]
-                    },
-                    {
-                        "name": "Funky Shared",
-                        "access_rules": [
-                            "funky"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "galleon",
-                        "x": 206,
-                        "y": 199,
-                        "size": 10
-                    }
-                ]
-            },
-            {
-                "name": "Galleon Candy",
-                "chest_unopened_img": "images/items/candy.png",
-                "chest_opened_img": "images/items/candybw.png",
-                "access_rules": [
-                    "$shipyard"
-                ],
-                "sections": [
-                    {
-                        "name": "Candy DK",
-                        "visibility_rules": [
-                            "$isLocationJunk|Galleon Candy Donkey, $isShopVisible|GloomyGalleonCandyDonkey"
-                        ],
-                        "access_rules": [
-                            "donkey, candy"
-                        ]
-                    },
-                    {
-                        "name": "Candy Diddy",
-                        "visibility_rules": [
-                            "$isLocationJunk|Galleon Candy Diddy, $isShopVisible|GloomyGalleonCandyDiddy"
-                        ],
-                        "access_rules": [
-                            "diddy, candy"
-                        ]
-                    },
-                    {
-                        "name": "Candy Lanky",
-                        "visibility_rules": [
-                            "$isLocationJunk|Galleon Candy Lanky, $isShopVisible|GloomyGalleonCandyLanky"
-                        ],
-                        "access_rules": [
-                            "lanky, candy"
-                        ]
-                    },
-                    {
-                        "name": "Candy Tiny",
-                        "visibility_rules": [
-                            "$isLocationJunk|Galleon Candy Tiny, $isShopVisible|GloomyGalleonCandyTiny"
-                        ],
-                        "access_rules": [
-                            "tiny, candy"
-                        ]
-                    },
-                    {
-                        "name": "Candy Chunky",
-                        "visibility_rules": [
-                            "$isLocationJunk|Galleon Candy Chunky, $isShopVisible|GloomyGalleonCandyChunky"
-                        ],
-                        "access_rules": [
-                            "chunky, candy"
-                        ]
-                    },
-                    {
-                        "name": "Candy Shared",
-                        "access_rules": [
-                            "candy"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "galleon",
-                        "x": 93,
-                        "y": 350,
-                        "size": 10
-                    }
-                ]
-            }
+        "sections": [
+          {
+            "name": "Aztec Cranky Donkey",
+            "visibility_rules": [
+              "$isLocationJunk|Aztec Cranky Donkey, $isShopVisible|AngryAztecCrankyDonkey"
+            ],
+            "access_rules": [
+              "donkey, cranky"
+            ]
+          },
+          {
+            "name": "Aztec Cranky Diddy",
+            "visibility_rules": [
+              "$isLocationJunk|Aztec Cranky Diddy, $isShopVisible|AngryAztecCrankyDiddy"
+            ],
+            "access_rules": [
+              "diddy, cranky"
+            ]
+          },
+          {
+            "name": "Aztec Cranky Lanky",
+            "visibility_rules": [
+              "$isLocationJunk|Aztec Cranky Lanky, $isShopVisible|AngryAztecCrankyLanky"
+            ],
+            "access_rules": [
+              "lanky, cranky"
+            ]
+          },
+          {
+            "name": "Aztec Cranky Tiny",
+            "visibility_rules": [
+              "$isLocationJunk|Aztec Cranky Tiny, $isShopVisible|AngryAztecCrankyTiny"
+            ],
+            "access_rules": [
+              "tiny, cranky"
+            ]
+          },
+          {
+            "name": "Aztec Cranky Chunky",
+            "visibility_rules": [
+              "$isLocationJunk|Aztec Cranky Chunky, $isShopVisible|AngryAztecCrankyChunky"
+            ],
+            "access_rules": [
+              "chunky, cranky"
+            ]
+          },
+          {
+            "name": "Aztec Cranky Shared",
+            "access_rules": [
+              "cranky"
+            ],
+            "visibility_rules": [
+              "$isShopVisible|AngryAztecCrankyShared"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "aztec",
+            "x": 534,
+            "y": 465,
+            "size": 12
+          }
         ]
-    },
-    {
-        "name": "Forest Shops",
+      },
+      {
+        "name": "Aztec Funky",
+        "chest_unopened_img": "images/items/funky.png",
+        "chest_opened_img": "images/items/funkybw.png",
         "access_rules": [
-            "^$canEnterForest"
+          "^$tunnelDoor"
         ],
-        "chest_unopened_img": "images/items/cranky.png",
-        "chest_opened_img": "images/items/crankybw.png",
-        "children": [
-            {
-                "name": "Forest Cranky",
-                "access_rules": [],
-                "sections": [
-                    {
-                        "name": "Cranky DK",
-                        "visibility_rules": [
-                            "$isLocationJunk|Forest Cranky Donkey, $isShopVisible|FungiForestCrankyDonkey"
-                        ],
-                        "access_rules": [
-                            "donkey, cranky"
-                        ]
-                    },
-                    {
-                        "name": "Cranky Diddy",
-                        "visibility_rules": [
-                            "$isLocationJunk|Forest Cranky Diddy, $isShopVisible|FungiForestCrankyDiddy"
-                        ],
-                        "access_rules": [
-                            "diddy, cranky"
-                        ]
-                    },
-                    {
-                        "name": "Cranky Lanky",
-                        "visibility_rules": [
-                            "$isLocationJunk|Forest Cranky Lanky, $isShopVisible|FungiForestCrankyLanky"
-                        ],
-                        "access_rules": [
-                            "lanky, cranky"
-                        ]
-                    },
-                    {
-                        "name": "Cranky Tiny",
-                        "visibility_rules": [
-                            "$isLocationJunk|Forest Cranky Tiny, $isShopVisible|FungiForestCrankyTiny"
-                        ],
-                        "access_rules": [
-                            "tiny, cranky"
-                        ]
-                    },
-                    {
-                        "name": "Cranky Chunky",
-                        "visibility_rules": [
-                            "$isLocationJunk|Forest Cranky Chunky, $isShopVisible|FungiForestCrankyChunky"
-                        ],
-                        "access_rules": [
-                            "chunky, cranky"
-                        ]
-                    },
-                    {
-                        "name": "Cranky Shared",
-                        "access_rules": [
-                            "cranky"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "forest",
-                        "x": 838,
-                        "y": 863,
-                        "size": 12
-                    }
-                ]
-            },
-            {
-                "name": "Forest Funky",
-                "chest_unopened_img": "images/items/funky.png",
-                "chest_opened_img": "images/items/funkybw.png",
-                "access_rules": [
-                    "$greenTunnel"
-                ],
-                "sections": [
-                    {
-                        "name": "Funky DK",
-                        "visibility_rules": [
-                            "$isLocationJunk|Forest Funky Donkey, $isShopVisible|FungiForestFunkyDonkey"
-                        ],
-                        "access_rules": [
-                            "donkey, funky"
-                        ]
-                    },
-                    {
-                        "name": "Funky Diddy",
-                        "visibility_rules": [
-                            "$isLocationJunk|Forest Funky Diddy, $isShopVisible|FungiForestFunkyDiddy"
-                        ],
-                        "access_rules": [
-                            "diddy, funky"
-                        ]
-                    },
-                    {
-                        "name": "Funky Lanky",
-                        "visibility_rules": [
-                            "$isLocationJunk|Forest Funky Lanky, $isShopVisible|FungiForestFunkyLanky"
-                        ],
-                        "access_rules": [
-                            "lanky, funky"
-                        ]
-                    },
-                    {
-                        "name": "Funky Tiny",
-                        "visibility_rules": [
-                            "$isLocationJunk|Forest Funky Tiny, $isShopVisible|FungiForestFunkyTiny"
-                        ],
-                        "access_rules": [
-                            "tiny, funky"
-                        ]
-                    },
-                    {
-                        "name": "Funky Chunky",
-                        "visibility_rules": [
-                            "$isLocationJunk|Forest Funky Chunky, $isShopVisible|FungiForestFunkyChunky"
-                        ],
-                        "access_rules": [
-                            "chunky, funky"
-                        ]
-                    },
-                    {
-                        "name": "Funky Shared",
-                        "access_rules": [
-                            "funky"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "forest",
-                        "x": 414,
-                        "y": 907,
-                        "size": 12
-                    }
-                ]
-            }
+        "sections": [
+          {
+            "name": "Aztec Funky Donkey",
+            "visibility_rules": [
+              "$isLocationJunk|Aztec Funky Donkey, $isShopVisible|AngryAztecFunkyDonkey"
+            ],
+            "access_rules": [
+              "donkey, funky"
+            ]
+          },
+          {
+            "name": "Aztec Funky Diddy",
+            "visibility_rules": [
+              "$isLocationJunk|Aztec Funky Diddy, $isShopVisible|AngryAztecFunkyDiddy"
+            ],
+            "access_rules": [
+              "diddy, funky"
+            ]
+          },
+          {
+            "name": "Aztec Funky Lanky",
+            "visibility_rules": [
+              "$isLocationJunk|Aztec Funky Lanky, $isShopVisible|AngryAztecFunkyLanky"
+            ],
+            "access_rules": [
+              "lanky, funky"
+            ]
+          },
+          {
+            "name": "Aztec Funky Tiny",
+            "visibility_rules": [
+              "$isLocationJunk|Aztec Funky Tiny, $isShopVisible|AngryAztecFunkyTiny"
+            ],
+            "access_rules": [
+              "tiny, funky"
+            ]
+          },
+          {
+            "name": "Aztec Funky Chunky",
+            "visibility_rules": [
+              "$isLocationJunk|Aztec Funky Chunky, $isShopVisible|AngryAztecFunkyChunky"
+            ],
+            "access_rules": [
+              "chunky, funky"
+            ]
+          },
+          {
+            "name": "Aztec Funky Shared",
+            "access_rules": [
+              "funky"
+            ],
+            "visibility_rules": [
+              "$isShopVisible|AngryAztecFunkyShared"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "aztec",
+            "x": 503,
+            "y": 104,
+            "size": 12
+          }
         ]
-    },
-    {
-        "name": "Caves Shops",
+      },
+      {
+        "name": "Aztec Candy",
+        "chest_unopened_img": "images/items/candy.png",
+        "chest_opened_img": "images/items/candybw.png",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Aztec Candy Donkey",
+            "visibility_rules": [
+              "$isLocationJunk|Aztec Candy Donkey, $isShopVisible|AngryAztecCandyDonkey"
+            ],
+            "access_rules": [
+              "donkey, candy"
+            ]
+          },
+          {
+            "name": "Aztec Candy Diddy",
+            "visibility_rules": [
+              "$isLocationJunk|Aztec Candy Diddy, $isShopVisible|AngryAztecCandyDiddy"
+            ],
+            "access_rules": [
+              "diddy, candy"
+            ]
+          },
+          {
+            "name": "Aztec Candy Lanky",
+            "visibility_rules": [
+              "$isLocationJunk|Aztec Candy Lanky, $isShopVisible|AngryAztecCandyLanky"
+            ],
+            "access_rules": [
+              "lanky, candy"
+            ]
+          },
+          {
+            "name": "Aztec Candy Tiny",
+            "visibility_rules": [
+              "$isLocationJunk|Aztec Candy Tiny, $isShopVisible|AngryAztecCandyTiny"
+            ],
+            "access_rules": [
+              "tiny, candy"
+            ]
+          },
+          {
+            "name": "Aztec Candy Chunky",
+            "visibility_rules": [
+              "$isLocationJunk|Aztec Candy Chunky, $isShopVisible|AngryAztecCandyChunky"
+            ],
+            "access_rules": [
+              "chunky, candy"
+            ]
+          },
+          {
+            "name": "Aztec Candy Shared",
+            "access_rules": [
+              "candy"
+            ],
+            "visibility_rules": [
+              "$isShopVisible|AngryAztecCandyShared"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "aztec",
+            "x": 600,
+            "y": 858,
+            "size": 12
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Factory Shops",
+    "access_rules": [
+      "^$canEnterFactory"
+    ],
+    "chest_unopened_img": "images/items/cranky.png",
+    "chest_opened_img": "images/items/crankybw.png",
+    "children": [
+      {
+        "name": "Factory Cranky",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Factory Cranky Donkey",
+            "visibility_rules": [
+              "$isLocationJunk|Factory Cranky Donkey, $isShopVisible|FranticFactoryCrankyDonkey"
+            ],
+            "access_rules": [
+              "donkey, cranky"
+            ]
+          },
+          {
+            "name": "Factory Cranky Diddy",
+            "visibility_rules": [
+              "$isLocationJunk|Factory Cranky Diddy, $isShopVisible|FranticFactoryCrankyDiddy"
+            ],
+            "access_rules": [
+              "diddy, cranky"
+            ]
+          },
+          {
+            "name": "Factory Cranky Lanky",
+            "visibility_rules": [
+              "$isLocationJunk|Factory Cranky Lanky, $isShopVisible|FranticFactoryCrankyLanky"
+            ],
+            "access_rules": [
+              "lanky, cranky"
+            ]
+          },
+          {
+            "name": "Factory Cranky Tiny",
+            "visibility_rules": [
+              "$isLocationJunk|Factory Cranky Tiny, $isShopVisible|FranticFactoryCrankyTiny"
+            ],
+            "access_rules": [
+              "tiny, cranky"
+            ]
+          },
+          {
+            "name": "Factory Cranky Chunky",
+            "visibility_rules": [
+              "$isLocationJunk|Factory Cranky Chunky, $isShopVisible|FranticFactoryCrankyChunky"
+            ],
+            "access_rules": [
+              "chunky, cranky"
+            ]
+          },
+          {
+            "name": "Cranky Shared",
+            "access_rules": [
+              "cranky"
+            ],
+            "visibility_rules": [
+              "$isShopVisible|FranticFactoryCrankyShared"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "factory",
+            "x": 205,
+            "y": 300,
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Factory Candy",
+        "chest_unopened_img": "images/items/candy.png",
+        "chest_opened_img": "images/items/candybw.png",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Factory Candy Donkey",
+            "visibility_rules": [
+              "$isLocationJunk|Factory Candy Donkey, $isShopVisible|FranticFactoryCandyDonkey"
+            ],
+            "access_rules": [
+              "donkey, candy"
+            ]
+          },
+          {
+            "name": "Factory Candy Diddy",
+            "visibility_rules": [
+              "$isLocationJunk|Factory Candy Diddy, $isShopVisible|FranticFactoryCandyDiddy"
+            ],
+            "access_rules": [
+              "diddy, candy"
+            ]
+          },
+          {
+            "name": "Factory Candy Lanky",
+            "visibility_rules": [
+              "$isLocationJunk|Factory Candy Lanky, $isShopVisible|FranticFactoryCandyLanky"
+            ],
+            "access_rules": [
+              "lanky, candy"
+            ]
+          },
+          {
+            "name": "Factory Candy Tiny",
+            "visibility_rules": [
+              "$isLocationJunk|Factory Candy Tiny, $isShopVisible|FranticFactoryCandyTiny"
+            ],
+            "access_rules": [
+              "tiny, candy"
+            ]
+          },
+          {
+            "name": "Factory Candy Chunky",
+            "visibility_rules": [
+              "$isLocationJunk|Factory Candy Chunky, $isShopVisible|FranticFactoryCandyChunky"
+            ],
+            "access_rules": [
+              "chunky, candy"
+            ]
+          },
+          {
+            "name": "Candy Shared",
+            "access_rules": [
+              "candy"
+            ],
+            "visibility_rules": [
+              "$isShopVisible|FranticFactoryCandyShared"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "factory",
+            "x": 205,
+            "y": 185,
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Factory Funky",
+        "chest_unopened_img": "images/items/funky.png",
+        "chest_opened_img": "images/items/funkybw.png",
         "access_rules": [
-            "^$canEnterCaves"
+          "$testing, climb"
         ],
-        "chest_unopened_img": "images/items/cranky.png",
-        "chest_opened_img": "images/items/crankybw.png",
-        "children": [
-            {
-                "name": "Caves Cranky",
-                "access_rules": [],
-                "sections": [
-                    {
-                        "name": "Cranky DK",
-                        "visibility_rules": [
-                            "$isLocationJunk|Caves Cranky Donkey, $isShopVisible|CrystalCavesCrankyDonkey"
-                        ],
-                        "access_rules": [
-                            "donkey, cranky"
-                        ]
-                    },
-                    {
-                        "name": "Cranky Diddy",
-                        "visibility_rules": [
-                            "$isLocationJunk|Caves Cranky Diddy, $isShopVisible|CrystalCavesCrankyDiddy"
-                        ],
-                        "access_rules": [
-                            "diddy, cranky"
-                        ]
-                    },
-                    {
-                        "name": "Cranky Lanky",
-                        "visibility_rules": [
-                            "$isLocationJunk|Caves Cranky Lanky, $isShopVisible|CrystalCavesCrankyLanky"
-                        ],
-                        "access_rules": [
-                            "lanky, cranky"
-                        ]
-                    },
-                    {
-                        "name": "Cranky Tiny",
-                        "visibility_rules": [
-                            "$isLocationJunk|Caves Cranky Tiny, $isShopVisible|CrystalCavesCrankyTiny"
-                        ],
-                        "access_rules": [
-                            "tiny, cranky"
-                        ]
-                    },
-                    {
-                        "name": "Cranky Chunky",
-                        "visibility_rules": [
-                            "$isLocationJunk|Caves Cranky Chunky, $isShopVisible|CrystalCavesCrankyChunky"
-                        ],
-                        "access_rules": [
-                            "chunky, cranky"
-                        ]
-                    },
-                    {
-                        "name": "Cranky Shared",
-                        "access_rules": [
-                            "cranky"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "caves",
-                        "x": 638,
-                        "y": 580,
-                        "size": 12
-                    }
-                ]
-            },
-            {
-                "name": "Caves Funky",
-                "chest_unopened_img": "images/items/funky.png",
-                "chest_opened_img": "images/items/funkybw.png",
-                "access_rules": [],
-                "sections": [
-                    {
-                        "name": "Funky DK",
-                        "visibility_rules": [
-                            "$isLocationJunk|Caves Funky Donkey, $isShopVisible|CrystalCavesFunkyDonkey"
-                        ],
-                        "access_rules": [
-                            "donkey, funky"
-                        ]
-                    },
-                    {
-                        "name": "Funky Diddy",
-                        "visibility_rules": [
-                            "$isLocationJunk|Caves Funky Diddy, $isShopVisible|CrystalCavesFunkyDiddy"
-                        ],
-                        "access_rules": [
-                            "diddy, funky"
-                        ]
-                    },
-                    {
-                        "name": "Funky Lanky",
-                        "visibility_rules": [
-                            "$isLocationJunk|Caves Funky Lanky, $isShopVisible|CrystalCavesFunkyLanky"
-                        ],
-                        "access_rules": [
-                            "lanky, funky"
-                        ]
-                    },
-                    {
-                        "name": "Funky Tiny",
-                        "visibility_rules": [
-                            "$isLocationJunk|Caves Funky Tiny, $isShopVisible|CrystalCavesFunkyTiny"
-                        ],
-                        "access_rules": [
-                            "tiny, funky"
-                        ]
-                    },
-                    {
-                        "name": "Funky Chunky",
-                        "visibility_rules": [
-                            "$isLocationJunk|Caves Funky Chunky, $isShopVisible|CrystalCavesFunkyChunky"
-                        ],
-                        "access_rules": [
-                            "chunky, funky"
-                        ]
-                    },
-                    {
-                        "name": "Funky Shared",
-                        "access_rules": [
-                            "funky"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "caves",
-                        "x": 258,
-                        "y": 627,
-                        "size": 12
-                    }
-                ]
-            },
-            {
-                "name": "Caves Candy",
-                "chest_unopened_img": "images/items/candy.png",
-                "chest_opened_img": "images/items/candybw.png",
-                "access_rules": [],
-                "sections": [
-                    {
-                        "name": "Candy DK",
-                        "visibility_rules": [
-                            "$isLocationJunk|Caves Candy Donkey, $isShopVisible|CrystalCavesCandyDonkey"
-                        ],
-                        "access_rules": [
-                            "donkey, candy"
-                        ]
-                    },
-                    {
-                        "name": "Candy Diddy",
-                        "visibility_rules": [
-                            "$isLocationJunk|Caves Candy Diddy, $isShopVisible|CrystalCavesCandyDiddy"
-                        ],
-                        "access_rules": [
-                            "diddy, candy"
-                        ]
-                    },
-                    {
-                        "name": "Candy Lanky",
-                        "visibility_rules": [
-                            "$isLocationJunk|Caves Candy Lanky, $isShopVisible|CrystalCavesCandyLanky"
-                        ],
-                        "access_rules": [
-                            "lanky, candy"
-                        ]
-                    },
-                    {
-                        "name": "Candy Tiny",
-                        "visibility_rules": [
-                            "$isLocationJunk|Caves Candy Tiny, $isShopVisible|CrystalCavesCandyTiny"
-                        ],
-                        "access_rules": [
-                            "tiny, candy"
-                        ]
-                    },
-                    {
-                        "name": "Candy Chunky",
-                        "visibility_rules": [
-                            "$isLocationJunk|Caves Candy Chunky, $isShopVisible|CrystalCavesCandyChunky"
-                        ],
-                        "access_rules": [
-                            "chunky, candy"
-                        ]
-                    },
-                    {
-                        "name": "Candy Shared",
-                        "access_rules": [
-                            "candy"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "caves",
-                        "x": 129,
-                        "y": 447,
-                        "size": 12
-                    }
-                ]
-            }
+        "sections": [
+          {
+            "name": "Factory Funky Donkey",
+            "visibility_rules": [
+              "$isLocationJunk|Factory Funky Donkey, $isShopVisible|FranticFactoryFunkyDonkey"
+            ],
+            "access_rules": [
+              "donkey, funky"
+            ]
+          },
+          {
+            "name": "Factory Funky Diddy",
+            "visibility_rules": [
+              "$isLocationJunk|Factory Funky Diddy, $isShopVisible|FranticFactoryFunkyDiddy"
+            ],
+            "access_rules": [
+              "diddy, funky"
+            ]
+          },
+          {
+            "name": "Factory Funky Lanky",
+            "visibility_rules": [
+              "$isLocationJunk|Factory Funky Lanky, $isShopVisible|FranticFactoryFunkyLanky"
+            ],
+            "access_rules": [
+              "lanky, funky"
+            ]
+          },
+          {
+            "name": "Factory Funky Tiny",
+            "visibility_rules": [
+              "$isLocationJunk|Factory Funky Tiny, $isShopVisible|FranticFactoryFunkyTiny"
+            ],
+            "access_rules": [
+              "tiny, funky"
+            ]
+          },
+          {
+            "name": "Factory Funky Chunky",
+            "visibility_rules": [
+              "$isLocationJunk|Factory Funky Chunky, $isShopVisible|FranticFactoryFunkyChunky"
+            ],
+            "access_rules": [
+              "chunky, funky"
+            ]
+          },
+          {
+            "name": "Funky Shared",
+            "access_rules": [
+              "funky"
+            ],
+            "visibility_rules": [
+              "$isShopVisible|FranticFactoryFunkyShared"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "factory",
+            "x": 626,
+            "y": 161,
+            "size": 14
+          }
         ]
-    },
-    {
-        "name": "Castle Shops",
+      }
+    ]
+  },
+  {
+    "name": "Frantic Shops",
+    "access_rules": [
+      "^$canEnterFactory"
+    ],
+    "chest_unopened_img": "images/items/cranky.png",
+    "chest_opened_img": "images/items/crankybw.png",
+    "children": [
+      {
+        "name": "Factory Cranky",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Factory Cranky Shared",
+            "access_rules": [
+              "cranky"
+            ],
+            "visibility_rules": [
+              "$isShopVisible|FranticFactoryCrankyShared"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Factory Candy",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Factory Candy Shared",
+            "access_rules": [
+              "candy"
+            ],
+            "visibility_rules": [
+              "$isShopVisible|FranticFactoryCandyShared"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Factory Funky",
         "access_rules": [
-            "^$canEnterCastle"
+          "$testing, climb"
         ],
-        "chest_unopened_img": "images/items/cranky.png",
-        "chest_opened_img": "images/items/crankybw.png",
-        "children": [
-            {
-                "name": "Castle Cranky",
-                "access_rules": [],
-                "sections": [
-                    {
-                        "name": "Cranky DK",
-                        "visibility_rules": [
-                            "$isLocationJunk|Castle Cranky Donkey, $isShopVisible|CreepyCastleCrankyDonkey"
-                        ],
-                        "access_rules": [
-                            "donkey, cranky"
-                        ]
-                    },
-                    {
-                        "name": "Cranky Diddy",
-                        "visibility_rules": [
-                            "$isLocationJunk|Castle Cranky Diddy, $isShopVisible|CreepyCastleCrankyDiddy"
-                        ],
-                        "access_rules": [
-                            "diddy, cranky"
-                        ]
-                    },
-                    {
-                        "name": "Cranky Lanky",
-                        "visibility_rules": [
-                            "$isLocationJunk|Castle Cranky Lanky, $isShopVisible|CreepyCastleCrankyLanky"
-                        ],
-                        "access_rules": [
-                            "lanky, cranky"
-                        ]
-                    },
-                    {
-                        "name": "Cranky Tiny",
-                        "visibility_rules": [
-                            "$isLocationJunk|Castle Cranky Tiny, $isShopVisible|CreepyCastleCrankyTiny"
-                        ],
-                        "access_rules": [
-                            "tiny, cranky"
-                        ]
-                    },
-                    {
-                        "name": "Cranky Chunky",
-                        "visibility_rules": [
-                            "$isLocationJunk|Castle Cranky Chunky, $isShopVisible|CreepyCastleCrankyChunky"
-                        ],
-                        "access_rules": [
-                            "chunky, cranky"
-                        ]
-                    },
-                    {
-                        "name": "Cranky Shared",
-                        "access_rules": [
-                            "cranky"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "castle",
-                        "x": 116,
-                        "y": 607,
-                        "size": 14
-                    }
-                ]
-            },
-            {
-                "name": "Castle Funky",
-                "chest_unopened_img": "images/items/funky.png",
-                "chest_opened_img": "images/items/funkybw.png",
-                "access_rules": [],
-                "sections": [
-                    {
-                        "name": "Funky DK",
-                        "visibility_rules": [
-                            "$isLocationJunk|Castle Funky Donkey, $isShopVisible|CreepyCastleFunkyDonkey"
-                        ],
-                        "access_rules": [
-                            "donkey, funky"
-                        ]
-                    },
-                    {
-                        "name": "Funky Diddy",
-                        "visibility_rules": [
-                            "$isLocationJunk|Castle Funky Diddy, $isShopVisible|CreepyCastleFunkyDiddy"
-                        ],
-                        "access_rules": [
-                            "diddy, funky"
-                        ]
-                    },
-                    {
-                        "name": "Funky Lanky",
-                        "visibility_rules": [
-                            "$isLocationJunk|Castle Funky Lanky, $isShopVisible|CreepyCastleFunkyLanky"
-                        ],
-                        "access_rules": [
-                            "lanky, funky"
-                        ]
-                    },
-                    {
-                        "name": "Funky Tiny",
-                        "visibility_rules": [
-                            "$isLocationJunk|Castle Funky Tiny, $isShopVisible|CreepyCastleFunkyTiny"
-                        ],
-                        "access_rules": [
-                            "tiny, funky"
-                        ]
-                    },
-                    {
-                        "name": "Funky Chunky",
-                        "visibility_rules": [
-                            "$isLocationJunk|Castle Funky Chunky, $isShopVisible|CreepyCastleFunkyChunky"
-                        ],
-                        "access_rules": [
-                            "chunky, funky"
-                        ]
-                    },
-                    {
-                        "name": "Funky Shared",
-                        "access_rules": [
-                            "funky"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "crypthub",
-                        "x": 839,
-                        "y": 50,
-                        "size": 16
-                    }
-                ]
-            },
-            {
-                "name": "Castle Candy",
-                "chest_unopened_img": "images/items/candy.png",
-                "chest_opened_img": "images/items/candybw.png",
-                "access_rules": [],
-                "sections": [
-                    {
-                        "name": "Candy DK",
-                        "visibility_rules": [
-                            "$isLocationJunk|Castle Candy Donkey, $isShopVisible|CreepyCastleCandyDonkey"
-                        ],
-                        "access_rules": [
-                            "donkey, candy"
-                        ]
-                    },
-                    {
-                        "name": "Candy Diddy",
-                        "visibility_rules": [
-                            "$isLocationJunk|Castle Candy Diddy, $isShopVisible|CreepyCastleCandyDiddy"
-                        ],
-                        "access_rules": [
-                            "diddy, candy"
-                        ]
-                    },
-                    {
-                        "name": "Candy Lanky",
-                        "visibility_rules": [
-                            "$isLocationJunk|Castle Candy Lanky, $isShopVisible|CreepyCastleCandyLanky"
-                        ],
-                        "access_rules": [
-                            "lanky, candy"
-                        ]
-                    },
-                    {
-                        "name": "Candy Tiny",
-                        "visibility_rules": [
-                            "$isLocationJunk|Castle Candy Tiny, $isShopVisible|CreepyCastleCandyTiny"
-                        ],
-                        "access_rules": [
-                            "tiny, candy"
-                        ]
-                    },
-                    {
-                        "name": "Candy Chunky",
-                        "visibility_rules": [
-                            "$isLocationJunk|Castle Candy Chunky, $isShopVisible|CreepyCastleCandyChunky"
-                        ],
-                        "access_rules": [
-                            "chunky, candy"
-                        ]
-                    },
-                    {
-                        "name": "Candy Shared",
-                        "access_rules": [
-                            "candy"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "dungeontunnel",
-                        "x": 445,
-                        "y": 675,
-                        "size": 16
-                    }
-                ]
-            }
+        "sections": [
+          {
+            "name": "Factory Funky Shared",
+            "access_rules": [
+              "funky"
+            ],
+            "visibility_rules": [
+              "$isShopVisible|FranticFactoryFunkyShared"
+            ]
+          }
         ]
-    }
+      }
+    ]
+  },
+  {
+    "name": "Galleon Shops",
+    "access_rules": [
+      "^$canEnterGalleon"
+    ],
+    "chest_unopened_img": "images/items/cranky.png",
+    "chest_opened_img": "images/items/crankybw.png",
+    "children": [
+      {
+        "name": "Galleon Cranky",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Galleon Cranky Donkey",
+            "visibility_rules": [
+              "$isLocationJunk|Galleon Cranky Donkey, $isShopVisible|GloomyGalleonCrankyDonkey"
+            ],
+            "access_rules": [
+              "donkey, cranky"
+            ]
+          },
+          {
+            "name": "Galleon Cranky Diddy",
+            "visibility_rules": [
+              "$isLocationJunk|Galleon Cranky Diddy, $isShopVisible|GloomyGalleonCrankyDiddy"
+            ],
+            "access_rules": [
+              "diddy, cranky"
+            ]
+          },
+          {
+            "name": "Galleon Cranky Lanky",
+            "visibility_rules": [
+              "$isLocationJunk|Galleon Cranky Lanky, $isShopVisible|GloomyGalleonCrankyLanky"
+            ],
+            "access_rules": [
+              "lanky, cranky"
+            ]
+          },
+          {
+            "name": "Galleon Cranky Tiny",
+            "visibility_rules": [
+              "$isLocationJunk|Galleon Cranky Tiny, $isShopVisible|GloomyGalleonCrankyTiny"
+            ],
+            "access_rules": [
+              "tiny, cranky"
+            ]
+          },
+          {
+            "name": "Galleon Cranky Chunky",
+            "visibility_rules": [
+              "$isLocationJunk|Galleon Cranky Chunky, $isShopVisible|GloomyGalleonCrankyChunky"
+            ],
+            "access_rules": [
+              "chunky, cranky"
+            ]
+          },
+          {
+            "name": "Galleon Cranky Shared",
+            "access_rules": [
+              "cranky"
+            ],
+            "visibility_rules": [
+              "$isShopVisible|GloomyGalleonCrankyShared"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "galleon",
+            "x": 415,
+            "y": 251,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Galleon Funky",
+        "chest_unopened_img": "images/items/funky.png",
+        "chest_opened_img": "images/items/funkybw.png",
+        "access_rules": [
+          "$shipyard"
+        ],
+        "sections": [
+          {
+            "name": "Galleon Funky Donkey",
+            "visibility_rules": [
+              "$isLocationJunk|Galleon Funky Donkey, $isShopVisible|GloomyGalleonFunkyDonkey"
+            ],
+            "access_rules": [
+              "donkey, funky"
+            ]
+          },
+          {
+            "name": "Galleon Funky Diddy",
+            "visibility_rules": [
+              "$isLocationJunk|Galleon Funky Diddy, $isShopVisible|GloomyGalleonFunkyDiddy"
+            ],
+            "access_rules": [
+              "diddy, funky"
+            ]
+          },
+          {
+            "name": "Galleon Funky Lanky",
+            "visibility_rules": [
+              "$isLocationJunk|Galleon Funky Lanky, $isShopVisible|GloomyGalleonFunkyLanky"
+            ],
+            "access_rules": [
+              "lanky, funky"
+            ]
+          },
+          {
+            "name": "Galleon Funky Tiny",
+            "visibility_rules": [
+              "$isLocationJunk|Galleon Funky Tiny, $isShopVisible|GloomyGalleonFunkyTiny"
+            ],
+            "access_rules": [
+              "tiny, funky"
+            ]
+          },
+          {
+            "name": "Galleon Funky Chunky",
+            "visibility_rules": [
+              "$isLocationJunk|Galleon Funky Chunky, $isShopVisible|GloomyGalleonFunkyChunky"
+            ],
+            "access_rules": [
+              "chunky, funky"
+            ]
+          },
+          {
+            "name": "Galleon Funky Shared",
+            "access_rules": [
+              "funky"
+            ],
+            "visibility_rules": [
+              "$isShopVisible|GloomyGalleonFunkyShared"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "galleon",
+            "x": 206,
+            "y": 199,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Galleon Candy",
+        "chest_unopened_img": "images/items/candy.png",
+        "chest_opened_img": "images/items/candybw.png",
+        "access_rules": [
+          "$shipyard"
+        ],
+        "sections": [
+          {
+            "name": "Galleon Candy Donkey",
+            "visibility_rules": [
+              "$isLocationJunk|Galleon Candy Donkey, $isShopVisible|GloomyGalleonCandyDonkey"
+            ],
+            "access_rules": [
+              "donkey, candy"
+            ]
+          },
+          {
+            "name": "Galleon Candy Diddy",
+            "visibility_rules": [
+              "$isLocationJunk|Galleon Candy Diddy, $isShopVisible|GloomyGalleonCandyDiddy"
+            ],
+            "access_rules": [
+              "diddy, candy"
+            ]
+          },
+          {
+            "name": "Galleon Candy Lanky",
+            "visibility_rules": [
+              "$isLocationJunk|Galleon Candy Lanky, $isShopVisible|GloomyGalleonCandyLanky"
+            ],
+            "access_rules": [
+              "lanky, candy"
+            ]
+          },
+          {
+            "name": "Galleon Candy Tiny",
+            "visibility_rules": [
+              "$isLocationJunk|Galleon Candy Tiny, $isShopVisible|GloomyGalleonCandyTiny"
+            ],
+            "access_rules": [
+              "tiny, candy"
+            ]
+          },
+          {
+            "name": "Galleon Candy Chunky",
+            "visibility_rules": [
+              "$isLocationJunk|Galleon Candy Chunky, $isShopVisible|GloomyGalleonCandyChunky"
+            ],
+            "access_rules": [
+              "chunky, candy"
+            ]
+          },
+          {
+            "name": "Galleon Candy Shared",
+            "access_rules": [
+              "candy"
+            ],
+            "visibility_rules": [
+              "$isShopVisible|GloomyGalleonCandyShared"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "galleon",
+            "x": 93,
+            "y": 350,
+            "size": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Forest Shops",
+    "access_rules": [
+      "^$canEnterForest"
+    ],
+    "chest_unopened_img": "images/items/cranky.png",
+    "chest_opened_img": "images/items/crankybw.png",
+    "children": [
+      {
+        "name": "Forest Cranky",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Forest Cranky Donkey",
+            "visibility_rules": [
+              "$isLocationJunk|Forest Cranky Donkey, $isShopVisible|FungiForestCrankyDonkey"
+            ],
+            "access_rules": [
+              "donkey, cranky"
+            ]
+          },
+          {
+            "name": "Forest Cranky Diddy",
+            "visibility_rules": [
+              "$isLocationJunk|Forest Cranky Diddy, $isShopVisible|FungiForestCrankyDiddy"
+            ],
+            "access_rules": [
+              "diddy, cranky"
+            ]
+          },
+          {
+            "name": "Forest Cranky Lanky",
+            "visibility_rules": [
+              "$isLocationJunk|Forest Cranky Lanky, $isShopVisible|FungiForestCrankyLanky"
+            ],
+            "access_rules": [
+              "lanky, cranky"
+            ]
+          },
+          {
+            "name": "Forest Cranky Tiny",
+            "visibility_rules": [
+              "$isLocationJunk|Forest Cranky Tiny, $isShopVisible|FungiForestCrankyTiny"
+            ],
+            "access_rules": [
+              "tiny, cranky"
+            ]
+          },
+          {
+            "name": "Forest Cranky Chunky",
+            "visibility_rules": [
+              "$isLocationJunk|Forest Cranky Chunky, $isShopVisible|FungiForestCrankyChunky"
+            ],
+            "access_rules": [
+              "chunky, cranky"
+            ]
+          },
+          {
+            "name": "Forest Cranky Shared",
+            "access_rules": [
+              "cranky"
+            ],
+            "visibility_rules": [
+              "$isShopVisible|FungiForestCrankyShared"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest",
+            "x": 838,
+            "y": 863,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Forest Funky",
+        "chest_unopened_img": "images/items/funky.png",
+        "chest_opened_img": "images/items/funkybw.png",
+        "access_rules": [
+          "$greenTunnel"
+        ],
+        "sections": [
+          {
+            "name": "Forest Funky Donkey",
+            "visibility_rules": [
+              "$isLocationJunk|Forest Funky Donkey, $isShopVisible|FungiForestFunkyDonkey"
+            ],
+            "access_rules": [
+              "donkey, funky"
+            ]
+          },
+          {
+            "name": "Forest Funky Diddy",
+            "visibility_rules": [
+              "$isLocationJunk|Forest Funky Diddy, $isShopVisible|FungiForestFunkyDiddy"
+            ],
+            "access_rules": [
+              "diddy, funky"
+            ]
+          },
+          {
+            "name": "Forest Funky Lanky",
+            "visibility_rules": [
+              "$isLocationJunk|Forest Funky Lanky, $isShopVisible|FungiForestFunkyLanky"
+            ],
+            "access_rules": [
+              "lanky, funky"
+            ]
+          },
+          {
+            "name": "Forest Funky Tiny",
+            "visibility_rules": [
+              "$isLocationJunk|Forest Funky Tiny, $isShopVisible|FungiForestFunkyTiny"
+            ],
+            "access_rules": [
+              "tiny, funky"
+            ]
+          },
+          {
+            "name": "Forest Funky Chunky",
+            "visibility_rules": [
+              "$isLocationJunk|Forest Funky Chunky, $isShopVisible|FungiForestFunkyChunky"
+            ],
+            "access_rules": [
+              "chunky, funky"
+            ]
+          },
+          {
+            "name": "Forest Funky Shared",
+            "access_rules": [
+              "funky"
+            ],
+            "visibility_rules": [
+              "$isShopVisible|FungiForestFunkyShared"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest",
+            "x": 414,
+            "y": 907,
+            "size": 12
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Caves Shops",
+    "access_rules": [
+      "^$canEnterCaves"
+    ],
+    "chest_unopened_img": "images/items/cranky.png",
+    "chest_opened_img": "images/items/crankybw.png",
+    "children": [
+      {
+        "name": "Caves Cranky",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Caves Cranky Donkey",
+            "visibility_rules": [
+              "$isLocationJunk|Caves Cranky Donkey, $isShopVisible|CrystalCavesCrankyDonkey"
+            ],
+            "access_rules": [
+              "donkey, cranky"
+            ]
+          },
+          {
+            "name": "Caves Cranky Diddy",
+            "visibility_rules": [
+              "$isLocationJunk|Caves Cranky Diddy, $isShopVisible|CrystalCavesCrankyDiddy"
+            ],
+            "access_rules": [
+              "diddy, cranky"
+            ]
+          },
+          {
+            "name": "Caves Cranky Lanky",
+            "visibility_rules": [
+              "$isLocationJunk|Caves Cranky Lanky, $isShopVisible|CrystalCavesCrankyLanky"
+            ],
+            "access_rules": [
+              "lanky, cranky"
+            ]
+          },
+          {
+            "name": "Caves Cranky Tiny",
+            "visibility_rules": [
+              "$isLocationJunk|Caves Cranky Tiny, $isShopVisible|CrystalCavesCrankyTiny"
+            ],
+            "access_rules": [
+              "tiny, cranky"
+            ]
+          },
+          {
+            "name": "Caves Cranky Chunky",
+            "visibility_rules": [
+              "$isLocationJunk|Caves Cranky Chunky, $isShopVisible|CrystalCavesCrankyChunky"
+            ],
+            "access_rules": [
+              "chunky, cranky"
+            ]
+          },
+          {
+            "name": "Caves Cranky Shared",
+            "access_rules": [
+              "cranky"
+            ],
+            "visibility_rules": [
+              "$isShopVisible|CrystalCavesCrankyShared"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "caves",
+            "x": 638,
+            "y": 580,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Caves Funky",
+        "chest_unopened_img": "images/items/funky.png",
+        "chest_opened_img": "images/items/funkybw.png",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Caves Funky Donkey",
+            "visibility_rules": [
+              "$isLocationJunk|Caves Funky Donkey, $isShopVisible|CrystalCavesFunkyDonkey"
+            ],
+            "access_rules": [
+              "donkey, funky"
+            ]
+          },
+          {
+            "name": "Caves Funky Diddy",
+            "visibility_rules": [
+              "$isLocationJunk|Caves Funky Diddy, $isShopVisible|CrystalCavesFunkyDiddy"
+            ],
+            "access_rules": [
+              "diddy, funky"
+            ]
+          },
+          {
+            "name": "Caves Funky Lanky",
+            "visibility_rules": [
+              "$isLocationJunk|Caves Funky Lanky, $isShopVisible|CrystalCavesFunkyLanky"
+            ],
+            "access_rules": [
+              "lanky, funky"
+            ]
+          },
+          {
+            "name": "Caves Funky Tiny",
+            "visibility_rules": [
+              "$isLocationJunk|Caves Funky Tiny, $isShopVisible|CrystalCavesFunkyTiny"
+            ],
+            "access_rules": [
+              "tiny, funky"
+            ]
+          },
+          {
+            "name": "Caves Funky Chunky",
+            "visibility_rules": [
+              "$isLocationJunk|Caves Funky Chunky, $isShopVisible|CrystalCavesFunkyChunky"
+            ],
+            "access_rules": [
+              "chunky, funky"
+            ]
+          },
+          {
+            "name": "Caves Funky Shared",
+            "access_rules": [
+              "funky"
+            ],
+            "visibility_rules": [
+              "$isShopVisible|CrystalCavesFunkyShared"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "caves",
+            "x": 258,
+            "y": 627,
+            "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Caves Candy",
+        "chest_unopened_img": "images/items/candy.png",
+        "chest_opened_img": "images/items/candybw.png",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Caves Candy Donkey",
+            "visibility_rules": [
+              "$isLocationJunk|Caves Candy Donkey, $isShopVisible|CrystalCavesCandyDonkey"
+            ],
+            "access_rules": [
+              "donkey, candy"
+            ]
+          },
+          {
+            "name": "Caves Candy Diddy",
+            "visibility_rules": [
+              "$isLocationJunk|Caves Candy Diddy, $isShopVisible|CrystalCavesCandyDiddy"
+            ],
+            "access_rules": [
+              "diddy, candy"
+            ]
+          },
+          {
+            "name": "Caves Candy Lanky",
+            "visibility_rules": [
+              "$isLocationJunk|Caves Candy Lanky, $isShopVisible|CrystalCavesCandyLanky"
+            ],
+            "access_rules": [
+              "lanky, candy"
+            ]
+          },
+          {
+            "name": "Caves Candy Tiny",
+            "visibility_rules": [
+              "$isLocationJunk|Caves Candy Tiny, $isShopVisible|CrystalCavesCandyTiny"
+            ],
+            "access_rules": [
+              "tiny, candy"
+            ]
+          },
+          {
+            "name": "Caves Candy Chunky",
+            "visibility_rules": [
+              "$isLocationJunk|Caves Candy Chunky, $isShopVisible|CrystalCavesCandyChunky"
+            ],
+            "access_rules": [
+              "chunky, candy"
+            ]
+          },
+          {
+            "name": "Caves Candy Shared",
+            "access_rules": [
+              "candy"
+            ],
+            "visibility_rules": [
+              "$isShopVisible|CrystalCavesCandyShared"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "caves",
+            "x": 129,
+            "y": 447,
+            "size": 12
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Castle Shops",
+    "access_rules": [
+      "^$canEnterCastle"
+    ],
+    "chest_unopened_img": "images/items/cranky.png",
+    "chest_opened_img": "images/items/crankybw.png",
+    "children": [
+      {
+        "name": "Castle Cranky",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Castle Cranky Donkey",
+            "visibility_rules": [
+              "$isLocationJunk|Castle Cranky Donkey, $isShopVisible|CreepyCastleCrankyDonkey"
+            ],
+            "access_rules": [
+              "donkey, cranky"
+            ]
+          },
+          {
+            "name": "Castle Cranky Diddy",
+            "visibility_rules": [
+              "$isLocationJunk|Castle Cranky Diddy, $isShopVisible|CreepyCastleCrankyDiddy"
+            ],
+            "access_rules": [
+              "diddy, cranky"
+            ]
+          },
+          {
+            "name": "Castle Cranky Lanky",
+            "visibility_rules": [
+              "$isLocationJunk|Castle Cranky Lanky, $isShopVisible|CreepyCastleCrankyLanky"
+            ],
+            "access_rules": [
+              "lanky, cranky"
+            ]
+          },
+          {
+            "name": "Castle Cranky Tiny",
+            "visibility_rules": [
+              "$isLocationJunk|Castle Cranky Tiny, $isShopVisible|CreepyCastleCrankyTiny"
+            ],
+            "access_rules": [
+              "tiny, cranky"
+            ]
+          },
+          {
+            "name": "Castle Cranky Chunky",
+            "visibility_rules": [
+              "$isLocationJunk|Castle Cranky Chunky, $isShopVisible|CreepyCastleCrankyChunky"
+            ],
+            "access_rules": [
+              "chunky, cranky"
+            ]
+          },
+          {
+            "name": "Castle Cranky Shared",
+            "access_rules": [
+              "cranky"
+            ],
+            "visibility_rules": [
+              "$isShopVisible|CreepyCastleCrankyShared"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle",
+            "x": 116,
+            "y": 607,
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Castle Funky",
+        "chest_unopened_img": "images/items/funky.png",
+        "chest_opened_img": "images/items/funkybw.png",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Castle Funky Donkey",
+            "visibility_rules": [
+              "$isLocationJunk|Castle Funky Donkey, $isShopVisible|CreepyCastleFunkyDonkey"
+            ],
+            "access_rules": [
+              "donkey, funky"
+            ]
+          },
+          {
+            "name": "Castle Funky Diddy",
+            "visibility_rules": [
+              "$isLocationJunk|Castle Funky Diddy, $isShopVisible|CreepyCastleFunkyDiddy"
+            ],
+            "access_rules": [
+              "diddy, funky"
+            ]
+          },
+          {
+            "name": "Castle Funky Lanky",
+            "visibility_rules": [
+              "$isLocationJunk|Castle Funky Lanky, $isShopVisible|CreepyCastleFunkyLanky"
+            ],
+            "access_rules": [
+              "lanky, funky"
+            ]
+          },
+          {
+            "name": "Castle Funky Tiny",
+            "visibility_rules": [
+              "$isLocationJunk|Castle Funky Tiny, $isShopVisible|CreepyCastleFunkyTiny"
+            ],
+            "access_rules": [
+              "tiny, funky"
+            ]
+          },
+          {
+            "name": "Castle Funky Chunky",
+            "visibility_rules": [
+              "$isLocationJunk|Castle Funky Chunky, $isShopVisible|CreepyCastleFunkyChunky"
+            ],
+            "access_rules": [
+              "chunky, funky"
+            ]
+          },
+          {
+            "name": "Castle Funky Shared",
+            "access_rules": [
+              "funky"
+            ],
+            "visibility_rules": [
+              "$isShopVisible|CreepyCastleFunkyShared"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "crypthub",
+            "x": 839,
+            "y": 50,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Castle Candy",
+        "chest_unopened_img": "images/items/candy.png",
+        "chest_opened_img": "images/items/candybw.png",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Castle Candy Donkey",
+            "visibility_rules": [
+              "$isLocationJunk|Castle Candy Donkey, $isShopVisible|CreepyCastleCandyDonkey"
+            ],
+            "access_rules": [
+              "donkey, candy"
+            ]
+          },
+          {
+            "name": "Castle Candy Diddy",
+            "visibility_rules": [
+              "$isLocationJunk|Castle Candy Diddy, $isShopVisible|CreepyCastleCandyDiddy"
+            ],
+            "access_rules": [
+              "diddy, candy"
+            ]
+          },
+          {
+            "name": "Castle Candy Lanky",
+            "visibility_rules": [
+              "$isLocationJunk|Castle Candy Lanky, $isShopVisible|CreepyCastleCandyLanky"
+            ],
+            "access_rules": [
+              "lanky, candy"
+            ]
+          },
+          {
+            "name": "Castle Candy Tiny",
+            "visibility_rules": [
+              "$isLocationJunk|Castle Candy Tiny, $isShopVisible|CreepyCastleCandyTiny"
+            ],
+            "access_rules": [
+              "tiny, candy"
+            ]
+          },
+          {
+            "name": "Castle Candy Chunky",
+            "visibility_rules": [
+              "$isLocationJunk|Castle Candy Chunky, $isShopVisible|CreepyCastleCandyChunky"
+            ],
+            "access_rules": [
+              "chunky, candy"
+            ]
+          },
+          {
+            "name": "Castle Candy Shared",
+            "access_rules": [
+              "candy"
+            ],
+            "visibility_rules": [
+              "$isShopVisible|CreepyCastleCandyShared"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "dungeontunnel",
+            "x": 445,
+            "y": 675,
+            "size": 16
+          }
+        ]
+      }
+    ]
+  }
 ]

@@ -9,13 +9,13 @@
     "name": "training",
     "location_size": 16,
     "location_border_thickness": 3,
-    "img": "images/maps/training.PNG"
+    "img": "/images/maps/training.png"
   },
   {
     "name": "snidelobby",
     "location_size": 16,
     "location_border_thickness": 3,
-    "img": "images/maps/snideisles.PNG"
+    "img": "/images/maps/snideisles.png"
   },
   {
     "name": "japeslobby",
@@ -87,7 +87,7 @@
     "name": "shellhive",
     "location_size":16,
     "location_border_thickness":2,
-    "img": "images/maps/shellhive.png"
+    "img": "/images/maps/shellhive.png"
   },
   {
     "name": "aztec",
