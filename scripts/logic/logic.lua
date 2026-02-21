@@ -877,7 +877,7 @@ function castleSlam()
     if has("blueslam") and (has("l5_castle") or has("l6_castle")) then
       return true
     end
-    if has("redslam") and (has("l7_castle") or has("l8_slam")) then
+    if has("redslam") and (has("l7_castle") or has("l8_castle")) then
       return true
     end
     return false

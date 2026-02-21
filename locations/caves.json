@@ -365,7 +365,7 @@
       {
         "name": "Caves Dirt: Giant Kosha",
         "access_rules": [
-          "@Crystal Caves/Caves Chunky Transparent Igloo/Golden Banana, $port, shockwave"
+          "@Crystal Caves/Caves Chunky Transparent Igloo/Caves Chunky Transparent Igloo, $port, shockwave"
         ],
         "sections": [
           {

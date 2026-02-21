@@ -320,7 +320,7 @@
       {
         "name": "Aztec Battle Arena (Tiny Temple: Vulture Room)",
         "access_rules": [
-          "@Angry Aztec/Aztec Lanky Vulture Shooting/Golden Banana"
+          "$templeIce, $canEnterTinyTemple, dive, $anyGun, $aztecSlam, lanky"
         ],
         "sections": [
           {

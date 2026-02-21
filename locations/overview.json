@@ -319,7 +319,11 @@
         "sections": [
           {
             "ref": "Isles Shops/Isles Cranky/Jetpac",
-            "name": "Isles Cranky DK"
+            "name": "Jetpac"
+          },
+          {
+            "ref": "Isles Shops/Isles Cranky/Isles Cranky Donkey",
+            "name": "Isles Cranky Donkey"
           },
           {
             "ref": "Isles Shops/Isles Cranky/Isles Cranky Diddy",
@@ -3459,8 +3463,8 @@
         "name": "Castle Fairies",
         "sections": [
           {
-            "ref": "Creepy Castle/Inside the Tree/Castle Donkey Tree Sniping",
-            "name": "Castle Fairy (Tree Sniping Room)"
+            "ref": "Creepy Castle/Inside the Tree/Castle Fairy (Tree Sniper Room)",
+            "name": "Castle Fairy (Tree Sniper Room)"
           },
           {
             "ref": "Creepy Castle/Castle Fairy (Near Car Race)/Castle Fairy (Near Car Race)",
