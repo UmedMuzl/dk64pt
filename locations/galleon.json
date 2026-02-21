@@ -406,23 +406,17 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Free the Seal",
+            "name": "Galleon Donkey Free the Seal",
             "access_rules": [
               "$lighthouse, $shipyard, ^$lighthousePlatform, $blast"
             ]
           },
           {
-            "name": "Seal Race",
+            "name": "Galleon Donkey Seal Race",
             "access_rules": [
               "$lighthouse, $shipyard, ^$lighthousePlatform, $blast",
               "$shipyard, $phaseswim"
             ]
-          },
-          {
-            "name": "Galleon Donkey Free the Seal"
-          },
-          {
-            "name": "Galleon Donkey Seal Race"
           }
         ],
         "map_locations": [

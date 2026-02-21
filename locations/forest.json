@@ -497,11 +497,6 @@
             "name": "Forest Tiny Anthill Banana"
           },
           {
-            "name": "Forest Tiny Bean",
-            "chest_unopened_img": "images/items/bean.png",
-            "chest_opened_img": "images/items/beanbw.png"
-          },
-          {
             "name": "Forest Anthill Enemy: Gauntlet (0)",
             "visibility_rules": [
               "dropsanity"
@@ -566,7 +561,9 @@
             ]
           },
           {
-            "name": "Forest Second Anthill Reward"
+            "name": "Forest Second Anthill Reward",
+            "chest_unopened_img": "images/items/bean.png",
+            "chest_opened_img": "images/items/beanbw.png"
           }
         ],
         "map_locations": [
