@@ -223,7 +223,7 @@
   },
   {
     "name": "helm",
-    "location_size": 35,
+    "location_size": 10,
     "location_border_thickness": 2,
     "img": "/images/maps/helm.png"
   },

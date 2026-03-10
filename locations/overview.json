@@ -7,19 +7,19 @@
         "sections": [
           {
             "ref": "DK Isles/Japes Lobby Entrance/Isles Japes Lobby Entrance Item",
-            "name": "Isles Japes Lobby Entrance"
+            "name": "Isles Japes Lobby Entrance Item"
           },
           {
             "ref": "DK Isles/Isles DK Coconut Cage/Isles Donkey Coconut Cage",
-            "name": "Isles DK Coconut Cage"
+            "name": "Isles Donkey Coconut Cage"
           },
           {
             "ref": "DK Isles/Isles DK Bongo Pad/Isles Donkey Bongos Pad",
-            "name": "Isles DK Bongos Pad"
+            "name": "Isles Donkey Bongos Pad"
           },
           {
             "ref": "DK Isles/Isles DK Caves Lava/Isles Donkey Caves Lava",
-            "name": "Isles DK Caves Lava"
+            "name": "Isles Donkey Caves Lava"
           },
           {
             "ref": "DK Isles/Isles Diddy Peanut Cage/Isles Diddy Peanut Cage",
@@ -31,7 +31,7 @@
           },
           {
             "ref": "DK Isles/Isles Diddy Snide Barrel/Isles Diddy Snides Spring Barrel",
-            "name": "Isles Diddy Snide Barrel"
+            "name": "Isles Diddy Snides Spring Barrel"
           },
           {
             "ref": "DK Isles/Isles Diddy Summit Barrel/Isles Diddy Summit Barrel",
@@ -43,7 +43,7 @@
           },
           {
             "ref": "DK Isles/Isles Lanky Instrument Pad/Isles Lanky Japes Instrument",
-            "name": "Isles Lanky Trombone Pad"
+            "name": "Isles Lanky Japes Instrument"
           },
           {
             "ref": "DK Isles/K. Lumsy Prison/Isles Lanky Sprint Cage",
@@ -59,7 +59,7 @@
           },
           {
             "ref": "DK Isles/Upper Krem Isles/Isles Tiny Saxophone Pad",
-            "name": "Isles Tiny Sax Pad"
+            "name": "Isles Tiny Saxophone Pad"
           },
           {
             "ref": "DK Isles/Isles Tiny Galleon Lobby Swim/Isles Tiny Galleon Lobby Swim",
@@ -103,19 +103,19 @@
         "sections": [
           {
             "ref": "DK Isles/Isles Fairy (Small Island)/Isles Fairy (Small Island)",
-            "name": "Isles Lone Fairy"
+            "name": "Isles Fairy (Small Island)"
           },
           {
             "ref": "DK Isles/Isles Factory Lobby Box/Isles Fairy (Factory Lobby)",
-            "name": "Isles Factory Lobby Fairy"
+            "name": "Isles Fairy (Factory Lobby)"
           },
           {
             "ref": "DK Isles/Upper Krem Isles/Isles Tiny Saxophone Pad",
-            "name": "Isles Upper Krem Fairy"
+            "name": "Isles Tiny Saxophone Pad"
           },
           {
             "ref": "DK Isles/Isles Fairy (Fungi Lobby)/Isles Fairy (Forest Lobby)",
-            "name": "Isles Fungi Lobby Fairy"
+            "name": "Isles Fairy (Forest Lobby)"
           }
         ],
         "map_locations": [
@@ -131,11 +131,11 @@
         "sections": [
           {
             "ref": "DK Isles/Isles Battle Arena 1/Isles Battle Arena 1 (Snide's Room: Under Rock)",
-            "name": "Isles Snide's Lobby Arena"
+            "name": "Isles Battle Arena 1 (Snide's Room: Under Rock)"
           },
           {
             "ref": "DK Isles/Isles Battle Arena 2 (Fungi Lobby)/Isles Battle Arena 2 (Fungi Lobby: Gorilla Gone Box)",
-            "name": "Isles Fungi Lobby Arena"
+            "name": "Isles Battle Arena 2 (Fungi Lobby: Gorilla Gone Box)"
           }
         ],
         "map_locations": [
@@ -151,31 +151,31 @@
         "sections": [
           {
             "ref": "DK Isles/Isles Dirt: Training Grounds Rear Tunnel/Isles Dirt: Training Grounds Rear Tunnel",
-            "name": "Training Ground Rear Tunnel Patch"
+            "name": "Isles Dirt: Training Grounds Rear Tunnel"
           },
           {
             "ref": "DK Isles/Isles Dirt: Banana Hoard/Isles Dirt: Banana Hoard",
-            "name": "Training Grounds Banana Hoard Patch"
+            "name": "Isles Dirt: Banana Hoard"
           },
           {
             "ref": "DK Isles/K. Lumsy Prison/Isles Dirt: Back of Prison",
-            "name": "Isles Back of Prison Patch"
+            "name": "Isles Dirt: Back of Prison"
           },
           {
             "ref": "DK Isles/Isles Dirt: Under Caves Lobby/Isles Dirt: Under Caves Lobby",
-            "name": "Isles Under Caves Lobby Patch"
+            "name": "Isles Dirt: Under Caves Lobby"
           },
           {
             "ref": "DK Isles/Isles Dirt: Cabin Isle/Isles Dirt: Cabin Isle",
-            "name": "Isles Cabin Isle Patch"
+            "name": "Isles Dirt: Cabin Isle"
           },
           {
             "ref": "DK Isles/Isles Dirt: Aztec Roof/Isles Dirt: Aztec Roof",
-            "name": "Isles Aztec Roof Patch"
+            "name": "Isles Dirt: Aztec Roof"
           },
           {
             "ref": "DK Isles/Upper Castle Lobby/Isles Dirt: Castle Lobby",
-            "name": "Isles Castle Lobby Patch"
+            "name": "Isles Dirt: Castle Lobby"
           },
           {
             "ref": "DK Isles/Isles Boulder: Near Level 2/Isles Boulder: Near Level 2",
@@ -219,11 +219,11 @@
           },
           {
             "ref": "Isles Dropsanity/Jungle Japes Lobby Enemy: Enemy (0)/Isles Japes Lobby Enemy: Enemy (0)",
-            "name": "Jungle Japes Lobby Enemy (0)"
+            "name": "Isles Japes Lobby Enemy: Enemy (0)"
           },
           {
             "ref": "Isles Dropsanity/Jungle Japes Lobby Enemy: Enemy (1)/Isles Japes Lobby Enemy: Enemy (1)",
-            "name": "Jungle Japes Lobby Enemy (1)"
+            "name": "Isles Japes Lobby Enemy: Enemy (1)"
           },
           {
             "ref": "Isles Dropsanity/Isles Enemy: Japes Entrance/Isles Enemy: Japes Entrance",
@@ -271,23 +271,23 @@
         "sections": [
           {
             "ref": "DK Isles/Isles Kasplat: Helm Lobby/Isles Kasplat: Helm Lobby",
-            "name": "Helm Lobby Kasplat"
+            "name": "Isles Kasplat: Helm Lobby"
           },
           {
             "ref": "DK Isles/Isles Kasplat: Castle Lobby/Isles Kasplat: Castle Lobby",
-            "name": "Castle Lobby Kasplat"
+            "name": "Isles Kasplat: Castle Lobby"
           },
           {
             "ref": "DK Isles/Isles Kasplat: Caves Lobby Punch/Isles Kasplat: Caves Lobby Punch",
-            "name": "Caves Lobby Kasplat"
+            "name": "Isles Kasplat: Caves Lobby Punch"
           },
           {
             "ref": "DK Isles/Isles Factory Lobby Box/Isles Kasplat: Factory Lobby Box",
-            "name": "Factory Lobby Kasplat"
+            "name": "Isles Kasplat: Factory Lobby Box"
           },
           {
             "ref": "DK Isles/Isles Kasplat: Galleon Lobby/Isles Kasplat: Galleon Lobby",
-            "name": "Galleon Lobby Kasplat"
+            "name": "Isles Kasplat: Galleon Lobby"
           }
         ],
         "map_locations": [
@@ -359,67 +359,67 @@
         "sections": [
           {
             "ref": "DK Isles/Japes DK Wrinkly Door/Japes Donkey Hint Door",
-            "name": "Japes DK Wrinkly Door"
+            "name": "Japes Donkey Hint Door"
           },
           {
             "ref": "DK Isles/Japes Diddy Wrinkly Door/Japes Diddy Hint Door",
-            "name": "Japes Diddy Wrinkly Door"
+            "name": "Japes Diddy Hint Door"
           },
           {
             "ref": "DK Isles/Japes Lanky Wrinkly Door/Japes Lanky Hint Door",
-            "name": "Japes Lanky Wrinkly Door"
+            "name": "Japes Lanky Hint Door"
           },
           {
             "ref": "DK Isles/Japes Tiny Wrinkly Door/Japes Tiny Hint Door",
-            "name": "Japes Tiny Wrinkly Door"
+            "name": "Japes Tiny Hint Door"
           },
           {
             "ref": "DK Isles/Japes Chunky Wrinkly Door/Japes Chunky Hint Door",
-            "name": "Japes Chunky Wrinkly Door"
+            "name": "Japes Chunky Hint Door"
           },
           {
             "ref": "DK Isles/Aztec DK Wrinkly Door/Aztec Donkey Hint Door",
-            "name": "Aztec DK Wrinkly Door"
+            "name": "Aztec Donkey Hint Door"
           },
           {
             "ref": "DK Isles/Aztec Diddy Wrinkly Door/Aztec Diddy Hint Door",
-            "name": "Aztec Diddy Wrinkly Door"
+            "name": "Aztec Diddy Hint Door"
           },
           {
             "ref": "DK Isles/Aztec Lanky Wrinkly Door/Aztec Lanky Hint Door",
-            "name": "Aztec Lanky Wrinkly Door"
+            "name": "Aztec Lanky Hint Door"
           },
           {
             "ref": "DK Isles/Aztec Tiny Wrinkly Door/Aztec Tiny Hint Door",
-            "name": "Aztec Tiny Wrinkly Door"
+            "name": "Aztec Tiny Hint Door"
           },
           {
             "ref": "DK Isles/Aztec Chunky Wrinkly Door/Aztec Chunky Hint Door",
-            "name": "Aztec Chunky Wrinkly Door"
+            "name": "Aztec Chunky Hint Door"
           },
           {
             "ref": "DK Isles/Factory DK Wrinkly Door/Factory Donkey Hint Door",
-            "name": "Factory DK Wrinkly Door"
+            "name": "Factory Donkey Hint Door"
           },
           {
             "ref": "DK Isles/Factory Diddy Wrinkly Door/Factory Diddy Hint Door",
-            "name": "Factory Diddy Wrinkly Door"
+            "name": "Factory Diddy Hint Door"
           },
           {
             "ref": "DK Isles/Factory Lanky Wrinkly Door/Factory Lanky Hint Door",
-            "name": "Factory Lanky Wrinkly Door"
+            "name": "Factory Lanky Hint Door"
           },
           {
             "ref": "DK Isles/Factory Tiny Wrinkly Door/Factory Tiny Hint Door",
-            "name": "Factory Tiny Wrinkly Door"
+            "name": "Factory Tiny Hint Door"
           },
           {
             "ref": "DK Isles/Factory Chunky Wrinkly Door/Factory Chunky Hint Door",
-            "name": "Factory Chunky Wrinkly Door"
+            "name": "Factory Chunky Hint Door"
           },
           {
             "ref": "DK Isles/Galleon DK Hint Door/Galleon Donkey Hint Door",
-            "name": "Galleon DK Hint Door"
+            "name": "Galleon Donkey Hint Door"
           },
           {
             "ref": "DK Isles/Galleon Diddy Hint Door/Galleon Diddy Hint Door",
@@ -439,7 +439,7 @@
           },
           {
             "ref": "DK Isles/Forest DK Hint Door/Forest Donkey Hint Door",
-            "name": "Forest DK Hint Door"
+            "name": "Forest Donkey Hint Door"
           },
           {
             "ref": "DK Isles/Forest Diddy Hint Door/Forest Diddy Hint Door",
@@ -459,7 +459,7 @@
           },
           {
             "ref": "DK Isles/Caves DK Hint Door/Caves Donkey Hint Door",
-            "name": "Caves DK Hint Door"
+            "name": "Caves Donkey Hint Door"
           },
           {
             "ref": "DK Isles/Caves Diddy Hint Door/Caves Diddy Hint Door",
@@ -479,7 +479,7 @@
           },
           {
             "ref": "DK Isles/Castle DK Hint Door/Castle Donkey Hint Door",
-            "name": "Castle DK Hint Door"
+            "name": "Castle Donkey Hint Door"
           },
           {
             "ref": "DK Isles/Castle Diddy Hint Door/Castle Diddy Hint Door",
@@ -511,23 +511,23 @@
         "sections": [
           {
             "ref": "Jungle Japes/Japes DK Floor Cage Banana/Japes Donkey Floor Cage Banana",
-            "name": "Japes DK Floor Cage"
+            "name": "Japes Donkey Floor Cage Banana"
           },
           {
             "ref": "Jungle Japes/Japes DK Baboon Blast/Japes Donkey Baboon Blast",
-            "name": "Japes DK Baboon Blast"
+            "name": "Japes Donkey Baboon Blast"
           },
           {
             "ref": "Jungle Japes/Diddy Cage/Japes in Front of Diddy Cage",
-            "name": "Japes DK Front of Diddy Cage"
+            "name": "Japes in Front of Diddy Cage"
           },
           {
             "ref": "Jungle Japes/Diddy Cage/Japes Free Diddy Item",
-            "name": "Japes DK Free Diddy Item"
+            "name": "Japes Free Diddy Item"
           },
           {
             "ref": "Jungle Japes/Japes Diddy Timed Cage Banana/Japes Diddy Timed Cage Banana",
-            "name": "Japes Diddy Timed Cage"
+            "name": "Japes Diddy Timed Cage Banana"
           },
           {
             "ref": "Jungle Japes/Japes Diddy Top of Mountain/Japes Diddy Top of Mountain",
@@ -543,7 +543,7 @@
           },
           {
             "ref": "Jungle Japes/Japes Lanky Timed Cage Banana/Japes Lanky Timed Cage Banana",
-            "name": "Japes Lanky Timed Cage"
+            "name": "Japes Lanky Timed Cage Banana"
           },
           {
             "ref": "Jungle Japes/Japes Lanky Grape Gate Barrel/Japes Lanky Grape Gate Barrel",
@@ -555,11 +555,11 @@
           },
           {
             "ref": "Jungle Japes/Painting Room/Japes Lanky Painting Room Zingers",
-            "name": "Japes Lanky Zingers"
+            "name": "Japes Lanky Painting Room Zingers"
           },
           {
             "ref": "Jungle Japes/Japes Tiny Timed Cage Banana/Japes Tiny Timed Cage Banana",
-            "name": "Japes Tiny Timed Cage"
+            "name": "Japes Tiny Timed Cage Banana"
           },
           {
             "ref": "Jungle Japes/Japes Tiny Feather Gate Barrel/Japes Tiny Feather Gate Barrel",
@@ -579,7 +579,7 @@
           },
           {
             "ref": "Jungle Japes/Japes Chunky Timed Cage Banana/Japes Chunky Timed Cage Banana",
-            "name": "Japes Chunky Timed Cage"
+            "name": "Japes Chunky Timed Cage Banana"
           },
           {
             "ref": "Jungle Japes/Japes Chunky Giant Bonus Barrel/Japes Chunky Giant Bonus Barrel",
@@ -603,7 +603,7 @@
         "sections": [
           {
             "ref": "Jungle Japes/Medals/Japes Donkey Medal",
-            "name": "Japes DK Medal"
+            "name": "Japes Donkey Medal"
           },
           {
             "ref": "Jungle Japes/Medals/Japes Diddy Medal",
@@ -623,7 +623,7 @@
           },
           {
             "ref": "Jungle Japes/Medals/Japes Donkey Medal",
-            "name": "Japes DK Half Medal"
+            "name": "Japes Donkey Medal"
           },
           {
             "ref": "Jungle Japes/Medals/Japes Diddy Half Medal",
@@ -643,7 +643,7 @@
           },
           {
             "ref": "Jungle Japes/Medals/Japes Boss Defeated",
-            "name": "Japes Boss"
+            "name": "Japes Boss Defeated"
           }
         ],
         "map_locations": [
@@ -659,11 +659,11 @@
         "sections": [
           {
             "ref": "Jungle Japes/Japes Fairy (Rambi Door Pool)/Japes Fairy (Rambi Door Pool)",
-            "name": "Japes Rambi Door Fairy"
+            "name": "Japes Fairy (Rambi Door Pool)"
           },
           {
             "ref": "Jungle Japes/Painting Room/Japes Fairy (Painting Room)",
-            "name": "Japes Painting Room Fairy"
+            "name": "Japes Fairy (Painting Room)"
           }
         ],
         "map_locations": [
@@ -679,7 +679,7 @@
         "sections": [
           {
             "ref": "Jungle Japes/Japes Battle Arena (Near Funky)/Japes Battle Arena (Near Funky)",
-            "name": "Japes Arena: Near Funky"
+            "name": "Japes Battle Arena (Near Funky)"
           }
         ],
         "map_locations": [
@@ -695,7 +695,7 @@
         "sections": [
           {
             "ref": "Jungle Japes/Japes Dirt: Painting Hill/Japes Dirt: Painting Hill",
-            "name": "Japes Painting Hill Patch"
+            "name": "Japes Dirt: Painting Hill"
           }
         ],
         "map_locations": [
@@ -751,83 +751,83 @@
           },
           {
             "ref": "Japes Dropsanity/Jungle Japes Enemy: Start/Japes Enemy: Start",
-            "name": "Jungle Japes Enemy: Start"
+            "name": "Japes Enemy: Start"
           },
           {
             "ref": "Japes Dropsanity/Jungle Japes Enemy: Diddy Cavern/Japes Enemy: Diddy Cavern",
-            "name": "Jungle Japes Enemy: Diddy Cavern"
+            "name": "Japes Enemy: Diddy Cavern"
           },
           {
             "ref": "Japes Dropsanity/Jungle Japes Enemy: Tunnel (0)/Japes Enemy: Tunnel (0)",
-            "name": "Jungle Japes Enemy: Tunnel (0)"
+            "name": "Japes Enemy: Tunnel (0)"
           },
           {
             "ref": "Japes Dropsanity/Jungle Japes Enemy: Tunnel (1)/Japes Enemy: Tunnel (1)",
-            "name": "Jungle Japes Enemy: Tunnel (1)"
+            "name": "Japes Enemy: Tunnel (1)"
           },
           {
             "ref": "Japes Dropsanity/Jungle Japes Enemy: Storm (0)/Japes Enemy: Storm (0)",
-            "name": "Jungle Japes Enemy: Storm (0)"
+            "name": "Japes Enemy: Storm (0)"
           },
           {
             "ref": "Japes Dropsanity/Jungle Japes Enemy: Storm (1)/Japes Enemy: Storm (1)",
-            "name": "Jungle Japes Enemy: Storm (1)"
+            "name": "Japes Enemy: Storm (1)"
           },
           {
             "ref": "Japes Dropsanity/Jungle Japes Enemy: Storm (2)/Japes Enemy: Storm (2)",
-            "name": "Jungle Japes Enemy: Storm (2)"
+            "name": "Japes Enemy: Storm (2)"
           },
           {
             "ref": "Japes Dropsanity/Jungle Japes Enemy: Hive (0)/Japes Enemy: Hive (0)",
-            "name": "Jungle Japes Enemy: Hive (0)"
+            "name": "Japes Enemy: Hive (0)"
           },
           {
             "ref": "Japes Dropsanity/Jungle Japes Enemy: Hive (1)/Japes Enemy: Hive (1)",
-            "name": "Jungle Japes Enemy: Hive (1)"
+            "name": "Japes Enemy: Hive (1)"
           },
           {
             "ref": "Japes Dropsanity/Jungle Japes Enemy: Hive (2)/Japes Enemy: Hive (2)",
-            "name": "Jungle Japes Enemy: Hive (2)"
+            "name": "Japes Enemy: Hive (2)"
           },
           {
             "ref": "Japes Dropsanity/Jungle Japes Enemy: Hive (3)/Japes Enemy: Hive (3)",
-            "name": "Jungle Japes Enemy: Hive (3)"
+            "name": "Japes Enemy: Hive (3)"
           },
           {
             "ref": "Japes Dropsanity/Jungle Japes Enemy: Hive (4)/Japes Enemy: Hive (4)",
-            "name": "Jungle Japes Enemy: Hive (4)"
+            "name": "Japes Enemy: Hive (4)"
           },
           {
             "ref": "Japes Dropsanity/Jungle Japes Enemy: Killed In Demo/Japes Enemy: Killed In Demo",
-            "name": "Jungle Japes Enemy: Killed In Demo"
+            "name": "Japes Enemy: Killed In Demo"
           },
           {
             "ref": "Japes Dropsanity/Jungle Japes Enemy: Near Underground/Japes Enemy: Near Underground",
-            "name": "Jungle Japes Enemy: Near Underground"
+            "name": "Japes Enemy: Near Underground"
           },
           {
             "ref": "Japes Dropsanity/Jungle Japes Enemy: Near Painting (0)/Japes Enemy: Near Painting (0)",
-            "name": "Jungle Japes Enemy: Near Painting (0)"
+            "name": "Japes Enemy: Near Painting (0)"
           },
           {
             "ref": "Japes Dropsanity/Jungle Japes Enemy: Near Painting (1)/Japes Enemy: Near Painting (1)",
-            "name": "Jungle Japes Enemy: Near Painting (1)"
+            "name": "Japes Enemy: Near Painting (1)"
           },
           {
             "ref": "Japes Dropsanity/Jungle Japes Enemy: Near Painting (2)/Japes Enemy: Near Painting (2)",
-            "name": "Jungle Japes Enemy: Near Painting (2)"
+            "name": "Japes Enemy: Near Painting (2)"
           },
           {
             "ref": "Japes Dropsanity/Jungle Japes Enemy: Mountain/Japes Enemy: Mountain",
-            "name": "Jungle Japes Enemy: Mountain"
+            "name": "Japes Enemy: Mountain"
           },
           {
             "ref": "Japes Dropsanity/Jungle Japes Enemy: Feather Tunnel/Japes Enemy: Feather Tunnel",
-            "name": "Jungle Japes Enemy: Feather Tunnel"
+            "name": "Japes Enemy: Feather Tunnel"
           },
           {
             "ref": "Japes Dropsanity/Jungle Japes Enemy: Middle Tunnel/Japes Enemy: Middle Tunnel",
-            "name": "Jungle Japes Enemy: Middle Tunnel"
+            "name": "Japes Enemy: Middle Tunnel"
           },
           {
             "ref": "Japes Dropsanity/Japes Mountain Enemy: Start (0)/Japes Mountain Enemy: Start (0)",
@@ -915,7 +915,7 @@
         "sections": [
           {
             "ref": "Japes Shops/Japes Cranky/Japes Cranky Donkey",
-            "name": "Japes Cranky DK"
+            "name": "Japes Cranky Donkey"
           },
           {
             "ref": "Japes Shops/Japes Cranky/Japes Cranky Diddy",
@@ -935,7 +935,7 @@
           },
           {
             "ref": "Japes Shops/Japes Funky/Japes Funky Donkey",
-            "name": "Japes Funky DK"
+            "name": "Japes Funky Donkey"
           },
           {
             "ref": "Japes Shops/Japes Funky/Japes Funky Diddy",
@@ -967,15 +967,15 @@
         "sections": [
           {
             "ref": "Angry Aztec/Aztec DK Free Llama Blast/Aztec Donkey Free Llama Blast",
-            "name": "Aztec DK Free Llama Blast"
+            "name": "Aztec Donkey Free Llama Blast"
           },
           {
             "ref": "Angry Aztec/Aztec DK Sealed Quicksand Tunnel Barrel/Aztec Donkey Sealed Quicksand Tunnel Barrel",
-            "name": "Aztec DK Sealed Quicksand Tunnel"
+            "name": "Aztec Donkey Sealed Quicksand Tunnel Barrel"
           },
           {
             "ref": "Angry Aztec/5 Door Temple/Aztec Donkey 5 Door Temple",
-            "name": "Aztec DK 5DT"
+            "name": "Aztec Donkey 5 Door Temple"
           },
           {
             "ref": "Angry Aztec/Lanky's Cage/Aztec Free Lanky Item",
@@ -995,7 +995,7 @@
           },
           {
             "ref": "Angry Aztec/5 Door Temple/Aztec Donkey 5 Door Temple",
-            "name": "Aztec Diddy 5DT"
+            "name": "Aztec Donkey 5 Door Temple"
           },
           {
             "ref": "Angry Aztec/Aztec Lanky Vulture Shooting/Aztec Lanky Vulture Shooting",
@@ -1003,7 +1003,7 @@
           },
           {
             "ref": "Angry Aztec/5 Door Temple/Aztec Donkey 5 Door Temple",
-            "name": "Aztec Lanky 5DT"
+            "name": "Aztec Donkey 5 Door Temple"
           },
           {
             "ref": "Angry Aztec/Aztec Lanky Llama Temple Barrel/Aztec Lanky Llama Temple Barrel",
@@ -1019,7 +1019,7 @@
           },
           {
             "ref": "Angry Aztec/5 Door Temple/Aztec Donkey 5 Door Temple",
-            "name": "Aztec Tiny 5DT"
+            "name": "Aztec Donkey 5 Door Temple"
           },
           {
             "ref": "Angry Aztec/Aztec Tiny Beetle Race/Aztec Tiny Beetle Race",
@@ -1043,7 +1043,7 @@
           },
           {
             "ref": "Angry Aztec/5 Door Temple/Aztec Donkey 5 Door Temple",
-            "name": "Aztec Chunky 5DT"
+            "name": "Aztec Donkey 5 Door Temple"
           }
         ],
         "map_locations": [
@@ -1059,7 +1059,7 @@
         "sections": [
           {
             "ref": "Angry Aztec/Medals/Aztec Donkey Medal",
-            "name": "Aztec DK Medal"
+            "name": "Aztec Donkey Medal"
           },
           {
             "ref": "Angry Aztec/Medals/Aztec Diddy Medal",
@@ -1079,7 +1079,7 @@
           },
           {
             "ref": "Angry Aztec/Medals/Aztec Donkey Medal",
-            "name": "Aztec DK Half Medal"
+            "name": "Aztec Donkey Medal"
           },
           {
             "ref": "Angry Aztec/Medals/Aztec Diddy Half Medal",
@@ -1099,7 +1099,7 @@
           },
           {
             "ref": "Angry Aztec/Medals/Aztec Boss Defeated",
-            "name": "Aztec Boss"
+            "name": "Aztec Boss Defeated"
           }
         ],
         "map_locations": [
@@ -1115,7 +1115,7 @@
         "sections": [
           {
             "ref": "Angry Aztec/5 Door Temple/Aztec Donkey 5 Door Temple",
-            "name": "Aztec Fairy (Inside Tiny 5DT)"
+            "name": "Aztec Donkey 5 Door Temple"
           },
           {
             "ref": "Angry Aztec/Aztec Fairy (Llama Temple)/Aztec Fairy (Llama Temple)",
@@ -1135,7 +1135,7 @@
         "sections": [
           {
             "ref": "Angry Aztec/Aztec Battle Arena (Tiny Temple: Vulture Room)/Aztec Battle Arena (Tiny Temple: Vulture Room)",
-            "name": "Aztec Battle Arena (Tiny Temple)"
+            "name": "Aztec Battle Arena (Tiny Temple: Vulture Room)"
           }
         ],
         "map_locations": [
@@ -1155,7 +1155,7 @@
           },
           {
             "ref": "Angry Aztec/5 Door Temple/Aztec Donkey 5 Door Temple",
-            "name": "Aztec Dirt: Chunky 5DT"
+            "name": "Aztec Donkey 5 Door Temple"
           },
           {
             "ref": "Angry Aztec/Aztec Boulder: Tunnel/Aztec Boulder: Tunnel",
@@ -1207,7 +1207,7 @@
           },
           {
             "ref": "Angry Aztec/5 Door Temple/Aztec Donkey 5 Door Temple",
-            "name": "Aztec Kasplat: Chunky 5DT"
+            "name": "Aztec Donkey 5 Door Temple"
           }
         ],
         "map_locations": [
@@ -1231,91 +1231,91 @@
           },
           {
             "ref": "Angry Aztec/Aztec Crate: Llama Temple/Aztec Crate: Llama Temple Entrance",
-            "name": "Aztec Crate: Llama Temple"
+            "name": "Aztec Crate: Llama Temple Entrance"
           },
           {
             "ref": "Aztec Dropsanity/Angry Aztec Enemy: Vase Room (0)/Aztec Enemy: Vase Room (0)",
-            "name": "Angry Aztec Enemy: Vase Room (0)"
+            "name": "Aztec Enemy: Vase Room (0)"
           },
           {
             "ref": "Aztec Dropsanity/Angry Aztec Enemy: Vase Room (1)/Aztec Enemy: Vase Room (1)",
-            "name": "Angry Aztec Enemy: Vase Room (1)"
+            "name": "Aztec Enemy: Vase Room (1)"
           },
           {
             "ref": "Aztec Dropsanity/Angry Aztec Enemy: Vase Room (2)/Aztec Enemy: Vase Room (2)",
-            "name": "Angry Aztec Enemy: Vase Room (2)"
+            "name": "Aztec Enemy: Vase Room (2)"
           },
           {
             "ref": "Aztec Dropsanity/Angry Aztec Enemy: Tunnel Pad (0)/Aztec Enemy: Tunnel Pad (0)",
-            "name": "Angry Aztec Enemy: Tunnel Pad (0)"
+            "name": "Aztec Enemy: Tunnel Pad (0)"
           },
           {
             "ref": "Aztec Dropsanity/Angry Aztec Enemy: Tunnel Cage (0)/Aztec Enemy: Tunnel Cage (0)",
-            "name": "Angry Aztec Enemy: Tunnel Cage (0)"
+            "name": "Aztec Enemy: Tunnel Cage (0)"
           },
           {
             "ref": "Aztec Dropsanity/Angry Aztec Enemy: Tunnel Cage (1)/Aztec Enemy: Tunnel Cage (1)",
-            "name": "Angry Aztec Enemy: Tunnel Cage (1)"
+            "name": "Aztec Enemy: Tunnel Cage (1)"
           },
           {
             "ref": "Aztec Dropsanity/Angry Aztec Enemy: Tunnel Cage (2)/Aztec Enemy: Tunnel Cage (2)",
-            "name": "Angry Aztec Enemy: Tunnel Cage (2)"
+            "name": "Aztec Enemy: Tunnel Cage (2)"
           },
           {
             "ref": "Aztec Dropsanity/Angry Aztec Enemy: Starting Tunnel (0)/Aztec Enemy: Starting Tunnel (0)",
-            "name": "Angry Aztec Enemy: Starting Tunnel (0)"
+            "name": "Aztec Enemy: Starting Tunnel (0)"
           },
           {
             "ref": "Aztec Dropsanity/Angry Aztec Enemy: Starting Tunnel (1)/Aztec Enemy: Starting Tunnel (1)",
-            "name": "Angry Aztec Enemy: Starting Tunnel (1)"
+            "name": "Aztec Enemy: Starting Tunnel (1)"
           },
           {
             "ref": "Aztec Dropsanity/Angry Aztec Enemy: Oasis Door/Aztec Enemy: Oasis Door",
-            "name": "Angry Aztec Enemy: Oasis Door"
+            "name": "Aztec Enemy: Oasis Door"
           },
           {
             "ref": "Aztec Dropsanity/Angry Aztec Enemy: Tunnel Cage (3)/Aztec Enemy: Tunnel Cage (3)",
-            "name": "Angry Aztec Enemy: Tunnel Cage (3)"
+            "name": "Aztec Enemy: Tunnel Cage (3)"
           },
           {
             "ref": "Aztec Dropsanity/Angry Aztec Enemy: Outside Llama/Aztec Enemy: Outside Llama",
-            "name": "Angry Aztec Enemy: Outside Llama"
+            "name": "Aztec Enemy: Outside Llama"
           },
           {
             "ref": "Aztec Dropsanity/Angry Aztec Enemy: Outside Tower/Aztec Enemy: Outside Tower",
-            "name": "Angry Aztec Enemy: Outside Tower"
+            "name": "Aztec Enemy: Outside Tower"
           },
           {
             "ref": "Aztec Dropsanity/Angry Aztec Enemy: Tunnel Pad (1)/Aztec Enemy: Tunnel Pad (1)",
-            "name": "Angry Aztec Enemy: Tunnel Pad (1)"
+            "name": "Aztec Enemy: Tunnel Pad (1)"
           },
           {
             "ref": "Aztec Dropsanity/Angry Aztec Enemy: Near Candy/Aztec Enemy: Near Candy",
-            "name": "Angry Aztec Enemy: Near Candy"
+            "name": "Aztec Enemy: Near Candy"
           },
           {
             "ref": "Aztec Dropsanity/Angry Aztec Enemy: Around Totem/Aztec Enemy: Around Totem",
-            "name": "Angry Aztec Enemy: Around Totem"
+            "name": "Aztec Enemy: Around Totem"
           },
           {
             "ref": "Aztec Dropsanity/Angry Aztec Enemy: Starting Tunnel (2)/Aztec Enemy: Starting Tunnel (2)",
-            "name": "Angry Aztec Enemy: Starting Tunnel (2)"
+            "name": "Aztec Enemy: Starting Tunnel (2)"
           },
           {
             "ref": "Aztec Dropsanity/Angry Aztec Enemy: Starting Tunnel (3)/Aztec Enemy: Starting Tunnel (3)",
-            "name": "Angry Aztec Enemy: Starting Tunnel (3)"
+            "name": "Aztec Enemy: Starting Tunnel (3)"
           },
           {
             "ref": "Aztec Dropsanity/Angry Aztec Enemy: Outside Snide/Aztec Enemy: Outside Snide",
-            "name": "Angry Aztec Enemy: Outside Snide"
+            "name": "Aztec Enemy: Outside Snide"
           },
           {
             "ref": "Aztec Dropsanity/Angry Aztec Enemy: Outside 5DT/Aztec Enemy: Outside 5DT",
-            "name": "Angry Aztec Enemy: Outside 5DT"
+            "name": "Aztec Enemy: Outside 5DT"
           },
           {
             "ref": "Aztec Dropsanity/Angry Aztec Enemy: Near Sealed Quicksand Tunnel/Aztec Enemy: Near Sealed Quicksand Tunnel",
-            "name": "Angry Aztec Enemy: Near Sealed Quicksand Tunnel"
+            "name": "Aztec Enemy: Near Sealed Quicksand Tunnel"
           },
           {
             "ref": "Aztec Dropsanity/Aztec Donkey 5DTemple Enemy: Start Trap (0)/Aztec Donkey 5DTemple Enemy: Start Trap (0)",
@@ -1455,11 +1455,11 @@
           },
           {
             "ref": "Aztec Dropsanity/Aztec Llama Temple Enemy: Matching (0)/Aztec Llama Temple Enemy: Matching0",
-            "name": "Aztec Llama Temple Enemy: Matching (0)"
+            "name": "Aztec Llama Temple Enemy: Matching0"
           },
           {
             "ref": "Aztec Dropsanity/Aztec Llama Temple Enemy: Matching (1)/Aztec Llama Temple Enemy: Matching1",
-            "name": "Aztec Llama Temple Enemy: Matching (1)"
+            "name": "Aztec Llama Temple Enemy: Matching1"
           },
           {
             "ref": "Aztec Dropsanity/Aztec Llama Temple Enemy: Right/Aztec Llama Temple Enemy: Right",
@@ -1531,7 +1531,7 @@
         "sections": [
           {
             "ref": "Aztec Shops/Aztec Cranky/Aztec Cranky Donkey",
-            "name": "Aztec Cranky DK"
+            "name": "Aztec Cranky Donkey"
           },
           {
             "ref": "Aztec Shops/Aztec Cranky/Aztec Cranky Diddy",
@@ -1551,7 +1551,7 @@
           },
           {
             "ref": "Aztec Shops/Aztec Funky/Aztec Funky Donkey",
-            "name": "Aztec Funky DK"
+            "name": "Aztec Funky Donkey"
           },
           {
             "ref": "Aztec Shops/Aztec Funky/Aztec Funky Diddy",
@@ -1571,7 +1571,7 @@
           },
           {
             "ref": "Aztec Shops/Aztec Candy/Aztec Candy Donkey",
-            "name": "Aztec Candy DK"
+            "name": "Aztec Candy Donkey"
           },
           {
             "ref": "Aztec Shops/Aztec Candy/Aztec Candy Diddy",
@@ -1603,19 +1603,19 @@
         "sections": [
           {
             "ref": "Frantic Factory/Factory DK Number Game/Factory Donkey Number Game",
-            "name": "Factory DK Number Game"
+            "name": "Factory Donkey Number Game"
           },
           {
             "ref": "Frantic Factory/Factory DK Power Hut/Factory Donkey Power Hut",
-            "name": "Factory DK Power Hut"
+            "name": "Factory Donkey Power Hut"
           },
           {
             "ref": "Frantic Factory/Factory DK Blast Course/Factory Donkey DK Arcade Round 1",
-            "name": "Factory DK Blast Course"
+            "name": "Factory Donkey DK Arcade Round 1"
           },
           {
             "ref": "Frantic Factory/Factory DK Crusher Room/Factory Donkey Crusher Room",
-            "name": "Factory DK Crusher Room"
+            "name": "Factory Donkey Crusher Room"
           },
           {
             "ref": "Frantic Factory/Factory Diddy Block Tower/Factory Diddy Block Tower",
@@ -1639,11 +1639,11 @@
           },
           {
             "ref": "Frantic Factory/Factory Lanky Piano Game/Factory Lanky Piano Game",
-            "name": "Factory Lanky Piano Room"
+            "name": "Factory Lanky Piano Game"
           },
           {
             "ref": "Frantic Factory/Chunky's Cage/Factory Free Chunky Item",
-            "name": "Factroy Free Chunky Item"
+            "name": "Factory Free Chunky Item"
           },
           {
             "ref": "Frantic Factory/Factory Lanky Production Handstand/Factory Lanky Production Handstand",
@@ -1695,7 +1695,7 @@
         "sections": [
           {
             "ref": "Frantic Factory/Medals/Factory Donkey Medal",
-            "name": "Factory DK Medal"
+            "name": "Factory Donkey Medal"
           },
           {
             "ref": "Frantic Factory/Medals/Factory Diddy Medal",
@@ -1715,7 +1715,7 @@
           },
           {
             "ref": "Frantic Factory/Medals/Factory Donkey Medal",
-            "name": "Factory DK Half Medal"
+            "name": "Factory Donkey Medal"
           },
           {
             "ref": "Frantic Factory/Medals/Factory Diddy Half Medal",
@@ -1735,7 +1735,7 @@
           },
           {
             "ref": "Frantic Factory/Medals/Factory Boss Defeated",
-            "name": "Factory Boss"
+            "name": "Factory Boss Defeated"
           }
         ],
         "map_locations": [
@@ -1751,11 +1751,11 @@
         "sections": [
           {
             "ref": "Frantic Factory/Factory Fairy (Number Game)/Factory Fairy (Number Game)",
-            "name": "Factory Fairy Number Game"
+            "name": "Factory Fairy (Number Game)"
           },
           {
             "ref": "Frantic Factory/Factory Fairy (Near Funky's)/Factory Fairy (Near Funky's)",
-            "name": "Factory Fairy Near Funky's"
+            "name": "Factory Fairy (Near Funky's)"
           }
         ],
         "map_locations": [
@@ -1771,7 +1771,7 @@
         "sections": [
           {
             "ref": "Frantic Factory/Factory Battle Arena (Under Grate)/Factory Battle Arena (Under R&D Grate)",
-            "name": "Factory Arena"
+            "name": "Factory Battle Arena (Under R&D Grate)"
           }
         ],
         "map_locations": [
@@ -1811,7 +1811,7 @@
           },
           {
             "ref": "Frantic Factory/Factory Kasplat: R&D/Factory Kasplat: Research and Development",
-            "name": "Factory Kasplat: R&D"
+            "name": "Factory Kasplat: Research and Development"
           },
           {
             "ref": "Frantic Factory/Factory Kasplat: Pole to Arcade/Factory Kasplat: Pole to Arcade",
@@ -1843,83 +1843,83 @@
           },
           {
             "ref": "Factory Dropsanity/Frantic Factory Enemy: Candy Cranky (0)/Factory Enemy: Candy Cranky (0)",
-            "name": "Frantic Factory Enemy: Candy Cranky (0)"
+            "name": "Factory Enemy: Candy Cranky (0)"
           },
           {
             "ref": "Factory Dropsanity/Frantic Factory Enemy: Candy Cranky (1)/Factory Enemy: Candy Cranky (1)",
-            "name": "Frantic Factory Enemy: Candy Cranky (1)"
+            "name": "Factory Enemy: Candy Cranky (1)"
           },
           {
             "ref": "Factory Dropsanity/Frantic Factory Enemy: Lobby Left/Factory Enemy: Lobby Left",
-            "name": "Frantic Factory Enemy: Lobby Left"
+            "name": "Factory Enemy: Lobby Left"
           },
           {
             "ref": "Factory Dropsanity/Frantic Factory Enemy: Lobby Right/Factory Enemy: Lobby Right",
-            "name": "Frantic Factory Enemy: Lobby Right"
+            "name": "Factory Enemy: Lobby Right"
           },
           {
             "ref": "Factory Dropsanity/Frantic Factory Enemy: Storage Room/Factory Enemy: Storage Room",
-            "name": "Frantic Factory Enemy: Storage Room"
+            "name": "Factory Enemy: Storage Room"
           },
           {
             "ref": "Factory Dropsanity/Frantic Factory Enemy: Block Tower (0)/Factory Enemy: Block Tower (0)",
-            "name": "Frantic Factory Enemy: Block Tower (0)"
+            "name": "Factory Enemy: Block Tower (0)"
           },
           {
             "ref": "Factory Dropsanity/Frantic Factory Enemy: Block Tower (1)/Factory Enemy: Block Tower (1)",
-            "name": "Frantic Factory Enemy: Block Tower (1)"
+            "name": "Factory Enemy: Block Tower (1)"
           },
           {
             "ref": "Factory Dropsanity/Frantic Factory Enemy: Block Tower (2)/Factory Enemy: Block Tower (2)",
-            "name": "Frantic Factory Enemy: Block Tower (2)"
+            "name": "Factory Enemy: Block Tower (2)"
           },
           {
             "ref": "Factory Dropsanity/Frantic Factory Enemy: Tunnel To Hatch/Factory Enemy: Tunnel To Hatch",
-            "name": "Frantic Factory Enemy: Tunnel To Hatch"
+            "name": "Factory Enemy: Tunnel To Hatch"
           },
           {
             "ref": "Factory Dropsanity/Frantic Factory Enemy: Tunnel To Prod (0)/Factory Enemy: Tunnel To Prod (0)",
-            "name": "Frantic Factory Enemy: Tunnel To Prod (0)"
+            "name": "Factory Enemy: Tunnel To Prod (0)"
           },
           {
             "ref": "Factory Dropsanity/Frantic Factory Enemy: Tunnel To Prod (1)/Factory Enemy: Tunnel To Prod (1)",
-            "name": "Frantic Factory Enemy: Tunnel To Prod (1)"
+            "name": "Factory Enemy: Tunnel To Prod (1)"
           },
           {
             "ref": "Factory Dropsanity/Frantic Factory Enemy: Tunnel To Block Tower/Factory Enemy: Tunnel To Block Tower",
-            "name": "Frantic Factory Enemy: Tunnel To Block Tower"
+            "name": "Factory Enemy: Tunnel To Block Tower"
           },
           {
             "ref": "Factory Dropsanity/Frantic Factory Enemy: Tunnel To Race (0)/Factory Enemy: Tunnel To Race (0)",
-            "name": "Frantic Factory Enemy: Tunnel To Race (0)"
+            "name": "Factory Enemy: Tunnel To Race (0)"
           },
           {
             "ref": "Factory Dropsanity/Frantic Factory Enemy: Tunnel To Race (1)/Factory Enemy: Tunnel To Race (1)",
-            "name": "Frantic Factory Enemy: Tunnel To Race (1)"
+            "name": "Factory Enemy: Tunnel To Race (1)"
           },
           {
             "ref": "Factory Dropsanity/Frantic Factory Enemy: Low Warp 4/Factory Enemy: Low Warp 4",
-            "name": "Frantic Factory Enemy: Low Warp 4"
+            "name": "Factory Enemy: Low Warp 4"
           },
           {
             "ref": "Factory Dropsanity/Frantic Factory Enemy: Diddy Switch/Factory Enemy: Diddy Switch",
-            "name": "Frantic Factory Enemy: Diddy Switch"
+            "name": "Factory Enemy: Diddy Switch"
           },
           {
             "ref": "Factory Dropsanity/Frantic Factory Enemy: To Block Tower Tunnel/Factory Enemy: To Block Tower Tunnel",
-            "name": "Frantic Factory Enemy: To Block Tower Tunnel"
+            "name": "Factory Enemy: To Block Tower Tunnel"
           },
           {
             "ref": "Factory Dropsanity/Frantic Factory Enemy: Dark Room (0)/Factory Enemy: Dark Room (0)",
-            "name": "Frantic Factory Enemy: Dark Room (0)"
+            "name": "Factory Enemy: Dark Room (0)"
           },
           {
             "ref": "Factory Dropsanity/Frantic Factory Enemy: Dark Room (1)/Factory Enemy: Dark Room (1)",
-            "name": "Frantic Factory Enemy: Dark Room (1)"
+            "name": "Factory Enemy: Dark Room (1)"
           },
           {
             "ref": "Isles Dropsanity/Frantic Factory Lobby Enemy: Enemy (0)/Isles Factory Lobby Enemy: Enemy (0)",
-            "name": "Frantic Factory Lobby Enemy (0)"
+            "name": "Isles Factory Lobby Enemy: Enemy (0)"
           }
         ],
         "map_locations": [
@@ -1935,7 +1935,7 @@
         "sections": [
           {
             "ref": "Frantic Factory/DK Arcade/DK Arcade Round 2",
-            "name": "Factory Arcade Round 2"
+            "name": "DK Arcade Round 2"
           }
         ],
         "map_locations": [
@@ -1951,7 +1951,7 @@
         "sections": [
           {
             "ref": "Factory Shops/Factory Cranky/Factory Cranky Donkey",
-            "name": "Factory Cranky DK"
+            "name": "Factory Cranky Donkey"
           },
           {
             "ref": "Factory Shops/Factory Cranky/Factory Cranky Diddy",
@@ -1971,7 +1971,7 @@
           },
           {
             "ref": "Factory Shops/Factory Funky/Factory Funky Donkey",
-            "name": "Factory Funky DK"
+            "name": "Factory Funky Donkey"
           },
           {
             "ref": "Factory Shops/Factory Funky/Factory Funky Diddy",
@@ -1991,7 +1991,7 @@
           },
           {
             "ref": "Factory Shops/Factory Candy/Factory Candy Donkey",
-            "name": "Factory Candy DK"
+            "name": "Factory Candy Donkey"
           },
           {
             "ref": "Factory Shops/Factory Candy/Factory Candy Diddy",
@@ -2022,19 +2022,20 @@
         "name": "Galleon GBs",
         "sections": [
           {
-            "ref": "Gloomy Galleon/Lighthouse/Galleon Lighthouse Enemy: Enemy (0)"
+            "ref": "Gloomy Galleon/Lighthouse/Galleon Lighthouse Enemy: Enemy (0)",
+            "name": "Galleon Lighthouse Enemy: Enemy (0)"
           },
           {
             "ref": "Gloomy Galleon/Galleon Seal/Galleon Donkey Free the Seal",
-            "name": "Galleon DK Free the Seal"
+            "name": "Galleon Donkey Free the Seal"
           },
           {
             "ref": "Gloomy Galleon/Galleon Seal/Galleon Donkey Seal Race",
-            "name": "Galleon DK Seal Race"
+            "name": "Galleon Donkey Seal Race"
           },
           {
             "ref": "Gloomy Galleon/Galleon DK 5-Door Ship/Galleon Donkey 5 Door Ship",
-            "name": "Galleon DK 5DS"
+            "name": "Galleon Donkey 5 Door Ship"
           },
           {
             "ref": "Gloomy Galleon/Galleon Diddy Top of Lighthouse/Galleon Diddy Top of Lighthouse",
@@ -2050,7 +2051,7 @@
           },
           {
             "ref": "Gloomy Galleon/Galleon Diddy 5-Door Ship/Galleon Diddy 5 Door Ship",
-            "name": "Galleon Diddy 5DS"
+            "name": "Galleon Diddy 5 Door Ship"
           },
           {
             "ref": "Gloomy Galleon/Galleon Lanky Enguarde Chest/Galleon Lanky Enguarde Chest",
@@ -2062,11 +2063,11 @@
           },
           {
             "ref": "Gloomy Galleon/2-Door Ship/Galleon Lanky 2 Door Ship",
-            "name": "Galleon Lanky 2DS"
+            "name": "Galleon Lanky 2 Door Ship"
           },
           {
             "ref": "Gloomy Galleon/Galleon Lanky 5-Door Ship/Galleon Lanky 5 Door Ship",
-            "name": "Galleon Lanky 5DS"
+            "name": "Galleon Lanky 5 Door Ship"
           },
           {
             "ref": "Gloomy Galleon/Galleon Tiny Mermaid Reward/Galleon Tiny Mermaid Reward",
@@ -2078,11 +2079,11 @@
           },
           {
             "ref": "Gloomy Galleon/2-Door Ship/Galleon Lanky 2 Door Ship",
-            "name": "Galleon Tiny 2DS"
+            "name": "Galleon Lanky 2 Door Ship"
           },
           {
             "ref": "Gloomy Galleon/Galleon Tiny 5-Door Ship/Galleon Tiny 5 Door Ship",
-            "name": "Galleon Tiny 5DS"
+            "name": "Galleon Tiny 5 Door Ship"
           },
           {
             "ref": "Gloomy Galleon/Galleon Chunky Chest/Galleon Chunky Chest",
@@ -2098,7 +2099,7 @@
           },
           {
             "ref": "Gloomy Galleon/Galleon Chunky 5-Door Ship/Galleon Chunky 5 Door Ship",
-            "name": "Galleon Chunky 5DS"
+            "name": "Galleon Chunky 5 Door Ship"
           }
         ],
         "map_locations": [
@@ -2114,7 +2115,7 @@
         "sections": [
           {
             "ref": "Gloomy Galleon/Medals/Galleon Donkey Medal",
-            "name": "Galleon DK Medal"
+            "name": "Galleon Donkey Medal"
           },
           {
             "ref": "Gloomy Galleon/Medals/Galleon Diddy Medal",
@@ -2134,7 +2135,7 @@
           },
           {
             "ref": "Gloomy Galleon/Medals/Galleon Donkey Medal",
-            "name": "Galleon DK Half Medal"
+            "name": "Galleon Donkey Medal"
           },
           {
             "ref": "Gloomy Galleon/Medals/Galleon Diddy Half Medal",
@@ -2154,7 +2155,7 @@
           },
           {
             "ref": "Gloomy Galleon/Medals/Galleon Boss Defeated",
-            "name": "Galleon Boss"
+            "name": "Galleon Boss Defeated"
           }
         ],
         "map_locations": [
@@ -2170,11 +2171,11 @@
         "sections": [
           {
             "ref": "Gloomy Galleon/Galleon Fairy (In Punch Chest)/Galleon Fairy (In Punch Chest)",
-            "name": "Galleon Fairy In Punch Chest"
+            "name": "Galleon Fairy (In Punch Chest)"
           },
           {
             "ref": "Gloomy Galleon/Galleon Tiny 5-Door Ship/Galleon Fairy (In Tiny's 5-Door Ship)",
-            "name": "Galleon Fairy Tiny 5DS"
+            "name": "Galleon Fairy (In Tiny's 5-Door Ship)"
           }
         ],
         "map_locations": [
@@ -2190,7 +2191,7 @@
         "sections": [
           {
             "ref": "Gloomy Galleon/Galleon Battle Arena (Under Cranky)/Galleon Battle Arena (Under Cranky)",
-            "name": "Galleon Arena"
+            "name": "Galleon Battle Arena (Under Cranky)"
           }
         ],
         "map_locations": [
@@ -2205,7 +2206,8 @@
         "name": "Galleon Dirt Patches",
         "sections": [
           {
-            "ref": "Gloomy Galleon/Lighthouse/Galleon Dirt: Lighthouse"
+            "ref": "Gloomy Galleon/Lighthouse/Galleon Dirt: Lighthouse",
+            "name": "Galleon Dirt: Lighthouse"
           }
         ],
         "map_locations": [
@@ -2277,35 +2279,35 @@
           },
           {
             "ref": "Galleon Dropsanity/Gloomy Galleon Enemy: Chest Room (0)/Galleon Enemy: Chest Room (0)",
-            "name": "Gloomy Galleon Enemy: Chest Room (0)"
+            "name": "Galleon Enemy: Chest Room (0)"
           },
           {
             "ref": "Galleon Dropsanity/Gloomy Galleon Enemy: Chest Room (1)/Galleon Enemy: Chest Room (1)",
-            "name": "Gloomy Galleon Enemy: Chest Room (1)"
+            "name": "Galleon Enemy: Chest Room (1)"
           },
           {
             "ref": "Galleon Dropsanity/Gloomy Galleon Enemy: Near Vine Cannon/Galleon Enemy: Near Vine Cannon",
-            "name": "Gloomy Galleon Enemy: Near Vine Cannon"
+            "name": "Galleon Enemy: Near Vine Cannon"
           },
           {
             "ref": "Galleon Dropsanity/Gloomy Galleon Enemy: Cranky Cannon/Galleon Enemy: Cranky Cannon",
-            "name": "Gloomy Galleon Enemy: Cranky Cannon"
+            "name": "Galleon Enemy: Cranky Cannon"
           },
           {
             "ref": "Galleon Dropsanity/Gloomy Galleon Enemy: Peanut Tunnel/Galleon Enemy: Peanut Tunnel",
-            "name": "Gloomy Galleon Enemy: Peanut Tunnel"
+            "name": "Galleon Enemy: Peanut Tunnel"
           },
           {
             "ref": "Galleon Dropsanity/Gloomy Galleon Enemy: Coconut Tunnel/Galleon Enemy: Coconut Tunnel",
-            "name": "Gloomy Galleon Enemy: Coconut Tunnel"
+            "name": "Galleon Enemy: Coconut Tunnel"
           },
           {
             "ref": "Gloomy Galleon/Lighthouse/Galleon Lighthouse Enemy: Enemy (0)",
-            "name": "Galleon Lighthouse Enemy (0)"
+            "name": "Galleon Lighthouse Enemy: Enemy (0)"
           },
           {
             "ref": "Gloomy Galleon/Lighthouse/Galleon Lighthouse Enemy: Enemy (1)",
-            "name": "Galleon Lighthouse Enemy (1)"
+            "name": "Galleon Lighthouse Enemy: Enemy (1)"
           }
         ],
         "map_locations": [
@@ -2321,7 +2323,7 @@
         "sections": [
           {
             "ref": "Galleon Shops/Galleon Cranky/Galleon Cranky Donkey",
-            "name": "Galleon Cranky DK"
+            "name": "Galleon Cranky Donkey"
           },
           {
             "ref": "Galleon Shops/Galleon Cranky/Galleon Cranky Diddy",
@@ -2341,7 +2343,7 @@
           },
           {
             "ref": "Galleon Shops/Galleon Funky/Galleon Funky Donkey",
-            "name": "Galleon Funky DK"
+            "name": "Galleon Funky Donkey"
           },
           {
             "ref": "Galleon Shops/Galleon Funky/Galleon Funky Diddy",
@@ -2361,7 +2363,7 @@
           },
           {
             "ref": "Galleon Shops/Galleon Candy/Galleon Candy Donkey",
-            "name": "Galleon Candy DK"
+            "name": "Galleon Candy Donkey"
           },
           {
             "ref": "Galleon Shops/Galleon Candy/Galleon Candy Diddy",
@@ -2393,19 +2395,19 @@
         "sections": [
           {
             "ref": "Fungi Forest/Forest DK Baboon Blast/Forest Donkey Baboon Blast",
-            "name": "Forest DK Blast Course"
+            "name": "Forest Donkey Baboon Blast"
           },
           {
             "ref": "Fungi Forest/Inside the Mushroom/Forest Tiny Mushroom Barrel",
-            "name": "Forest DK Mushroom Cannons"
+            "name": "Forest Tiny Mushroom Barrel"
           },
           {
             "ref": "Fungi Forest/Forest DK Mill Levers/Forest Donkey Mill Levers",
-            "name": "Forest DK Mill Levers"
+            "name": "Forest Donkey Mill Levers"
           },
           {
             "ref": "Fungi Forest/Forest Donkey Thornvine Barn Barrel/Forest Donkey Thornvine Barn Barrel",
-            "name": "Forest DK Thornvine Barn Barrel"
+            "name": "Forest Donkey Thornvine Barn Barrel"
           },
           {
             "ref": "Fungi Forest/Forest Diddy Top of Mushroom Barrel/Forest Diddy Top of Mushroom Barrel",
@@ -2457,7 +2459,7 @@
           },
           {
             "ref": "Fungi Forest/Forest Tiny Top of Beanstalk/Forest Tiny Top of the Beanstalk",
-            "name": "Forest Tiny Top of Beanstalk"
+            "name": "Forest Tiny Top of the Beanstalk"
           },
           {
             "ref": "Fungi Forest/Forest Chunky Minecart/Forest Chunky Minecart",
@@ -2489,7 +2491,7 @@
         "sections": [
           {
             "ref": "Fungi Forest/Medals/Forest Donkey Medal",
-            "name": "Forest DK Medal"
+            "name": "Forest Donkey Medal"
           },
           {
             "ref": "Fungi Forest/Medals/Forest Diddy Medal",
@@ -2509,7 +2511,7 @@
           },
           {
             "ref": "Fungi Forest/Medals/Forest Donkey Medal",
-            "name": "Forest DK Half Medal"
+            "name": "Forest Donkey Medal"
           },
           {
             "ref": "Fungi Forest/Medals/Forest Diddy Half Medal",
@@ -2529,7 +2531,7 @@
           },
           {
             "ref": "Fungi Forest/Medals/Forest Boss Defeated",
-            "name": "Forest Boss"
+            "name": "Forest Boss Defeated"
           }
         ],
         "map_locations": [
@@ -2549,7 +2551,7 @@
           },
           {
             "ref": "Fungi Forest/Forest Fairy (Thornvine Barn)/Forest Fairy (Thornvine Barn)",
-            "name": "Forest Fairy Thornvine Barn"
+            "name": "Forest Fairy (Thornvine Barn)"
           }
         ],
         "map_locations": [
@@ -2565,7 +2567,7 @@
         "sections": [
           {
             "ref": "Fungi Forest/Forest Battle Arena: High Ladder Platform/Forest Battle Arena (Giant Mushroom High Ladder Platform)",
-            "name": "Forest Battle Arena"
+            "name": "Forest Battle Arena (Giant Mushroom High Ladder Platform)"
           }
         ],
         "map_locations": [
@@ -2581,7 +2583,7 @@
         "sections": [
           {
             "ref": "Fungi Forest/Forest Dirt: Near Mills Grass/Forest Dirt: Mills Grass",
-            "name": "Forest Dirt: Near Mills Grass"
+            "name": "Forest Dirt: Mills Grass"
           },
           {
             "ref": "Fungi Forest/Forest Dirt: Beanstalk/Forest Dirt: Beanstalk",
@@ -2625,7 +2627,7 @@
           },
           {
             "ref": "Fungi Forest/Forest Kasplat: Lower Mushroom Exterior/Forest Kasplat: Low Mushroom Exterior",
-            "name": "Forest Kasplat: Lower Mushroom Exterior"
+            "name": "Forest Kasplat: Low Mushroom Exterior"
           },
           {
             "ref": "Fungi Forest/Forest Kasplat: Mushroom Night Door/Forest Kasplat: Mushroom Night Door",
@@ -2661,167 +2663,167 @@
           },
           {
             "ref": "Forest Dropsanity/Fungi Forest Enemy: Hollow Tree (0)/Forest Enemy: Hollow Tree (0)",
-            "name": "Fungi Forest Enemy: Hollow Tree (0)"
+            "name": "Forest Enemy: Hollow Tree (0)"
           },
           {
             "ref": "Forest Dropsanity/Fungi Forest Enemy: Hollow Tree (1)/Forest Enemy: Hollow Tree (1)",
-            "name": "Fungi Forest Enemy: Hollow Tree (1)"
+            "name": "Forest Enemy: Hollow Tree (1)"
           },
           {
             "ref": "Forest Dropsanity/Fungi Forest Enemy: Hollow Tree Entrance/Forest Enemy: Hollow Tree Entrance",
-            "name": "Fungi Forest Enemy: Hollow Tree Entrance"
+            "name": "Forest Enemy: Hollow Tree Entrance"
           },
           {
             "ref": "Forest Dropsanity/Fungi Forest Enemy: Tree Melon Crate (0)/Forest Enemy: Tree Melon Crate (0)",
-            "name": "Fungi Forest Enemy: Tree Melon Crate (0)"
+            "name": "Forest Enemy: Tree Melon Crate (0)"
           },
           {
             "ref": "Forest Dropsanity/Fungi Forest Enemy: Tree Melon Crate (1)/Forest Enemy: Tree Melon Crate (1)",
-            "name": "Fungi Forest Enemy: Tree Melon Crate (1)"
+            "name": "Forest Enemy: Tree Melon Crate (1)"
           },
           {
             "ref": "Forest Dropsanity/Fungi Forest Enemy: Tree Melon Crate (2)/Forest Enemy: Tree Melon Crate (2)",
-            "name": "Fungi Forest Enemy: Tree Melon Crate (2)"
+            "name": "Forest Enemy: Tree Melon Crate (2)"
           },
           {
             "ref": "Forest Dropsanity/Fungi Forest Enemy: Apple Gauntlet (0)/Forest Enemy: Apple Gauntlet (0)",
-            "name": "Fungi Forest Enemy: Apple Gauntlet (0)"
+            "name": "Forest Enemy: Apple Gauntlet (0)"
           },
           {
             "ref": "Forest Dropsanity/Fungi Forest Enemy: Apple Gauntlet (1)/Forest Enemy: Apple Gauntlet (1)",
-            "name": "Fungi Forest Enemy: Apple Gauntlet (1)"
+            "name": "Forest Enemy: Apple Gauntlet (1)"
           },
           {
             "ref": "Forest Dropsanity/Fungi Forest Enemy: Apple Gauntlet (2)/Forest Enemy: Apple Gauntlet (2)",
-            "name": "Fungi Forest Enemy: Apple Gauntlet (2)"
+            "name": "Forest Enemy: Apple Gauntlet (2)"
           },
           {
             "ref": "Forest Dropsanity/Fungi Forest Enemy: Apple Gauntlet (3)/Forest Enemy: Apple Gauntlet (3)",
-            "name": "Fungi Forest Enemy: Apple Gauntlet (3)"
+            "name": "Forest Enemy: Apple Gauntlet (3)"
           },
           {
             "ref": "Forest Dropsanity/Fungi Forest Enemy: Near Beanstalk (0)/Forest Enemy: Near Beanstalk (0)",
-            "name": "Fungi Forest Enemy: Near Beanstalk (0)"
+            "name": "Forest Enemy: Near Beanstalk (0)"
           },
           {
             "ref": "Forest Dropsanity/Fungi Forest Enemy: Near Beanstalk (1)/Forest Enemy: Near Beanstalk (1)",
-            "name": "Fungi Forest Enemy: Near Beanstalk (1)"
+            "name": "Forest Enemy: Near Beanstalk (1)"
           },
           {
             "ref": "Forest Dropsanity/Fungi Forest Enemy: Green Tunnel/Forest Enemy: Green Tunnel",
-            "name": "Fungi Forest Enemy: Green Tunnel"
+            "name": "Forest Enemy: Green Tunnel"
           },
           {
             "ref": "Forest Dropsanity/Fungi Forest Enemy: Near Low Warp 5/Forest Enemy: Near Low Warp 5",
-            "name": "Fungi Forest Enemy: Near Low Warp 5"
+            "name": "Forest Enemy: Near Low Warp 5"
           },
           {
             "ref": "Forest Dropsanity/Fungi Forest Enemy: Near Pink Tunnel Bounce Tag/Forest Enemy: Near Pink Tunnel Bounce Tag",
-            "name": "Fungi Forest Enemy: Near Pink Tunnel Bounce Tag"
+            "name": "Forest Enemy: Near Pink Tunnel Bounce Tag"
           },
           {
             "ref": "Forest Dropsanity/Fungi Forest Enemy: Near Giant Mushroom Rocketbarrel/Forest Enemy: Near Giant Mushroom Rocketbarrel",
-            "name": "Fungi Forest Enemy: Near Giant Mushroom Rocketbarrel"
+            "name": "Forest Enemy: Near Giant Mushroom Rocketbarrel"
           },
           {
             "ref": "Forest Dropsanity/Fungi Forest Enemy: Between Yellow Tunnel And RB/Forest Enemy: Between Yellow Tunnel And RB",
-            "name": "Fungi Forest Enemy: Between Yellow Tunnel And RB"
+            "name": "Forest Enemy: Between Yellow Tunnel And RB"
           },
           {
             "ref": "Forest Dropsanity/Fungi Forest Enemy: Near Cranky/Forest Enemy: Near Cranky",
-            "name": "Fungi Forest Enemy: Near Cranky"
+            "name": "Forest Enemy: Near Cranky"
           },
           {
             "ref": "Forest Dropsanity/Fungi Forest Enemy: Near Pink Tunnel Giant Mushroom/Forest Enemy: Near Pink Tunnel Giant Mushroom",
-            "name": "Fungi Forest Enemy: Near Pink Tunnel Giant Mushroom"
+            "name": "Forest Enemy: Near Pink Tunnel Giant Mushroom"
           },
           {
             "ref": "Forest Dropsanity/Fungi Forest Enemy: Giant Mushroom Rear Tag/Forest Enemy: Giant Mushroom Rear Tag",
-            "name": "Fungi Forest Enemy: Giant Mushroom Rear Tag"
+            "name": "Forest Enemy: Giant Mushroom Rear Tag"
           },
           {
             "ref": "Forest Dropsanity/Fungi Forest Enemy: Near Face Puzzle/Forest Enemy: Near Face Puzzle",
-            "name": "Fungi Forest Enemy: Near Face Puzzle"
+            "name": "Forest Enemy: Near Face Puzzle"
           },
           {
             "ref": "Forest Dropsanity/Fungi Forest Enemy: Near Crown/Forest Enemy: Near Crown",
-            "name": "Fungi Forest Enemy: Near Crown"
+            "name": "Forest Enemy: Near Crown"
           },
           {
             "ref": "Forest Dropsanity/Fungi Forest Enemy: Near High Warp 5/Forest Enemy: Near High Warp 5",
-            "name": "Fungi Forest Enemy: Near High Warp 5"
+            "name": "Forest Enemy: Near High Warp 5"
           },
           {
             "ref": "Forest Dropsanity/Fungi Forest Enemy: Top Of Mushroom/Forest Enemy: Top Of Mushroom",
-            "name": "Fungi Forest Enemy: Top Of Mushroom"
+            "name": "Forest Enemy: Top Of Mushroom"
           },
           {
             "ref": "Forest Dropsanity/Fungi Forest Enemy: Near Apple Dropoff/Forest Enemy: Near Apple Dropoff",
-            "name": "Fungi Forest Enemy: Near Apple Dropoff"
+            "name": "Forest Enemy: Near Apple Dropoff"
           },
           {
             "ref": "Forest Dropsanity/Fungi Forest Enemy: Near DKPortal/Forest Enemy: Near DKPortal",
-            "name": "Fungi Forest Enemy: Near DKPortal"
+            "name": "Forest Enemy: Near DKPortal"
           },
           {
             "ref": "Forest Dropsanity/Fungi Forest Enemy: Near Well Tag/Forest Enemy: Near Well Tag",
-            "name": "Fungi Forest Enemy: Near Well Tag"
+            "name": "Forest Enemy: Near Well Tag"
           },
           {
             "ref": "Forest Dropsanity/Fungi Forest Enemy: Yellow Tunnel (0)/Forest Enemy: Yellow Tunnel (0)",
-            "name": "Fungi Forest Enemy: Yellow Tunnel (0)"
+            "name": "Forest Enemy: Yellow Tunnel (0)"
           },
           {
             "ref": "Forest Dropsanity/Fungi Forest Enemy: Yellow Tunnel (1)/Forest Enemy: Yellow Tunnel (1)",
-            "name": "Fungi Forest Enemy: Yellow Tunnel (1)"
+            "name": "Forest Enemy: Yellow Tunnel (1)"
           },
           {
             "ref": "Forest Dropsanity/Fungi Forest Enemy: Yellow Tunnel (2)/Forest Enemy: Yellow Tunnel (2)",
-            "name": "Fungi Forest Enemy: Yellow Tunnel (2)"
+            "name": "Forest Enemy: Yellow Tunnel (2)"
           },
           {
             "ref": "Forest Dropsanity/Fungi Forest Enemy: Yellow Tunnel (3)/Forest Enemy: Yellow Tunnel (3)",
-            "name": "Fungi Forest Enemy: Yellow Tunnel (3)"
+            "name": "Forest Enemy: Yellow Tunnel (3)"
           },
           {
             "ref": "Forest Dropsanity/Fungi Forest Enemy: Near Snide/Forest Enemy: Near Snide",
-            "name": "Fungi Forest Enemy: Near Snide"
+            "name": "Forest Enemy: Near Snide"
           },
           {
             "ref": "Forest Dropsanity/Fungi Forest Enemy: Near the hidden Rainbow Coin/Forest Enemy: Near the hidden Rainbow Coin",
-            "name": "Fungi Forest Enemy: Near the hidden Rainbow Coin"
+            "name": "Forest Enemy: Near the hidden Rainbow Coin"
           },
           {
             "ref": "Forest Dropsanity/Fungi Forest Enemy: Near BBlast/Forest Enemy: Near BBlast",
-            "name": "Fungi Forest Enemy: Near BBlast"
+            "name": "Forest Enemy: Near BBlast"
           },
           {
             "ref": "Forest Dropsanity/Fungi Forest Enemy: Near Dark Attic/Forest Enemy: Near Dark Attic",
-            "name": "Fungi Forest Enemy: Near Dark Attic"
+            "name": "Forest Enemy: Near Dark Attic"
           },
           {
             "ref": "Forest Dropsanity/Fungi Forest Enemy: Near Well Exit/Forest Enemy: Near Well Exit",
-            "name": "Fungi Forest Enemy: Near Well Exit"
+            "name": "Forest Enemy: Near Well Exit"
           },
           {
             "ref": "Forest Dropsanity/Fungi Forest Enemy: Near Blue Tunnel/Forest Enemy: Near Blue Tunnel",
-            "name": "Fungi Forest Enemy: Near Blue Tunnel"
+            "name": "Forest Enemy: Near Blue Tunnel"
           },
           {
             "ref": "Forest Dropsanity/Fungi Forest Enemy: Thornvine (0)/Forest Enemy: Thornvine (0)",
-            "name": "Fungi Forest Enemy: Thornvine (0)"
+            "name": "Forest Enemy: Thornvine (0)"
           },
           {
             "ref": "Forest Dropsanity/Fungi Forest Enemy: Thornvine (1)/Forest Enemy: Thornvine (1)",
-            "name": "Fungi Forest Enemy: Thornvine (1)"
+            "name": "Forest Enemy: Thornvine (1)"
           },
           {
             "ref": "Forest Dropsanity/Fungi Forest Enemy: Thornvine (2)/Forest Enemy: Thornvine (2)",
-            "name": "Fungi Forest Enemy: Thornvine (2)"
+            "name": "Forest Enemy: Thornvine (2)"
           },
           {
             "ref": "Forest Dropsanity/Fungi Forest Enemy: Thornvine Entrance/Forest Enemy: Thornvine Entrance",
-            "name": "Fungi Forest Enemy: Thornvine Entrance"
+            "name": "Forest Enemy: Thornvine Entrance"
           },
           {
             "ref": "Fungi Forest/Forest Anthill/Forest Anthill Enemy: Gauntlet (0)",
@@ -2841,19 +2843,19 @@
           },
           {
             "ref": "Fungi Forest/Winch Room/Forest Winch Room Enemy: Enemy",
-            "name": "Forest Winch Room Enemy"
+            "name": "Forest Winch Room Enemy: Enemy"
           },
           {
             "ref": "Forest Dropsanity/Forest Thornvine Barn Enemy: Enemy/Forest Thornvine Barn Enemy: Enemy",
-            "name": "Forest Thornvine Barn Enemy"
+            "name": "Forest Thornvine Barn Enemy: Enemy"
           },
           {
             "ref": "Forest Dropsanity/Forest Mill Front Enemy: Enemy/Forest Mill Front Enemy: Enemy",
-            "name": "Forest Mill Front Enemy"
+            "name": "Forest Mill Front Enemy: Enemy"
           },
           {
             "ref": "Forest Dropsanity/Forest Mill Back Enemy: Enemy/Forest Mill Back Enemy: Enemy",
-            "name": "Forest Mill Back Enemy"
+            "name": "Forest Mill Back Enemy: Enemy"
           },
           {
             "ref": "Fungi Forest/Inside the Mushroom/Forest Giant Mushroom Enemy: Above Night Door",
@@ -2869,15 +2871,15 @@
           },
           {
             "ref": "Fungi Forest/Zinger Room/Forest Lanky Zingers Room Enemy: Enemy (0)",
-            "name": "Forest Lanky Zingers Room Enemy (0)"
+            "name": "Forest Lanky Zingers Room Enemy: Enemy (0)"
           },
           {
             "ref": "Fungi Forest/Zinger Room/Forest Lanky Zingers Room Enemy: Enemy (1)",
-            "name": "Forest Lanky Zingers Room Enemy (1)"
+            "name": "Forest Lanky Zingers Room Enemy: Enemy (1)"
           },
           {
             "ref": "Fungi Forest/Face Puzzle Room/Forest Chunky Face Room Enemy: Enemy",
-            "name": "Forest Chunky Face Room Enemy"
+            "name": "Forest Chunky Face Room Enemy: Enemy"
           }
         ],
         "map_locations": [
@@ -2893,7 +2895,7 @@
         "sections": [
           {
             "ref": "Forest Shops/Forest Cranky/Forest Cranky Donkey",
-            "name": "Forest Cranky DK"
+            "name": "Forest Cranky Donkey"
           },
           {
             "ref": "Forest Shops/Forest Cranky/Forest Cranky Diddy",
@@ -2913,7 +2915,7 @@
           },
           {
             "ref": "Forest Shops/Forest Funky/Forest Funky Donkey",
-            "name": "Forest Funky DK"
+            "name": "Forest Funky Donkey"
           },
           {
             "ref": "Forest Shops/Forest Funky/Forest Funky Diddy",
@@ -2945,18 +2947,19 @@
         "sections": [
           {
             "ref": "Crystal Caves/Caves DK Baboon Blast/Caves Donkey Baboon Blast",
-            "name": "Caves DK Blast Course"
+            "name": "Caves Donkey Baboon Blast"
           },
           {
             "ref": "Crystal Caves/Caves DK 5 Door Igloo/Caves Donkey 5 Door Igloo",
-            "name": "Caves DK 5DI"
+            "name": "Caves Donkey 5 Door Igloo"
           },
           {
             "ref": "Crystal Caves/Caves DK 5 Door Cabin/Caves Donkey 5 Door Cabin",
-            "name": "Caves DK 5DC"
+            "name": "Caves Donkey 5 Door Cabin"
           },
           {
-            "ref": "Crystal Caves/Rotating Cabin/Caves Donkey Rotating Cabin"
+            "ref": "Crystal Caves/Rotating Cabin/Caves Donkey Rotating Cabin",
+            "name": "Caves Donkey Rotating Cabin"
           },
           {
             "ref": "Crystal Caves/Caves Diddy Jetpack Barrel/Caves Diddy Jetpack Barrel",
@@ -2964,15 +2967,15 @@
           },
           {
             "ref": "Crystal Caves/Caves Diddy 5 Door Igloo/Caves Diddy 5 Door Igloo",
-            "name": "Caves Diddy 5DI"
+            "name": "Caves Diddy 5 Door Igloo"
           },
           {
             "ref": "Crystal Caves/Caves Diddy 5 Door Cabin Lower/Caves Diddy 5 Door Cabin Lower",
-            "name": "Caves Diddy Lower 5DC"
+            "name": "Caves Diddy 5 Door Cabin Lower"
           },
           {
             "ref": "Crystal Caves/Caves Diddy 5 Door Cabin Upper/Caves Diddy 5 Door Cabin Upper",
-            "name": "Caves Diddy Upper 5DC"
+            "name": "Caves Diddy 5 Door Cabin Upper"
           },
           {
             "ref": "Crystal Caves/Caves Lanky Beetle Race/Caves Lanky Beetle Race",
@@ -2984,7 +2987,7 @@
           },
           {
             "ref": "Crystal Caves/Caves Lanky 5 Door Igloo/Caves Lanky 5 Door Igloo",
-            "name": "Caves Lanky 5DI"
+            "name": "Caves Lanky 5 Door Igloo"
           },
           {
             "ref": "Crystal Caves/Caves Lanky Sprint Cabin/Caves Lanky Sprint Cabin",
@@ -3000,11 +3003,11 @@
           },
           {
             "ref": "Crystal Caves/Caves Tiny 5 Door Igloo/Caves Tiny 5 Door Igloo",
-            "name": "Caves Tiny 5DI"
+            "name": "Caves Tiny 5 Door Igloo"
           },
           {
             "ref": "Crystal Caves/Caves Tiny 5 Door Cabin/Caves Tiny 5 Door Cabin",
-            "name": "Caves Tiny 5DC"
+            "name": "Caves Tiny 5 Door Cabin"
           },
           {
             "ref": "Crystal Caves/Caves Chunky Gorilla Gone/Caves Chunky Gorilla Gone",
@@ -3016,11 +3019,11 @@
           },
           {
             "ref": "Crystal Caves/Caves Chunky 5 Door Igloo/Caves Chunky 5 Door Igloo",
-            "name": "Caves Chunky 5DI"
+            "name": "Caves Chunky 5 Door Igloo"
           },
           {
             "ref": "Crystal Caves/Caves Chunky 5 Door Cabin/Caves Chunky 5 Door Cabin",
-            "name": "Caves Chunky 5DC"
+            "name": "Caves Chunky 5 Door Cabin"
           }
         ],
         "map_locations": [
@@ -3036,7 +3039,7 @@
         "sections": [
           {
             "ref": "Crystal Caves/Medals/Caves Donkey Medal",
-            "name": "Caves DK Medal"
+            "name": "Caves Donkey Medal"
           },
           {
             "ref": "Crystal Caves/Medals/Caves Diddy Medal",
@@ -3056,7 +3059,7 @@
           },
           {
             "ref": "Crystal Caves/Medals/Caves Donkey Medal",
-            "name": "Caves DK Half Medal"
+            "name": "Caves Donkey Medal"
           },
           {
             "ref": "Crystal Caves/Medals/Caves Diddy Half Medal",
@@ -3076,7 +3079,7 @@
           },
           {
             "ref": "Crystal Caves/Medals/Caves Boss Defeated",
-            "name": "Caves Boss"
+            "name": "Caves Boss Defeated"
           }
         ],
         "map_locations": [
@@ -3092,11 +3095,11 @@
         "sections": [
           {
             "ref": "Crystal Caves/Caves Tiny 5 Door Igloo/Caves Tiny 5 Door Igloo",
-            "name": "Caves Fairy (Tiny 5DI)"
+            "name": "Caves Tiny 5 Door Igloo"
           },
           {
             "ref": "Crystal Caves/Caves Diddy 5 Door Cabin Upper/Caves Diddy 5 Door Cabin Upper",
-            "name": "Caves Fairy (Diddy Upper 5DC)"
+            "name": "Caves Diddy 5 Door Cabin Upper"
           }
         ],
         "map_locations": [
@@ -3112,7 +3115,7 @@
         "sections": [
           {
             "ref": "Crystal Caves/Rotating Cabin/Caves Battle Arena (Rotating Room: Left Portion)",
-            "name": "Caves Battle Arena"
+            "name": "Caves Battle Arena (Rotating Room: Left Portion)"
           }
         ],
         "map_locations": [
@@ -3184,35 +3187,35 @@
         "sections": [
           {
             "ref": "Caves Dropsanity/Crystal Caves Enemy: Start/Caves Enemy: Start",
-            "name": "Crystal Caves Enemy: Start"
+            "name": "Caves Enemy: Start"
           },
           {
             "ref": "Caves Dropsanity/Crystal Caves Enemy: Near Ice Castle/Caves Enemy: Near Ice Castle",
-            "name": "Crystal Caves Enemy: Near Ice Castle"
+            "name": "Caves Enemy: Near Ice Castle"
           },
           {
             "ref": "Caves Dropsanity/Crystal Caves Enemy: Outside 5DC/Caves Enemy: Outside 5DC",
-            "name": "Crystal Caves Enemy: Outside 5DC"
+            "name": "Caves Enemy: Outside 5DC"
           },
           {
             "ref": "Caves Dropsanity/Crystal Caves Enemy: 1DC Waterfall/Caves Enemy: 1DC Waterfall",
-            "name": "Crystal Caves Enemy: 1DC Waterfall"
+            "name": "Caves Enemy: 1DC Waterfall"
           },
           {
             "ref": "Caves Dropsanity/Crystal Caves Enemy: Near Funky/Caves Enemy: Near Funky",
-            "name": "Crystal Caves Enemy: Near Funky"
+            "name": "Caves Enemy: Near Funky"
           },
           {
             "ref": "Caves Dropsanity/Crystal Caves Enemy: Near Snide/Caves Enemy: Near Snide",
-            "name": "Crystal Caves Enemy: Near Snide"
+            "name": "Caves Enemy: Near Snide"
           },
           {
             "ref": "Caves Dropsanity/Crystal Caves Enemy: Near Bonus Room/Caves Enemy: Near Bonus Room",
-            "name": "Crystal Caves Enemy: Near Bonus Room"
+            "name": "Caves Enemy: Near Bonus Room"
           },
           {
             "ref": "Caves Dropsanity/Crystal Caves Enemy: 1DC Headphones/Caves Enemy: 1DC Headphones",
-            "name": "Crystal Caves Enemy: 1DC Headphones"
+            "name": "Caves Enemy: 1DC Headphones"
           },
           {
             "ref": "Crystal Caves/Caves DK 5 Door Igloo/Caves Donkey Igloo Enemy: Right",
@@ -3244,7 +3247,7 @@
         "sections": [
           {
             "ref": "Caves Shops/Caves Cranky/Caves Cranky Lanky",
-            "name": "Caves Cranky DK"
+            "name": "Caves Cranky Lanky"
           },
           {
             "ref": "Caves Shops/Caves Cranky/Caves Cranky Diddy",
@@ -3264,7 +3267,7 @@
           },
           {
             "ref": "Caves Shops/Caves Funky/Caves Funky Donkey",
-            "name": "Caves Funky DK"
+            "name": "Caves Funky Donkey"
           },
           {
             "ref": "Caves Shops/Caves Funky/Caves Funky Diddy",
@@ -3284,7 +3287,7 @@
           },
           {
             "ref": "Caves Shops/Caves Candy/Caves Candy Donkey",
-            "name": "Caves Candy DK"
+            "name": "Caves Candy Donkey"
           },
           {
             "ref": "Caves Shops/Caves Candy/Caves Candy Diddy",
@@ -3316,19 +3319,19 @@
         "sections": [
           {
             "ref": "Creepy Castle/Inside the Tree/Castle Donkey Tree Sniping",
-            "name": "Castle DK Tree Sniping"
+            "name": "Castle Donkey Tree Sniping"
           },
           {
             "ref": "Creepy Castle/Castle DK Library/Castle Donkey Library",
-            "name": "Castle DK Library"
+            "name": "Castle Donkey Library"
           },
           {
             "ref": "Creepy Castle/Castle DK Minecart/Castle Donkey Minecart",
-            "name": "Castle DK Minecart"
+            "name": "Castle Donkey Minecart"
           },
           {
             "ref": "Creepy Castle/Castle DK Dungeon/Castle Donkey Dungeon",
-            "name": "Castle DK Dungeon"
+            "name": "Castle Donkey Dungeon"
           },
           {
             "ref": "Creepy Castle/Castle Diddy Above Castle/Castle Diddy Above Castle",
@@ -3368,7 +3371,7 @@
           },
           {
             "ref": "Creepy Castle/Castle Tiny Trashcan/Castle Tiny Trash Can",
-            "name": "Castle Tiny Trashcan"
+            "name": "Castle Tiny Trash Can"
           },
           {
             "ref": "Creepy Castle/Mausoleum/Castle Tiny Mausoleum",
@@ -3408,7 +3411,7 @@
         "sections": [
           {
             "ref": "Creepy Castle/Medals/Castle Donkey Medal",
-            "name": "Castle DK Medal"
+            "name": "Castle Donkey Medal"
           },
           {
             "ref": "Creepy Castle/Medals/Castle Diddy Medal",
@@ -3428,7 +3431,7 @@
           },
           {
             "ref": "Creepy Castle/Medals/Castle Donkey Medal",
-            "name": "Castle DK Half Medal"
+            "name": "Castle Donkey Medal"
           },
           {
             "ref": "Creepy Castle/Medals/Castle Diddy Half Medal",
@@ -3448,7 +3451,7 @@
           },
           {
             "ref": "Creepy Castle/Medals/Castle Boss Defeated",
-            "name": "Castle Boss"
+            "name": "Castle Boss Defeated"
           }
         ],
         "map_locations": [
@@ -3484,7 +3487,7 @@
         "sections": [
           {
             "ref": "Creepy Castle/Greenhouse/Castle Lanky Greenhouse",
-            "name": "Castle Battle Arena"
+            "name": "Castle Lanky Greenhouse"
           }
         ],
         "map_locations": [
@@ -3532,7 +3535,7 @@
           },
           {
             "ref": "Creepy Castle/Castle Kasplat: On a Lone Platform/Castle Kasplat: On a lone platform",
-            "name": "Castle Kasplat: On a Lone Platform"
+            "name": "Castle Kasplat: On a lone platform"
           },
           {
             "ref": "Creepy Castle/Castle Kasplat: Near Candy's/Castle Kasplat: Near Candy's",
@@ -3556,67 +3559,67 @@
           },
           {
             "ref": "Castle Dropsanity/Creepy Castle Enemy: Near Bridge (0)/Castle Enemy: Near Bridge (0)",
-            "name": "Creepy Castle Enemy: Near Bridge (0)"
+            "name": "Castle Enemy: Near Bridge (0)"
           },
           {
             "ref": "Castle Dropsanity/Creepy Castle Enemy: Near Bridge (1)/Castle Enemy: Near Bridge (1)",
-            "name": "Creepy Castle Enemy: Near Bridge (1)"
+            "name": "Castle Enemy: Near Bridge (1)"
           },
           {
             "ref": "Castle Dropsanity/Creepy Castle Enemy: Wooden Extrusion (0)/Castle Enemy: Wooden Extrusion (0)",
-            "name": "Creepy Castle Enemy: Wooden Extrusion (0)"
+            "name": "Castle Enemy: Wooden Extrusion (0)"
           },
           {
             "ref": "Castle Dropsanity/Creepy Castle Enemy: Wooden Extrusion (1)/Castle Enemy: Wooden Extrusion (1)",
-            "name": "Creepy Castle Enemy: Wooden Extrusion (1)"
+            "name": "Castle Enemy: Wooden Extrusion (1)"
           },
           {
             "ref": "Castle Dropsanity/Creepy Castle Enemy: Near Shed/Castle Enemy: Near Shed",
-            "name": "Creepy Castle Enemy: Near Shed"
+            "name": "Castle Enemy: Near Shed"
           },
           {
             "ref": "Castle Dropsanity/Creepy Castle Enemy: Near Library/Castle Enemy: Near Library",
-            "name": "Creepy Castle Enemy: Near Library"
+            "name": "Castle Enemy: Near Library"
           },
           {
             "ref": "Castle Dropsanity/Creepy Castle Enemy: Near Tower/Castle Enemy: Near Tower",
-            "name": "Creepy Castle Enemy: Near Tower"
+            "name": "Castle Enemy: Near Tower"
           },
           {
             "ref": "Castle Dropsanity/Creepy Castle Enemy: Museum Steps/Castle Enemy: Museum Steps",
-            "name": "Creepy Castle Enemy: Museum Steps"
+            "name": "Castle Enemy: Museum Steps"
           },
           {
             "ref": "Castle Dropsanity/Creepy Castle Enemy: Near Low Cave/Castle Enemy: Near Low Cave",
-            "name": "Creepy Castle Enemy: Near Low Cave"
+            "name": "Castle Enemy: Near Low Cave"
           },
           {
             "ref": "Castle Dropsanity/Creepy Castle Enemy: Path To Low Kasplat/Castle Enemy: Path To Low Kasplat",
-            "name": "Creepy Castle Enemy: Path To Low Kasplat"
+            "name": "Castle Enemy: Path To Low Kasplat"
           },
           {
             "ref": "Castle Dropsanity/Creepy Castle Enemy: Low TnS/Castle Enemy: Low TnS",
-            "name": "Creepy Castle Enemy: Low TnS"
+            "name": "Castle Enemy: Low TnS"
           },
           {
             "ref": "Castle Dropsanity/Creepy Castle Enemy: Path To Dungeon/Castle Enemy: Path To Dungeon",
-            "name": "Creepy Castle Enemy: Path To Dungeon"
+            "name": "Castle Enemy: Path To Dungeon"
           },
           {
             "ref": "Castle Dropsanity/Creepy Castle Enemy: Near Headphones/Castle Enemy: Near Headphones",
-            "name": "Creepy Castle Enemy: Near Headphones"
+            "name": "Castle Enemy: Near Headphones"
           },
           {
             "ref": "Isles Dropsanity/Creepy Castle Lobby Enemy: Left/Isles Castle Lobby Enemy: Left",
-            "name": "Creepy Castle Lobby Enemy: Left"
+            "name": "Isles Castle Lobby Enemy: Left"
           },
           {
             "ref": "Isles Dropsanity/Creepy Castle Lobby Enemy: Far Right/Isles Castle Lobby Enemy: Far Right",
-            "name": "Creepy Castle Lobby Enemy: Far Right"
+            "name": "Isles Castle Lobby Enemy: Far Right"
           },
           {
             "ref": "Isles Dropsanity/Creepy Castle Lobby Enemy: Near Right/Isles Castle Lobby Enemy: Near Right",
-            "name": "Creepy Castle Lobby Enemy: Near Right"
+            "name": "Isles Castle Lobby Enemy: Near Right"
           },
           {
             "ref": "Castle Dropsanity/Castle Ballroom Enemy: Start/Castle Ballroom Enemy: Start",
@@ -3788,7 +3791,7 @@
         "sections": [
           {
             "ref": "Castle Shops/Castle Cranky/Castle Cranky Donkey",
-            "name": "Castle Cranky DK"
+            "name": "Castle Cranky Donkey"
           },
           {
             "ref": "Castle Shops/Castle Cranky/Castle Cranky Diddy",
@@ -3808,7 +3811,7 @@
           },
           {
             "ref": "Castle Shops/Castle Funky/Castle Funky Donkey",
-            "name": "Castle Funky DK"
+            "name": "Castle Funky Donkey"
           },
           {
             "ref": "Castle Shops/Castle Funky/Castle Funky Diddy",
@@ -3828,7 +3831,7 @@
           },
           {
             "ref": "Castle Shops/Castle Candy/Castle Candy Donkey",
-            "name": "Castle Candy DK"
+            "name": "Castle Candy Donkey"
           },
           {
             "ref": "Castle Shops/Castle Candy/Castle Candy Diddy",
@@ -3860,7 +3863,7 @@
         "sections": [
           {
             "ref": "Hideout Helm/Helm DK Medal/Helm Donkey Medal",
-            "name": "Helm DK Medal"
+            "name": "Helm Donkey Medal"
           },
           {
             "ref": "Hideout Helm/Helm Chunky Medal/Helm Chunky Medal",
@@ -3896,11 +3899,11 @@
         "sections": [
           {
             "ref": "Hideout Helm/Helm Fairy (Key 8 Room)/Helm Fairy (Key 8 Room (1))",
-            "name": "Helm Fairy 1"
+            "name": "Helm Fairy (Key 8 Room (1))"
           },
           {
             "ref": "Hideout Helm/Helm Fairy (Key 8 Room)/Helm Fairy (Key 8 Room (2))",
-            "name": "Helm Fairy 2"
+            "name": "Helm Fairy (Key 8 Room (2))"
           }
         ],
         "map_locations": [
@@ -3916,7 +3919,7 @@
         "sections": [
           {
             "ref": "Hideout Helm/Helm Battle Arena/Helm Battle Arena (Top of Blast-o-Matic)",
-            "name": "Helm Arena"
+            "name": "Helm Battle Arena (Top of Blast-o-Matic)"
           }
         ],
         "map_locations": [
@@ -3932,79 +3935,79 @@
         "sections": [
           {
             "ref": "Helm Dropsanity/Hideout Helm Enemy: Start (0)/Helm Enemy: Start (0)",
-            "name": "Hideout Helm Enemy: Start (0)"
+            "name": "Helm Enemy: Start (0)"
           },
           {
             "ref": "Helm Dropsanity/Hideout Helm Enemy: Start (1)/Helm Enemy: Start (1)",
-            "name": "Hideout Helm Enemy: Start (1)"
+            "name": "Helm Enemy: Start (1)"
           },
           {
             "ref": "Helm Dropsanity/Hideout Helm Enemy: Hill/Helm Enemy: Hill",
-            "name": "Hideout Helm Enemy: Hill"
+            "name": "Helm Enemy: Hill"
           },
           {
             "ref": "Helm Dropsanity/Hideout Helm Enemy: Switch Room (0)/Helm Enemy: Switch Room (0)",
-            "name": "Hideout Helm Enemy: Switch Room (0)"
+            "name": "Helm Enemy: Switch Room (0)"
           },
           {
             "ref": "Helm Dropsanity/Hideout Helm Enemy: Switch Room (1)/Helm Enemy: Switch Room (1)",
-            "name": "Hideout Helm Enemy: Switch Room (1)"
+            "name": "Helm Enemy: Switch Room (1)"
           },
           {
             "ref": "Helm Dropsanity/Hideout Helm Enemy: Mini Room (0)/Helm Enemy: Mini Room (0)",
-            "name": "Hideout Helm Enemy: Mini Room (0)"
+            "name": "Helm Enemy: Mini Room (0)"
           },
           {
             "ref": "Helm Dropsanity/Hideout Helm Enemy: Mini Room (1)/Helm Enemy: Mini Room (1)",
-            "name": "Hideout Helm Enemy: Mini Room (1)"
+            "name": "Helm Enemy: Mini Room (1)"
           },
           {
             "ref": "Helm Dropsanity/Hideout Helm Enemy: Mini Room (2)/Helm Enemy: Mini Room (2)",
-            "name": "Hideout Helm Enemy: Mini Room (2)"
+            "name": "Helm Enemy: Mini Room (2)"
           },
           {
             "ref": "Helm Dropsanity/Hideout Helm Enemy: Mini Room (3)/Helm Enemy: Mini Room (3)",
-            "name": "Hideout Helm Enemy: Mini Room (3)"
+            "name": "Helm Enemy: Mini Room (3)"
           },
           {
             "ref": "Helm Dropsanity/Hideout Helm Enemy: DKRoom/Helm Enemy: DKRoom",
-            "name": "Hideout Helm Enemy: DKRoom"
+            "name": "Helm Enemy: DKRoom"
           },
           {
             "ref": "Helm Dropsanity/Hideout Helm Enemy: Chunky Room (0)/Helm Enemy: Chunky Room (0)",
-            "name": "Hideout Helm Enemy: Chunky Room (0)"
+            "name": "Helm Enemy: Chunky Room (0)"
           },
           {
             "ref": "Helm Dropsanity/Hideout Helm Enemy: Chunky Room (1)/Helm Enemy: Chunky Room (1)",
-            "name": "Hideout Helm Enemy: Chunky Room (1)"
+            "name": "Helm Enemy: Chunky Room (1)"
           },
           {
             "ref": "Helm Dropsanity/Hideout Helm Enemy: Tiny Room/Helm Enemy: Tiny Room",
-            "name": "Hideout Helm Enemy: Tiny Room"
+            "name": "Helm Enemy: Tiny Room"
           },
           {
             "ref": "Helm Dropsanity/Hideout Helm Enemy: Lanky Room (0)/Helm Enemy: Lanky Room (0)",
-            "name": "Hideout Helm Enemy: Lanky Room (0)"
+            "name": "Helm Enemy: Lanky Room (0)"
           },
           {
             "ref": "Helm Dropsanity/Hideout Helm Enemy: Lanky Room (1)/Helm Enemy: Lanky Room (1)",
-            "name": "Hideout Helm Enemy: Lanky Room (1)"
+            "name": "Helm Enemy: Lanky Room (1)"
           },
           {
             "ref": "Helm Dropsanity/Hideout Helm Enemy: Diddy Room (0)/Helm Enemy: Diddy Room (0)",
-            "name": "Hideout Helm Enemy: Diddy Room (0)"
+            "name": "Helm Enemy: Diddy Room (0)"
           },
           {
             "ref": "Helm Dropsanity/Hideout Helm Enemy: Diddy Room (1)/Helm Enemy: Diddy Room (1)",
-            "name": "Hideout Helm Enemy: Diddy Room (1)"
+            "name": "Helm Enemy: Diddy Room (1)"
           },
           {
             "ref": "Helm Dropsanity/Hideout Helm Enemy: Nav Right/Helm Enemy: Nav Right",
-            "name": "Hideout Helm Enemy: Nav Right"
+            "name": "Helm Enemy: Nav Right"
           },
           {
             "ref": "Helm Dropsanity/Hideout Helm Enemy: Nav Left/Helm Enemy: Nav Left",
-            "name": "Hideout Helm Enemy: Nav Left"
+            "name": "Helm Enemy: Nav Left"
           }
         ],
         "map_locations": [
@@ -4020,163 +4023,163 @@
         "sections": [
           {
             "ref": "Snide Turn-ins/Turn in 1 Blueprint/Turning In 1 Blueprint",
-            "name": "Turn in 1 Blueprint"
+            "name": "Turning In 1 Blueprint"
           },
           {
             "ref": "Snide Turn-ins/Turn in 2 Blueprints/Turning In 2 Blueprints",
-            "name": "Turn in 2 Blueprints"
+            "name": "Turning In 2 Blueprints"
           },
           {
             "ref": "Snide Turn-ins/Turn in 3 Blueprints/Turning In 3 Blueprints",
-            "name": "Turn in 3 Blueprints"
+            "name": "Turning In 3 Blueprints"
           },
           {
             "ref": "Snide Turn-ins/Turn in 4 Blueprints/Turning In 4 Blueprints",
-            "name": "Turn in 4 Blueprints"
+            "name": "Turning In 4 Blueprints"
           },
           {
             "ref": "Snide Turn-ins/Turn in 5 Blueprints/Turning In 5 Blueprints",
-            "name": "Turn in 5 Blueprints"
+            "name": "Turning In 5 Blueprints"
           },
           {
             "ref": "Snide Turn-ins/Turn in 6 Blueprints/Turning In 6 Blueprints",
-            "name": "Turn in 6 Blueprints"
+            "name": "Turning In 6 Blueprints"
           },
           {
             "ref": "Snide Turn-ins/Turn in 7 Blueprints/Turning In 7 Blueprints",
-            "name": "Turn in 7 Blueprints"
+            "name": "Turning In 7 Blueprints"
           },
           {
             "ref": "Snide Turn-ins/Turn in 8 Blueprints/Turning In 8 Blueprints",
-            "name": "Turn in 8 Blueprints"
+            "name": "Turning In 8 Blueprints"
           },
           {
             "ref": "Snide Turn-ins/Turn in 9 Blueprints/Turning In 9 Blueprints",
-            "name": "Turn in 9 Blueprints"
+            "name": "Turning In 9 Blueprints"
           },
           {
             "ref": "Snide Turn-ins/Turn in 10 Blueprints/Turning In 10 Blueprints",
-            "name": "Turn in 10 Blueprints"
+            "name": "Turning In 10 Blueprints"
           },
           {
             "ref": "Snide Turn-ins/Turn in 11 Blueprints/Turning In 11 Blueprints",
-            "name": "Turn in 11 Blueprints"
+            "name": "Turning In 11 Blueprints"
           },
           {
             "ref": "Snide Turn-ins/Turn in 12 Blueprints/Turning In 12 Blueprints",
-            "name": "Turn in 12 Blueprints"
+            "name": "Turning In 12 Blueprints"
           },
           {
             "ref": "Snide Turn-ins/Turn in 13 Blueprints/Turning In 13 Blueprints",
-            "name": "Turn in 13 Blueprints"
+            "name": "Turning In 13 Blueprints"
           },
           {
             "ref": "Snide Turn-ins/Turn in 14 Blueprints/Turning In 14 Blueprints",
-            "name": "Turn in 14 Blueprints"
+            "name": "Turning In 14 Blueprints"
           },
           {
             "ref": "Snide Turn-ins/Turn in 15 Blueprints/Turning In 15 Blueprints",
-            "name": "Turn in 15 Blueprints"
+            "name": "Turning In 15 Blueprints"
           },
           {
             "ref": "Snide Turn-ins/Turn in 16 Blueprints/Turning In 16 Blueprints",
-            "name": "Turn in 16 Blueprints"
+            "name": "Turning In 16 Blueprints"
           },
           {
             "ref": "Snide Turn-ins/Turn in 17 Blueprints/Turning In 17 Blueprints",
-            "name": "Turn in 17 Blueprints"
+            "name": "Turning In 17 Blueprints"
           },
           {
             "ref": "Snide Turn-ins/Turn in 18 Blueprints/Turning In 18 Blueprints",
-            "name": "Turn in 18 Blueprints"
+            "name": "Turning In 18 Blueprints"
           },
           {
             "ref": "Snide Turn-ins/Turn in 19 Blueprints/Turning In 19 Blueprints",
-            "name": "Turn in 19 Blueprints"
+            "name": "Turning In 19 Blueprints"
           },
           {
             "ref": "Snide Turn-ins/Turn in 20 Blueprints/Turning In 20 Blueprints",
-            "name": "Turn in 20 Blueprints"
+            "name": "Turning In 20 Blueprints"
           },
           {
             "ref": "Snide Turn-ins/Turn in 21 Blueprints/Turning In 21 Blueprints",
-            "name": "Turn in 21 Blueprints"
+            "name": "Turning In 21 Blueprints"
           },
           {
             "ref": "Snide Turn-ins/Turn in 22 Blueprints/Turning In 22 Blueprints",
-            "name": "Turn in 22 Blueprints"
+            "name": "Turning In 22 Blueprints"
           },
           {
             "ref": "Snide Turn-ins/Turn in 23 Blueprints/Turning In 23 Blueprints",
-            "name": "Turn in 23 Blueprints"
+            "name": "Turning In 23 Blueprints"
           },
           {
             "ref": "Snide Turn-ins/Turn in 24 Blueprints/Turning In 24 Blueprints",
-            "name": "Turn in 24 Blueprints"
+            "name": "Turning In 24 Blueprints"
           },
           {
             "ref": "Snide Turn-ins/Turn in 25 Blueprints/Turning In 25 Blueprints",
-            "name": "Turn in 25 Blueprints"
+            "name": "Turning In 25 Blueprints"
           },
           {
             "ref": "Snide Turn-ins/Turn in 26 Blueprints/Turning In 26 Blueprints",
-            "name": "Turn in 26 Blueprints"
+            "name": "Turning In 26 Blueprints"
           },
           {
             "ref": "Snide Turn-ins/Turn in 27 Blueprints/Turning In 27 Blueprints",
-            "name": "Turn in 27 Blueprints"
+            "name": "Turning In 27 Blueprints"
           },
           {
             "ref": "Snide Turn-ins/Turn in 28 Blueprints/Turning In 28 Blueprints",
-            "name": "Turn in 28 Blueprints"
+            "name": "Turning In 28 Blueprints"
           },
           {
             "ref": "Snide Turn-ins/Turn in 29 Blueprints/Turning In 29 Blueprints",
-            "name": "Turn in 29 Blueprints"
+            "name": "Turning In 29 Blueprints"
           },
           {
             "ref": "Snide Turn-ins/Turn in 30 Blueprints/Turning In 30 Blueprints",
-            "name": "Turn in 30 Blueprints"
+            "name": "Turning In 30 Blueprints"
           },
           {
             "ref": "Snide Turn-ins/Turn in 31 Blueprints/Turning In 31 Blueprints",
-            "name": "Turn in 31 Blueprints"
+            "name": "Turning In 31 Blueprints"
           },
           {
             "ref": "Snide Turn-ins/Turn in 32 Blueprints/Turning In 32 Blueprints",
-            "name": "Turn in 32 Blueprints"
+            "name": "Turning In 32 Blueprints"
           },
           {
             "ref": "Snide Turn-ins/Turn in 33 Blueprints/Turning In 33 Blueprints",
-            "name": "Turn in 33 Blueprints"
+            "name": "Turning In 33 Blueprints"
           },
           {
             "ref": "Snide Turn-ins/Turn in 34 Blueprints/Turning In 34 Blueprints",
-            "name": "Turn in 34 Blueprints"
+            "name": "Turning In 34 Blueprints"
           },
           {
             "ref": "Snide Turn-ins/Turn in 35 Blueprints/Turning In 35 Blueprints",
-            "name": "Turn in 35 Blueprints"
+            "name": "Turning In 35 Blueprints"
           },
           {
             "ref": "Snide Turn-ins/Turn in 36 Blueprints/Turning In 36 Blueprints",
-            "name": "Turn in 36 Blueprints"
+            "name": "Turning In 36 Blueprints"
           },
           {
             "ref": "Snide Turn-ins/Turn in 37 Blueprints/Turning In 37 Blueprints",
-            "name": "Turn in 37 Blueprints"
+            "name": "Turning In 37 Blueprints"
           },
           {
             "ref": "Snide Turn-ins/Turn in 38 Blueprints/Turning In 38 Blueprints",
-            "name": "Turn in 38 Blueprints"
+            "name": "Turning In 38 Blueprints"
           },
           {
             "ref": "Snide Turn-ins/Turn in 39 Blueprints/Turning In 39 Blueprints",
-            "name": "Turn in 39 Blueprints"
+            "name": "Turning In 39 Blueprints"
           },
           {
             "ref": "Snide Turn-ins/Turn in 40 Blueprints/Turning In 40 Blueprints",
-            "name": "Turn in 40 Blueprints"
+            "name": "Turning In 40 Blueprints"
           }
         ],
         "map_locations": [
