@@ -836,7 +836,6 @@ function toggleShopowners()
         Tracker:FindObjectForCode("candy").Active = false
         Tracker:FindObjectForCode("snide").Active = false
     end
-        chunkyphase = function() return hunky() and gone() and punch() and has("slam") end
 end
 
 ScriptHost:AddWatchForCode("shopowners", "shopowners", toggleShopowners)
