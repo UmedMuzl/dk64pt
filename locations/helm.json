@@ -1,22 +1,22 @@
 [
   {
     "name": "Hideout Helm",
-    "access_rules": [
-      "^$canEnterHelm"
-    ],
     "chest_unopened_img": "images/items/bananamedal.png",
     "chest_opened_img": "images/items/bananamedalbw.png",
     "children": [
       {
         "name": "Helm Battle Arena",
         "access_rules": [
-          "$rocket"
+          "$loc|HelmBattleArena"
         ],
         "sections": [
           {
             "name": "Helm Battle Arena (Top of Blast-o-Matic)",
             "chest_unopened_img": "images/items/crown.png",
-            "chest_opened_img": "images/items/crownbw.png"
+            "chest_opened_img": "images/items/crownbw.png",
+            "access_rules": [
+              "$loc|HelmBattleArena"
+            ]
           }
         ],
         "map_locations": [
@@ -31,7 +31,7 @@
       {
         "name": "Helm DK Medal",
         "access_rules": [
-          "$dkHelm"
+          "$loc|HelmDonkeyMedal"
         ],
         "sections": [
           {
@@ -50,7 +50,7 @@
       {
         "name": "Helm Diddy Medal",
         "access_rules": [
-          "$diddyHelm"
+          "$loc|HelmDiddyMedal"
         ],
         "sections": [
           {
@@ -69,7 +69,7 @@
       {
         "name": "Helm Lanky Medal",
         "access_rules": [
-          "$lankyHelm"
+          "$loc|HelmLankyMedal"
         ],
         "sections": [
           {
@@ -88,7 +88,7 @@
       {
         "name": "Helm Tiny Medal",
         "access_rules": [
-          "$tinyHelm"
+          "$loc|HelmTinyMedal"
         ],
         "sections": [
           {
@@ -107,7 +107,7 @@
       {
         "name": "Helm Chunky Medal",
         "access_rules": [
-          "$chunkyHelm"
+          "$loc|HelmChunkyMedal"
         ],
         "sections": [
           {
@@ -126,13 +126,16 @@
       {
         "name": "The End of Helm",
         "access_rules": [
-          "$endOfHelm"
+          "$loc|HelmKey"
         ],
         "sections": [
           {
             "name": "The End of Helm",
             "chest_unopened_img": "images/items/key.png",
-            "chest_opened_img": "images/items/keybw.png"
+            "chest_opened_img": "images/items/keybw.png",
+            "access_rules": [
+              "$loc|HelmKey"
+            ]
           }
         ],
         "map_locations": [
@@ -146,19 +149,22 @@
       },
       {
         "name": "Helm Fairy (Key 8 Room)",
-        "access_rules": [
-          "$endOfHelm, camera"
-        ],
         "sections": [
           {
             "name": "Helm Fairy (Key 8 Room (1))",
             "chest_unopened_img": "images/items/fairy.png",
-            "chest_opened_img": "images/items/fairybw.png"
+            "chest_opened_img": "images/items/fairybw.png",
+            "access_rules": [
+              "$loc|HelmBananaFairy1"
+            ]
           },
           {
             "name": "Helm Fairy (Key 8 Room (2))",
             "chest_unopened_img": "images/items/fairy.png",
-            "chest_opened_img": "images/items/fairybw.png"
+            "chest_opened_img": "images/items/fairybw.png",
+            "access_rules": [
+              "$loc|HelmBananaFairy2"
+            ]
           }
         ],
         "map_locations": [

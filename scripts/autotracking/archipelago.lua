@@ -35,21 +35,6 @@ if Highlight then
 		[30] = Highlight.Priority,
 	}
 end
--- Function to check if version is >= 1.1.0
-function isVersion110OrHigher(version)
-    if not version then
-        return true -- Default to true for new versions if no version specified
-    end
-    
-    local major, minor, patch = version:match("(%d+)%.(%d+)%.(%d+)")
-    if major and minor and patch then
-        major, minor, patch = tonumber(major), tonumber(minor), tonumber(patch)
-        return major > 1 or (major == 1 and minor > 1) or (major == 1 and minor == 1 and patch >= 0)
-    end
-    
-    return false
-end
-
 -- Function to check if version is > 1.1.10
 function isVersionAbove1110(version)
     if not version then
@@ -75,30 +60,26 @@ end
 
 
 
--- Function to set up version-appropriate item mapping
-function setupItemMappingForVersion(version)
-    -- Start with a fresh copy of the standard mappings
+-- Function to set up item mapping. Versions <1.1.0 are no longer supported,
+-- so we always use the standard ITEM_MAPPING.
+function setupItemMappingForVersion(_version)
     CURRENT_ITEM_MAPPING = {}
     for k, v in pairs(ITEM_MAPPING) do
         CURRENT_ITEM_MAPPING[k] = v
     end
-    
-    -- If version < 1.1.0, replace with legacy mappings
-    if not isVersion110OrHigher(version) then
-        -- Remove the new item mappings
-        local newMappings = {14041270, 14041271, 14041273, 14041272, 14041167, 14041269, 14041169}
-        for _, id in ipairs(newMappings) do
-            CURRENT_ITEM_MAPPING[id] = nil
-        end
-        
-        -- Add legacy mappings
-        for k, v in pairs(LEGACY_ITEM_MAPPING) do
-            CURRENT_ITEM_MAPPING[k] = v
-        end
-        
-        -- print("Using legacy item mappings for version " .. (version or "unknown"))
-    -- else
-    --     print("Using current item mappings for version " .. (version or "latest"))
+end
+
+-- Version >= 2.0.0 uses the new AP IDs; older seeds use the legacy table.
+function setupLocationMappingForVersion(version)
+    local maj = 0
+    if version then
+        local m = version:match("^(%d+)")
+        if m then maj = tonumber(m) end
+    end
+    if maj >= 2 then
+        LOCATION_MAPPING = LOCATION_MAPPING_2_0_0
+    else
+        LOCATION_MAPPING = LOCATION_MAPPING_LEGACY
     end
 end
 
@@ -208,9 +189,6 @@ local function process_removed_barriers(barriers)
 end
 
 local function process_level_order(level_order)
-    local version = SLOT_DATA['Version'] or "0.0.0"
-    local isNewVersion = isVersion110OrHigher(version)
-    
     level_order = level_order:gsub(",$", "")
     local level_mapping = {
         ["JungleJapes"] = 1,
@@ -222,42 +200,17 @@ local function process_level_order(level_order)
         ["CreepyCastle"] = 7,
         ["HideoutHelm"] = 8
     }
-    
-    -- Split the string by commas and process each level
+
     LEVEL_POSITIONS = {}
     local level_number = 1
-    
+
     for level_name in string.gmatch(level_order, "([^,]+)") do
-        -- Trim whitespace
         level_name = level_name:match("^%s*(.-)%s*$")
-        
-        -- Handle Helm based on version
-        if level_name == "HideoutHelm" then
-            if not isNewVersion then
-                -- For older versions, always put Helm at level 8
-                LEVEL_POSITIONS[8] = 8
-                -- Also mark Helm lobby as visited so it shows immediately
-                VISITED_LOBBIES["HideoutHelm"] = true
-            else
-                -- For newer versions, include Helm in normal processing
-                local tracker_stage = level_mapping[level_name]
-                if tracker_stage then
-                    LEVEL_POSITIONS[level_number] = tracker_stage
-                    level_number = level_number + 1
-                end
-            end
-            goto continue
-        end
-        
-        -- Check if this is a valid level name
         local tracker_stage = level_mapping[level_name]
         if tracker_stage then
-            -- Store which level ID should be set to this tracker_stage
             LEVEL_POSITIONS[level_number] = tracker_stage
             level_number = level_number + 1
         end
-        
-        ::continue::
     end
 
     -- After setting up LEVEL_POSITIONS, call update_level_display to show the accessible levels
@@ -358,59 +311,39 @@ end
 
 -- ===== SLOT DATA PROCESSING =====
 function processVersionGatedFeatures(slot_data)
-    local version = slot_data['Version'] or "0.0.0"
-    local isNewVersion = isVersion110OrHigher(version)
-    
-    -- Dropsanity (version >= 1.1.0 only)
-    if slot_data['Dropsanity'] and isNewVersion then
+
+    if slot_data['Dropsanity'] then
         local obj = Tracker:FindObjectForCode("dropsanity")
         obj.Active = slot_data['Dropsanity']
     end
-    
-    -- BouldersInPool (version >= 1.1.0 only)
-    if slot_data['BouldersInPool'] and isNewVersion then
+
+    if slot_data['BouldersInPool'] then
         local obj = Tracker:FindObjectForCode("bouldersanity")
         obj.Active = slot_data['BouldersInPool']
-    end
-    
-    -- HardShooting (version < 1.1.0 only)
-    if slot_data['HardShooting'] and not isNewVersion then
-        local obj = Tracker:FindObjectForCode("hard_shooting")
-        obj.Active = slot_data['HardShooting']
     end
 
     if slot_data['Shopkeepers'] then
         local obj = Tracker:FindObjectForCode("shopowners")
         obj.Active = slot_data['Shopkeepers']
     end
-    
-    -- Handle GlitchesSelected and TricksSelected
+
     if slot_data['GlitchesSelected'] then
         for glitch in string.gmatch(slot_data['GlitchesSelected'], "[^,%s]+") do
-            -- Skip advanced_platforming in versions >= 1.1.0 since it moved to TricksSelected
-            if isNewVersion and glitch == "advanced_platforming" then
+            -- advanced_platforming moved to TricksSelected in 1.1.0+; ignore here.
+            if glitch == "advanced_platforming" then
                 goto continue
             end
-            
-            -- Handle advanced_platforming name change in versions >= 1.1.0
-            local tracker_code = glitch
-            if not isNewVersion and glitch == "monkey_maneuvers" then
-                tracker_code = "advanced_platforming"
-            elseif isNewVersion and glitch == "advanced_platforming" then
-                tracker_code = "monkey_maneuvers"
-            end
-            
-            local obj = Tracker:FindObjectForCode(tracker_code)
+
+            local obj = Tracker:FindObjectForCode(glitch)
             if obj then
                 obj.Active = true
             end
-            
+
             ::continue::
         end
     end
-    
-    -- TricksSelected (version >= 1.1.0 only)
-    if slot_data["TricksSelected"] and isNewVersion then
+
+    if slot_data["TricksSelected"] then
         for tricks in string.gmatch(slot_data['TricksSelected'], "[^,%s]+") do
             -- Handle monkey_maneuvers name change - map to advanced_platforming for tracker
             local tracker_code = tricks
@@ -431,12 +364,10 @@ function onClear(slot_data)
     SLOT_DATA = slot_data
     CUR_INDEX = -1
 
-    -- Set up version-appropriate item mapping before processing items
-    if slot_data and slot_data['Version'] then
-        setupItemMappingForVersion(slot_data['Version'])
-    else
-        setupItemMappingForVersion(nil) -- Use default mappings
-    end
+    -- Set up version-appropriate item + location mappings before processing items
+    local _ver = slot_data and slot_data['Version'] or nil
+    setupItemMappingForVersion(_ver)
+    setupLocationMappingForVersion(_ver)
 
     -- reset locations
     for _, v in pairs(LOCATION_MAPPING) do
@@ -490,6 +421,8 @@ function onClear(slot_data)
 
     PLAYER_ID = Archipelago.PlayerNumber or -1
     TEAM_NUMBER = Archipelago.TeamNumber or 0
+
+    if graph and graph.invalidate then graph.invalidate() end  -- generated-logic cache reset
 
     -- Handle RemovedBarriers
     if type(slot_data['RemovedBarriers']) == "string" then
@@ -583,6 +516,29 @@ function onClear(slot_data)
             local obj = Tracker:FindObjectForCode(kong)
             if obj then
                 obj.Active = true
+            end
+        end
+    end
+
+    -- Pre-given lobby keys (those NOT in krool_keys_required). The randomizer
+    -- treats these as starting inventory and auto-fires the corresponding
+    -- *KeyTurnedIn events; the tracker mirrors that by setting kN active.
+    local KEY_NAME_TO_CODE = {
+        JungleJapesKey  = "k1",
+        AngryAztecKey   = "k2",
+        FranticFactoryKey = "k3",
+        GloomyGalleonKey  = "k4",
+        FungiForestKey  = "k5",
+        CrystalCavesKey = "k6",
+        CreepyCastleKey = "k7",
+        HideoutHelmKey  = "k8",
+    }
+    if slot_data['StartingKeyList'] and slot_data['StartingKeyList'] ~= "" then
+        for keyname in string.gmatch(slot_data['StartingKeyList'], "[^,%s]+") do
+            local code = KEY_NAME_TO_CODE[keyname]
+            if code then
+                local obj = Tracker:FindObjectForCode(code)
+                if obj then obj.Active = true end
             end
         end
     end
@@ -878,6 +834,7 @@ function onItem(index, item_id, item_name, player_number)
     else
         print(string.format("onItem: could not find object for code %s", v[1]))
     end
+    if graph and graph.invalidate then graph.invalidate() end  -- generated-logic cache reset
 end
 
 function onLocation(location_id, location_name)

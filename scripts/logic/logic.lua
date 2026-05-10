@@ -6,6 +6,139 @@ ScriptHost:LoadScript("scripts/logic/medalcbrequirement.lua")
 ScriptHost:LoadScript("scripts/logic/blocker.lua")
 ScriptHost:LoadScript("scripts/logic/CBLogic.lua")
 
+-- =============================================================================
+-- Generated logic from DK64-Randomizer (managed by deploy.py).
+-- ScriptHost:LoadScript returns true/false (not the module's return value), so
+-- each generated module sets its own global on load (state.lua sets _G.state,
+-- region files push to _G.graph.regions, etc). logic.lua's job is just to fire
+-- the loads in order.
+-- =============================================================================
+ScriptHost:LoadScript("scripts/logic/generated/state.lua")
+ScriptHost:LoadScript("scripts/logic/generated/settings.lua")
+ScriptHost:LoadScript("scripts/logic/generated/graph.lua")
+
+local _REGION_LEVELS = {
+  "AngryAztec", "CreepyCastle", "CrystalCaves", "DKIsles",
+  "FranticFactory", "FungiForest", "GloomyGalleon", "HideoutHelm",
+  "JungleJapes", "Shops",
+}
+for _, lvl in ipairs(_REGION_LEVELS) do
+  ScriptHost:LoadScript("scripts/logic/generated/regions/" .. lvl .. ".lua")
+end
+ScriptHost:LoadScript("scripts/logic/generated/regions/locations_index.lua")
+ScriptHost:LoadScript("scripts/logic/generated/regions/location_kong.lua")
+ScriptHost:LoadScript("scripts/logic/generated/regions/transition_names.lua")
+
+local _COLLECTIBLE_LEVELS = {
+  "AngryAztec", "CreepyCastle", "CrystalCaves", "DKIsles",
+  "FranticFactory", "FungiForest", "GloomyGalleon", "JungleJapes",
+}
+for _, lvl in ipairs(_COLLECTIBLE_LEVELS) do
+  ScriptHost:LoadScript("scripts/logic/generated/collectibles/" .. lvl .. ".lua")
+end
+
+state._event_lookup       = function(name) return graph.is_event_active(name) end
+state._special_loc_lookup = function(_)    return false end
+
+-- AP-specific: archipelago/Regions.py adds two unconditional warps from IslesMain
+-- that aren't in randomizer/LogicFiles. These activate the Isles bananaport pads
+-- by default (KremIsleBeyondLift is the Factory side; IslesMainUpper is the
+-- Aztec/Castle side). Without these, players are gated behind climbing/AztecKey
+-- in places where the AP world is more permissive.
+do
+  local isles = graph.regions["IslesMain"]
+  if isles and isles.exits then
+    table.insert(isles.exits, { dest = "IslesMainUpper",       logic = function() return true end })
+    table.insert(isles.exits, { dest = "KremIsleBeyondLift",   logic = function() return true end })
+  end
+end
+
+-- $loc|<LocationId> in JSON access rules dispatches to graph.is_location_accessible.
+function loc(name) return graph.is_location_accessible(name) end
+
+-- Print per-entry diagnostics for failed EntranceRando alias lookups in graph.lua.
+-- Disable by removing this line once the redirect map is healthy.
+-- Set _G.LEVEL_DEBUG = true (or _G.ENTRANCE_RANDO_DEBUG = true) to surface
+-- per-compute reachability dumps. Off by default to keep the console quiet.
+_G.ENTRANCE_RANDO_DEBUG = false
+_G.LEVEL_DEBUG = true
+
+-- $canEnter|<Level> resolves to graph.is_region_accessible on the level's
+-- main lobby region. With loading-zone rando, vanilla level-order codes don't
+-- apply — the region graph (with EntranceRando redirects + KeyTurnedIn events)
+-- is the authoritative source for "can the player enter this level".
+-- A level is "accessible" if any region inside that level is reachable.
+-- With LZR, the level-entry door (LobbyToX) gets shuffled, so being in the lobby
+-- doesn't guarantee level access; conversely, a player can reach a level's
+-- interior by walking through some other lobby's redirected door. Walking the
+-- whole reachable set and checking the level field is the only correct answer.
+local _LEVEL_KEY = {
+  Japes = "JungleJapes", Aztec = "AngryAztec", Factory = "FranticFactory",
+  Galleon = "GloomyGalleon", Forest = "FungiForest", Caves = "CrystalCaves",
+  Castle = "CreepyCastle",  Helm = "HideoutHelm",  Isles = "DKIsles",
+}
+-- Virtual regions used internally by the randomizer (e.g., medal aggregators)
+-- — these are reachable trivially but represent no actual gameplay area, so
+-- they shouldn't make a level look "accessible". Skip them when answering
+-- canEnter().
+local _VIRTUAL_REGIONS = {
+  JungleJapesMedals = true, AngryAztecMedals = true,
+  FranticFactoryMedals = true, GloomyGalleonMedals = true,
+  FungiForestMedals = true, CrystalCavesMedals = true,
+  CreepyCastleMedals = true, HideoutHelmMedals = true,
+  DKIslesMedals = true,
+}
+function canEnter(level)
+  local key = _LEVEL_KEY[level]
+  if not key then return false end
+  local reachable = graph.reachable_regions()
+  for region_name in pairs(reachable) do
+    if not _VIRTUAL_REGIONS[region_name] then
+      local r = graph.regions[region_name]
+      if r and r.level == key then return true end
+    end
+  end
+  return false
+end
+
+-- Watch the codes that flow into state.lua so manual UI toggles invalidate the cache.
+local function _invalidate_graph() if graph and graph.invalidate then graph.invalidate() end end
+local _WATCHED_CODES = {
+  "donkey", "diddy", "lanky", "tiny", "chunky",
+  "coconut", "peanuts", "grape", "feather", "pineapple",
+  "bongos", "guitar", "trombone", "sax", "triangle",
+  "blast", "strong", "grab", "charge", "rocket", "spring",
+  "orangstand", "balloon", "sprint", "mini", "twirl", "port",
+  "big", "punch", "gone",
+  "vine", "dive", "oranges", "barrel", "climb", "cannons", "cannon",
+  "camera", "shockwave", "homing", "sniper",
+  "slam", "greenslam", "blueslam", "redslam",
+  "k1", "k2", "k3", "k4", "k5", "k6", "k7", "k8",
+  "gb", "crowns", "fairies", "medals", "rainbow", "pearl", "bean",
+  "nintendo", "rareware",
+  "snide", "cranky", "candy", "funky",
+  "openlobbies",
+  "phase_walking", "phase_swimming", "phasefall",
+  "moonkicks", "moontail",
+  "ledge_clips", "general_clips",
+  "b_locker_skips", "troff_n_scoff_skips", "spawn_snags",
+  "swim_through_shores", "skew", "tag_barrel_storage", "boulder_clips",
+  "monkey_maneuvers", "advanced_platforming",
+  "hard_shooting", "advanced_grenading", "slope_resets",
+  "japes_coconut_gates", "japes_shellhive_gate",
+  "aztec_tunnel_door", "aztec_5dtemple_switches", "aztec_llama_switches", "aztec_tiny_temple_ice",
+  "factory_production_room", "factory_testing_gate",
+  "galleon_lighthouse_gate", "galleon_shipyard_area_gate",
+  "galleon_seasick_ship", "galleon_treasure_room",
+  "forest_green_tunnel", "forest_yellow_tunnel",
+  "caves_igloo_pads", "caves_ice_walls",
+  "castle_crypt_doors",
+  "helm_punch_gates", "helm_star_gates",
+}
+for _, code in ipairs(_WATCHED_CODES) do
+  ScriptHost:AddWatchForCode("dk64rgen_watch_" .. code, code, _invalidate_graph)
+end
+
 function has_more_then_n_consumable(n)
     local count = Tracker:ProviderCountForCode('consumable')
     local val = (count > tonumber(n))

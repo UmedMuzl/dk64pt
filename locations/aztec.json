@@ -2,19 +2,18 @@
   {
     "name": "Angry Aztec",
     "access_rules": [
-      "^$aztecAccess"
+      "^$canEnter|Aztec"
     ],
     "chest_unopened_img": "images/items/GB.png",
     "chest_opened_img": "images/items/GBbw.png",
     "children": [
       {
         "name": "Medals",
-        "access_rules": [],
         "sections": [
           {
             "name": "Aztec Donkey Medal",
             "access_rules": [
-              "$aztecDKMedal"
+              "$loc|AztecDonkeyMedal"
             ],
             "chest_unopened_img": "images/items/bananamedal.png",
             "chest_opened_img": "images/items/bananamedalbw.png"
@@ -22,7 +21,7 @@
           {
             "name": "Aztec Diddy Medal",
             "access_rules": [
-              "$aztecDiddyMedal"
+              "$loc|AztecDiddyMedal"
             ],
             "chest_unopened_img": "images/items/bananamedal.png",
             "chest_opened_img": "images/items/bananamedalbw.png"
@@ -30,7 +29,7 @@
           {
             "name": "Aztec Lanky Medal",
             "access_rules": [
-              "$aztecLankyMedal"
+              "$loc|AztecLankyMedal"
             ],
             "chest_unopened_img": "images/items/bananamedal.png",
             "chest_opened_img": "images/items/bananamedalbw.png"
@@ -38,7 +37,7 @@
           {
             "name": "Aztec Tiny Medal",
             "access_rules": [
-              "$aztecTinyMedal"
+              "$loc|AztecTinyMedal"
             ],
             "chest_unopened_img": "images/items/bananamedal.png",
             "chest_opened_img": "images/items/bananamedalbw.png"
@@ -46,7 +45,7 @@
           {
             "name": "Aztec Chunky Medal",
             "access_rules": [
-              "$aztecChunkyMedal"
+              "$loc|AztecChunkyMedal"
             ],
             "chest_unopened_img": "images/items/bananamedal.png",
             "chest_opened_img": "images/items/bananamedalbw.png"
@@ -57,7 +56,7 @@
               "halfmedal"
             ],
             "access_rules": [
-              "$aztecDKHalfMedal"
+              "$loc|AztecDonkeyHalfMedal"
             ],
             "chest_unopened_img": "images/items/halfbananamedal.png",
             "chest_opened_img": "images/items/halfbananamedalbw.png"
@@ -68,7 +67,7 @@
               "halfmedal"
             ],
             "access_rules": [
-              "$aztecDiddyHalfMedal"
+              "$loc|AztecDiddyHalfMedal"
             ],
             "chest_unopened_img": "images/items/halfbananamedal.png",
             "chest_opened_img": "images/items/halfbananamedalbw.png"
@@ -79,7 +78,7 @@
               "halfmedal"
             ],
             "access_rules": [
-              "$aztecLankyHalfMedal"
+              "$loc|AztecLankyHalfMedal"
             ],
             "chest_unopened_img": "images/items/halfbananamedal.png",
             "chest_opened_img": "images/items/halfbananamedalbw.png"
@@ -90,7 +89,7 @@
               "halfmedal"
             ],
             "access_rules": [
-              "$aztecTinyHalfMedal"
+              "$loc|AztecTinyHalfMedal"
             ],
             "chest_unopened_img": "images/items/halfbananamedal.png",
             "chest_opened_img": "images/items/halfbananamedalbw.png"
@@ -101,7 +100,7 @@
               "halfmedal"
             ],
             "access_rules": [
-              "$aztecChunkyHalfMedal"
+              "$loc|AztecChunkyHalfMedal"
             ],
             "chest_unopened_img": "images/items/halfbananamedal.png",
             "chest_opened_img": "images/items/halfbananamedalbw.png"
@@ -109,7 +108,7 @@
           {
             "name": "Aztec Boss Defeated",
             "access_rules": [
-              "$aztecBossLogic"
+              "$loc|AztecKey"
             ],
             "chest_unopened_img": "images/items/scoff.png",
             "chest_opened_img": "images/items/scoffbw.png"
@@ -127,7 +126,7 @@
       {
         "name": "Aztec Chunky Vases",
         "access_rules": [
-          "$pineapple, barrel"
+          "$loc|AztecChunkyVases"
         ],
         "sections": [
           {
@@ -139,7 +138,10 @@
               "bouldersanity"
             ],
             "chest_unopened_img": "images/items/boulder.png",
-            "chest_opened_img": "images/items/boulderbw.png"
+            "chest_opened_img": "images/items/boulderbw.png",
+            "access_rules": [
+              "$loc|HoldableVaseCircle"
+            ]
           },
           {
             "name": "Aztec Vase: Colon",
@@ -147,7 +149,10 @@
               "bouldersanity"
             ],
             "chest_unopened_img": "images/items/boulder.png",
-            "chest_opened_img": "images/items/boulderbw.png"
+            "chest_opened_img": "images/items/boulderbw.png",
+            "access_rules": [
+              "$loc|HoldableVaseColon"
+            ]
           },
           {
             "name": "Aztec Vase: Triangle",
@@ -155,7 +160,10 @@
               "bouldersanity"
             ],
             "chest_unopened_img": "images/items/boulder.png",
-            "chest_opened_img": "images/items/boulderbw.png"
+            "chest_opened_img": "images/items/boulderbw.png",
+            "access_rules": [
+              "$loc|HoldableVaseTriangle"
+            ]
           },
           {
             "name": "Aztec Vase: Plus",
@@ -163,7 +171,10 @@
               "bouldersanity"
             ],
             "chest_unopened_img": "images/items/boulder.png",
-            "chest_opened_img": "images/items/boulderbw.png"
+            "chest_opened_img": "images/items/boulderbw.png",
+            "access_rules": [
+              "$loc|HoldableVasePlus"
+            ]
           }
         ],
         "map_locations": [
@@ -178,14 +189,16 @@
       {
         "name": "Aztec Kasplat: Behind DK Stone Door",
         "access_rules": [
-          "$canActivateAztecBlueprintDoor, $strong",
-          "$canActivateAztecBlueprintDoor, $twirl"
+          "$loc|AztecKasplatSandyBridge"
         ],
         "sections": [
           {
             "name": "Aztec Kasplat: Behind DK Stone Door",
             "chest_unopened_img": "images/items/dk_bp.png",
-            "chest_opened_img": "images/items/blueprintbw.png"
+            "chest_opened_img": "images/items/blueprintbw.png",
+            "access_rules": [
+              "$loc|AztecKasplatSandyBridge"
+            ]
           }
         ],
         "map_locations": [
@@ -200,7 +213,7 @@
       {
         "name": "Aztec DK Free Llama Blast",
         "access_rules": [
-          "^$tunnelDoor, $blast"
+          "^$loc|AztecDonkeyFreeLlama"
         ],
         "sections": [
           {
@@ -219,13 +232,16 @@
       {
         "name": "Aztec Kasplat: On Tiny Temple",
         "access_rules": [
-          "$rocket, climb"
+          "$loc|AztecKasplatOnTinyTemple"
         ],
         "sections": [
           {
             "name": "Aztec Kasplat: On Tiny Temple",
             "chest_unopened_img": "images/items/diddy_bp.png",
-            "chest_opened_img": "images/items/blueprintbw.png"
+            "chest_opened_img": "images/items/blueprintbw.png",
+            "access_rules": [
+              "$loc|AztecKasplatOnTinyTemple"
+            ]
           }
         ],
         "map_locations": [
@@ -240,13 +256,16 @@
       {
         "name": "Aztec Dirt: Oasis",
         "access_rules": [
-          "shockwave"
+          "$loc|RainbowCoin_Location06"
         ],
         "sections": [
           {
             "name": "Aztec Dirt: Oasis",
             "chest_unopened_img": "images/items/rainbowcoin.png",
-            "chest_opened_img": "images/items/rainbowcoinbw.png"
+            "chest_opened_img": "images/items/rainbowcoinbw.png",
+            "access_rules": [
+              "$loc|RainbowCoin_Location06"
+            ]
           }
         ],
         "map_locations": [
@@ -261,8 +280,7 @@
       {
         "name": "Aztec Chunky Klaptrap Room",
         "access_rules": [
-          "$canEnterTinyTemple, $triangle",
-          "$canEnterTinyTemple, dive, $templeIce, $phaseswim"
+          "$loc|AztecChunkyKlaptrapRoom"
         ],
         "sections": [
           {
@@ -281,8 +299,7 @@
       {
         "name": "Aztec Tiny Klaptrap Room",
         "access_rules": [
-          "$templeIce, $canEnterTinyTemple, $mini, dive",
-          "$canEnterTinyTemple, $templeIce, dive, $phaseswim"
+          "$loc|AztecTinyKlaptrapRoom"
         ],
         "sections": [
           {
@@ -301,7 +318,7 @@
       {
         "name": "Aztec Lanky Vulture Shooting",
         "access_rules": [
-          "$templeIce, $canEnterTinyTemple, dive, $anyGun, $aztecSlam, lanky"
+          "$loc|AztecLankyVulture"
         ],
         "sections": [
           {
@@ -320,13 +337,16 @@
       {
         "name": "Aztec Battle Arena (Tiny Temple: Vulture Room)",
         "access_rules": [
-          "$templeIce, $canEnterTinyTemple, dive, $anyGun, $aztecSlam, lanky"
+          "$loc|AztecBattleArena"
         ],
         "sections": [
           {
             "name": "Aztec Battle Arena (Tiny Temple: Vulture Room)",
             "chest_unopened_img": "images/items/crown.png",
-            "chest_opened_img": "images/items/crownbw.png"
+            "chest_opened_img": "images/items/crownbw.png",
+            "access_rules": [
+              "$loc|AztecBattleArena"
+            ]
           }
         ],
         "map_locations": [
@@ -341,7 +361,7 @@
       {
         "name": "Tiny's Cage",
         "access_rules": [
-          "$templeIce, $canEnterTinyTemple, dive, $canActivateKONGPuzzle"
+          "$loc|TinyKong"
         ],
         "sections": [
           {
@@ -363,7 +383,7 @@
       {
         "name": "Aztec Chunky Giant Caged Barrel",
         "access_rules": [
-          "^$canPlayAztecChunkyCagedBarrel"
+          "^$loc|AztecChunkyCagedBarrel"
         ],
         "sections": [
           {
@@ -382,13 +402,16 @@
       {
         "name": "Aztec Kasplat: Hunky Chunky Barrel",
         "access_rules": [
-          "^$tunnelDoor"
+          "^$loc|AztecKasplatNearLab"
         ],
         "sections": [
           {
             "name": "Aztec Kasplat: Hunky Chunky Barrel",
             "chest_unopened_img": "images/items/tiny_bp.png",
-            "chest_opened_img": "images/items/blueprintbw.png"
+            "chest_opened_img": "images/items/blueprintbw.png",
+            "access_rules": [
+              "$loc|AztecKasplatNearLab"
+            ]
           }
         ],
         "map_locations": [
@@ -403,7 +426,7 @@
       {
         "name": "Aztec Diddy Ram Gongs",
         "access_rules": [
-          "^$tunnelDoor, $charge, $rocket"
+          "^$loc|AztecDiddyRamGongs"
         ],
         "sections": [
           {
@@ -422,7 +445,7 @@
       {
         "name": "Aztec Diddy Vulture Race",
         "access_rules": [
-          "^$tunnelDoor, $rocket"
+          "^$loc|AztecDiddyVultureRace"
         ],
         "sections": [
           {
@@ -441,14 +464,16 @@
       {
         "name": "Aztec Crate: On Llama Temple",
         "access_rules": [
-          "^$tunnelDoor, $rocket",
-          "^$tunnelDoor, $moonkicks"
+          "$loc|MelonCrate_Location06"
         ],
         "sections": [
           {
             "name": "Aztec Crate: On Llama Temple",
             "chest_unopened_img": "images/items/crate.png",
-            "chest_opened_img": "images/items/cratebw.png"
+            "chest_opened_img": "images/items/cratebw.png",
+            "access_rules": [
+              "$loc|MelonCrate_Location06"
+            ]
           }
         ],
         "map_locations": [
@@ -463,13 +488,16 @@
       {
         "name": "Aztec Crate: Near Gong Tower",
         "access_rules": [
-          "^$tunnelDoor"
+          "^$loc|MelonCrate_Location07"
         ],
         "sections": [
           {
             "name": "Aztec Crate: Near Gong Tower",
             "chest_unopened_img": "images/items/crate.png",
-            "chest_opened_img": "images/items/cratebw.png"
+            "chest_opened_img": "images/items/cratebw.png",
+            "access_rules": [
+              "$loc|MelonCrate_Location07"
+            ]
           }
         ],
         "map_locations": [
@@ -484,7 +512,7 @@
       {
         "name": "Aztec DK Sealed Quicksand Tunnel Barrel",
         "access_rules": [
-          "^$canPlayAztecDonkeyQuicksandCave"
+          "^$loc|AztecDonkeyQuicksandCave"
         ],
         "sections": [
           {
@@ -509,43 +537,43 @@
       {
         "name": "5 Door Temple",
         "access_rules": [
-          "^$aztec5DT"
+          "^$loc|AztecDonkey5DoorTemple"
         ],
         "sections": [
           {
             "name": "Aztec Donkey 5 Door Temple",
             "access_rules": [
-              "$coconut"
+              "$loc|AztecDonkey5DoorTemple"
             ]
           },
           {
             "name": "Aztec Diddy 5 Door Temple",
             "access_rules": [
-              "$peanuts"
+              "$loc|AztecDiddy5DoorTemple"
             ]
           },
           {
             "name": "Aztec Lanky 5 Door Temple",
             "access_rules": [
-              "$canPlayAztecLanky5DoorTemple"
+              "$loc|AztecLanky5DoorTemple"
             ]
           },
           {
             "name": "Aztec Tiny 5 Door Temple",
             "access_rules": [
-              "$feather"
+              "$loc|AztecTiny5DoorTemple"
             ]
           },
           {
             "name": "Aztec Chunky 5 Door Temple",
             "access_rules": [
-              "$canPlayAztecChunky5DoorTemple"
+              "$loc|AztecChunky5DoorTemple"
             ]
           },
           {
             "name": "Aztec Fairy (Tiny 5-Door Temple)",
             "access_rules": [
-              "$feather, camera, $mini"
+              "$loc|AztecBananaFairyTinyTemple"
             ],
             "chest_unopened_img": "images/items/fairy.png",
             "chest_opened_img": "images/items/fairybw.png"
@@ -553,7 +581,7 @@
           {
             "name": "Aztec Kasplat: Chunky 5-Door Temple",
             "access_rules": [
-              "$pineapple"
+              "$loc|AztecKasplatChunky5DT"
             ],
             "chest_unopened_img": "images/items/chunky_bp.png",
             "chest_opened_img": "images/items/blueprintbw.png"
@@ -561,7 +589,7 @@
           {
             "name": "Aztec Dirt: Chunky Temple",
             "access_rules": [
-              "$pineapple, shockwave"
+              "$loc|RainbowCoin_Location01"
             ],
             "chest_unopened_img": "images/items/rainbowcoin.png",
             "chest_opened_img": "images/items/rainbowcoinbw.png"
@@ -707,7 +735,7 @@
       {
         "name": "Aztec Tiny Beetle Race",
         "access_rules": [
-          "^$tunnelDoor, @Angry Aztec/Aztec Diddy Ram Gongs/Golden Banana, $mini, $sax"
+          "^$loc|AztecTinyBeetleRace"
         ],
         "sections": [
           {
@@ -726,7 +754,7 @@
       {
         "name": "Lanky's Cage",
         "access_rules": [
-          "^$llamaSwitches, $canEnterLlamaTemple, dive, $canActivateAztecLlamaPuzzle"
+          "^$loc|LankyKong"
         ],
         "sections": [
           {
@@ -748,7 +776,7 @@
       {
         "name": "Aztec Lanky Llama Temple Barrel",
         "access_rules": [
-          "^$canPlayAztecLankyLlamaTempleBarrel"
+          "^$loc|AztecLankyLlamaTempleBarrel"
         ],
         "sections": [
           {
@@ -767,13 +795,16 @@
       {
         "name": "Aztec Fairy (Llama Temple)",
         "access_rules": [
-          "^$llamaSwitches, $canEnterLlamaTemple, camera"
+          "^$loc|AztecBananaFairyLlamaTemple"
         ],
         "sections": [
           {
             "name": "Aztec Fairy (Llama Temple)",
             "chest_unopened_img": "images/items/fairy.png",
-            "chest_opened_img": "images/items/fairybw.png"
+            "chest_opened_img": "images/items/fairybw.png",
+            "access_rules": [
+              "$loc|AztecBananaFairyLlamaTemple"
+            ]
           }
         ],
         "map_locations": [
@@ -788,13 +819,16 @@
       {
         "name": "Aztec Crate: Llama Temple",
         "access_rules": [
-          "^$llamaSwitches, $canEnterLlamaTemple"
+          "^$loc|MelonCrate_Location06"
         ],
         "sections": [
           {
             "name": "Aztec Crate: Llama Temple Entrance",
             "chest_unopened_img": "images/items/crate.png",
-            "chest_opened_img": "images/items/cratebw.png"
+            "chest_opened_img": "images/items/cratebw.png",
+            "access_rules": [
+              "$loc|MelonCrate_Location02"
+            ]
           }
         ],
         "map_locations": [
@@ -809,7 +843,7 @@
       {
         "name": "Aztec Lanky Matching Game",
         "access_rules": [
-          "^$llamaSwitches, $canEnterLlamaTemple, $grape, $aztecSlam"
+          "^$loc|AztecLankyMatchingGame"
         ],
         "sections": [
           {
@@ -828,7 +862,7 @@
       {
         "name": "Aztec Tiny Llama Temple Lava Pedestals",
         "access_rules": [
-          "^$llamaSwitches, $canEnterLlamaTemple, $mini, $aztecSlam"
+          "^$loc|AztecTinyLlamaTemple"
         ],
         "sections": [
           {
@@ -847,13 +881,16 @@
       {
         "name": "Aztec Kasplat: Llama Temple Lava",
         "access_rules": [
-          "^$llamaSwitches, $canEnterLlamaTemple, $mini"
+          "^$loc|AztecKasplatLlamaTemple"
         ],
         "sections": [
           {
             "name": "Aztec Kasplat: Llama Temple Lava",
             "chest_unopened_img": "images/items/lanky_bp.png",
-            "chest_opened_img": "images/items/blueprintbw.png"
+            "chest_opened_img": "images/items/blueprintbw.png",
+            "access_rules": [
+              "$loc|AztecKasplatLlamaTemple"
+            ]
           }
         ],
         "map_locations": [
@@ -868,7 +905,7 @@
       {
         "name": "Aztec Boulder: Tunnel",
         "access_rules": [
-          "$hunky, barrel, ^$tunnelDoor"
+          "$loc|HoldableBoulderAztec"
         ],
         "visibility_rules": [
           "bouldersanity"
@@ -877,7 +914,10 @@
           {
             "name": "Aztec Boulder: Tunnel",
             "chest_unopened_img": "images/items/boulder.png",
-            "chest_opened_img": "images/items/boulderbw.png"
+            "chest_opened_img": "images/items/boulderbw.png",
+            "access_rules": [
+              "$loc|HoldableBoulderAztec"
+            ]
           }
         ],
         "map_locations": [
@@ -1013,6 +1053,321 @@
             "map": "chunky5dt",
             "x": 287,
             "y": 285
+          }
+        ]
+      },
+      {
+        "name": "Aztec Tiny Balloon: Tiny Temple Kong Room (2)",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon015"
+        ],
+        "sections": [
+          {
+            "name": "Aztec Tiny Balloon: Tiny Temple Kong Room (2)",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"tinytemple",
+            "x":456,
+            "y":580
+          }
+        ]
+      },
+      {
+        "name": "Aztec Tiny Balloon: Tiny Temple Kong Room (1)",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon016"
+        ],
+        "sections": [
+          {
+            "name": "Aztec Tiny Balloon: Tiny Temple Kong Room (1)",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"tinytemple",
+            "x":456,
+            "y":651
+          }
+        ]
+      },
+      {
+        "name": "Aztec Chunky Balloon: By Vulture",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon017"
+        ],
+        "sections": [
+          {
+            "name": "Aztec Chunky Balloon: By Vulture",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"tinytemple",
+            "x":842,
+            "y":129
+          }
+        ]
+      },
+      {
+        "name": "Aztec Tiny Balloon: Llama Temple above lava",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon018"
+        ],
+        "sections": [
+          {
+            "name": "Aztec Tiny Balloon: Llama Temple above lava",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"llamatemple",
+            "x":288,
+            "y":265
+          }
+        ]
+      },
+      {
+        "name": "Aztec Lanky Balloon: Llama Temple Kong Room (1)",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon019"
+        ],
+        "sections": [
+          {
+            "name": "Aztec Lanky Balloon: Llama Temple Kong Room (1)",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"llamatemple",
+            "x":787,
+            "y":573
+          }
+        ]
+      },
+      {
+        "name": "Aztec Lanky Balloon: Llama Temple Kong Room (2)",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon020"
+        ],
+        "sections": [
+          {
+            "name": "Aztec Lanky Balloon: Llama Temple Kong Room (2)",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"llamatemple",
+            "x":770,
+            "y":573
+          }
+        ]
+      },
+      {
+        "name": "Aztec Diddy Balloon: 5DT",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon021"
+        ],
+        "sections": [
+          {
+            "name": "Aztec Diddy Balloon: 5DT",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"diddy5dt",
+            "x":768,
+            "y":131
+          }
+        ]
+      },
+      {
+        "name": "Aztec Lanky Balloon: 5DT",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon022"
+        ],
+        "sections": [
+          {
+            "name": "Aztec Lanky Balloon: 5DT",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"lanky5dt",
+            "x":491,
+            "y":477
+          }
+        ]
+      },
+      {
+        "name": "Aztec Chunky Balloon: 5DT (1)",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon023"
+        ],
+        "sections": [
+          {
+            "name": "Aztec Chunky Balloon: 5DT (1)",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"chunky5dt",
+            "x":179,
+            "y":300
+          }
+        ]
+      },
+      {
+        "name": "Aztec Chunky Balloon: 5DT (2)",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon024"
+        ],
+        "sections": [
+          {
+            "name": "Aztec Chunky Balloon: 5DT (2)",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"chunky5dt",
+            "x":400,
+            "y":300
+          }
+        ]
+      },
+      {
+        "name": "Aztec Donkey Balloon: Snake Road (1)",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon054"
+        ],
+        "sections": [
+          {
+            "name": "Aztec Donkey Balloon: Snake Road (1)",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"aztec",
+            "x":469,
+            "y":480
+          }
+        ]
+      },
+      {
+        "name": "Aztec Diddy Balloon: By Tiny Temple",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon055"
+        ],
+        "sections": [
+          {
+            "name": "Aztec Diddy Balloon: By Tiny Temple",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"aztec",
+            "x":498,
+            "y":782
+          }
+        ]
+      },
+      {
+        "name": "Aztec Donkey Balloon: Llama Temple Exterior Rear",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon056"
+        ],
+        "sections": [
+          {
+            "name": "Aztec Donkey Balloon: Llama Temple Exterior Rear",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"aztec",
+            "x":510,
+            "y":429
+          }
+        ]
+      },
+      {
+        "name": "Aztec Donkey Balloon: Snake Road (2)",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon057"
+        ],
+        "sections": [
+          {
+            "name": "Aztec Donkey Balloon: Snake Road (2)",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"aztec",
+            "x":496,
+            "y":512
+          }
+        ]
+      },
+      {
+        "name": "Aztec Diddy Balloon: Rear Tunnel",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon058"
+        ],
+        "sections": [
+          {
+            "name": "Aztec Diddy Balloon: Rear Tunnel",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"aztec",
+            "x":446,
+            "y":74
           }
         ]
       }

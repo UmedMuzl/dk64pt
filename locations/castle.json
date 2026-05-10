@@ -2,19 +2,18 @@
   {
     "name": "Creepy Castle",
     "access_rules": [
-      "^$canEnterCastle"
+      "^$canEnter|Castle"
     ],
     "chest_unopened_img": "images/items/GB.png",
     "chest_opened_img": "images/items/GBbw.png",
     "children": [
       {
         "name": "Medals",
-        "access_rules": [],
         "sections": [
           {
             "name": "Castle Donkey Medal",
             "access_rules": [
-              "$castleDKMedal"
+              "$loc|CastleDonkeyMedal"
             ],
             "chest_unopened_img": "images/items/bananamedal.png",
             "chest_opened_img": "images/items/bananamedalbw.png"
@@ -22,7 +21,7 @@
           {
             "name": "Castle Diddy Medal",
             "access_rules": [
-              "$castleDiddyMedal"
+              "$loc|CastleDiddyMedal"
             ],
             "chest_unopened_img": "images/items/bananamedal.png",
             "chest_opened_img": "images/items/bananamedalbw.png"
@@ -30,7 +29,7 @@
           {
             "name": "Castle Lanky Medal",
             "access_rules": [
-              "$castleLankyMedal"
+              "$loc|CastleLankyMedal"
             ],
             "chest_unopened_img": "images/items/bananamedal.png",
             "chest_opened_img": "images/items/bananamedalbw.png"
@@ -38,7 +37,7 @@
           {
             "name": "Castle Tiny Medal",
             "access_rules": [
-              "$castleTinyMedal"
+              "$loc|CastleTinyMedal"
             ],
             "chest_unopened_img": "images/items/bananamedal.png",
             "chest_opened_img": "images/items/bananamedalbw.png"
@@ -46,7 +45,7 @@
           {
             "name": "Castle Chunky Medal",
             "access_rules": [
-              "$castleChunkyMedal"
+              "$loc|CastleChunkyMedal"
             ],
             "chest_unopened_img": "images/items/bananamedal.png",
             "chest_opened_img": "images/items/bananamedalbw.png"
@@ -57,7 +56,7 @@
               "halfmedal"
             ],
             "access_rules": [
-              "$castleDKHalfMedal"
+              "$loc|CastleDonkeyHalfMedal"
             ],
             "chest_unopened_img": "images/items/halfbananamedal.png",
             "chest_opened_img": "images/items/halfbananamedalbw.png"
@@ -68,7 +67,7 @@
               "halfmedal"
             ],
             "access_rules": [
-              "$castleDiddyHalfMedal"
+              "$loc|CastleDiddyHalfMedal"
             ],
             "chest_unopened_img": "images/items/halfbananamedal.png",
             "chest_opened_img": "images/items/halfbananamedalbw.png"
@@ -79,7 +78,7 @@
               "halfmedal"
             ],
             "access_rules": [
-              "$castleLankyHalfMedal"
+              "$loc|CastleLankyHalfMedal"
             ],
             "chest_unopened_img": "images/items/halfbananamedal.png",
             "chest_opened_img": "images/items/halfbananamedalbw.png"
@@ -90,7 +89,7 @@
               "halfmedal"
             ],
             "access_rules": [
-              "$castleTinyHalfMedal"
+              "$loc|CastleTinyHalfMedal"
             ],
             "chest_unopened_img": "images/items/halfbananamedal.png",
             "chest_opened_img": "images/items/halfbananamedalbw.png"
@@ -101,7 +100,7 @@
               "halfmedal"
             ],
             "access_rules": [
-              "$castleChunkyHalfMedal"
+              "$loc|CastleChunkyHalfMedal"
             ],
             "chest_unopened_img": "images/items/halfbananamedal.png",
             "chest_opened_img": "images/items/halfbananamedalbw.png"
@@ -109,7 +108,7 @@
           {
             "name": "Castle Boss Defeated",
             "access_rules": [
-              "$castleBossLogic"
+              "$loc|CastleKey"
             ],
             "chest_unopened_img": "images/items/scoff.png",
             "chest_opened_img": "images/items/scoffbw.png"
@@ -127,7 +126,7 @@
       {
         "name": "Castle Diddy Above Castle",
         "access_rules": [
-          "$canPlayCastleDiddyAboveCastle"
+          "$loc|CastleDiddyAboveCastle"
         ],
         "sections": [
           {
@@ -145,12 +144,17 @@
       },
       {
         "name": "Castle Kasplat: Near Upper Warp 2",
-        "access_rules": [],
+        "access_rules": [
+          "$loc|CastleKasplatHalfway"
+        ],
         "sections": [
           {
             "name": "Castle Kasplat: Near Upper Warp 2",
             "chest_unopened_img": "images/items/lanky_bp.png",
-            "chest_opened_img": "images/items/blueprintbw.png"
+            "chest_opened_img": "images/items/blueprintbw.png",
+            "access_rules": [
+              "$loc|CastleKasplatHalfway"
+            ]
           }
         ],
         "map_locations": [
@@ -165,13 +169,16 @@
       {
         "name": "Castle Dirt: Top Floor",
         "access_rules": [
-          "shockwave"
+          "$loc|RainbowCoin_Location11"
         ],
         "sections": [
           {
             "name": "Castle Dirt: Top Floor",
             "chest_unopened_img": "images/items/rainbowcoin.png",
-            "chest_opened_img": "images/items/rainbowcoinbw.png"
+            "chest_opened_img": "images/items/rainbowcoinbw.png",
+            "access_rules": [
+              "$loc|RainbowCoin_Location11"
+            ]
           }
         ],
         "map_locations": [
@@ -185,12 +192,17 @@
       },
       {
         "name": "Castle Kasplat: On a Lone Platform",
-        "access_rules": [],
+        "access_rules": [
+          "$loc|CastleKasplatLowerLedge"
+        ],
         "sections": [
           {
             "name": "Castle Kasplat: On a lone platform",
             "chest_unopened_img": "images/items/tiny_bp.png",
-            "chest_opened_img": "images/items/blueprintbw.png"
+            "chest_opened_img": "images/items/blueprintbw.png",
+            "access_rules": [
+              "$loc|CastleKasplatLowerLedge"
+            ]
           }
         ],
         "map_locations": [
@@ -204,26 +216,23 @@
       },
       {
         "name": "Inside the Tree",
-        "access_rules": [
-          "$canEnterTree"
-        ],
         "sections": [
           {
             "name": "Castle Donkey Tree Sniping",
             "access_rules": [
-              "sniper, $coconut, dive"
+              "$loc|CastleDonkeyTree"
             ]
           },
           {
             "name": "Castle Chunky Tree Sniping Barrel",
             "access_rules": [
-              "^$canPlayCastleChunkyTree"
+              "^$loc|CastleChunkyTree"
             ]
           },
           {
             "name": "Castle Kasplat: Inside the Tree",
             "access_rules": [
-              "$coconut"
+              "$loc|CastleKasplatTree"
             ],
             "chest_unopened_img": "images/items/dk_bp.png",
             "chest_opened_img": "images/items/blueprintbw.png"
@@ -231,7 +240,7 @@
           {
             "name": "Castle Fairy (Tree Sniper Room)",
             "access_rules": [
-              "$coconut, dive, camera"
+              "$loc|CastleBananaFairyTree"
             ],
             "chest_unopened_img": "images/items/fairy.png",
             "chest_opened_img": "images/items/fairybw.png"
@@ -239,7 +248,7 @@
           {
             "name": "Castle Tree Enemy: Start Room (0)",
             "access_rules": [
-              "$flyingEnemy"
+              "$loc|CastleTreeEnemy_StartRoom0"
             ],
             "visibility_rules": [
               "dropsanity"
@@ -250,13 +259,27 @@
           {
             "name": "Castle Tree Enemy: Start Room (1)",
             "access_rules": [
-              "$flyingEnemy"
+              "$loc|CastleTreeEnemy_StartRoom1"
             ],
             "visibility_rules": [
               "dropsanity"
             ],
             "chest_unopened_img": "images/settings/dropsanity.png",
             "chest_opened_img": "images/settings/dropsanitybw.png"
+          },
+          {
+            "name": "Castle Donkey Balloon: Tree",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png",
+            "visibility_rules": ["ballooninpool"],
+            "access_rules": ["$loc|Balloon099"]
+          },
+          {
+            "name": "Castle Chunky Balloon: Tree",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png",
+            "visibility_rules": ["ballooninpool"],
+            "access_rules": ["$loc|Balloon100"]
           }
         ],
         "map_locations": [
@@ -270,20 +293,17 @@
       },
       {
         "name": "Castle DK Library",
-        "access_rules": [
-          "$castleSlam, donkey"
-        ],
         "sections": [
           {
             "name": "Castle Donkey Library",
             "access_rules": [
-              "$strong"
+              "$loc|CastleDonkeyLibrary"
             ]
           },
           {
             "name": "Castle Library Enemy: Fork Left (0)",
             "access_rules": [
-              "$flyingEnemy"
+              "$loc|CastleLibraryEnemy_ForkLeft0"
             ],
             "visibility_rules": [
               "dropsanity"
@@ -294,7 +314,7 @@
           {
             "name": "Castle Library Enemy: Fork Left (1)",
             "access_rules": [
-              "$flyingEnemy"
+              "$loc|CastleLibraryEnemy_ForkLeft1"
             ],
             "visibility_rules": [
               "dropsanity"
@@ -305,7 +325,7 @@
           {
             "name": "Castle Library Enemy: Fork Center",
             "access_rules": [
-              "$flyingEnemy"
+              "$loc|CastleLibraryEnemy_ForkCenter"
             ],
             "visibility_rules": [
               "dropsanity"
@@ -316,7 +336,7 @@
           {
             "name": "Castle Library Enemy: Fork Right",
             "access_rules": [
-              "$flyingEnemy"
+              "$loc|CastleLibraryEnemy_ForkRight"
             ],
             "visibility_rules": [
               "dropsanity"
@@ -337,7 +357,7 @@
       {
         "name": "Castle Diddy Ballroom",
         "access_rules": [
-          "$canPlayCastleDiddyBallroom"
+          "$loc|CastleDiddyBallroom"
         ],
         "sections": [
           {
@@ -356,13 +376,16 @@
       {
         "name": "Castle Fairy (Near Car Race)",
         "access_rules": [
-          "$castleSlam, $port, camera, diddy"
+          "$loc|CastleBananaFairyBallroom"
         ],
         "sections": [
           {
             "name": "Castle Fairy (Near Car Race)",
             "chest_unopened_img": "images/items/fairy.png",
-            "chest_opened_img": "images/items/fairybw.png"
+            "chest_opened_img": "images/items/fairybw.png",
+            "access_rules": [
+              "$loc|CastleBananaFairyBallroom"
+            ]
           }
         ],
         "map_locations": [
@@ -377,7 +400,7 @@
       {
         "name": "Castle Tiny Car Race",
         "access_rules": [
-          "$castleSlam, $port, $mini, diddy"
+          "$loc|CastleTinyCarRace"
         ],
         "sections": [
           {
@@ -395,12 +418,17 @@
       },
       {
         "name": "Castle Lanky Tower",
-        "access_rules": [
-          "^$canPlayCastleLankyTower"
-        ],
         "sections": [
           {
-            "name": "Castle Lanky Tower"
+            "name": "Castle Lanky Tower",
+            "access_rules": ["^$loc|CastleLankyTower"]
+          },
+          {
+            "name": "Castle Lanky Balloon: Wind Tower",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png",
+            "visibility_rules": ["ballooninpool"],
+            "access_rules": ["$loc|Balloon088"]
           }
         ],
         "map_locations": [
@@ -415,7 +443,7 @@
       {
         "name": "Greenhouse",
         "access_rules": [
-          "$castleSlam, lanky"
+          "$loc|CastleLankyGreenhouse"
         ],
         "sections": [
           {
@@ -424,7 +452,10 @@
           {
             "name": "Castle Battle Arena (Greenhouse: Center)",
             "chest_unopened_img": "images/items/crown.png",
-            "chest_opened_img": "images/items/crownbw.png"
+            "chest_opened_img": "images/items/crownbw.png",
+            "access_rules": [
+              "$loc|CastleBattleArena"
+            ]
           }
         ],
         "map_locations": [
@@ -439,7 +470,7 @@
       {
         "name": "Castle Tiny Trashcan",
         "access_rules": [
-          "^$trash"
+          "^$loc|CastleTinyTrashCan"
         ],
         "sections": [
           {
@@ -457,12 +488,17 @@
       },
       {
         "name": "Castle Chunky Shed",
-        "access_rules": [
-          "$chunkyShed"
-        ],
         "sections": [
           {
-            "name": "Castle Chunky Shed"
+            "name": "Castle Chunky Shed",
+            "access_rules": ["$loc|CastleChunkyShed"]
+          },
+          {
+            "name": "Castle Chunky Balloon: Shed",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png",
+            "visibility_rules": ["ballooninpool"],
+            "access_rules": ["$loc|Balloon101"]
           }
         ],
         "map_locations": [
@@ -477,7 +513,7 @@
       {
         "name": "Castle Chunky Museum",
         "access_rules": [
-          "$castleSlam, $punch, barrel"
+          "$loc|CastleChunkyMuseum"
         ],
         "sections": [
           {
@@ -495,12 +531,17 @@
       },
       {
         "name": "Castle Kasplat: Lower Cave Center",
-        "access_rules": [],
+        "access_rules": [
+          "$loc|CastleKasplatCrypt"
+        ],
         "sections": [
           {
             "name": "Castle Kasplat: Lower Cave Center",
             "chest_unopened_img": "images/items/diddy_bp.png",
-            "chest_opened_img": "images/items/blueprintbw.png"
+            "chest_opened_img": "images/items/blueprintbw.png",
+            "access_rules": [
+              "$loc|CastleKasplatCrypt"
+            ]
           }
         ],
         "map_locations": [
@@ -514,12 +555,17 @@
       },
       {
         "name": "Castle Crate: Behind Mausoleum Entrance",
-        "access_rules": [],
+        "access_rules": [
+          "$loc|MelonCrate_Location12"
+        ],
         "sections": [
           {
             "name": "Castle Crate: Behind Mausoleum Entrance",
             "chest_unopened_img": "images/items/crate.png",
-            "chest_opened_img": "images/items/cratebw.png"
+            "chest_opened_img": "images/items/cratebw.png",
+            "access_rules": [
+              "$loc|MelonCrate_Location12"
+            ]
           }
         ],
         "map_locations": [
@@ -534,7 +580,7 @@
       {
         "name": "Castle Diddy Crypt",
         "access_rules": [
-          "$diddyCryptDoors, $charge"
+          "$loc|CastleDiddyCrypt"
         ],
         "sections": [
           {
@@ -546,7 +592,10 @@
               "dropsanity"
             ],
             "chest_unopened_img": "images/settings/dropsanity.png",
-            "chest_opened_img": "images/settings/dropsanitybw.png"
+            "chest_opened_img": "images/settings/dropsanitybw.png",
+            "access_rules": [
+              "$loc|CastleCryptEnemy_DiddyCoffin0"
+            ]
           },
           {
             "name": "Castle Crypt Enemy: Diddy Coffin (1)",
@@ -554,7 +603,10 @@
               "dropsanity"
             ],
             "chest_unopened_img": "images/settings/dropsanity.png",
-            "chest_opened_img": "images/settings/dropsanitybw.png"
+            "chest_opened_img": "images/settings/dropsanitybw.png",
+            "access_rules": [
+              "$loc|CastleCryptEnemy_DiddyCoffin1"
+            ]
           },
           {
             "name": "Castle Crypt Enemy: Diddy Coffin (2)",
@@ -562,7 +614,10 @@
               "dropsanity"
             ],
             "chest_unopened_img": "images/settings/dropsanity.png",
-            "chest_opened_img": "images/settings/dropsanitybw.png"
+            "chest_opened_img": "images/settings/dropsanitybw.png",
+            "access_rules": [
+              "$loc|CastleCryptEnemy_DiddyCoffin2"
+            ]
           },
           {
             "name": "Castle Crypt Enemy: Diddy Coffin (3)",
@@ -570,7 +625,10 @@
               "dropsanity"
             ],
             "chest_unopened_img": "images/settings/dropsanity.png",
-            "chest_opened_img": "images/settings/dropsanitybw.png"
+            "chest_opened_img": "images/settings/dropsanitybw.png",
+            "access_rules": [
+              "$loc|CastleCryptEnemy_DiddyCoffin3"
+            ]
           }
         ],
         "map_locations": [
@@ -584,14 +642,11 @@
       },
       {
         "name": "Castle Chunky Crypt",
-        "access_rules": [
-          "$chunkyCryptDoors"
-        ],
         "sections": [
           {
             "name": "Castle Chunky Crypt",
             "access_rules": [
-              "$canPlayCastleChunkyCrypt"
+              "$loc|CastleChunkyCrypt"
             ]
           },
           {
@@ -600,7 +655,7 @@
               "dropsanity"
             ],
             "access_rules": [
-              "slam, chunky"
+              "$loc|CastleCryptEnemy_ChunkyCoffin0"
             ],
             "chest_unopened_img": "images/settings/dropsanity.png",
             "chest_opened_img": "images/settings/dropsanitybw.png"
@@ -611,7 +666,7 @@
               "dropsanity"
             ],
             "access_rules": [
-              "slam, chunky"
+              "$loc|CastleCryptEnemy_ChunkyCoffin1"
             ],
             "chest_unopened_img": "images/settings/dropsanity.png",
             "chest_opened_img": "images/settings/dropsanitybw.png"
@@ -622,7 +677,7 @@
               "dropsanity"
             ],
             "access_rules": [
-              "slam, chunky"
+              "$loc|CastleCryptEnemy_ChunkyCoffin2"
             ],
             "chest_unopened_img": "images/settings/dropsanity.png",
             "chest_opened_img": "images/settings/dropsanitybw.png"
@@ -633,7 +688,7 @@
               "dropsanity"
             ],
             "access_rules": [
-              "slam, chunky"
+              "$loc|CastleCryptEnemy_ChunkyCoffin3"
             ],
             "chest_unopened_img": "images/settings/dropsanity.png",
             "chest_opened_img": "images/settings/dropsanitybw.png"
@@ -650,14 +705,11 @@
       },
       {
         "name": "Castle DK Minecart",
-        "access_rules": [
-          "$dkCryptDoors"
-        ],
         "sections": [
           {
             "name": "Castle Donkey Minecart",
             "access_rules": [
-              "$grab"
+              "$loc|CastleDonkeyMinecarts"
             ]
           },
           {
@@ -666,7 +718,10 @@
               "dropsanity"
             ],
             "chest_unopened_img": "images/settings/dropsanity.png",
-            "chest_opened_img": "images/settings/dropsanitybw.png"
+            "chest_opened_img": "images/settings/dropsanitybw.png",
+            "access_rules": [
+              "$loc|CastleCryptEnemy_MinecartEntry"
+            ]
           }
         ],
         "map_locations": [
@@ -680,21 +735,17 @@
       },
       {
         "name": "Mausoleum",
-        "access_rules": [
-          "$mausoleumDoors"
-        ],
         "sections": [
           {
             "name": "Castle Lanky Mausoleum",
             "access_rules": [
-              "$grape, $sprint, vine, $trombone",
-              "$grape, $sprint, ^$avp"
+              "$loc|CastleLankyMausoleum"
             ]
           },
           {
             "name": "Castle Tiny Mausoleum",
             "access_rules": [
-              "$twirl, $castleSlam"
+              "$loc|CastleTinyMausoleum"
             ]
           },
           {
@@ -703,7 +754,10 @@
               "dropsanity"
             ],
             "chest_unopened_img": "images/settings/dropsanity.png",
-            "chest_opened_img": "images/settings/dropsanitybw.png"
+            "chest_opened_img": "images/settings/dropsanitybw.png",
+            "access_rules": [
+              "$loc|CastleMausoleumEnemy_TinyPath"
+            ]
           },
           {
             "name": "Castle Mausoleum Enemy: Lanky Path (0)",
@@ -711,7 +765,10 @@
               "dropsanity"
             ],
             "chest_unopened_img": "images/settings/dropsanity.png",
-            "chest_opened_img": "images/settings/dropsanitybw.png"
+            "chest_opened_img": "images/settings/dropsanitybw.png",
+            "access_rules": [
+              "$loc|CastleMausoleumEnemy_LankyPath0"
+            ]
           },
           {
             "name": "Castle Mausoleum Enemy: Lanky Path (1)",
@@ -719,7 +776,17 @@
               "dropsanity"
             ],
             "chest_unopened_img": "images/settings/dropsanity.png",
-            "chest_opened_img": "images/settings/dropsanitybw.png"
+            "chest_opened_img": "images/settings/dropsanitybw.png",
+            "access_rules": [
+              "$loc|CastleMausoleumEnemy_LankyPath1"
+            ]
+          },
+          {
+            "name": "Castle Lanky Balloon: Mausoleum",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png",
+            "visibility_rules": ["ballooninpool"],
+            "access_rules": ["$loc|Balloon089"]
           }
         ],
         "map_locations": [
@@ -734,7 +801,7 @@
       {
         "name": "Castle Tiny Over Chasm",
         "access_rules": [
-          "$canPlayCastleTinyOverChasm"
+          "$loc|CastleTinyOverChasm"
         ],
         "sections": [
           {
@@ -752,12 +819,17 @@
       },
       {
         "name": "Castle Kasplat: Near Candy's",
-        "access_rules": [],
+        "access_rules": [
+          "$loc|CastleKasplatNearCandy"
+        ],
         "sections": [
           {
             "name": "Castle Kasplat: Near Candy's",
             "chest_unopened_img": "images/items/chunky_bp.png",
-            "chest_opened_img": "images/items/blueprintbw.png"
+            "chest_opened_img": "images/items/blueprintbw.png",
+            "access_rules": [
+              "$loc|CastleKasplatNearCandy"
+            ]
           }
         ],
         "map_locations": [
@@ -772,7 +844,7 @@
       {
         "name": "Castle DK Dungeon",
         "access_rules": [
-          "$castleSlam, donkey"
+          "$loc|CastleDonkeyDungeon"
         ],
         "sections": [
           {
@@ -791,8 +863,7 @@
       {
         "name": "Castle Diddy Dungeon",
         "access_rules": [
-          "$castleSlam, $peanuts, sniper, vine",
-          "$moontail, $castleSlam, vine"
+          "$loc|CastleDiddyDungeon"
         ],
         "sections": [
           {
@@ -811,7 +882,7 @@
       {
         "name": "Castle Lanky Dungeon",
         "access_rules": [
-          "$canPlayCastleLankyDungeon"
+          "$loc|CastleLankyDungeon"
         ],
         "sections": [
           {
@@ -830,7 +901,7 @@
       {
         "name": "Castle Boulder: Museum",
         "access_rules": [
-          "$castleSlam, $punch, barrel"
+          "$loc|HoldableBoulderMuseum"
         ],
         "visibility_rules": [
           "bouldersanity"
@@ -839,7 +910,10 @@
           {
             "name": "Castle Boulder: Museum",
             "chest_unopened_img": "images/items/boulder.png",
-            "chest_opened_img": "images/items/boulderbw.png"
+            "chest_opened_img": "images/items/boulderbw.png",
+            "access_rules": [
+              "$loc|HoldableBoulderMuseum"
+            ]
           }
         ],
         "map_locations": [
@@ -847,6 +921,237 @@
             "map": "museum",
             "x": 210,
             "y": 64
+          }
+        ]
+      },
+      {
+        "name": "Castle Diddy Balloon: Beside W1",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon082"
+        ],
+        "sections": [
+          {
+            "name": "Castle Diddy Balloon: Beside W1",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"castle",
+            "x":482,
+            "y":669
+          }
+        ]
+      },
+      {
+        "name": "Castle Diddy Balloon: Inside Ballroom",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon083"
+        ],
+        "sections": [
+          {
+            "name": "Castle Diddy Balloon: Inside Ballroom",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"ballroom",
+            "x":251,
+            "y":500
+          }
+        ]
+      },
+      {
+        "name": "Castle Diddy Balloon: Inside the Coffin",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon090"
+        ],
+        "sections": [
+          {
+            "name": "Castle Diddy Balloon: Inside the Coffin",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"crypt",
+            "x":590,
+            "y":32
+          }
+        ]
+      },
+      {
+        "name": "Castle Donkey Balloon: Beside Minecart Entrance",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon091"
+        ],
+        "sections": [
+          {
+            "name": "Castle Donkey Balloon: Beside Minecart Entrance",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"crypt",
+            "x":430,
+            "y":733
+          }
+        ]
+      },
+      {
+        "name": "Castle Tiny Balloon: Behind Museum Glass",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon092"
+        ],
+        "sections": [
+          {
+            "name": "Castle Tiny Balloon: Behind Museum Glass",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"museum",
+            "x":42,
+            "y":564
+          }
+        ]
+      },
+      {
+        "name": "Castle Chunky Balloon: Museum",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon093"
+        ],
+        "sections": [
+          {
+            "name": "Castle Chunky Balloon: Museum",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"museum",
+            "x":228,
+            "y":123
+          }
+        ]
+      },
+      {
+        "name": "Castle Diddy Balloon: Dungeon Chain Room",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon094"
+        ],
+        "sections": [
+          {
+            "name": "Castle Diddy Balloon: Dungeon Chain Room",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"dungeon",
+            "x":116,
+            "y":814
+          }
+        ]
+      },
+      {
+        "name": "Castle Chunky Balloon: Dungeon (1)",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon096"
+        ],
+        "sections": [
+          {
+            "name": "Castle Chunky Balloon: Dungeon (1)",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"dungeon",
+            "x":171,
+            "y":603
+          }
+        ]
+      },
+      {
+        "name": "Castle Chunky Balloon: Dungeon (2)",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon098"
+        ],
+        "sections": [
+          {
+            "name": "Castle Chunky Balloon: Dungeon (2)",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"dungeon",
+            "x":61,
+            "y":603
+          }
+        ]
+      },
+      {
+        "name": "Castle Diddy Balloon: Above Crypt Entrance",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon102"
+        ],
+        "sections": [
+          {
+            "name": "Castle Diddy Balloon: Above Crypt Entrance",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"crypthub",
+            "x":111,
+            "y":627
+          }
+        ]
+      },
+      {
+        "name": "Castle Tiny Balloon: Near Funky",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon103"
+        ],
+        "sections": [
+          {
+            "name": "Castle Tiny Balloon: Near Funky",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"crypthub",
+            "x":838,
+            "y":145
           }
         ]
       }

@@ -4,14 +4,14 @@
     "chest_unopened_img": "images/settings/dropsanity.png",
     "chest_opened_img": "images/settings/dropsanitybw.png",
     "access_rules": [
-      "^$aztecAccess"
+      "^$canEnter|Aztec"
     ],
     "visibility_rules": "dropsanity",
     "children": [
       {
         "name": "Angry Aztec Enemy: Vase Room (0)",
         "access_rules": [
-          "$pineapple, $flyingEnemy"
+          "$loc|AztecMainEnemy_VaseRoom0"
         ],
         "sections": [
           {
@@ -29,7 +29,7 @@
       {
         "name": "Angry Aztec Enemy: Vase Room (1)",
         "access_rules": [
-          "$pineapple, $flyingEnemy"
+          "$loc|AztecMainEnemy_VaseRoom1"
         ],
         "sections": [
           {
@@ -47,7 +47,7 @@
       {
         "name": "Angry Aztec Enemy: Vase Room (2)",
         "access_rules": [
-          "$pineapple, $flyingEnemy"
+          "$loc|AztecMainEnemy_VaseRoom2"
         ],
         "sections": [
           {
@@ -65,7 +65,7 @@
       {
         "name": "Angry Aztec Enemy: Tunnel Pad (0)",
         "access_rules": [
-          "$flyingEnemy, ^$tunnelDoor"
+          "$loc|AztecMainEnemy_TunnelPad0"
         ],
         "sections": [
           {
@@ -83,7 +83,7 @@
       {
         "name": "Angry Aztec Enemy: Tunnel Cage (0)",
         "access_rules": [
-          "^$tunnelDoor"
+          "^$loc|AztecMainEnemy_TunnelCage0"
         ],
         "sections": [
           {
@@ -101,7 +101,7 @@
       {
         "name": "Angry Aztec Enemy: Tunnel Cage (1)",
         "access_rules": [
-          "^$tunnelDoor"
+          "^$loc|AztecMainEnemy_TunnelCage1"
         ],
         "sections": [
           {
@@ -119,7 +119,7 @@
       {
         "name": "Angry Aztec Enemy: Tunnel Cage (2)",
         "access_rules": [
-          "^$tunnelDoor"
+          "^$loc|AztecMainEnemy_TunnelCage2"
         ],
         "sections": [
           {
@@ -136,7 +136,9 @@
       },
       {
         "name": "Angry Aztec Enemy: Starting Tunnel (0)",
-        "access_rules": [],
+        "access_rules": [
+          "$loc|AztecMainEnemy_StartingTunnel0"
+        ],
         "sections": [
           {
             "name": "Aztec Enemy: Starting Tunnel (0)"
@@ -152,7 +154,9 @@
       },
       {
         "name": "Angry Aztec Enemy: Starting Tunnel (1)",
-        "access_rules": [],
+        "access_rules": [
+          "$loc|AztecMainEnemy_StartingTunnel1"
+        ],
         "sections": [
           {
             "name": "Aztec Enemy: Starting Tunnel (1)"
@@ -168,7 +172,9 @@
       },
       {
         "name": "Angry Aztec Enemy: Oasis Door",
-        "access_rules": [],
+        "access_rules": [
+          "$loc|AztecMainEnemy_OasisDoor"
+        ],
         "sections": [
           {
             "name": "Aztec Enemy: Oasis Door"
@@ -185,7 +191,7 @@
       {
         "name": "Angry Aztec Enemy: Tunnel Cage (3)",
         "access_rules": [
-          "^$tunnelDoor"
+          "^$loc|AztecMainEnemy_TunnelCage3"
         ],
         "sections": [
           {
@@ -203,7 +209,7 @@
       {
         "name": "Angry Aztec Enemy: Outside Llama",
         "access_rules": [
-          "^$tunnelDoor"
+          "^$loc|AztecMainEnemy_OutsideLlama"
         ],
         "sections": [
           {
@@ -221,7 +227,7 @@
       {
         "name": "Angry Aztec Enemy: Outside Tower",
         "access_rules": [
-          "^$tunnelDoor"
+          "^$loc|AztecMainEnemy_OutsideTower"
         ],
         "sections": [
           {
@@ -239,7 +245,7 @@
       {
         "name": "Angry Aztec Enemy: Tunnel Pad (1)",
         "access_rules": [
-          "$flyingEnemy, ^$tunnelDoor"
+          "$loc|AztecMainEnemy_TunnelPad1"
         ],
         "sections": [
           {
@@ -257,7 +263,7 @@
       {
         "name": "Angry Aztec Enemy: Near Candy",
         "access_rules": [
-          "$flyingEnemy"
+          "$loc|AztecMainEnemy_NearCandy"
         ],
         "sections": [
           {
@@ -275,7 +281,7 @@
       {
         "name": "Angry Aztec Enemy: Around Totem",
         "access_rules": [
-          "^$tunnelDoor"
+          "^$loc|AztecMainEnemy_AroundTotem"
         ],
         "sections": [
           {
@@ -293,7 +299,7 @@
       {
         "name": "Angry Aztec Enemy: Starting Tunnel (2)",
         "access_rules": [
-          "$flyingEnemy"
+          "$loc|AztecMainEnemy_StartingTunnel2"
         ],
         "sections": [
           {
@@ -311,7 +317,7 @@
       {
         "name": "Angry Aztec Enemy: Starting Tunnel (3)",
         "access_rules": [
-          "$flyingEnemy"
+          "$loc|AztecMainEnemy_StartingTunnel3"
         ],
         "sections": [
           {
@@ -329,7 +335,7 @@
       {
         "name": "Angry Aztec Enemy: Outside Snide",
         "access_rules": [
-          "^$tunnelDoor"
+          "^$loc|AztecMainEnemy_OutsideSnide"
         ],
         "sections": [
           {
@@ -347,7 +353,7 @@
       {
         "name": "Angry Aztec Enemy: Outside 5DT",
         "access_rules": [
-          "^$tunnelDoor, $flyingEnemy"
+          "^$loc|AztecMainEnemy_Outside5DT"
         ],
         "sections": [
           {
@@ -365,7 +371,7 @@
       {
         "name": "Angry Aztec Enemy: Near Sealed Quicksand Tunnel",
         "access_rules": [
-          "^$tunnelDoor"
+          "^$loc|AztecMainEnemy_NearSnoopTunnel"
         ],
         "sections": [
           {
@@ -383,7 +389,7 @@
       {
         "name": "Aztec Donkey 5DTemple Enemy: Start Trap (0)",
         "access_rules": [
-          "^$aztec5DT, $coconut, $applyEnemyLogic|AztecDK5DTEnemy_StartTrap0"
+          "^$loc|AztecDK5DTEnemy_StartTrap0"
         ],
         "sections": [
           {
@@ -401,7 +407,7 @@
       {
         "name": "Aztec Donkey 5DTemple Enemy: Start Trap (1)",
         "access_rules": [
-          "^$aztec5DT, $coconut, $applyEnemyLogic|AztecDK5DTEnemy_StartTrap1"
+          "^$loc|AztecDK5DTEnemy_StartTrap1"
         ],
         "sections": [
           {
@@ -419,7 +425,7 @@
       {
         "name": "Aztec Donkey 5DTemple Enemy: Start Trap (2)",
         "access_rules": [
-          "^$aztec5DT, $coconut, $applyEnemyLogic|AztecDK5DTEnemy_StartTrap2"
+          "^$loc|AztecDK5DTEnemy_StartTrap2"
         ],
         "sections": [
           {
@@ -437,7 +443,7 @@
       {
         "name": "Aztec Donkey 5DTemple Enemy: End Trap (0)",
         "access_rules": [
-          "^$aztec5DT, $coconut, $applyEnemyLogic|AztecDK5DTEnemy_EndTrap0"
+          "^$loc|AztecDK5DTEnemy_EndTrap0"
         ],
         "sections": [
           {
@@ -455,7 +461,7 @@
       {
         "name": "Aztec Donkey 5DTemple Enemy: End Trap (1)",
         "access_rules": [
-          "^$aztec5DT, $coconut, $applyEnemyLogic|AztecDK5DTEnemy_EndTrap1"
+          "^$loc|AztecDK5DTEnemy_EndTrap1"
         ],
         "sections": [
           {
@@ -473,7 +479,7 @@
       {
         "name": "Aztec Donkey 5DTemple Enemy: End Trap (2)",
         "access_rules": [
-          "^$aztec5DT, $coconut, $applyEnemyLogic|AztecDK5DTEnemy_EndTrap2"
+          "^$loc|AztecDK5DTEnemy_EndTrap2"
         ],
         "sections": [
           {
@@ -491,7 +497,7 @@
       {
         "name": "Aztec Donkey 5DTemple Enemy: End Path (0)",
         "access_rules": [
-          "^$aztec5DT, $coconut, $applyEnemyLogic|AztecDK5DTEnemy_EndPath0"
+          "^$loc|AztecDK5DTEnemy_EndPath0"
         ],
         "sections": [
           {
@@ -509,7 +515,7 @@
       {
         "name": "Aztec Donkey 5DTemple Enemy: End Path (1)",
         "access_rules": [
-          "^$aztec5DT, $coconut, $applyEnemyLogic|AztecDK5DTEnemy_EndPath1"
+          "^$loc|AztecDK5DTEnemy_EndPath1"
         ],
         "sections": [
           {
@@ -527,7 +533,7 @@
       {
         "name": "Aztec Donkey 5DTemple Enemy: Start Path",
         "access_rules": [
-          "^$aztec5DT, $coconut, $applyEnemyLogic|AztecDK5DTEnemy_StartPath"
+          "^$loc|AztecDK5DTEnemy_StartPath"
         ],
         "sections": [
           {
@@ -545,7 +551,7 @@
       {
         "name": "Aztec Diddy 5DTemple Enemy: End Trap (0)",
         "access_rules": [
-          "^$aztec5DT, $peanuts, $applyEnemyLogic|AztecDiddy5DTEnemy_EndTrap0"
+          "^$loc|AztecDiddy5DTEnemy_EndTrap0"
         ],
         "sections": [
           {
@@ -563,7 +569,7 @@
       {
         "name": "Aztec Diddy 5DTemple Enemy: End Trap (1)",
         "access_rules": [
-          "^$aztec5DT, $peanuts, $applyEnemyLogic|AztecDiddy5DTEnemy_EndTrap1"
+          "^$loc|AztecDiddy5DTEnemy_EndTrap1"
         ],
         "sections": [
           {
@@ -581,7 +587,7 @@
       {
         "name": "Aztec Diddy 5DTemple Enemy: End Trap (2)",
         "access_rules": [
-          "^$aztec5DT, $peanuts, $applyEnemyLogic|AztecDiddy5DTEnemy_EndTrap2"
+          "^$loc|AztecDiddy5DTEnemy_EndTrap2"
         ],
         "sections": [
           {
@@ -599,7 +605,7 @@
       {
         "name": "Aztec Diddy 5DTemple Enemy: Start Left (0)",
         "access_rules": [
-          "^$aztec5DT, $peanuts"
+          "^$loc|AztecDiddy5DTEnemy_StartLeft0"
         ],
         "sections": [
           {
@@ -617,7 +623,7 @@
       {
         "name": "Aztec Diddy 5DTemple Enemy: Start Left (1)",
         "access_rules": [
-          "^$aztec5DT, $peanuts"
+          "^$loc|AztecDiddy5DTEnemy_StartLeft1"
         ],
         "sections": [
           {
@@ -635,7 +641,7 @@
       {
         "name": "Aztec Diddy 5DTemple Enemy: Reward",
         "access_rules": [
-          "^$aztec5DT, $peanuts, $applyEnemyLogic|AztecDiddy5DTEnemy_Reward"
+          "^$loc|AztecDiddy5DTEnemy_Reward"
         ],
         "sections": [
           {
@@ -653,7 +659,7 @@
       {
         "name": "Aztec Diddy 5DTemple Enemy: Second Switch",
         "access_rules": [
-          "^$aztec5DT, $peanuts"
+          "^$loc|AztecDiddy5DTEnemy_SecondSwitch"
         ],
         "sections": [
           {
@@ -671,7 +677,7 @@
       {
         "name": "Aztec Lanky 5DTemple Enemy: Joining Paths",
         "access_rules": [
-          "^$aztec5DT, $grape, $applyEnemyLogic|AztecLanky5DTEnemy_JoiningPaths"
+          "^$loc|AztecLanky5DTEnemy_JoiningPaths"
         ],
         "sections": [
           {
@@ -689,7 +695,7 @@
       {
         "name": "Aztec Lanky 5DTemple Enemy: End Trap",
         "access_rules": [
-          "^$aztec5DT, $grape, $applyEnemyLogic|AztecLanky5DTEnemy_EndTrap"
+          "^$loc|AztecLanky5DTEnemy_EndTrap"
         ],
         "sections": [
           {
@@ -707,7 +713,7 @@
       {
         "name": "Aztec Lanky 5DTemple Enemy: Reward",
         "access_rules": [
-          "^$aztec5DT, $grape, $applyEnemyLogic|AztecLanky5DTEnemy_Reward"
+          "^$loc|AztecLanky5DTEnemy_Reward"
         ],
         "sections": [
           {
@@ -725,7 +731,7 @@
       {
         "name": "Aztec Tiny 5DTemple Enemy: Start Right Front",
         "access_rules": [
-          "^$aztec5DT, $feather, $flyingEnemy"
+          "^$loc|AztecTiny5DTEnemy_StartRightFront"
         ],
         "sections": [
           {
@@ -743,7 +749,7 @@
       {
         "name": "Aztec Tiny 5DTemple Enemy: Start Left Back",
         "access_rules": [
-          "^$aztec5DT, $feather, $flyingEnemy"
+          "^$loc|AztecTiny5DTEnemy_StartLeftBack"
         ],
         "sections": [
           {
@@ -761,7 +767,7 @@
       {
         "name": "Aztec Tiny 5DTemple Enemy: Start Right Back",
         "access_rules": [
-          "^$aztec5DT, $feather, $flyingEnemy"
+          "^$loc|AztecTiny5DTEnemy_StartRightBack"
         ],
         "sections": [
           {
@@ -779,7 +785,7 @@
       {
         "name": "Aztec Tiny 5DTemple Enemy: Start Left Front",
         "access_rules": [
-          "^$aztec5DT, $feather, $flyingEnemy"
+          "^$loc|AztecTiny5DTEnemy_StartLeftFront"
         ],
         "sections": [
           {
@@ -797,7 +803,7 @@
       {
         "name": "Aztec Tiny 5DTemple Enemy: Reward (0)",
         "access_rules": [
-          "^$aztec5DT, $feather, $flyingEnemy"
+          "^$loc|AztecTiny5DTEnemy_Reward0"
         ],
         "sections": [
           {
@@ -808,7 +814,7 @@
       {
         "name": "Aztec Tiny 5DTemple Enemy: Reward (1)",
         "access_rules": [
-          "^$aztec5DT, $feather, $flyingEnemy"
+          "^$loc|AztecTiny5DTEnemy_Reward1"
         ],
         "sections": [
           {
@@ -826,7 +832,7 @@
       {
         "name": "Aztec Tiny 5DTemple Enemy: Dead End (0)",
         "access_rules": [
-          "^$aztec5DT, $feather, $flyingEnemy"
+          "^$loc|AztecTiny5DTEnemy_DeadEnd0"
         ],
         "sections": [
           {
@@ -844,7 +850,7 @@
       {
         "name": "Aztec Tiny 5DTemple Enemy: Dead End (1)",
         "access_rules": [
-          "^$aztec5DT, $feather, $flyingEnemy"
+          "^$loc|AztecTiny5DTEnemy_DeadEnd1"
         ],
         "sections": [
           {
@@ -862,7 +868,7 @@
       {
         "name": "Aztec Chunky 5DTemple Enemy: Start Right",
         "access_rules": [
-          "^$aztec5DT, $pineapple, $applyEnemyLogic|AztecChunky5DTEnemy_StartRight"
+          "^$loc|AztecChunky5DTEnemy_StartRight"
         ],
         "sections": [
           {
@@ -880,7 +886,7 @@
       {
         "name": "Aztec Chunky 5DTemple Enemy: Start Left",
         "access_rules": [
-          "^$aztec5DT, $pineapple, $applyEnemyLogic|AztecChunky5DTEnemy_StartLeft"
+          "^$loc|AztecChunky5DTEnemy_StartLeft"
         ],
         "sections": [
           {
@@ -898,7 +904,7 @@
       {
         "name": "Aztec Chunky 5DTemple Enemy: Second Right",
         "access_rules": [
-          "^$aztec5DT, $pineapple, $applyEnemyLogic|AztecChunky5DTEnemy_SecondRight"
+          "^$loc|AztecChunky5DTEnemy_SecondRight"
         ],
         "sections": [
           {
@@ -916,7 +922,7 @@
       {
         "name": "Aztec Chunky 5DTemple Enemy: Second Left",
         "access_rules": [
-          "^$aztec5DT, $pineapple, $applyEnemyLogic|AztecChunky5DTEnemy_SecondLeft"
+          "^$loc|AztecChunky5DTEnemy_SecondLeft"
         ],
         "sections": [
           {
@@ -934,7 +940,7 @@
       {
         "name": "Aztec Chunky 5DTemple Enemy: Reward",
         "access_rules": [
-          "^$aztec5DT, $pineapple, $flyingEnemy"
+          "^$loc|AztecChunky5DTEnemy_Reward"
         ],
         "sections": [
           {
@@ -952,7 +958,7 @@
       {
         "name": "Aztec Llama Temple Enemy: Kong Free Instrument",
         "access_rules": [
-          "^$llamaSwitches, $canEnterLlamaTemple, $applyEnemyLogic|AztecLlamaEnemy_KongFreeInstrument"
+          "^$loc|AztecLlamaEnemy_KongFreeInstrument"
         ],
         "sections": [
           {
@@ -970,7 +976,7 @@
       {
         "name": "Aztec Llama Temple Enemy: Dino Instrument",
         "access_rules": [
-          "^$llamaSwitches, $canEnterLlamaTemple, $applyEnemyLogic|AztecLlamaEnemy_DinoInstrument"
+          "^$loc|AztecLlamaEnemy_DinoInstrument"
         ],
         "sections": [
           {
@@ -988,7 +994,7 @@
       {
         "name": "Aztec Llama Temple Enemy: Right",
         "access_rules": [
-          "^$llamaSwitches, $canEnterLlamaTemple"
+          "^$loc|AztecLlamaEnemy_Right"
         ],
         "sections": [
           {
@@ -1006,7 +1012,7 @@
       {
         "name": "Aztec Llama Temple Enemy: Left",
         "access_rules": [
-          "^$llamaSwitches, $canEnterLlamaTemple"
+          "^$loc|AztecLlamaEnemy_Left"
         ],
         "sections": [
           {
@@ -1024,7 +1030,7 @@
       {
         "name": "Aztec Llama Temple Enemy: Melon Crate",
         "access_rules": [
-          "^$llamaSwitches, $canEnterLlamaTemple, $applyEnemyLogic|AztecLlamaEnemy_MelonCrate"
+          "^$loc|AztecLlamaEnemy_MelonCrate"
         ],
         "sections": [
           {
@@ -1042,7 +1048,7 @@
       {
         "name": "Aztec Llama Temple Enemy: Matching (0)",
         "access_rules": [
-          "^$llamaSwitches, $canEnterLlamaTemple, $grape"
+          "^$loc|AztecLlamaEnemy_Matching0"
         ],
         "sections": [
           {
@@ -1060,7 +1066,7 @@
       {
         "name": "Aztec Llama Temple Enemy: Matching (1)",
         "access_rules": [
-          "^$llamaSwitches, $canEnterLlamaTemple, $grape"
+          "^$loc|AztecLlamaEnemy_Matching1"
         ],
         "sections": [
           {
@@ -1078,7 +1084,7 @@
       {
         "name": "Aztec Llama Temple Enemy: Slam Switch",
         "access_rules": [
-          "^$llamaSwitches, $canEnterLlamaTemple, $applyEnemyLogic|AztecLlamaEnemy_SlamSwitch"
+          "^$loc|AztecLlamaEnemy_SlamSwitch"
         ],
         "sections": [
           {
@@ -1096,7 +1102,7 @@
       {
         "name": "Aztec Tiny Temple Enemy: Guard Rotating (0)",
         "access_rules": [
-          "$canEnterTinyTemple, $applyEnemyLogic|AztecTempleEnemy_GuardRotating0"
+          "$loc|AztecTempleEnemy_GuardRotating0"
         ],
         "sections": [
           {
@@ -1114,7 +1120,7 @@
       {
         "name": "Aztec Tiny Temple Enemy: Guard Rotating (1)",
         "access_rules": [
-          "$canEnterTinyTemple, $applyEnemyLogic|AztecTempleEnemy_GuardRotating1"
+          "$loc|AztecTempleEnemy_GuardRotating1"
         ],
         "sections": [
           {
@@ -1132,7 +1138,7 @@
       {
         "name": "Aztec Tiny Temple Enemy: Main Room (0)",
         "access_rules": [
-          "$canEnterTinyTemple"
+          "$loc|AztecTempleEnemy_MainRoom0"
         ],
         "sections": [
           {
@@ -1150,7 +1156,7 @@
       {
         "name": "Aztec Tiny Temple Enemy: Main Room (1)",
         "access_rules": [
-          "$canEnterTinyTemple"
+          "$loc|AztecTempleEnemy_MainRoom1"
         ],
         "sections": [
           {
@@ -1168,7 +1174,7 @@
       {
         "name": "Aztec Tiny Temple Enemy: Main Room (2)",
         "access_rules": [
-          "$canEnterTinyTemple"
+          "$loc|AztecTempleEnemy_MainRoom2"
         ],
         "sections": [
           {
@@ -1186,7 +1192,7 @@
       {
         "name": "Aztec Tiny Temple Enemy: Kong Room (0)",
         "access_rules": [
-          "$canEnterTinyTemple, $templeIce, dive"
+          "$loc|AztecTempleEnemy_KongRoom0"
         ],
         "sections": [
           {
@@ -1204,7 +1210,7 @@
       {
         "name": "Aztec Tiny Temple Enemy: Kong Room (1)",
         "access_rules": [
-          "$canEnterTinyTemple, $templeIce, dive"
+          "$loc|AztecTempleEnemy_KongRoom1"
         ],
         "sections": [
           {
@@ -1222,7 +1228,7 @@
       {
         "name": "Aztec Tiny Temple Enemy: Kong Room (2)",
         "access_rules": [
-          "$canEnterTinyTemple, $templeIce, dive"
+          "$loc|AztecTempleEnemy_KongRoom2"
         ],
         "sections": [
           {
@@ -1240,7 +1246,7 @@
       {
         "name": "Aztec Tiny Temple Enemy: Kong Room (3)",
         "access_rules": [
-          "$canEnterTinyTemple, $templeIce, dive"
+          "$loc|AztecTempleEnemy_KongRoom3"
         ],
         "sections": [
           {
@@ -1258,7 +1264,7 @@
       {
         "name": "Aztec Tiny Temple Enemy: Kong Room (4)",
         "access_rules": [
-          "$canEnterTinyTemple, $templeIce, dive"
+          "$loc|AztecTempleEnemy_KongRoom4"
         ],
         "sections": [
           {

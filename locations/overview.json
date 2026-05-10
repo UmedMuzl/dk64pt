@@ -3486,8 +3486,8 @@
         "name": "Castle Arena",
         "sections": [
           {
-            "ref": "Creepy Castle/Greenhouse/Castle Lanky Greenhouse",
-            "name": "Castle Lanky Greenhouse"
+            "ref": "Creepy Castle/Greenhouse/Castle Battle Arena (Greenhouse: Center)",
+            "name": "Castle Battle Arena (Greenhouse: Center)"
           }
         ],
         "map_locations": [

@@ -4,7 +4,7 @@
     "chest_unopened_img": "images/settings/dropsanity.png",
     "chest_opened_img": "images/settings/dropsanitybw.png",
     "access_rules": [
-      "^$canEnterForest"
+      "^$canEnter|Forest"
     ],
     "visibility_rules": [
       "dropsanity"
@@ -13,7 +13,7 @@
       {
         "name": "Fungi Forest Enemy: Hollow Tree (0)",
         "access_rules": [
-          "$yellowTunnel, $applyEnemyLogic|ForestMainEnemy_HollowTree0"
+          "$loc|ForestMainEnemy_HollowTree0"
         ],
         "sections": [
           {
@@ -31,7 +31,7 @@
       {
         "name": "Fungi Forest Enemy: Hollow Tree (1)",
         "access_rules": [
-          "$yellowTunnel, $applyEnemyLogic|ForestMainEnemy_HollowTree1"
+          "$loc|ForestMainEnemy_HollowTree1"
         ],
         "sections": [
           {
@@ -49,7 +49,7 @@
       {
         "name": "Fungi Forest Enemy: Hollow Tree Entrance",
         "access_rules": [
-          "$yellowTunnel, $flyingEnemy"
+          "$loc|ForestMainEnemy_HollowTreeEntrance"
         ],
         "sections": [
           {
@@ -67,7 +67,7 @@
       {
         "name": "Fungi Forest Enemy: Tree Melon Crate (0)",
         "access_rules": [
-          "$yellowTunnel, $flyingEnemy"
+          "$loc|ForestMainEnemy_TreeMelonCrate0"
         ],
         "sections": [
           {
@@ -85,7 +85,7 @@
       {
         "name": "Fungi Forest Enemy: Tree Melon Crate (1)",
         "access_rules": [
-          "$yellowTunnel, $flyingEnemy"
+          "$loc|ForestMainEnemy_TreeMelonCrate1"
         ],
         "sections": [
           {
@@ -103,7 +103,7 @@
       {
         "name": "Fungi Forest Enemy: Tree Melon Crate (2)",
         "access_rules": [
-          "$yellowTunnel, $flyingEnemy"
+          "$loc|ForestMainEnemy_TreeMelonCrate2"
         ],
         "sections": [
           {
@@ -121,7 +121,7 @@
       {
         "name": "Fungi Forest Enemy: Apple Gauntlet (0)",
         "access_rules": [
-          "$greenTunnel, $hunky"
+          "$loc|ForestMainEnemy_AppleGauntlet0"
         ],
         "sections": [
           {
@@ -139,7 +139,7 @@
       {
         "name": "Fungi Forest Enemy: Apple Gauntlet (1)",
         "access_rules": [
-          "$greenTunnel, $hunky"
+          "$loc|ForestMainEnemy_AppleGauntlet1"
         ],
         "sections": [
           {
@@ -157,7 +157,7 @@
       {
         "name": "Fungi Forest Enemy: Apple Gauntlet (2)",
         "access_rules": [
-          "$greenTunnel, $hunky"
+          "$loc|ForestMainEnemy_AppleGauntlet2"
         ],
         "sections": [
           {
@@ -175,7 +175,7 @@
       {
         "name": "Fungi Forest Enemy: Apple Gauntlet (3)",
         "access_rules": [
-          "$greenTunnel, $hunky"
+          "$loc|ForestMainEnemy_AppleGauntlet3"
         ],
         "sections": [
           {
@@ -193,7 +193,7 @@
       {
         "name": "Fungi Forest Enemy: Near Beanstalk (0)",
         "access_rules": [
-          "$greenTunnel, $applyEnemyLogic|ForestMainEnemy_NearBeanstalk0"
+          "$loc|ForestMainEnemy_NearBeanstalk0"
         ],
         "sections": [
           {
@@ -211,7 +211,7 @@
       {
         "name": "Fungi Forest Enemy: Near Beanstalk (1)",
         "access_rules": [
-          "$greenTunnel, $applyEnemyLogic|ForestMainEnemy_NearBeanstalk1"
+          "$loc|ForestMainEnemy_NearBeanstalk1"
         ],
         "sections": [
           {
@@ -229,7 +229,7 @@
       {
         "name": "Fungi Forest Enemy: Green Tunnel",
         "access_rules": [
-          "$greenTunnelFeather, $flyingEnemy"
+          "$loc|ForestMainEnemy_GreenTunnel"
         ],
         "sections": [
           {
@@ -246,7 +246,9 @@
       },
       {
         "name": "Fungi Forest Enemy: Near Low Warp 5",
-        "access_rules": [],
+        "access_rules": [
+          "$loc|ForestMainEnemy_NearLowWarp5"
+        ],
         "sections": [
           {
             "name": "Forest Enemy: Near Low Warp 5"
@@ -262,7 +264,9 @@
       },
       {
         "name": "Fungi Forest Enemy: Near Pink Tunnel Bounce Tag",
-        "access_rules": [],
+        "access_rules": [
+          "$loc|ForestMainEnemy_NearPinkTunnelBounceTag"
+        ],
         "sections": [
           {
             "name": "Forest Enemy: Near Pink Tunnel Bounce Tag"
@@ -278,7 +282,9 @@
       },
       {
         "name": "Fungi Forest Enemy: Near Giant Mushroom Rocketbarrel",
-        "access_rules": [],
+        "access_rules": [
+          "$loc|ForestMainEnemy_NearGMRocketbarrel"
+        ],
         "sections": [
           {
             "name": "Forest Enemy: Near Giant Mushroom Rocketbarrel"
@@ -295,7 +301,7 @@
       {
         "name": "Fungi Forest Enemy: Between Yellow Tunnel And RB",
         "access_rules": [
-          "$flyingEnemy"
+          "$loc|ForestMainEnemy_BetweenYellowTunnelAndRB"
         ],
         "sections": [
           {
@@ -313,7 +319,7 @@
       {
         "name": "Fungi Forest Enemy: Near Cranky",
         "access_rules": [
-          "$flyingEnemy"
+          "$loc|ForestMainEnemy_NearCranky"
         ],
         "sections": [
           {
@@ -331,7 +337,7 @@
       {
         "name": "Fungi Forest Enemy: Near Pink Tunnel Giant Mushroom",
         "access_rules": [
-          "$flyingEnemy"
+          "$loc|ForestMainEnemy_NearPinkTunnelGM"
         ],
         "sections": [
           {
@@ -349,7 +355,7 @@
       {
         "name": "Fungi Forest Enemy: Giant Mushroom Rear Tag",
         "access_rules": [
-          "$flyingEnemy"
+          "$loc|ForestMainEnemy_GMRearTag"
         ],
         "sections": [
           {
@@ -367,7 +373,7 @@
       {
         "name": "Fungi Forest Enemy: Near Face Puzzle",
         "access_rules": [
-          "$flyingEnemy, $canClimbMushroom"
+          "$loc|ForestMainEnemy_NearFacePuzzle"
         ],
         "sections": [
           {
@@ -385,7 +391,7 @@
       {
         "name": "Fungi Forest Enemy: Near Crown",
         "access_rules": [
-          "$flyingEnemy, $canClimbMushroom"
+          "$loc|ForestMainEnemy_NearCrown"
         ],
         "sections": [
           {
@@ -403,7 +409,7 @@
       {
         "name": "Fungi Forest Enemy: Near High Warp 5",
         "access_rules": [
-          "$canClimbMushroom, $flyingEnemy"
+          "$loc|ForestMainEnemy_NearHighWarp5"
         ],
         "sections": [
           {
@@ -421,7 +427,7 @@
       {
         "name": "Fungi Forest Enemy: Top Of Mushroom",
         "access_rules": [
-          "$topOfMushroom, $applyEnemyLogic|ForestMainEnemy_TopOfMushroom"
+          "$loc|ForestMainEnemy_TopOfMushroom"
         ],
         "sections": [
           {
@@ -439,7 +445,7 @@
       {
         "name": "Fungi Forest Enemy: Near Apple Dropoff",
         "access_rules": [
-          "$flyingEnemy"
+          "$loc|ForestMainEnemy_NearAppleDropoff"
         ],
         "sections": [
           {
@@ -457,7 +463,7 @@
       {
         "name": "Fungi Forest Enemy: Near DKPortal",
         "access_rules": [
-          "$flyingEnemy"
+          "$loc|ForestMainEnemy_NearDKPortal"
         ],
         "sections": [
           {
@@ -475,7 +481,7 @@
       {
         "name": "Fungi Forest Enemy: Near Well Tag",
         "access_rules": [
-          "$flyingEnemy"
+          "$loc|ForestMainEnemy_NearWellTag"
         ],
         "sections": [
           {
@@ -492,7 +498,9 @@
       },
       {
         "name": "Fungi Forest Enemy: Yellow Tunnel (0)",
-        "access_rules": [],
+        "access_rules": [
+          "$loc|ForestMainEnemy_YellowTunnel0"
+        ],
         "sections": [
           {
             "name": "Forest Enemy: Yellow Tunnel (0)"
@@ -509,7 +517,7 @@
       {
         "name": "Fungi Forest Enemy: Yellow Tunnel (1)",
         "access_rules": [
-          "$flyingEnemy, $yellowTunnel"
+          "$loc|ForestMainEnemy_YellowTunnel1"
         ],
         "sections": [
           {
@@ -527,7 +535,7 @@
       {
         "name": "Fungi Forest Enemy: Yellow Tunnel (2)",
         "access_rules": [
-          "$flyingEnemy, $yellowTunnel"
+          "$loc|ForestMainEnemy_YellowTunnel2"
         ],
         "sections": [
           {
@@ -545,7 +553,7 @@
       {
         "name": "Fungi Forest Enemy: Yellow Tunnel (3)",
         "access_rules": [
-          "$yellowTunnel, $applyEnemyLogic|ForestMainEnemy_YellowTunnel3"
+          "$loc|ForestMainEnemy_YellowTunnel3"
         ],
         "sections": [
           {
@@ -562,7 +570,9 @@
       },
       {
         "name": "Fungi Forest Enemy: Near Snide",
-        "access_rules": [],
+        "access_rules": [
+          "$loc|ForestMainEnemy_NearSnide"
+        ],
         "sections": [
           {
             "name": "Forest Enemy: Near Snide"
@@ -579,7 +589,7 @@
       {
         "name": "Fungi Forest Enemy: Near the hidden Rainbow Coin",
         "access_rules": [
-          "$flyingEnemy"
+          "$loc|ForestMainEnemy_NearIsoCoin"
         ],
         "sections": [
           {
@@ -597,7 +607,7 @@
       {
         "name": "Fungi Forest Enemy: Near BBlast",
         "access_rules": [
-          "$canClimbMushroom, $flyingEnemy"
+          "$loc|ForestMainEnemy_NearBBlast"
         ],
         "sections": [
           {
@@ -615,7 +625,7 @@
       {
         "name": "Fungi Forest Enemy: Near Dark Attic",
         "access_rules": [
-          "$applyEnemyLogic|ForestMainEnemy_NearDarkAttic"
+          "$loc|ForestMainEnemy_NearDarkAttic"
         ],
         "sections": [
           {
@@ -633,7 +643,7 @@
       {
         "name": "Fungi Forest Enemy: Near Well Exit",
         "access_rules": [
-          "$flyingEnemy"
+          "$loc|ForestMainEnemy_NearWellExit"
         ],
         "sections": [
           {
@@ -651,7 +661,7 @@
       {
         "name": "Fungi Forest Enemy: Near Blue Tunnel",
         "access_rules": [
-          "$applyEnemyLogic|ForestMainEnemy_NearBlueTunnel"
+          "$loc|ForestMainEnemy_NearBlueTunnel"
         ],
         "sections": [
           {
@@ -669,7 +679,7 @@
       {
         "name": "Fungi Forest Enemy: Thornvine (0)",
         "access_rules": [
-          "$nightTime, $applyEnemyLogic|ForestMainEnemy_Thornvine0"
+          "$loc|ForestMainEnemy_Thornvine0"
         ],
         "sections": [
           {
@@ -687,7 +697,7 @@
       {
         "name": "Fungi Forest Enemy: Thornvine (1)",
         "access_rules": [
-          "$nightTime, $applyEnemyLogic|ForestMainEnemy_Thornvine1"
+          "$loc|ForestMainEnemy_Thornvine1"
         ],
         "sections": [
           {
@@ -705,7 +715,7 @@
       {
         "name": "Fungi Forest Enemy: Thornvine (2)",
         "access_rules": [
-          "$nightTime, $flyingEnemy"
+          "$loc|ForestMainEnemy_Thornvine2"
         ],
         "sections": [
           {
@@ -723,7 +733,7 @@
       {
         "name": "Fungi Forest Enemy: Thornvine Entrance",
         "access_rules": [
-          "$nightTime, $applyEnemyLogic|ForestMainEnemy_ThornvineEntrance"
+          "$loc|ForestMainEnemy_ThornvineEntrance"
         ],
         "sections": [
           {
@@ -741,7 +751,7 @@
       {
         "name": "Forest Thornvine Barn Enemy: Enemy",
         "access_rules": [
-          "$nightTime, $strong, $forestSlam, $applyEnemyLogic|ForestBarnEnemy_Enemy"
+          "$loc|ForestThornBarnEnemy_Enemy"
         ],
         "sections": [
           {
@@ -759,7 +769,7 @@
       {
         "name": "Forest Mill Front Enemy: Enemy",
         "access_rules": [
-          "$flyingEnemy, $dayTime"
+          "$loc|ForestMillFrontEnemy_Enemy"
         ],
         "sections": [
           {
@@ -777,8 +787,7 @@
       {
         "name": "Forest Mill Back Enemy: Enemy",
         "access_rules": [
-          "$dayTime, $punch, $flyingEnemy",
-          "$dayTime, $mini, $flyingEnemy"
+          "$loc|ForestMillRearEnemy_Enemy"
         ],
         "sections": [
           {

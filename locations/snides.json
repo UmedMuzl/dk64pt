@@ -7,7 +7,7 @@
       {
         "name": "Turn in 1 Blueprint",
         "access_rules": [
-          "snide, $blueprintTotal|1"
+          "$loc|TurnInJungleJapesDonkeyBlueprint"
         ],
         "sections": [
           {
@@ -25,7 +25,7 @@
       {
         "name": "Turn in 2 Blueprints",
         "access_rules": [
-          "snide, $blueprintTotal|2"
+          "$loc|TurnInJungleJapesDiddyBlueprint"
         ],
         "sections": [
           {
@@ -43,7 +43,7 @@
       {
         "name": "Turn in 3 Blueprints",
         "access_rules": [
-          "snide, $blueprintTotal|3"
+          "$loc|TurnInJungleJapesLankyBlueprint"
         ],
         "sections": [
           {
@@ -61,7 +61,7 @@
       {
         "name": "Turn in 4 Blueprints",
         "access_rules": [
-          "snide, $blueprintTotal|4"
+          "$loc|TurnInJungleJapesTinyBlueprint"
         ],
         "sections": [
           {
@@ -79,7 +79,7 @@
       {
         "name": "Turn in 5 Blueprints",
         "access_rules": [
-          "snide, $blueprintTotal|5"
+          "$loc|TurnInJungleJapesChunkyBlueprint"
         ],
         "sections": [
           {
@@ -97,7 +97,7 @@
       {
         "name": "Turn in 6 Blueprints",
         "access_rules": [
-          "snide, $blueprintTotal|6"
+          "$loc|TurnInAngryAztecDonkeyBlueprint"
         ],
         "sections": [
           {
@@ -115,7 +115,7 @@
       {
         "name": "Turn in 7 Blueprints",
         "access_rules": [
-          "snide, $blueprintTotal|7"
+          "$loc|TurnInAngryAztecDiddyBlueprint"
         ],
         "sections": [
           {
@@ -133,7 +133,7 @@
       {
         "name": "Turn in 8 Blueprints",
         "access_rules": [
-          "snide, $blueprintTotal|8"
+          "$loc|TurnInAngryAztecLankyBlueprint"
         ],
         "sections": [
           {
@@ -151,7 +151,7 @@
       {
         "name": "Turn in 9 Blueprints",
         "access_rules": [
-          "snide, $blueprintTotal|9"
+          "$loc|TurnInAngryAztecTinyBlueprint"
         ],
         "sections": [
           {
@@ -169,7 +169,7 @@
       {
         "name": "Turn in 10 Blueprints",
         "access_rules": [
-          "snide, $blueprintTotal|10"
+          "$loc|TurnInAngryAztecChunkyBlueprint"
         ],
         "sections": [
           {
@@ -187,7 +187,7 @@
       {
         "name": "Turn in 11 Blueprints",
         "access_rules": [
-          "snide, $blueprintTotal|11"
+          "$loc|TurnInFranticFactoryDonkeyBlueprint"
         ],
         "sections": [
           {
@@ -205,7 +205,7 @@
       {
         "name": "Turn in 12 Blueprints",
         "access_rules": [
-          "snide, $blueprintTotal|12"
+          "$loc|TurnInFranticFactoryDiddyBlueprint"
         ],
         "sections": [
           {
@@ -223,7 +223,7 @@
       {
         "name": "Turn in 13 Blueprints",
         "access_rules": [
-          "snide, $blueprintTotal|13"
+          "$loc|TurnInFranticFactoryLankyBlueprint"
         ],
         "sections": [
           {
@@ -241,7 +241,7 @@
       {
         "name": "Turn in 14 Blueprints",
         "access_rules": [
-          "snide, $blueprintTotal|14"
+          "$loc|TurnInFranticFactoryTinyBlueprint"
         ],
         "sections": [
           {
@@ -259,7 +259,7 @@
       {
         "name": "Turn in 15 Blueprints",
         "access_rules": [
-          "snide, $blueprintTotal|15"
+          "$loc|TurnInFranticFactoryChunkyBlueprint"
         ],
         "sections": [
           {
@@ -277,7 +277,7 @@
       {
         "name": "Turn in 16 Blueprints",
         "access_rules": [
-          "snide, $blueprintTotal|16"
+          "$loc|TurnInGloomyGalleonDonkeyBlueprint"
         ],
         "sections": [
           {
@@ -295,7 +295,7 @@
       {
         "name": "Turn in 17 Blueprints",
         "access_rules": [
-          "snide, $blueprintTotal|17"
+          "$loc|TurnInGloomyGalleonDiddyBlueprint"
         ],
         "sections": [
           {
@@ -313,7 +313,7 @@
       {
         "name": "Turn in 18 Blueprints",
         "access_rules": [
-          "snide, $blueprintTotal|18"
+          "$loc|TurnInGloomyGalleonLankyBlueprint"
         ],
         "sections": [
           {
@@ -331,7 +331,7 @@
       {
         "name": "Turn in 19 Blueprints",
         "access_rules": [
-          "snide, $blueprintTotal|19"
+          "$loc|TurnInGloomyGalleonTinyBlueprint"
         ],
         "sections": [
           {
@@ -349,7 +349,7 @@
       {
         "name": "Turn in 20 Blueprints",
         "access_rules": [
-          "snide, $blueprintTotal|20"
+          "$loc|TurnInGloomyGalleonChunkyBlueprint"
         ],
         "sections": [
           {
@@ -367,7 +367,7 @@
       {
         "name": "Turn in 21 Blueprints",
         "access_rules": [
-          "snide, $blueprintTotal|21"
+          "$loc|TurnInFungiForestDonkeyBlueprint"
         ],
         "sections": [
           {
@@ -385,7 +385,7 @@
       {
         "name": "Turn in 22 Blueprints",
         "access_rules": [
-          "snide, $blueprintTotal|22"
+          "$loc|TurnInFungiForestDiddyBlueprint"
         ],
         "sections": [
           {
@@ -403,7 +403,7 @@
       {
         "name": "Turn in 23 Blueprints",
         "access_rules": [
-          "snide, $blueprintTotal|23"
+          "$loc|TurnInFungiForestLankyBlueprint"
         ],
         "sections": [
           {
@@ -421,7 +421,7 @@
       {
         "name": "Turn in 24 Blueprints",
         "access_rules": [
-          "snide, $blueprintTotal|24"
+          "$loc|TurnInFungiForestTinyBlueprint"
         ],
         "sections": [
           {
@@ -439,7 +439,7 @@
       {
         "name": "Turn in 25 Blueprints",
         "access_rules": [
-          "snide, $blueprintTotal|25"
+          "$loc|TurnInFungiForestChunkyBlueprint"
         ],
         "sections": [
           {
@@ -457,7 +457,7 @@
       {
         "name": "Turn in 26 Blueprints",
         "access_rules": [
-          "snide, $blueprintTotal|26"
+          "$loc|TurnInCrystalCavesDonkeyBlueprint"
         ],
         "sections": [
           {
@@ -475,7 +475,7 @@
       {
         "name": "Turn in 27 Blueprints",
         "access_rules": [
-          "snide, $blueprintTotal|27"
+          "$loc|TurnInCrystalCavesDiddyBlueprint"
         ],
         "sections": [
           {
@@ -493,7 +493,7 @@
       {
         "name": "Turn in 28 Blueprints",
         "access_rules": [
-          "snide, $blueprintTotal|28"
+          "$loc|TurnInCrystalCavesLankyBlueprint"
         ],
         "sections": [
           {
@@ -511,7 +511,7 @@
       {
         "name": "Turn in 29 Blueprints",
         "access_rules": [
-          "snide, $blueprintTotal|29"
+          "$loc|TurnInCrystalCavesTinyBlueprint"
         ],
         "sections": [
           {
@@ -529,7 +529,7 @@
       {
         "name": "Turn in 30 Blueprints",
         "access_rules": [
-          "snide, $blueprintTotal|30"
+          "$loc|TurnInCrystalCavesChunkyBlueprint"
         ],
         "sections": [
           {
@@ -547,7 +547,7 @@
       {
         "name": "Turn in 31 Blueprints",
         "access_rules": [
-          "snide, $blueprintTotal|31"
+          "$loc|TurnInCreepyCastleDonkeyBlueprint"
         ],
         "sections": [
           {
@@ -565,7 +565,7 @@
       {
         "name": "Turn in 32 Blueprints",
         "access_rules": [
-          "snide, $blueprintTotal|32"
+          "$loc|TurnInCreepyCastleDiddyBlueprint"
         ],
         "sections": [
           {
@@ -583,7 +583,7 @@
       {
         "name": "Turn in 33 Blueprints",
         "access_rules": [
-          "snide, $blueprintTotal|33"
+          "$loc|TurnInCreepyCastleLankyBlueprint"
         ],
         "sections": [
           {
@@ -601,7 +601,7 @@
       {
         "name": "Turn in 34 Blueprints",
         "access_rules": [
-          "snide, $blueprintTotal|34"
+          "$loc|TurnInCreepyCastleTinyBlueprint"
         ],
         "sections": [
           {
@@ -619,7 +619,7 @@
       {
         "name": "Turn in 35 Blueprints",
         "access_rules": [
-          "snide, $blueprintTotal|35"
+          "$loc|TurnInCreepyCastleChunkyBlueprint"
         ],
         "sections": [
           {
@@ -637,7 +637,7 @@
       {
         "name": "Turn in 36 Blueprints",
         "access_rules": [
-          "snide, $blueprintTotal|36"
+          "$loc|TurnInDKIslesDonkeyBlueprint"
         ],
         "sections": [
           {
@@ -655,7 +655,7 @@
       {
         "name": "Turn in 37 Blueprints",
         "access_rules": [
-          "snide, $blueprintTotal|37"
+          "$loc|TurnInDKIslesDiddyBlueprint"
         ],
         "sections": [
           {
@@ -673,7 +673,7 @@
       {
         "name": "Turn in 38 Blueprints",
         "access_rules": [
-          "snide, $blueprintTotal|38"
+          "$loc|TurnInDKIslesLankyBlueprint"
         ],
         "sections": [
           {
@@ -691,7 +691,7 @@
       {
         "name": "Turn in 39 Blueprints",
         "access_rules": [
-          "snide, $blueprintTotal|39"
+          "$loc|TurnInDKIslesTinyBlueprint"
         ],
         "sections": [
           {
@@ -709,7 +709,7 @@
       {
         "name": "Turn in 40 Blueprints",
         "access_rules": [
-          "snide, $blueprintTotal|40"
+          "$loc|TurnInDKIslesChunkyBlueprint"
         ],
         "sections": [
           {

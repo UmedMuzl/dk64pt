@@ -4,11 +4,15 @@
     "chest_unopened_img": "images/settings/dropsanity.png",
     "chest_opened_img": "images/settings/dropsanitybw.png",
     "visibility_rules": "dropsanity",
-    "access_rules": [],
+    "access_rules": [
+      "^$canEnter|Isles"
+    ],
     "children": [
       {
         "name": "Isles Enemy: Pineapple Cage (0)",
-        "access_rules": [],
+        "access_rules": [
+          "$loc|IslesMainEnemy_PineappleCage0"
+        ],
         "sections": [
           {
             "name": "Isles Enemy: Pineapple Cage (0)"
@@ -25,7 +29,9 @@
       },
       {
         "name": "Isles Enemy: Fungi Cannon (0)",
-        "access_rules": [],
+        "access_rules": [
+          "$loc|IslesMainEnemy_FungiCannon0"
+        ],
         "sections": [
           {
             "name": "Isles Enemy: Fungi Cannon (0)"
@@ -42,7 +48,9 @@
       },
       {
         "name": "Isles Enemy: Japes Entrance",
-        "access_rules": [],
+        "access_rules": [
+          "$loc|IslesMainEnemy_JapesEntrance"
+        ],
         "sections": [
           {
             "name": "Isles Enemy: Japes Entrance"
@@ -59,7 +67,9 @@
       },
       {
         "name": "Isles Enemy: Monkeyport Pad",
-        "access_rules": [],
+        "access_rules": [
+          "$loc|IslesMainEnemy_MonkeyportPad"
+        ],
         "sections": [
           {
             "name": "Isles Enemy: Monkeyport Pad"
@@ -76,7 +86,9 @@
       },
       {
         "name": "Isles Enemy: Upper Factory Path",
-        "access_rules": [],
+        "access_rules": [
+          "$loc|IslesMainEnemy_UpperFactoryPath"
+        ],
         "sections": [
           {
             "name": "Isles Enemy: Upper Factory Path"
@@ -94,7 +106,7 @@
       {
         "name": "Isles Enemy: Near Aztec",
         "access_rules": [
-          "$flyingEnemy"
+          "$loc|IslesMainEnemy_NearAztec"
         ],
         "sections": [
           {
@@ -113,7 +125,7 @@
       {
         "name": "Isles Enemy: Fungi Cannon (1)",
         "access_rules": [
-          "$flyingEnemy"
+          "$loc|IslesMainEnemy_FungiCannon1"
         ],
         "sections": [
           {
@@ -132,7 +144,7 @@
       {
         "name": "Isles Enemy: Pineapple Cage (1)",
         "access_rules": [
-          "$flyingEnemy"
+          "$loc|IslesMainEnemy_PineappleCage1"
         ],
         "sections": [
           {
@@ -151,7 +163,7 @@
       {
         "name": "Isles Enemy: Lower Factory Path (0)",
         "access_rules": [
-          "$flyingEnemy"
+          "$loc|IslesMainEnemy_LowerFactoryPath0"
         ],
         "sections": [
           {
@@ -170,7 +182,7 @@
       {
         "name": "Isles Enemy: Lower Factory Path (1)",
         "access_rules": [
-          "$flyingEnemy"
+          "$loc|IslesMainEnemy_LowerFactoryPath1"
         ],
         "sections": [
           {
@@ -189,7 +201,7 @@
       {
         "name": "Creepy Castle Lobby Enemy: Left",
         "access_rules": [
-          "^$canEnterCastleLobby, $applyEnemyLogic|CastleLobbyEnemy_Left"
+          "^$loc|CastleLobbyEnemy_Left"
         ],
         "sections": [
           {
@@ -208,7 +220,7 @@
       {
         "name": "Creepy Castle Lobby Enemy: Far Right",
         "access_rules": [
-          "^$canEnterCastleLobby, $applyEnemyLogic|CastleLobbyEnemy_FarRight"
+          "^$loc|CastleLobbyEnemy_FarRight"
         ],
         "sections": [
           {
@@ -227,7 +239,7 @@
       {
         "name": "Creepy Castle Lobby Enemy: Near Right",
         "access_rules": [
-          "^$canEnterCastleLobby, $applyEnemyLogic|CastleLobbyEnemy_NearRight"
+          "^$loc|CastleLobbyEnemy_NearRight"
         ],
         "sections": [
           {
@@ -246,7 +258,7 @@
       {
         "name": "Frantic Factory Lobby Enemy: Enemy (0)",
         "access_rules": [
-          "^$canEnterFactoryLobby, $flyingEnemy"
+          "^$loc|FactoryLobbyEnemy_Enemy0"
         ],
         "sections": [
           {
@@ -265,7 +277,7 @@
       {
         "name": "Jungle Japes Lobby Enemy: Enemy (0)",
         "access_rules": [
-          "^$canEnterJapesLobby"
+          "^$loc|JapesLobbyEnemy_Enemy0"
         ],
         "sections": [
           {
@@ -284,7 +296,7 @@
       {
         "name": "Jungle Japes Lobby Enemy: Enemy (1)",
         "access_rules": [
-          "^$canEnterJapesLobby"
+          "^$loc|JapesLobbyEnemy_Enemy1"
         ],
         "sections": [
           {

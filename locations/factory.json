@@ -2,19 +2,18 @@
   {
     "name": "Frantic Factory",
     "access_rules": [
-      "^$canEnterFactory"
+      "^$canEnter|Factory"
     ],
     "chest_unopened_img": "images/items/GB.png",
     "chest_opened_img": "images/items/GBbw.png",
     "children": [
       {
         "name": "Medals",
-        "access_rules": [],
         "sections": [
           {
             "name": "Factory Donkey Medal",
             "access_rules": [
-              "$factoryDKMedal"
+              "$loc|FactoryDonkeyMedal"
             ],
             "chest_unopened_img": "images/items/bananamedal.png",
             "chest_opened_img": "images/items/bananamedalbw.png"
@@ -22,7 +21,7 @@
           {
             "name": "Factory Diddy Medal",
             "access_rules": [
-              "$factoryDiddyMedal"
+              "$loc|FactoryDiddyMedal"
             ],
             "chest_unopened_img": "images/items/bananamedal.png",
             "chest_opened_img": "images/items/bananamedalbw.png"
@@ -30,7 +29,7 @@
           {
             "name": "Factory Lanky Medal",
             "access_rules": [
-              "$factoryLankyMedal"
+              "$loc|FactoryLankyMedal"
             ],
             "chest_unopened_img": "images/items/bananamedal.png",
             "chest_opened_img": "images/items/bananamedalbw.png"
@@ -38,7 +37,7 @@
           {
             "name": "Factory Tiny Medal",
             "access_rules": [
-              "$factoryTinyMedal"
+              "$loc|FactoryTinyMedal"
             ],
             "chest_unopened_img": "images/items/bananamedal.png",
             "chest_opened_img": "images/items/bananamedalbw.png"
@@ -46,7 +45,7 @@
           {
             "name": "Factory Chunky Medal",
             "access_rules": [
-              "$factoryChunkyMedal"
+              "$loc|FactoryChunkyMedal"
             ],
             "chest_unopened_img": "images/items/bananamedal.png",
             "chest_opened_img": "images/items/bananamedalbw.png"
@@ -57,7 +56,7 @@
               "halfmedal"
             ],
             "access_rules": [
-              "$factoryDKHalfMedal"
+              "$loc|FactoryDonkeyHalfMedal"
             ],
             "chest_unopened_img": "images/items/halfbananamedal.png",
             "chest_opened_img": "images/items/halfbananamedalbw.png"
@@ -68,7 +67,7 @@
               "halfmedal"
             ],
             "access_rules": [
-              "$factoryDiddyHalfMedal"
+              "$loc|FactoryDiddyHalfMedal"
             ],
             "chest_unopened_img": "images/items/halfbananamedal.png",
             "chest_opened_img": "images/items/halfbananamedalbw.png"
@@ -79,7 +78,7 @@
               "halfmedal"
             ],
             "access_rules": [
-              "$factoryLankyHalfMedal"
+              "$loc|FactoryLankyHalfMedal"
             ],
             "chest_unopened_img": "images/items/halfbananamedal.png",
             "chest_opened_img": "images/items/halfbananamedalbw.png"
@@ -90,7 +89,7 @@
               "halfmedal"
             ],
             "access_rules": [
-              "$factoryTinyHalfMedal"
+              "$loc|FactoryTinyHalfMedal"
             ],
             "chest_unopened_img": "images/items/halfbananamedal.png",
             "chest_opened_img": "images/items/halfbananamedalbw.png"
@@ -101,7 +100,7 @@
               "halfmedal"
             ],
             "access_rules": [
-              "$factoryChunkyHalfMedal"
+              "$loc|FactoryChunkyHalfMedal"
             ],
             "chest_unopened_img": "images/items/halfbananamedal.png",
             "chest_opened_img": "images/items/halfbananamedalbw.png"
@@ -109,7 +108,7 @@
           {
             "name": "Factory Boss Defeated",
             "access_rules": [
-              "$factoryBossLogic"
+              "$loc|FactoryKey"
             ],
             "chest_unopened_img": "images/items/scoff.png",
             "chest_opened_img": "images/items/scoffbw.png"
@@ -127,7 +126,7 @@
       {
         "name": "Factory DK Number Game",
         "access_rules": [
-          "$testing, $factorySlam, donkey, climb"
+          "$loc|FactoryDonkeyNumberGame"
         ],
         "sections": [
           {
@@ -146,7 +145,7 @@
       {
         "name": "Factory Diddy Block Tower",
         "access_rules": [
-          "$canPlayFactoryDiddyBlockTower"
+          "$loc|FactoryDiddyBlockTower"
         ],
         "sections": [
           {
@@ -165,7 +164,7 @@
       {
         "name": "Factory Lanky Testing Room Barrel",
         "access_rules": [
-          "$canPlayFactoryLankyTestingRoomBarrel"
+          "$loc|FactoryLankyTestingRoomBarrel"
         ],
         "sections": [
           {
@@ -184,7 +183,7 @@
       {
         "name": "Factory Tiny Dartboard",
         "access_rules": [
-          "$testing, $feather, $mini, $factorySlam, climb"
+          "$loc|FactoryTinyDartboard"
         ],
         "sections": [
           {
@@ -203,13 +202,16 @@
       {
         "name": "Factory Kasplat: Block Tower",
         "access_rules": [
-          "$testing, climb"
+          "$loc|FactoryKasplatBlocks"
         ],
         "sections": [
           {
             "name": "Factory Kasplat: Block Tower",
             "chest_unopened_img": "images/items/chunky_bp.png",
-            "chest_opened_img": "images/items/blueprintbw.png"
+            "chest_opened_img": "images/items/blueprintbw.png",
+            "access_rules": [
+              "$loc|FactoryKasplatBlocks"
+            ]
           }
         ],
         "map_locations": [
@@ -224,13 +226,16 @@
       {
         "name": "Factory Fairy (Number Game)",
         "access_rules": [
-          "$testing, climb, camera"
+          "$loc|FactoryBananaFairybyCounting"
         ],
         "sections": [
           {
             "name": "Factory Fairy (Number Game)",
             "chest_unopened_img": "images/items/fairy.png",
-            "chest_opened_img": "images/items/fairybw.png"
+            "chest_opened_img": "images/items/fairybw.png",
+            "access_rules": [
+              "$loc|FactoryBananaFairybyCounting"
+            ]
           }
         ],
         "map_locations": [
@@ -245,13 +250,16 @@
       {
         "name": "Factory Fairy (Near Funky's)",
         "access_rules": [
-          "@Frantic Factory/Factory Tiny Dartboard/Factory Tiny Dartboard, camera"
+          "$loc|FactoryBananaFairybyFunky"
         ],
         "sections": [
           {
             "name": "Factory Fairy (Near Funky's)",
             "chest_unopened_img": "images/items/fairy.png",
-            "chest_opened_img": "images/items/fairybw.png"
+            "chest_opened_img": "images/items/fairybw.png",
+            "access_rules": [
+              "$loc|FactoryBananaFairybyFunky"
+            ]
           }
         ],
         "map_locations": [
@@ -266,13 +274,16 @@
       {
         "name": "Factory Crate: Near Funky",
         "access_rules": [
-          "$testing, climb"
+          "$loc|MelonCrate_Location04"
         ],
         "sections": [
           {
             "name": "Factory Crate: Near Funky",
             "chest_unopened_img": "images/items/crate.png",
-            "chest_opened_img": "images/items/cratebw.png"
+            "chest_opened_img": "images/items/cratebw.png",
+            "access_rules": [
+              "$loc|MelonCrate_Location04"
+            ]
           }
         ],
         "map_locations": [
@@ -287,7 +298,7 @@
       {
         "name": "Factory Diddy Charge Enemies",
         "access_rules": [
-          "$testing, $guitar, $charge, climb"
+          "$loc|FactoryDiddyRandD"
         ],
         "sections": [
           {
@@ -306,7 +317,7 @@
       {
         "name": "Factory Chunky Toy Monster",
         "access_rules": [
-          "$testing, $hunky, $triangle, $punch, climb"
+          "$loc|FactoryChunkyRandD"
         ],
         "sections": [
           {
@@ -325,13 +336,16 @@
       {
         "name": "Factory Kasplat: R&D",
         "access_rules": [
-          "$testing, climb"
+          "$loc|FactoryKasplatRandD"
         ],
         "sections": [
           {
             "name": "Factory Kasplat: Research and Development",
             "chest_unopened_img": "images/items/lanky_bp.png",
-            "chest_opened_img": "images/items/blueprintbw.png"
+            "chest_opened_img": "images/items/blueprintbw.png",
+            "access_rules": [
+              "$loc|FactoryKasplatRandD"
+            ]
           }
         ],
         "map_locations": [
@@ -346,13 +360,16 @@
       {
         "name": "Factory Battle Arena (Under Grate)",
         "access_rules": [
-          "$testing, $grab, climb"
+          "$loc|FactoryBattleArena"
         ],
         "sections": [
           {
             "name": "Factory Battle Arena (Under R&D Grate)",
             "chest_unopened_img": "images/items/crown.png",
-            "chest_opened_img": "images/items/crownbw.png"
+            "chest_opened_img": "images/items/crownbw.png",
+            "access_rules": [
+              "$loc|FactoryBattleArena"
+            ]
           }
         ],
         "map_locations": [
@@ -367,7 +384,7 @@
       {
         "name": "Factory Lanky Piano Game",
         "access_rules": [
-          "$testing, $trombone, $factorySlam, climb"
+          "$loc|FactoryLankyRandD"
         ],
         "sections": [
           {
@@ -386,7 +403,7 @@
       {
         "name": "Factory Tiny Car Race",
         "access_rules": [
-          "$testing, $mini, climb"
+          "$loc|FactoryTinyCarRace"
         ],
         "sections": [
           {
@@ -405,7 +422,7 @@
       {
         "name": "Factory Diddy Storage Room Barrel",
         "access_rules": [
-          "$canPlayFactoryDiddyChunkyRoomBarrel"
+          "$loc|FactoryDiddyChunkyRoomBarrel"
         ],
         "sections": [
           {
@@ -424,8 +441,7 @@
       {
         "name": "Factory DK Power Hut",
         "access_rules": [
-          "$powerHutPlatform, $coconut, $powerHutCheck",
-          "$powerHutPlatform, $moonkicks, $powerHutCheck"
+          "$loc|FactoryDonkeyPowerHut"
         ],
         "sections": [
           {
@@ -444,7 +460,7 @@
       {
         "name": "Chunky's Cage",
         "access_rules": [
-          "$canActivateFactoryFreeKong"
+          "$loc|ChunkyKong"
         ],
         "sections": [
           {
@@ -466,7 +482,7 @@
       {
         "name": "Factory Chunky Dark Room",
         "access_rules": [
-          "$punch, $factorySlam"
+          "$loc|FactoryChunkyDarkRoom"
         ],
         "sections": [
           {
@@ -485,13 +501,16 @@
       {
         "name": "Factory Dirt: Dark Room",
         "access_rules": [
-          "$punch, shockwave"
+          "$loc|RainbowCoin_Location02"
         ],
         "sections": [
           {
             "name": "Factory Dirt: Dark Room",
             "chest_unopened_img": "images/items/rainbowcoin.png",
-            "chest_opened_img": "images/items/rainbowcoinbw.png"
+            "chest_opened_img": "images/items/rainbowcoinbw.png",
+            "access_rules": [
+              "$loc|RainbowCoin_Location02"
+            ]
           }
         ],
         "map_locations": [
@@ -505,12 +524,17 @@
       },
       {
         "name": "Factory Kasplat: Pole to Arcade",
-        "access_rules": [],
+        "access_rules": [
+          "$loc|FactoryKasplatStorage"
+        ],
         "sections": [
           {
             "name": "Factory Kasplat: Pole to Arcade",
             "chest_unopened_img": "images/items/tiny_bp.png",
-            "chest_opened_img": "images/items/blueprintbw.png"
+            "chest_opened_img": "images/items/blueprintbw.png",
+            "access_rules": [
+              "$loc|FactoryKasplatStorage"
+            ]
           }
         ],
         "map_locations": [
@@ -524,12 +548,17 @@
       },
       {
         "name": "Factory Crate: Near Candy",
-        "access_rules": [],
+        "access_rules": [
+          "$loc|MelonCrate_Location03"
+        ],
         "sections": [
           {
             "name": "Factory Crate: Near Candy",
             "chest_unopened_img": "images/items/crate.png",
-            "chest_opened_img": "images/items/cratebw.png"
+            "chest_opened_img": "images/items/cratebw.png",
+            "access_rules": [
+              "$loc|MelonCrate_Location03"
+            ]
           }
         ],
         "map_locations": [
@@ -544,13 +573,13 @@
       {
         "name": "DK Arcade",
         "access_rules": [
-          "$blast"
+          "$loc|NintendoCoin"
         ],
         "sections": [
           {
             "name": "DK Arcade Round 2",
             "access_rules": [
-              "$grab, climb"
+              "$loc|NintendoCoin"
             ],
             "chest_unopened_img": "images/items/n64rw_coin.png",
             "chest_opened_img": "images/items/n64rwbw.png"
@@ -568,7 +597,7 @@
       {
         "name": "Factory DK Blast Course",
         "access_rules": [
-          "$blast"
+          "$loc|FactoryDonkeyDKArcade"
         ],
         "sections": [
           {
@@ -587,7 +616,7 @@
       {
         "name": "Factory Tiny Mini by Arcade",
         "access_rules": [
-          "$mini, climb"
+          "$loc|FactoryTinybyArcade"
         ],
         "sections": [
           {
@@ -606,7 +635,7 @@
       {
         "name": "Factory Chunky Barrel by Arcade",
         "access_rules": [
-          "$canPlayFactoryChunkybyArcade"
+          "$loc|FactoryChunkybyArcade"
         ],
         "sections": [
           {
@@ -624,12 +653,17 @@
       },
       {
         "name": "Factory Kasplat: Base of Production",
-        "access_rules": [],
+        "access_rules": [
+          "$loc|FactoryKasplatProductionBottom"
+        ],
         "sections": [
           {
             "name": "Factory Kasplat: Base of Production",
             "chest_unopened_img": "images/items/diddy_bp.png",
-            "chest_opened_img": "images/items/blueprintbw.png"
+            "chest_opened_img": "images/items/blueprintbw.png",
+            "access_rules": [
+              "$loc|FactoryKasplatProductionBottom"
+            ]
           }
         ],
         "map_locations": [
@@ -642,13 +676,16 @@
         ]
       },
       {
-        "name": "Factory DK Crusher Room",
-        "access_rules": [
-          "$production, $strong"
-        ],
+        "name": "Crusher Room",
         "sections": [
           {
-            "name": "Factory Donkey Crusher Room"
+            "name": "Factory Donkey Crusher Room",
+            "access_rules": ["$loc|FactoryDonkeyCrusherRoom"]
+          },
+          {
+            "name": "Factory Lanky Balloon: Crusher Room",
+            "visibility_rules": ["ballooninpool"],
+            "access_rules":["$loc|Balloon053"]
           }
         ],
         "map_locations": [
@@ -663,7 +700,7 @@
       {
         "name": "Factory Chunky Production Timer",
         "access_rules": [
-          "$production, climb, $factorySlam, chunky"
+          "$loc|FactoryChunkyProductionRoom"
         ],
         "sections": [
           {
@@ -682,7 +719,7 @@
       {
         "name": "Factory Diddy Production Spring",
         "access_rules": [
-          "$production, $spring, $factorySlam, climb"
+          "$loc|FactoryDiddyProductionRoom"
         ],
         "sections": [
           {
@@ -701,8 +738,7 @@
       {
         "name": "Factory Lanky Production Handstand",
         "access_rules": [
-          "$production, $ostand, $factorySlam, climb",
-          "$production, slope_resets, $factorySlam, climb, tiny"
+          "$loc|FactoryLankyProductionRoom"
         ],
         "sections": [
           {
@@ -721,7 +757,7 @@
       {
         "name": "Factory Tiny Production Twirl",
         "access_rules": [
-          "$canPlayFactoryTinyProductionRoom"
+          "$loc|FactoryTinyProductionRoom"
         ],
         "sections": [
           {
@@ -740,13 +776,16 @@
       {
         "name": "Factory Kasplat: Upper Production Pipe",
         "access_rules": [
-          "$production, climb"
+          "$loc|FactoryKasplatProductionTop"
         ],
         "sections": [
           {
             "name": "Factory Kasplat: Upper Production Pipe",
             "chest_unopened_img": "images/items/dk_bp.png",
-            "chest_opened_img": "images/items/blueprintbw.png"
+            "chest_opened_img": "images/items/blueprintbw.png",
+            "access_rules": [
+              "$loc|FactoryKasplatProductionTop"
+            ]
           }
         ],
         "map_locations": [
@@ -755,6 +794,300 @@
             "x": 405,
             "y": 566,
             "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Factory Chunky Balloon: Hatch",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon025"
+        ],
+        "sections": [
+          {
+            "name": "Factory Chunky Balloon: Hatch",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"factory",
+            "x":360,
+            "y":670
+          }
+        ]
+      },
+      {
+        "name": "Factory Chunky Balloon: Above Snide",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon026"
+        ],
+        "sections": [
+          {
+            "name": "Factory Chunky Balloon: Above Snide",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"factory",
+            "x":670,
+            "y":681
+          }
+        ]
+      },
+      {
+        "name": "Factory Lanky Balloon: By F Key",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon027"
+        ],
+        "sections": [
+          {
+            "name": "Factory Lanky Balloon: By F Key",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"factory",
+            "x":1285,
+            "y":220
+          }
+        ]
+      },
+      {
+        "name": "Factory Tiny Balloon: By Snide",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon028"
+        ],
+        "sections": [
+          {
+            "name": "Factory Tiny Balloon: By Snide",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"factory",
+            "x":673,
+            "y":731
+          }
+        ]
+      },
+      {
+        "name": "Factory Diddy Balloon: R&D Room (1)",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon029"
+        ],
+        "sections": [
+          {
+            "name": "Factory Diddy Balloon: R&D Room (1)",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"factory",
+            "x":1601,
+            "y":194
+          }
+        ]
+      },
+      {
+        "name": "Factory Diddy Balloon: R&D Room (2)",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon030"
+        ],
+        "sections": [
+          {
+            "name": "Factory Diddy Balloon: R&D Room (2)",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"factory",
+            "x":1619,
+            "y":113
+          }
+        ]
+      },
+      {
+        "name": "Factory Donkey Balloon: R&D",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon031"
+        ],
+        "sections": [
+          {
+            "name": "Factory Donkey Balloon: R&D",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"factory",
+            "x":1714,
+            "y":310
+          }
+        ]
+      },
+      {
+        "name": "Factory Donkey Balloon: By Storage Shops",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon032"
+        ],
+        "sections": [
+          {
+            "name": "Factory Donkey Balloon: By Storage Shops",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"factory",
+            "x":236,
+            "y":241
+          }
+        ]
+      },
+      {
+        "name": "Factory Donkey Balloon: By Numbers Game",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon033"
+        ],
+        "sections": [
+          {
+            "name": "Factory Donkey Balloon: By Numbers Game",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"factory",
+            "x":999,
+            "y":604
+          }
+        ]
+      },
+      {
+        "name": "Factory Diddy Balloon: R&D Room (3)",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon034"
+        ],
+        "sections": [
+          {
+            "name": "Factory Diddy Balloon: R&D Room (3)",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"factory",
+            "x":1688,
+            "y":215
+          }
+        ]
+      },
+      {
+        "name": "Factory Tiny Balloon: Production Room",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon035"
+        ],
+        "sections": [
+          {
+            "name": "Factory Tiny Balloon: Production Room",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"factory",
+            "x":402,
+            "y":449
+          }
+        ]
+      },
+      {
+        "name": "Factory Tiny Balloon: By Testing Shop",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon036"
+        ],
+        "sections": [
+          {
+            "name": "Factory Tiny Balloon: By Testing Shop",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"factory",
+            "x":667,
+            "y":197
+          }
+        ]
+      },
+      {
+        "name": "Factory Lanky Balloon: Production Room",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon037"
+        ],
+        "sections": [
+          {
+            "name": "Factory Lanky Balloon: Production Room",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"factory",
+            "x":245,
+            "y":503
+          }
+        ]
+      },
+      {
+        "name": "Factory Chunky Balloon: Toy monster",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon038"
+        ],
+        "sections": [
+          {
+            "name": "Factory Chunky Balloon: Toy monster",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"factory",
+            "x":1667,
+            "y":494
           }
         ]
       }

@@ -5,13 +5,13 @@
     "chest_opened_img": "images/settings/dropsanitybw.png",
     "visibility_rules": "dropsanity",
     "access_rules": [
-      "^$canEnterHelm"
+      "^$canEnter|Helm"
     ],
     "children": [
       {
         "name": "Hideout Helm Enemy: Start (0)",
         "access_rules": [
-          "$endOfHelm"
+          "$loc|HelmMainEnemy_Start0"
         ],
         "sections": [
           {
@@ -30,7 +30,7 @@
       {
         "name": "Hideout Helm Enemy: Start (1)",
         "access_rules": [
-          "$endOfHelm"
+          "$loc|HelmMainEnemy_Start1"
         ],
         "sections": [
           {
@@ -49,7 +49,7 @@
       {
         "name": "Hideout Helm Enemy: Hill",
         "access_rules": [
-          "$endOfHelm, $ostand, $applyEnemyLogic|HelmMainEnemy_Hill"
+          "$loc|HelmMainEnemy_Hill"
         ],
         "sections": [
           {
@@ -68,7 +68,7 @@
       {
         "name": "Hideout Helm Enemy: Switch Room (0)",
         "access_rules": [
-          "$endOfHelm, $ostand, $applyEnemyLogic|HelmMainEnemy_SwitchRoom0"
+          "$loc|HelmMainEnemy_SwitchRoom0"
         ],
         "sections": [
           {
@@ -87,7 +87,7 @@
       {
         "name": "Hideout Helm Enemy: Switch Room (1)",
         "access_rules": [
-          "$endOfHelm, $ostand"
+          "$loc|HelmMainEnemy_SwitchRoom1"
         ],
         "sections": [
           {
@@ -106,7 +106,7 @@
       {
         "name": "Hideout Helm Enemy: Mini Room (0)",
         "access_rules": [
-          "$endOfHelm, $ostand, $pineapple, vine"
+          "$loc|HelmMainEnemy_MiniRoom0"
         ],
         "sections": [
           {
@@ -125,7 +125,7 @@
       {
         "name": "Hideout Helm Enemy: Mini Room (1)",
         "access_rules": [
-          "$endOfHelm, $ostand, $pineapple, vine"
+          "$loc|HelmMainEnemy_MiniRoom1"
         ],
         "sections": [
           {
@@ -144,7 +144,7 @@
       {
         "name": "Hideout Helm Enemy: Mini Room (2)",
         "access_rules": [
-          "$endOfHelm, $ostand, $pineapple, vine"
+          "$loc|HelmMainEnemy_MiniRoom2"
         ],
         "sections": [
           {
@@ -163,7 +163,7 @@
       {
         "name": "Hideout Helm Enemy: Mini Room (3)",
         "access_rules": [
-          "$endOfHelm, $ostand, $pineapple, vine"
+          "$loc|HelmMainEnemy_MiniRoom3"
         ],
         "sections": [
           {
@@ -182,7 +182,7 @@
       {
         "name": "Hideout Helm Enemy: DKRoom",
         "access_rules": [
-          "$dkHelm"
+          "$loc|HelmMainEnemy_DKRoom"
         ],
         "sections": [
           {
@@ -201,7 +201,7 @@
       {
         "name": "Hideout Helm Enemy: Chunky Room (0)",
         "access_rules": [
-          "$chunkyHelm"
+          "$loc|HelmMainEnemy_ChunkyRoom0"
         ],
         "sections": [
           {
@@ -220,7 +220,7 @@
       {
         "name": "Hideout Helm Enemy: Chunky Room (1)",
         "access_rules": [
-          "$chunkyHelm"
+          "$loc|HelmMainEnemy_ChunkyRoom1"
         ],
         "sections": [
           {
@@ -239,7 +239,7 @@
       {
         "name": "Hideout Helm Enemy: Tiny Room",
         "access_rules": [
-          "$tinyHelm, $applyEnemyLogic|HelmMainEnemy_TinyRoom"
+          "$loc|HelmMainEnemy_TinyRoom"
         ],
         "sections": [
           {
@@ -258,7 +258,7 @@
       {
         "name": "Hideout Helm Enemy: Lanky Room (0)",
         "access_rules": [
-          "$lankyHelm, $applyEnemyLogic|HelmMainEnemy_LankyRoom0"
+          "$loc|HelmMainEnemy_LankyRoom0"
         ],
         "sections": [
           {
@@ -277,7 +277,7 @@
       {
         "name": "Hideout Helm Enemy: Lanky Room (1)",
         "access_rules": [
-          "$lankyHelm"
+          "$loc|HelmMainEnemy_LankyRoom1"
         ],
         "sections": [
           {
@@ -296,7 +296,7 @@
       {
         "name": "Hideout Helm Enemy: Diddy Room (0)",
         "access_rules": [
-          "$diddyHelm"
+          "$loc|HelmMainEnemy_DiddyRoom0"
         ],
         "sections": [
           {
@@ -315,7 +315,7 @@
       {
         "name": "Hideout Helm Enemy: Diddy Room (1)",
         "access_rules": [
-          "$diddyHelm"
+          "$loc|HelmMainEnemy_DiddyRoom1"
         ],
         "sections": [
           {
@@ -334,7 +334,7 @@
       {
         "name": "Hideout Helm Enemy: Nav Right",
         "access_rules": [
-          "$endOfHelm"
+          "$loc|HelmMainEnemy_NavRight"
         ],
         "sections": [
           {
@@ -353,7 +353,7 @@
       {
         "name": "Hideout Helm Enemy: Nav Left",
         "access_rules": [
-          "$endOfHelm"
+          "$loc|HelmMainEnemy_NavLeft"
         ],
         "sections": [
           {

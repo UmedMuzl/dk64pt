@@ -2,19 +2,18 @@
   {
     "name": "Jungle Japes",
     "access_rules": [
-      "^$canEnterJapes"
+      "^$canEnter|Japes"
     ],
     "chest_unopened_img": "images/items/GB.png",
     "chest_opened_img": "images/items/GBbw.png",
     "children": [
       {
         "name": "Medals",
-        "access_rules": [],
         "sections": [
           {
             "name": "Japes Donkey Medal",
             "access_rules": [
-              "$japesDKMedal"
+              "$loc|JapesDonkeyMedal"
             ],
             "chest_unopened_img": "images/items/bananamedal.png",
             "chest_opened_img": "images/items/bananamedalbw.png"
@@ -22,7 +21,7 @@
           {
             "name": "Japes Diddy Medal",
             "access_rules": [
-              "$japesDiddyMedal"
+              "$loc|JapesDiddyMedal"
             ],
             "chest_unopened_img": "images/items/bananamedal.png",
             "chest_opened_img": "images/items/bananamedalbw.png"
@@ -30,7 +29,7 @@
           {
             "name": "Japes Lanky Medal",
             "access_rules": [
-              "$japesLankyMedal"
+              "$loc|JapesLankyMedal"
             ],
             "chest_unopened_img": "images/items/bananamedal.png",
             "chest_opened_img": "images/items/bananamedalbw.png"
@@ -38,7 +37,7 @@
           {
             "name": "Japes Tiny Medal",
             "access_rules": [
-              "$japesTinyMedal"
+              "$loc|JapesTinyMedal"
             ],
             "chest_unopened_img": "images/items/bananamedal.png",
             "chest_opened_img": "images/items/bananamedalbw.png"
@@ -46,7 +45,7 @@
           {
             "name": "Japes Chunky Medal",
             "access_rules": [
-              "$japesChunkyMedal"
+              "$loc|JapesChunkyMedal"
             ],
             "chest_unopened_img": "images/items/bananamedal.png",
             "chest_opened_img": "images/items/bananamedalbw.png"
@@ -57,7 +56,7 @@
               "halfmedal"
             ],
             "access_rules": [
-              "$japesDKHalfMedal"
+              "$loc|JapesDonkeyHalfMedal"
             ],
             "chest_unopened_img": "images/items/halfbananamedal.png",
             "chest_opened_img": "images/items/halfbananamedalbw.png"
@@ -68,7 +67,7 @@
               "halfmedal"
             ],
             "access_rules": [
-              "$japesDiddyHalfMedal"
+              "$loc|JapesDiddyHalfMedal"
             ],
             "chest_unopened_img": "images/items/halfbananamedal.png",
             "chest_opened_img": "images/items/halfbananamedalbw.png"
@@ -79,7 +78,7 @@
               "halfmedal"
             ],
             "access_rules": [
-              "$japesLankyHalfMedal"
+              "$loc|JapesLankyHalfMedal"
             ],
             "chest_unopened_img": "images/items/halfbananamedal.png",
             "chest_opened_img": "images/items/halfbananamedalbw.png"
@@ -90,7 +89,7 @@
               "halfmedal"
             ],
             "access_rules": [
-              "$japesTinyHalfMedal"
+              "$loc|JapesTinyHalfMedal"
             ],
             "chest_unopened_img": "images/items/halfbananamedal.png",
             "chest_opened_img": "images/items/halfbananamedalbw.png"
@@ -101,7 +100,7 @@
               "halfmedal"
             ],
             "access_rules": [
-              "$japesChunkyHalfMedal"
+              "$loc|JapesChunkyHalfMedal"
             ],
             "chest_unopened_img": "images/items/halfbananamedal.png",
             "chest_opened_img": "images/items/halfbananamedalbw.png"
@@ -109,11 +108,7 @@
           {
             "name": "Japes Boss Defeated",
             "access_rules": [
-              "$japesBossLogic, climb, vine",
-              "$japesBossLogic, $canActivateJapesDiddyCave",
-              "$japesBossLogic, ^$coconutCage, $canActivateJapesRambi",
-              "$japesBossLogic, ^$avp, climb",
-              "$japesBossLogic, ^$avp, $ostand"
+              "$loc|JapesKey"
             ],
             "chest_unopened_img": "images/items/scoff.png",
             "chest_opened_img": "images/items/scoffbw.png"
@@ -131,7 +126,7 @@
       {
         "name": "Japes DK Floor Cage Banana",
         "access_rules": [
-          "^$coconutCage, $canActivateJapesRambi, $japesSlam, donkey"
+          "^$loc|JapesDonkeyCagedBanana"
         ],
         "sections": [
           {
@@ -150,7 +145,7 @@
       {
         "name": "Japes Chunky Boulder",
         "access_rules": [
-          "barrel, chunky"
+          "$loc|JapesChunkyBoulder"
         ],
         "sections": [
           {
@@ -169,7 +164,7 @@
       {
         "name": "Japes Lanky Timed Cage Banana",
         "access_rules": [
-          "^$japesLankyTimed"
+          "^$loc|JapesLankyCagedBanana"
         ],
         "sections": [
           {
@@ -187,25 +182,21 @@
       },
       {
         "name": "Diddy Cage",
-        "access_rules": [
-          "climb",
-          "^$avp, $ostand",
-          "slope_resets, tiny"
-        ],
         "sections": [
           {
             "name": "Japes Cage: Diddy Kong",
             "access_rules": [
-              "$canActivateJapesFreeKong"
+              "$loc|DiddyKong"
             ]
           },
           {
-            "name": "Japes in Front of Diddy Cage"
+            "name": "Japes in Front of Diddy Cage",
+            "access_rules":["$loc|JapesDonkeyFrontofCage"]
           },
           {
             "name": "Japes Free Diddy Item",
             "access_rules": [
-              "$canActivateJapesFreeKong"
+              "$loc|JapesDonkeyFreeDiddy"
             ]
           }
         ],
@@ -221,14 +212,16 @@
       {
         "name": "Japes Crate: Behind the Mountain",
         "access_rules": [
-          "climb",
-          "^$avp, $ostand"
+          "$loc|MelonCrate_Location00"
         ],
         "sections": [
           {
             "name": "Japes Crate: Behind the Mountain",
             "chest_unopened_img": "images/items/crate.png",
-            "chest_opened_img": "images/items/cratebw.png"
+            "chest_opened_img": "images/items/cratebw.png",
+            "access_rules": [
+              "$loc|MelonCrate_Location00"
+            ]
           }
         ],
         "map_locations": [
@@ -243,7 +236,7 @@
       {
         "name": "Japes Chunky Timed Cage Banana",
         "access_rules": [
-          "^$japesChunkyTimed"
+          "^$loc|JapesChunkyCagedBanana"
         ],
         "sections": [
           {
@@ -262,7 +255,7 @@
       {
         "name": "Japes Diddy Timed Cage Banana",
         "access_rules": [
-          "^$japesDiddyTimed"
+          "^$loc|JapesDiddyCagedBanana"
         ],
         "sections": [
           {
@@ -281,14 +274,16 @@
       {
         "name": "Japes Battle Arena (Near Funky)",
         "access_rules": [
-          "climb",
-          "^$avp, $ostand"
+          "$loc|JapesBattleArena"
         ],
         "sections": [
           {
             "name": "Japes Battle Arena (Near Funky)",
             "chest_unopened_img": "images/items/crown.png",
-            "chest_opened_img": "images/items/crownbw.png"
+            "chest_opened_img": "images/items/crownbw.png",
+            "access_rules": [
+              "$loc|JapesBattleArena"
+            ]
           }
         ],
         "map_locations": [
@@ -303,7 +298,7 @@
       {
         "name": "Japes Tiny Timed Cage Banana",
         "access_rules": [
-          "^$coconutCage, $canActivateJapesRambi, $japesSlam, tiny"
+          "^$loc|JapesTinyCagedBanana"
         ],
         "sections": [
           {
@@ -322,16 +317,16 @@
       {
         "name": "Japes Dirt: Painting Hill",
         "access_rules": [
-          "$ostand, shockwave",
-          "$twirl, climb, shockwave",
-          "$moonkicks, shockwave",
-          "slope_resets, shockwave"
+          "$loc|RainbowCoin_Location00"
         ],
         "sections": [
           {
             "name": "Japes Dirt: Painting Hill",
             "chest_unopened_img": "images/items/rainbowcoin.png",
-            "chest_opened_img": "images/items/rainbowcoinbw.png"
+            "chest_opened_img": "images/items/rainbowcoinbw.png",
+            "access_rules": [
+              "$loc|RainbowCoin_Location00"
+            ]
           }
         ],
         "map_locations": [
@@ -346,7 +341,7 @@
       {
         "name": "Japes Diddy Top of Mountain",
         "access_rules": [
-          "^$japesDiddyMountain"
+          "^$loc|JapesDiddyMountain"
         ],
         "sections": [
           {
@@ -371,8 +366,7 @@
       {
         "name": "Japes DK Baboon Blast",
         "access_rules": [
-          "climb, vine, $blast",
-          "climb, $moonkicks, $blast"
+          "$loc|JapesDonkeyBaboonBlast"
         ],
         "sections": [
           {
@@ -391,8 +385,7 @@
       {
         "name": "Japes Diddy Peanut Tunnel",
         "access_rules": [
-          "$canActivateJapesDiddyCave",
-          "$phaseswim"
+          "$loc|JapesDiddyTunnel"
         ],
         "sections": [
           {
@@ -411,7 +404,7 @@
       {
         "name": "Japes Lanky Grape Gate Barrel",
         "access_rules": [
-          "$canPlayJapesLankyGrapeGate"
+          "$loc|JapesLankyGrapeGate"
         ],
         "sections": [
           {
@@ -430,7 +423,7 @@
       {
         "name": "Japes Tiny Feather Gate Barrel",
         "access_rules": [
-          "$canPlayJapesTinyFeatherGateBarrel"
+          "$loc|JapesTinyFeatherGateBarrel"
         ],
         "sections": [
           {
@@ -449,13 +442,16 @@
       {
         "name": "Japes Kasplat: Hive Tunnel Lower",
         "access_rules": [
-          "^$coconutCage"
+          "^$loc|JapesKasplatLeftTunnelNear"
         ],
         "sections": [
           {
             "name": "Japes Kasplat: Hive Tunnel Lower",
             "chest_unopened_img": "images/items/dk_bp.png",
-            "chest_opened_img": "images/items/blueprintbw.png"
+            "chest_opened_img": "images/items/blueprintbw.png",
+            "access_rules": [
+              "$loc|JapesKasplatLeftTunnelNear"
+            ]
           }
         ],
         "map_locations": [
@@ -470,13 +466,16 @@
       {
         "name": "Japes Kasplat: Hive Tunnel Upper",
         "access_rules": [
-          "^$coconutCage"
+          "^$loc|JapesKasplatLeftTunnelFar"
         ],
         "sections": [
           {
             "name": "Japes Kasplat: Hive Tunnel Upper",
             "chest_unopened_img": "images/items/tiny_bp.png",
-            "chest_opened_img": "images/items/blueprintbw.png"
+            "chest_opened_img": "images/items/blueprintbw.png",
+            "access_rules": [
+              "$loc|JapesKasplatLeftTunnelFar"
+            ]
           }
         ],
         "map_locations": [
@@ -491,7 +490,7 @@
       {
         "name": "Japes Tiny Stump",
         "access_rules": [
-          "$shellhive, $mini"
+          "$loc|JapesTinyStump"
         ],
         "sections": [
           {
@@ -510,7 +509,7 @@
       {
         "name": "Japes Chunky Giant Bonus Barrel",
         "access_rules": [
-          "^$canPlayJapesChunkyGiantBonusBarrel"
+          "^$loc|JapesChunkyGiantBonusBarrel"
         ],
         "sections": [
           {
@@ -529,7 +528,7 @@
       {
         "name": "Japes Tiny Beehive",
         "access_rules": [
-          "$shellhive, $mini, $shellhivePastFirstRoom"
+          "$loc|JapesTinyBeehive"
         ],
         "sections": [
           {
@@ -554,7 +553,7 @@
       {
         "name": "Japes Lanky Slope Barrel",
         "access_rules": [
-          "^$canPlayJapesLankySlope"
+          "^$loc|JapesLankySlope"
         ],
         "sections": [
           {
@@ -573,13 +572,16 @@
       {
         "name": "Japes Kasplat: Near Painting Room",
         "access_rules": [
-          "^$coconutCage"
+          "^$loc|JapesKasplatNearPaintingRoom"
         ],
         "sections": [
           {
             "name": "Japes Kasplat: Near Painting Room",
             "chest_unopened_img": "images/items/diddy_bp.png",
-            "chest_opened_img": "images/items/blueprintbw.png"
+            "chest_opened_img": "images/items/blueprintbw.png",
+            "access_rules": [
+              "$loc|JapesKasplatNearPaintingRoom"
+            ]
           }
         ],
         "map_locations": [
@@ -594,13 +596,16 @@
       {
         "name": "Japes Kasplat: By Lanky Slope Bonus",
         "access_rules": [
-          "^$coconutCage"
+          "^$loc|JapesKasplatNearLab"
         ],
         "sections": [
           {
             "name": "Japes Kasplat: By Lanky Slope Bonus",
             "chest_unopened_img": "images/items/lanky_bp.png",
-            "chest_opened_img": "images/items/blueprintbw.png"
+            "chest_opened_img": "images/items/blueprintbw.png",
+            "access_rules": [
+              "$loc|JapesKasplatNearLab"
+            ]
           }
         ],
         "map_locations": [
@@ -615,13 +620,16 @@
       {
         "name": "Japes Fairy (Rambi Door Pool)",
         "access_rules": [
-          "^$coconutCage, $canActivateJapesRambi, camera"
+          "^$loc|JapesBananaFairyRambiCave"
         ],
         "sections": [
           {
             "name": "Japes Fairy (Rambi Door Pool)",
             "chest_unopened_img": "images/items/fairy.png",
-            "chest_opened_img": "images/items/fairybw.png"
+            "chest_opened_img": "images/items/fairybw.png",
+            "access_rules": [
+              "$loc|JapesBananaFairyRambiCave"
+            ]
           }
         ],
         "map_locations": [
@@ -636,13 +644,16 @@
       {
         "name": "Japes Crate: In the Rambi Cave",
         "access_rules": [
-          "^$coconutCage, $canActivateJapesRambi"
+          "^$loc|MelonCrate_Location01"
         ],
         "sections": [
           {
             "name": "Japes Crate: In the Rambi Cave",
             "chest_unopened_img": "images/items/crate.png",
-            "chest_opened_img": "images/items/cratebw.png"
+            "chest_opened_img": "images/items/cratebw.png",
+            "access_rules": [
+              "$loc|MelonCrate_Location01"
+            ]
           }
         ],
         "map_locations": [
@@ -656,26 +667,28 @@
       },
       {
         "name": "Painting Room",
-        "access_rules": [
-          "$canActivateJapesPainting, $ostand",
-          "$canActivateJapesPainting, $twirl, climb",
-          "$canActivateJapesPainting, $moonkicks",
-          "$canActivateJapesPainting, slope_resets"
-        ],
         "sections": [
           {
             "name": "Japes Lanky Painting Room Zingers",
             "access_rules": [
-              "$lankyPaint"
+              "$loc|JapesLankyFairyCave"
             ]
           },
           {
             "name": "Japes Fairy (Painting Room)",
             "access_rules": [
-              "@Jungle Japes/Painting Room/Japes Lanky Painting Room Zingers, camera"
+              "$loc|JapesBananaFairyLankyCave"
             ],
             "chest_unopened_img": "images/items/fairy.png",
             "chest_opened_img": "images/items/fairybw.png"
+          },
+          {
+            "name": "Japes Lanky Balloon: In Painting Room",
+            "visibility_rules": ["ballooninpool"],
+            "access_rules":["$loc|Balloon014"],
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+
           }
         ],
         "map_locations": [
@@ -690,8 +703,7 @@
       {
         "name": "Japes Diddy Minecart",
         "access_rules": [
-          "$charge, $peanuts, $japesSlam, climb",
-          "^$avp, $japesSlam, $peanuts, $charge, $ostand"
+          "$loc|JapesDiddyMinecarts"
         ],
         "sections": [
           {
@@ -710,7 +722,7 @@
       {
         "name": "Japes Chunky Underground",
         "access_rules": [
-          "$enterJapesUnder, ^$japesChunkyUnderground"
+          "$loc|JapesChunkyUnderground"
         ],
         "sections": [
           {
@@ -729,13 +741,16 @@
       {
         "name": "Japes Kasplat: Underground",
         "access_rules": [
-          "$enterJapesUnder, ^$japesChunkyKasplat"
+          "$loc|JapesKasplatUnderground"
         ],
         "sections": [
           {
             "name": "Japes Kasplat: Underground",
             "chest_unopened_img": "images/items/chunky_bp.png",
-            "chest_opened_img": "images/items/blueprintbw.png"
+            "chest_opened_img": "images/items/blueprintbw.png",
+            "access_rules": [
+              "$loc|JapesKasplatUnderground"
+            ]
           }
         ],
         "map_locations": [
@@ -744,6 +759,300 @@
             "x": 653,
             "y": 560,
             "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Japes Diddy Balloon: Inside Mountain",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": "$loc|Balloon000",
+        "sections": [
+          {
+            "name": "Japes Diddy Balloon: Inside Mountain",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "japesmountain",
+            "x": 501,
+            "y": 378,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Japes Diddy Balloon: In Cave",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": "$loc|Balloon001",
+        "sections": [
+          {
+            "name": "Japes Diddy Balloon: In Cave",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "japes",
+            "x": 229,
+            "y": 848,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Japes Donkey Balloon: By Snide",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon002"
+        ],
+        "sections": [
+          {
+            "name": "Japes Donkey Balloon: By Snide",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"japes",
+            "x":268,
+            "y":443,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Japes Chunky Balloon: In Cave (1)",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon003"
+        ],
+        "sections": [
+          {
+            "name": "Japes Chunky Balloon: In Cave (1)",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"japes",
+            "x":537,
+            "y":172
+          }
+        ]
+      },
+      {
+        "name": "Japes Lanky Balloon: By Hut",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon004"
+        ],
+        "sections": [
+          {
+            "name": "Japes Lanky Balloon: By Hut",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"japes",
+            "x":287,
+            "y":34
+          }
+        ]
+      },
+      {
+        "name": "Japes Diddy Balloon: By W5",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon005"
+        ],
+        "sections": [
+          {
+            "name": "Japes Diddy Balloon: By W5",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"japes",
+            "x":380,
+            "y":450
+          }
+        ]
+      },
+      {
+        "name": "Japes Donkey Balloon: By Underground",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon006"
+        ],
+        "sections": [
+          {
+            "name": "Japes Donkey Balloon: By Underground",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "maps":"japes",
+            "x":234,
+            "y":707
+          }
+        ]
+      },
+      {
+        "name": "Japes Donkey Balloon: By Cranky",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon007"
+        ],
+        "sections": [
+          {
+            "name": "Japes Donkey Balloon: By Cranky",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"japes",
+            "x":366,
+            "y":163
+          }
+        ]
+      },
+      {
+        "name": "Japes Tiny Balloon: By Hut",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon008"
+        ],
+        "sections": [
+          {
+            "name": "Japes Tiny Balloon: By Hut",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"japes",
+            "x":248,
+            "y":133
+          }
+        ]
+      },
+      {
+        "name": "Japes Tiny Balloon: In Fairy Room",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon009"
+        ],
+        "sections": [
+          {
+            "name": "Japes Tiny Balloon: In Fairy Room",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"japes",
+            "x":642,
+            "y":365
+          }
+        ]
+      },
+      {
+        "name": "Japes Chunky Balloon: In Cave (2)",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon010"
+        ],
+        "sections": [
+          {
+            "name": "Japes Chunky Balloon: In Cave (2)",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"japes",
+            "x":551,
+            "y":186
+          }
+        ]
+      },
+      {
+        "name": "Japes Chunky Balloon: In Cave (3)",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon011"
+        ],
+        "sections": [
+          {
+            "name": "Japes Chunky Balloon: In Cave (3)",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"japes",
+            "x":565,
+            "y":201
+          }
+        ]
+      },
+      {
+        "name": "Japes Lanky Balloon: By his BP",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon012"
+        ],
+        "sections": [
+          {
+            "name": "Japes Lanky Balloon: By his BP",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"japes",
+            "x":393,
+            "y":353
+          }
+        ]
+      },
+      {
+        "name": "Japes Tiny Balloon: In Shellhive",
+        "visibility_rules": ["ballooninpool"],
+        "access_rules": [
+          "$loc|Balloon013"
+        ],
+        "sections": [
+          {
+            "name": "Japes Tiny Balloon: In Shellhive",
+            "chest_unopened_img": "images/items/balloon.png",
+            "chest_opened_img": "images/items/balloonbw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"shellhive",
+            "x":124,
+            "y":707,
+            "size":16
           }
         ]
       }

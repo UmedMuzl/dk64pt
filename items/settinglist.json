@@ -2149,5 +2149,23 @@
       "type": "toggle",
       "img": "images/items/halfbananamedal.png",
       "codes": "halfmedal"
+    },
+    {
+      "name": "Helm Star Gates",
+      "type":"toggle",
+      "img":"images/settings/helm_star.png",
+      "codes":"helm_star_gates"
+    },
+    {
+      "name": "Helm Punch Gates",
+      "type":"toggle",
+      "img":"images/settings/helm_punch.png",
+      "codes":"helm_punch_gates"
+    },
+    {
+      "name":"Balloon Sanity",
+      "type":"toggle",
+      "img":"images/items/balloon.png",
+      "codes":"ballooninpool"
     }
 ]

@@ -23,7 +23,8 @@
                             ["galleon_seasick_ship", "galleon_treasure_room"],
                             ["forest_green_tunnel", "forest_yellow_tunnel"],
                             ["caves_igloo_pads", "caves_ice_walls"],
-                            ["castle_crypt_doors"]
+                            ["castle_crypt_doors", "helm_star_gates"],
+                            ["helm_punch_gates"]
                         ]
                     }
                 ]

@@ -160,5 +160,23 @@
         "max_quantity": 35,
         "initial_quantity": 0,
         "codes": "hintcount"
+    },
+    {
+        "name": "Day",
+        "type": "toggle",
+        "img": "images/items/time_day.png",
+        "codes": "day"
+    },
+    {
+        "name": "Night",
+        "type": "toggle",
+        "img": "images/items/time_night.png",
+        "codes": "night"
+    },
+    {
+        "name": "Cannons",
+        "type": "toggle",
+        "img": "images/settings/openlobbies.png",
+        "codes": "cannons"
     }
 ]

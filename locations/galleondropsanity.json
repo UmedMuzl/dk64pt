@@ -4,14 +4,14 @@
     "chest_unopened_img": "images/settings/dropsanity.png",
     "chest_opened_img": "images/settings/dropsanitybw.png",
     "access_rules": [
-      "^$canEnterGalleon"
+      "^$canEnter|Galleon"
     ],
     "visibility_rules": "dropsanity",
     "children": [
       {
         "name": "Gloomy Galleon Enemy: Chest Room (0)",
         "access_rules": [
-          "$applyEnemyLogic|GalleonMainEnemy_ChestRoom0"
+          "$loc|GalleonMainEnemy_ChestRoom0"
         ],
         "sections": [
           {
@@ -29,7 +29,7 @@
       {
         "name": "Gloomy Galleon Enemy: Chest Room (1)",
         "access_rules": [
-          "$applyEnemyLogic|GalleonMainEnemy_ChestRoom1"
+          "$loc|GalleonMainEnemy_ChestRoom1"
         ],
         "sections": [
           {
@@ -47,7 +47,7 @@
       {
         "name": "Gloomy Galleon Enemy: Near Vine Cannon",
         "access_rules": [
-          "$applyEnemyLogic|GalleonMainEnemy_NearVineCannon"
+          "$loc|GalleonMainEnemy_NearVineCannon"
         ],
         "sections": [
           {
@@ -65,7 +65,7 @@
       {
         "name": "Gloomy Galleon Enemy: Cranky Cannon",
         "access_rules": [
-          "$applyEnemyLogic|GalleonMainEnemy_CrankyCannon"
+          "$loc|GalleonMainEnemy_CrankyCannon"
         ],
         "sections": [
           {
@@ -83,7 +83,7 @@
       {
         "name": "Gloomy Galleon Enemy: Peanut Tunnel",
         "access_rules": [
-          "$applyEnemyLogic|GalleonMainEnemy_PeanutTunnel"
+          "$loc|GalleonMainEnemy_PeanutTunnel"
         ],
         "sections": [
           {
@@ -100,7 +100,9 @@
       },
       {
         "name": "Gloomy Galleon Enemy: Coconut Tunnel",
-        "access_rules": [],
+        "access_rules": [
+          "$loc|GalleonMainEnemy_CoconutTunnel"
+        ],
         "sections": [
           {
             "name": "Galleon Enemy: Coconut Tunnel"

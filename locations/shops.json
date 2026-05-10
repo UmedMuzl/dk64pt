@@ -6,7 +6,9 @@
     "children": [
       {
         "name": "Isles Cranky",
-        "access_rules": [],
+        "access_rules": [
+          "$loc|DonkeyIslesPotion"
+        ],
         "sections": [
           {
             "name": "Isles Cranky Donkey",
@@ -14,7 +16,7 @@
               "$isLocationJunk|Isles Cranky Donkey, $isShopVisible|DKIslesCrankyDonkey"
             ],
             "access_rules": [
-              "donkey, cranky"
+              "$loc|DonkeyIslesPotion"
             ]
           },
           {
@@ -23,7 +25,7 @@
               "$isLocationJunk|Isles Cranky Diddy, $isShopVisible|DKIslesCrankyDiddy"
             ],
             "access_rules": [
-              "diddy, cranky"
+              "$loc|DiddyIslesPotion"
             ]
           },
           {
@@ -32,7 +34,7 @@
               "$isLocationJunk|Isles Cranky Lanky, $isShopVisible|DKIslesCrankyLanky"
             ],
             "access_rules": [
-              "lanky, cranky"
+              "$loc|LankyIslesPotion"
             ]
           },
           {
@@ -41,7 +43,7 @@
               "$isLocationJunk|Isles Cranky Tiny, $isShopVisible|DKIslesCrankyTiny"
             ],
             "access_rules": [
-              "tiny, cranky"
+              "$loc|TinyIslesPotion"
             ]
           },
           {
@@ -50,13 +52,13 @@
               "$isLocationJunk|Isles Cranky Chunky, $isShopVisible|DKIslesCrankyChunky"
             ],
             "access_rules": [
-              "chunky, cranky"
+              "$loc|ChunkyIslesPotion"
             ]
           },
           {
             "name": "Jetpac",
             "access_rules": [
-              "$jetPac, cranky"
+              "$loc|RarewareCoin"
             ],
             "chest_unopened_img": "images/items/n64rw_coin.png",
             "chest_opened_img": "images/items/n64rwbw.png"
@@ -64,7 +66,7 @@
           {
             "name": "Isles Cranky Shared",
             "access_rules": [
-              "cranky"
+              "$loc|SimianSlam"
             ],
             "visibility_rules": [
               "$isShopVisible|DKIslesCrankyShared"
@@ -80,12 +82,15 @@
           }
         ]
       }
+    ],
+    "access_rules": [
+      "^$canEnter|Isles"
     ]
   },
   {
     "name": "Japes Shops",
     "access_rules": [
-      "^$canEnterJapes"
+      "^$canEnter|Japes"
     ],
     "chest_unopened_img": "images/items/cranky.png",
     "chest_opened_img": "images/items/crankybw.png",
@@ -93,7 +98,7 @@
       {
         "name": "Japes Cranky",
         "access_rules": [
-          "^$coconutCage"
+          "^$loc|BaboonBlast"
         ],
         "sections": [
           {
@@ -102,7 +107,7 @@
               "$isLocationJunk|Japes Cranky Donkey, $isShopVisible|JungleJapesCrankyDonkey"
             ],
             "access_rules": [
-              "donkey, cranky"
+              "$loc|BaboonBlast"
             ]
           },
           {
@@ -111,7 +116,7 @@
               "$isLocationJunk|Japes Cranky Diddy, $isShopVisible|JungleJapesCrankyDiddy"
             ],
             "access_rules": [
-              "diddy, cranky"
+              "$loc|ChimpyCharge"
             ]
           },
           {
@@ -120,7 +125,7 @@
               "$isLocationJunk|Japes Cranky Lanky, $isShopVisible|JungleJapesCrankyLanky"
             ],
             "access_rules": [
-              "lanky, cranky"
+              "$loc|Orangstand"
             ]
           },
           {
@@ -129,7 +134,7 @@
               "$isLocationJunk|Japes Cranky Tiny, $isShopVisible|JungleJapesCrankyTiny"
             ],
             "access_rules": [
-              "tiny, cranky"
+              "$loc|MiniMonkey"
             ]
           },
           {
@@ -138,13 +143,13 @@
               "$isLocationJunk|Japes Cranky Chunky, $isShopVisible|JungleJapesCrankyChunky"
             ],
             "access_rules": [
-              "chunky, cranky"
+              "$loc|HunkyChunky"
             ]
           },
           {
             "name": "Japes Cranky Shared",
             "access_rules": [
-              "cranky"
+              "$loc|SharedJapesPotion"
             ],
             "visibility_rules": [
               "$isShopVisible|JungleJapesCrankyShared"
@@ -165,9 +170,7 @@
         "chest_unopened_img": "images/items/funky.png",
         "chest_opened_img": "images/items/funkybw.png",
         "access_rules": [
-          "climb",
-          "$ostand, ^$avp",
-          "slope_resets, tiny"
+          "$loc|CoconutGun"
         ],
         "sections": [
           {
@@ -176,7 +179,7 @@
               "$isLocationJunk|Japes Funky Donkey, $isShopVisible|JungleJapesFunkyDonkey"
             ],
             "access_rules": [
-              "donkey, funky"
+              "$loc|CoconutGun"
             ]
           },
           {
@@ -185,7 +188,7 @@
               "$isLocationJunk|Japes Funky Diddy, $isShopVisible|JungleJapesFunkyDiddy"
             ],
             "access_rules": [
-              "diddy, funky"
+              "$loc|PeanutGun"
             ]
           },
           {
@@ -194,7 +197,7 @@
               "$isLocationJunk|Japes Funky Lanky, $isShopVisible|JungleJapesFunkyLanky"
             ],
             "access_rules": [
-              "lanky, funky"
+              "$loc|GrapeGun"
             ]
           },
           {
@@ -203,7 +206,7 @@
               "$isLocationJunk|Japes Funky Tiny, $isShopVisible|JungleJapesFunkyTiny"
             ],
             "access_rules": [
-              "tiny, funky"
+              "$loc|FeatherGun"
             ]
           },
           {
@@ -212,13 +215,13 @@
               "$isLocationJunk|Japes Funky Chunky, $isShopVisible|JungleJapesFunkyChunky"
             ],
             "access_rules": [
-              "chunky, funky"
+              "$loc|PineappleGun"
             ]
           },
           {
             "name": "Japes Funky Shared",
             "access_rules": [
-              "funky"
+              "$loc|SharedJapesGun"
             ],
             "visibility_rules": [
               "$isShopVisible|JungleJapesFunkyShared"
@@ -239,7 +242,7 @@
   {
     "name": "Aztec Shops",
     "access_rules": [
-      "^$aztecAccess"
+      "^$canEnter|Aztec"
     ],
     "chest_unopened_img": "images/items/cranky.png",
     "chest_opened_img": "images/items/crankybw.png",
@@ -247,7 +250,7 @@
       {
         "name": "Aztec Cranky",
         "access_rules": [
-          "^$tunnelDoor"
+          "^$loc|StrongKong"
         ],
         "sections": [
           {
@@ -256,7 +259,7 @@
               "$isLocationJunk|Aztec Cranky Donkey, $isShopVisible|AngryAztecCrankyDonkey"
             ],
             "access_rules": [
-              "donkey, cranky"
+              "$loc|StrongKong"
             ]
           },
           {
@@ -265,7 +268,7 @@
               "$isLocationJunk|Aztec Cranky Diddy, $isShopVisible|AngryAztecCrankyDiddy"
             ],
             "access_rules": [
-              "diddy, cranky"
+              "$loc|RocketbarrelBoost"
             ]
           },
           {
@@ -274,7 +277,7 @@
               "$isLocationJunk|Aztec Cranky Lanky, $isShopVisible|AngryAztecCrankyLanky"
             ],
             "access_rules": [
-              "lanky, cranky"
+              "$loc|LankyAztecPotion"
             ]
           },
           {
@@ -283,7 +286,7 @@
               "$isLocationJunk|Aztec Cranky Tiny, $isShopVisible|AngryAztecCrankyTiny"
             ],
             "access_rules": [
-              "tiny, cranky"
+              "$loc|TinyAztecPotion"
             ]
           },
           {
@@ -292,13 +295,13 @@
               "$isLocationJunk|Aztec Cranky Chunky, $isShopVisible|AngryAztecCrankyChunky"
             ],
             "access_rules": [
-              "chunky, cranky"
+              "$loc|ChunkyAztecPotion"
             ]
           },
           {
             "name": "Aztec Cranky Shared",
             "access_rules": [
-              "cranky"
+              "$loc|SharedAztecPotion"
             ],
             "visibility_rules": [
               "$isShopVisible|AngryAztecCrankyShared"
@@ -319,7 +322,7 @@
         "chest_unopened_img": "images/items/funky.png",
         "chest_opened_img": "images/items/funkybw.png",
         "access_rules": [
-          "^$tunnelDoor"
+          "^$loc|DonkeyAztecGun"
         ],
         "sections": [
           {
@@ -328,7 +331,7 @@
               "$isLocationJunk|Aztec Funky Donkey, $isShopVisible|AngryAztecFunkyDonkey"
             ],
             "access_rules": [
-              "donkey, funky"
+              "$loc|DonkeyAztecGun"
             ]
           },
           {
@@ -337,7 +340,7 @@
               "$isLocationJunk|Aztec Funky Diddy, $isShopVisible|AngryAztecFunkyDiddy"
             ],
             "access_rules": [
-              "diddy, funky"
+              "$loc|DiddyAztecGun"
             ]
           },
           {
@@ -346,7 +349,7 @@
               "$isLocationJunk|Aztec Funky Lanky, $isShopVisible|AngryAztecFunkyLanky"
             ],
             "access_rules": [
-              "lanky, funky"
+              "$loc|LankyAztecGun"
             ]
           },
           {
@@ -355,7 +358,7 @@
               "$isLocationJunk|Aztec Funky Tiny, $isShopVisible|AngryAztecFunkyTiny"
             ],
             "access_rules": [
-              "tiny, funky"
+              "$loc|TinyAztecGun"
             ]
           },
           {
@@ -364,13 +367,13 @@
               "$isLocationJunk|Aztec Funky Chunky, $isShopVisible|AngryAztecFunkyChunky"
             ],
             "access_rules": [
-              "chunky, funky"
+              "$loc|ChunkyAztecGun"
             ]
           },
           {
             "name": "Aztec Funky Shared",
             "access_rules": [
-              "funky"
+              "$loc|SharedAztecGun"
             ],
             "visibility_rules": [
               "$isShopVisible|AngryAztecFunkyShared"
@@ -390,7 +393,9 @@
         "name": "Aztec Candy",
         "chest_unopened_img": "images/items/candy.png",
         "chest_opened_img": "images/items/candybw.png",
-        "access_rules": [],
+        "access_rules": [
+          "$loc|Bongos"
+        ],
         "sections": [
           {
             "name": "Aztec Candy Donkey",
@@ -398,7 +403,7 @@
               "$isLocationJunk|Aztec Candy Donkey, $isShopVisible|AngryAztecCandyDonkey"
             ],
             "access_rules": [
-              "donkey, candy"
+              "$loc|Bongos"
             ]
           },
           {
@@ -407,7 +412,7 @@
               "$isLocationJunk|Aztec Candy Diddy, $isShopVisible|AngryAztecCandyDiddy"
             ],
             "access_rules": [
-              "diddy, candy"
+              "$loc|Guitar"
             ]
           },
           {
@@ -416,7 +421,7 @@
               "$isLocationJunk|Aztec Candy Lanky, $isShopVisible|AngryAztecCandyLanky"
             ],
             "access_rules": [
-              "lanky, candy"
+              "$loc|Trombone"
             ]
           },
           {
@@ -425,7 +430,7 @@
               "$isLocationJunk|Aztec Candy Tiny, $isShopVisible|AngryAztecCandyTiny"
             ],
             "access_rules": [
-              "tiny, candy"
+              "$loc|Saxophone"
             ]
           },
           {
@@ -434,13 +439,13 @@
               "$isLocationJunk|Aztec Candy Chunky, $isShopVisible|AngryAztecCandyChunky"
             ],
             "access_rules": [
-              "chunky, candy"
+              "$loc|Triangle"
             ]
           },
           {
             "name": "Aztec Candy Shared",
             "access_rules": [
-              "candy"
+              "$loc|SharedAztecInstrument"
             ],
             "visibility_rules": [
               "$isShopVisible|AngryAztecCandyShared"
@@ -461,14 +466,16 @@
   {
     "name": "Factory Shops",
     "access_rules": [
-      "^$canEnterFactory"
+      "^$canEnter|Factory"
     ],
     "chest_unopened_img": "images/items/cranky.png",
     "chest_opened_img": "images/items/crankybw.png",
     "children": [
       {
         "name": "Factory Cranky",
-        "access_rules": [],
+        "access_rules": [
+          "$loc|GorillaGrab"
+        ],
         "sections": [
           {
             "name": "Factory Cranky Donkey",
@@ -476,7 +483,7 @@
               "$isLocationJunk|Factory Cranky Donkey, $isShopVisible|FranticFactoryCrankyDonkey"
             ],
             "access_rules": [
-              "donkey, cranky"
+              "$loc|GorillaGrab"
             ]
           },
           {
@@ -485,7 +492,7 @@
               "$isLocationJunk|Factory Cranky Diddy, $isShopVisible|FranticFactoryCrankyDiddy"
             ],
             "access_rules": [
-              "diddy, cranky"
+              "$loc|SimianSpring"
             ]
           },
           {
@@ -494,7 +501,7 @@
               "$isLocationJunk|Factory Cranky Lanky, $isShopVisible|FranticFactoryCrankyLanky"
             ],
             "access_rules": [
-              "lanky, cranky"
+              "$loc|BaboonBalloon"
             ]
           },
           {
@@ -503,7 +510,7 @@
               "$isLocationJunk|Factory Cranky Tiny, $isShopVisible|FranticFactoryCrankyTiny"
             ],
             "access_rules": [
-              "tiny, cranky"
+              "$loc|PonyTailTwirl"
             ]
           },
           {
@@ -512,13 +519,13 @@
               "$isLocationJunk|Factory Cranky Chunky, $isShopVisible|FranticFactoryCrankyChunky"
             ],
             "access_rules": [
-              "chunky, cranky"
+              "$loc|PrimatePunch"
             ]
           },
           {
             "name": "Cranky Shared",
             "access_rules": [
-              "cranky"
+              "$loc|SharedFactoryPotion"
             ],
             "visibility_rules": [
               "$isShopVisible|FranticFactoryCrankyShared"
@@ -538,7 +545,9 @@
         "name": "Factory Candy",
         "chest_unopened_img": "images/items/candy.png",
         "chest_opened_img": "images/items/candybw.png",
-        "access_rules": [],
+        "access_rules": [
+          "$loc|DonkeyFactoryInstrument"
+        ],
         "sections": [
           {
             "name": "Factory Candy Donkey",
@@ -546,7 +555,7 @@
               "$isLocationJunk|Factory Candy Donkey, $isShopVisible|FranticFactoryCandyDonkey"
             ],
             "access_rules": [
-              "donkey, candy"
+              "$loc|DonkeyFactoryInstrument"
             ]
           },
           {
@@ -555,7 +564,7 @@
               "$isLocationJunk|Factory Candy Diddy, $isShopVisible|FranticFactoryCandyDiddy"
             ],
             "access_rules": [
-              "diddy, candy"
+              "$loc|DiddyFactoryInstrument"
             ]
           },
           {
@@ -564,7 +573,7 @@
               "$isLocationJunk|Factory Candy Lanky, $isShopVisible|FranticFactoryCandyLanky"
             ],
             "access_rules": [
-              "lanky, candy"
+              "$loc|LankyFactoryInstrument"
             ]
           },
           {
@@ -573,7 +582,7 @@
               "$isLocationJunk|Factory Candy Tiny, $isShopVisible|FranticFactoryCandyTiny"
             ],
             "access_rules": [
-              "tiny, candy"
+              "$loc|TinyFactoryInstrument"
             ]
           },
           {
@@ -582,13 +591,13 @@
               "$isLocationJunk|Factory Candy Chunky, $isShopVisible|FranticFactoryCandyChunky"
             ],
             "access_rules": [
-              "chunky, candy"
+              "$loc|ChunkyFactoryInstrument"
             ]
           },
           {
             "name": "Candy Shared",
             "access_rules": [
-              "candy"
+              "$loc|SharedFactoryInstrument"
             ],
             "visibility_rules": [
               "$isShopVisible|FranticFactoryCandyShared"
@@ -609,7 +618,7 @@
         "chest_unopened_img": "images/items/funky.png",
         "chest_opened_img": "images/items/funkybw.png",
         "access_rules": [
-          "$testing, climb"
+          "$loc|DonkeyFactoryGun"
         ],
         "sections": [
           {
@@ -618,7 +627,7 @@
               "$isLocationJunk|Factory Funky Donkey, $isShopVisible|FranticFactoryFunkyDonkey"
             ],
             "access_rules": [
-              "donkey, funky"
+              "$loc|DonkeyFactoryGun"
             ]
           },
           {
@@ -627,7 +636,7 @@
               "$isLocationJunk|Factory Funky Diddy, $isShopVisible|FranticFactoryFunkyDiddy"
             ],
             "access_rules": [
-              "diddy, funky"
+              "$loc|DiddyFactoryGun"
             ]
           },
           {
@@ -636,7 +645,7 @@
               "$isLocationJunk|Factory Funky Lanky, $isShopVisible|FranticFactoryFunkyLanky"
             ],
             "access_rules": [
-              "lanky, funky"
+              "$loc|LankyFactoryGun"
             ]
           },
           {
@@ -645,7 +654,7 @@
               "$isLocationJunk|Factory Funky Tiny, $isShopVisible|FranticFactoryFunkyTiny"
             ],
             "access_rules": [
-              "tiny, funky"
+              "$loc|TinyFactoryGun"
             ]
           },
           {
@@ -654,13 +663,13 @@
               "$isLocationJunk|Factory Funky Chunky, $isShopVisible|FranticFactoryFunkyChunky"
             ],
             "access_rules": [
-              "chunky, funky"
+              "$loc|ChunkyFactoryGun"
             ]
           },
           {
             "name": "Factory Funky Shared",
             "access_rules": [
-              "funky"
+              "$loc|AmmoBelt1"
             ],
             "visibility_rules": [
               "$isShopVisible|FranticFactoryFunkyShared"
@@ -681,19 +690,21 @@
   {
     "name": "Frantic Shops",
     "access_rules": [
-      "^$canEnterFactory"
+      "^$canEnter|Factory"
     ],
     "chest_unopened_img": "images/items/cranky.png",
     "chest_opened_img": "images/items/crankybw.png",
     "children": [
       {
         "name": "Factory Cranky",
-        "access_rules": [],
+        "access_rules": [
+          "$loc|SharedFactoryPotion"
+        ],
         "sections": [
           {
             "name": "Factory Cranky Shared",
             "access_rules": [
-              "cranky"
+              "$loc|SharedFactoryPotion"
             ],
             "visibility_rules": [
               "$isShopVisible|FranticFactoryCrankyShared"
@@ -703,12 +714,14 @@
       },
       {
         "name": "Factory Candy",
-        "access_rules": [],
+        "access_rules": [
+          "$loc|SharedFactoryInstrument"
+        ],
         "sections": [
           {
             "name": "Factory Candy Shared",
             "access_rules": [
-              "candy"
+              "$loc|SharedFactoryInstrument"
             ],
             "visibility_rules": [
               "$isShopVisible|FranticFactoryCandyShared"
@@ -719,13 +732,13 @@
       {
         "name": "Factory Funky",
         "access_rules": [
-          "$testing, climb"
+          "$loc|AmmoBelt1"
         ],
         "sections": [
           {
             "name": "Factory Funky Shared",
             "access_rules": [
-              "funky"
+              "$loc|AmmoBelt1"
             ],
             "visibility_rules": [
               "$isShopVisible|FranticFactoryFunkyShared"
@@ -738,14 +751,16 @@
   {
     "name": "Galleon Shops",
     "access_rules": [
-      "^$canEnterGalleon"
+      "^$canEnter|Galleon"
     ],
     "chest_unopened_img": "images/items/cranky.png",
     "chest_opened_img": "images/items/crankybw.png",
     "children": [
       {
         "name": "Galleon Cranky",
-        "access_rules": [],
+        "access_rules": [
+          "$loc|DonkeyGalleonPotion"
+        ],
         "sections": [
           {
             "name": "Galleon Cranky Donkey",
@@ -753,7 +768,7 @@
               "$isLocationJunk|Galleon Cranky Donkey, $isShopVisible|GloomyGalleonCrankyDonkey"
             ],
             "access_rules": [
-              "donkey, cranky"
+              "$loc|DonkeyGalleonPotion"
             ]
           },
           {
@@ -762,7 +777,7 @@
               "$isLocationJunk|Galleon Cranky Diddy, $isShopVisible|GloomyGalleonCrankyDiddy"
             ],
             "access_rules": [
-              "diddy, cranky"
+              "$loc|DiddyGalleonPotion"
             ]
           },
           {
@@ -771,7 +786,7 @@
               "$isLocationJunk|Galleon Cranky Lanky, $isShopVisible|GloomyGalleonCrankyLanky"
             ],
             "access_rules": [
-              "lanky, cranky"
+              "$loc|LankyGalleonPotion"
             ]
           },
           {
@@ -780,7 +795,7 @@
               "$isLocationJunk|Galleon Cranky Tiny, $isShopVisible|GloomyGalleonCrankyTiny"
             ],
             "access_rules": [
-              "tiny, cranky"
+              "$loc|TinyGalleonPotion"
             ]
           },
           {
@@ -789,13 +804,13 @@
               "$isLocationJunk|Galleon Cranky Chunky, $isShopVisible|GloomyGalleonCrankyChunky"
             ],
             "access_rules": [
-              "chunky, cranky"
+              "$loc|ChunkyGalleonPotion"
             ]
           },
           {
             "name": "Galleon Cranky Shared",
             "access_rules": [
-              "cranky"
+              "$loc|SharedGalleonPotion"
             ],
             "visibility_rules": [
               "$isShopVisible|GloomyGalleonCrankyShared"
@@ -816,7 +831,7 @@
         "chest_unopened_img": "images/items/funky.png",
         "chest_opened_img": "images/items/funkybw.png",
         "access_rules": [
-          "$shipyard"
+          "$loc|DonkeyGalleonGun"
         ],
         "sections": [
           {
@@ -825,7 +840,7 @@
               "$isLocationJunk|Galleon Funky Donkey, $isShopVisible|GloomyGalleonFunkyDonkey"
             ],
             "access_rules": [
-              "donkey, funky"
+              "$loc|DonkeyGalleonGun"
             ]
           },
           {
@@ -834,7 +849,7 @@
               "$isLocationJunk|Galleon Funky Diddy, $isShopVisible|GloomyGalleonFunkyDiddy"
             ],
             "access_rules": [
-              "diddy, funky"
+              "$loc|DiddyGalleonGun"
             ]
           },
           {
@@ -843,7 +858,7 @@
               "$isLocationJunk|Galleon Funky Lanky, $isShopVisible|GloomyGalleonFunkyLanky"
             ],
             "access_rules": [
-              "lanky, funky"
+              "$loc|LankyGalleonGun"
             ]
           },
           {
@@ -852,7 +867,7 @@
               "$isLocationJunk|Galleon Funky Tiny, $isShopVisible|GloomyGalleonFunkyTiny"
             ],
             "access_rules": [
-              "tiny, funky"
+              "$loc|TinyGalleonGun"
             ]
           },
           {
@@ -861,13 +876,13 @@
               "$isLocationJunk|Galleon Funky Chunky, $isShopVisible|GloomyGalleonFunkyChunky"
             ],
             "access_rules": [
-              "chunky, funky"
+              "$loc|ChunkyGalleonGun"
             ]
           },
           {
             "name": "Galleon Funky Shared",
             "access_rules": [
-              "funky"
+              "$loc|SharedGalleonGun"
             ],
             "visibility_rules": [
               "$isShopVisible|GloomyGalleonFunkyShared"
@@ -888,7 +903,7 @@
         "chest_unopened_img": "images/items/candy.png",
         "chest_opened_img": "images/items/candybw.png",
         "access_rules": [
-          "$shipyard"
+          "$loc|DonkeyGalleonInstrument"
         ],
         "sections": [
           {
@@ -897,7 +912,7 @@
               "$isLocationJunk|Galleon Candy Donkey, $isShopVisible|GloomyGalleonCandyDonkey"
             ],
             "access_rules": [
-              "donkey, candy"
+              "$loc|DonkeyGalleonInstrument"
             ]
           },
           {
@@ -906,7 +921,7 @@
               "$isLocationJunk|Galleon Candy Diddy, $isShopVisible|GloomyGalleonCandyDiddy"
             ],
             "access_rules": [
-              "diddy, candy"
+              "$loc|DiddyGalleonInstrument"
             ]
           },
           {
@@ -915,7 +930,7 @@
               "$isLocationJunk|Galleon Candy Lanky, $isShopVisible|GloomyGalleonCandyLanky"
             ],
             "access_rules": [
-              "lanky, candy"
+              "$loc|LankyGalleonInstrument"
             ]
           },
           {
@@ -924,7 +939,7 @@
               "$isLocationJunk|Galleon Candy Tiny, $isShopVisible|GloomyGalleonCandyTiny"
             ],
             "access_rules": [
-              "tiny, candy"
+              "$loc|TinyGalleonInstrument"
             ]
           },
           {
@@ -933,13 +948,13 @@
               "$isLocationJunk|Galleon Candy Chunky, $isShopVisible|GloomyGalleonCandyChunky"
             ],
             "access_rules": [
-              "chunky, candy"
+              "$loc|ChunkyGalleonInstrument"
             ]
           },
           {
             "name": "Galleon Candy Shared",
             "access_rules": [
-              "candy"
+              "$loc|MusicUpgrade1"
             ],
             "visibility_rules": [
               "$isShopVisible|GloomyGalleonCandyShared"
@@ -960,14 +975,16 @@
   {
     "name": "Forest Shops",
     "access_rules": [
-      "^$canEnterForest"
+      "^$canEnter|Forest"
     ],
     "chest_unopened_img": "images/items/cranky.png",
     "chest_opened_img": "images/items/crankybw.png",
     "children": [
       {
         "name": "Forest Cranky",
-        "access_rules": [],
+        "access_rules": [
+          "$loc|DonkeyForestPotion"
+        ],
         "sections": [
           {
             "name": "Forest Cranky Donkey",
@@ -975,7 +992,7 @@
               "$isLocationJunk|Forest Cranky Donkey, $isShopVisible|FungiForestCrankyDonkey"
             ],
             "access_rules": [
-              "donkey, cranky"
+              "$loc|DonkeyForestPotion"
             ]
           },
           {
@@ -984,7 +1001,7 @@
               "$isLocationJunk|Forest Cranky Diddy, $isShopVisible|FungiForestCrankyDiddy"
             ],
             "access_rules": [
-              "diddy, cranky"
+              "$loc|DiddyForestPotion"
             ]
           },
           {
@@ -993,7 +1010,7 @@
               "$isLocationJunk|Forest Cranky Lanky, $isShopVisible|FungiForestCrankyLanky"
             ],
             "access_rules": [
-              "lanky, cranky"
+              "$loc|LankyForestPotion"
             ]
           },
           {
@@ -1002,7 +1019,7 @@
               "$isLocationJunk|Forest Cranky Tiny, $isShopVisible|FungiForestCrankyTiny"
             ],
             "access_rules": [
-              "tiny, cranky"
+              "$loc|TinyForestPotion"
             ]
           },
           {
@@ -1011,13 +1028,13 @@
               "$isLocationJunk|Forest Cranky Chunky, $isShopVisible|FungiForestCrankyChunky"
             ],
             "access_rules": [
-              "chunky, cranky"
+              "$loc|ChunkyForestPotion"
             ]
           },
           {
             "name": "Forest Cranky Shared",
             "access_rules": [
-              "cranky"
+              "$loc|SuperSimianSlam"
             ],
             "visibility_rules": [
               "$isShopVisible|FungiForestCrankyShared"
@@ -1038,7 +1055,7 @@
         "chest_unopened_img": "images/items/funky.png",
         "chest_opened_img": "images/items/funkybw.png",
         "access_rules": [
-          "$greenTunnel"
+          "$loc|DonkeyForestGun"
         ],
         "sections": [
           {
@@ -1047,7 +1064,7 @@
               "$isLocationJunk|Forest Funky Donkey, $isShopVisible|FungiForestFunkyDonkey"
             ],
             "access_rules": [
-              "donkey, funky"
+              "$loc|DonkeyForestGun"
             ]
           },
           {
@@ -1056,7 +1073,7 @@
               "$isLocationJunk|Forest Funky Diddy, $isShopVisible|FungiForestFunkyDiddy"
             ],
             "access_rules": [
-              "diddy, funky"
+              "$loc|DiddyForestGun"
             ]
           },
           {
@@ -1065,7 +1082,7 @@
               "$isLocationJunk|Forest Funky Lanky, $isShopVisible|FungiForestFunkyLanky"
             ],
             "access_rules": [
-              "lanky, funky"
+              "$loc|LankyForestGun"
             ]
           },
           {
@@ -1074,7 +1091,7 @@
               "$isLocationJunk|Forest Funky Tiny, $isShopVisible|FungiForestFunkyTiny"
             ],
             "access_rules": [
-              "tiny, funky"
+              "$loc|TinyForestGun"
             ]
           },
           {
@@ -1083,13 +1100,13 @@
               "$isLocationJunk|Forest Funky Chunky, $isShopVisible|FungiForestFunkyChunky"
             ],
             "access_rules": [
-              "chunky, funky"
+              "$loc|ChunkyForestGun"
             ]
           },
           {
             "name": "Forest Funky Shared",
             "access_rules": [
-              "funky"
+              "$loc|HomingAmmo"
             ],
             "visibility_rules": [
               "$isShopVisible|FungiForestFunkyShared"
@@ -1110,14 +1127,16 @@
   {
     "name": "Caves Shops",
     "access_rules": [
-      "^$canEnterCaves"
+      "^$canEnter|Caves"
     ],
     "chest_unopened_img": "images/items/cranky.png",
     "chest_opened_img": "images/items/crankybw.png",
     "children": [
       {
         "name": "Caves Cranky",
-        "access_rules": [],
+        "access_rules": [
+          "$loc|DonkeyCavesPotion"
+        ],
         "sections": [
           {
             "name": "Caves Cranky Donkey",
@@ -1125,7 +1144,7 @@
               "$isLocationJunk|Caves Cranky Donkey, $isShopVisible|CrystalCavesCrankyDonkey"
             ],
             "access_rules": [
-              "donkey, cranky"
+              "$loc|DonkeyCavesPotion"
             ]
           },
           {
@@ -1134,7 +1153,7 @@
               "$isLocationJunk|Caves Cranky Diddy, $isShopVisible|CrystalCavesCrankyDiddy"
             ],
             "access_rules": [
-              "diddy, cranky"
+              "$loc|DiddyCavesPotion"
             ]
           },
           {
@@ -1143,7 +1162,7 @@
               "$isLocationJunk|Caves Cranky Lanky, $isShopVisible|CrystalCavesCrankyLanky"
             ],
             "access_rules": [
-              "lanky, cranky"
+              "$loc|OrangstandSprint"
             ]
           },
           {
@@ -1152,7 +1171,7 @@
               "$isLocationJunk|Caves Cranky Tiny, $isShopVisible|CrystalCavesCrankyTiny"
             ],
             "access_rules": [
-              "tiny, cranky"
+              "$loc|Monkeyport"
             ]
           },
           {
@@ -1161,13 +1180,13 @@
               "$isLocationJunk|Caves Cranky Chunky, $isShopVisible|CrystalCavesCrankyChunky"
             ],
             "access_rules": [
-              "chunky, cranky"
+              "$loc|GorillaGone"
             ]
           },
           {
             "name": "Caves Cranky Shared",
             "access_rules": [
-              "cranky"
+              "$loc|SharedCavesPotion"
             ],
             "visibility_rules": [
               "$isShopVisible|CrystalCavesCrankyShared"
@@ -1187,7 +1206,9 @@
         "name": "Caves Funky",
         "chest_unopened_img": "images/items/funky.png",
         "chest_opened_img": "images/items/funkybw.png",
-        "access_rules": [],
+        "access_rules": [
+          "$loc|DonkeyCavesGun"
+        ],
         "sections": [
           {
             "name": "Caves Funky Donkey",
@@ -1195,7 +1216,7 @@
               "$isLocationJunk|Caves Funky Donkey, $isShopVisible|CrystalCavesFunkyDonkey"
             ],
             "access_rules": [
-              "donkey, funky"
+              "$loc|DonkeyCavesGun"
             ]
           },
           {
@@ -1204,7 +1225,7 @@
               "$isLocationJunk|Caves Funky Diddy, $isShopVisible|CrystalCavesFunkyDiddy"
             ],
             "access_rules": [
-              "diddy, funky"
+              "$loc|DiddyCavesGun"
             ]
           },
           {
@@ -1213,7 +1234,7 @@
               "$isLocationJunk|Caves Funky Lanky, $isShopVisible|CrystalCavesFunkyLanky"
             ],
             "access_rules": [
-              "lanky, funky"
+              "$loc|LankyCavesGun"
             ]
           },
           {
@@ -1222,7 +1243,7 @@
               "$isLocationJunk|Caves Funky Tiny, $isShopVisible|CrystalCavesFunkyTiny"
             ],
             "access_rules": [
-              "tiny, funky"
+              "$loc|TinyCavesGun"
             ]
           },
           {
@@ -1231,13 +1252,13 @@
               "$isLocationJunk|Caves Funky Chunky, $isShopVisible|CrystalCavesFunkyChunky"
             ],
             "access_rules": [
-              "chunky, funky"
+              "$loc|ChunkyCavesGun"
             ]
           },
           {
             "name": "Caves Funky Shared",
             "access_rules": [
-              "funky"
+              "$loc|AmmoBelt2"
             ],
             "visibility_rules": [
               "$isShopVisible|CrystalCavesFunkyShared"
@@ -1257,7 +1278,9 @@
         "name": "Caves Candy",
         "chest_unopened_img": "images/items/candy.png",
         "chest_opened_img": "images/items/candybw.png",
-        "access_rules": [],
+        "access_rules": [
+          "$loc|DonkeyCavesInstrument"
+        ],
         "sections": [
           {
             "name": "Caves Candy Donkey",
@@ -1265,7 +1288,7 @@
               "$isLocationJunk|Caves Candy Donkey, $isShopVisible|CrystalCavesCandyDonkey"
             ],
             "access_rules": [
-              "donkey, candy"
+              "$loc|DonkeyCavesInstrument"
             ]
           },
           {
@@ -1274,7 +1297,7 @@
               "$isLocationJunk|Caves Candy Diddy, $isShopVisible|CrystalCavesCandyDiddy"
             ],
             "access_rules": [
-              "diddy, candy"
+              "$loc|DiddyCavesInstrument"
             ]
           },
           {
@@ -1283,7 +1306,7 @@
               "$isLocationJunk|Caves Candy Lanky, $isShopVisible|CrystalCavesCandyLanky"
             ],
             "access_rules": [
-              "lanky, candy"
+              "$loc|LankyCavesInstrument"
             ]
           },
           {
@@ -1292,7 +1315,7 @@
               "$isLocationJunk|Caves Candy Tiny, $isShopVisible|CrystalCavesCandyTiny"
             ],
             "access_rules": [
-              "tiny, candy"
+              "$loc|TinyCavesInstrument"
             ]
           },
           {
@@ -1301,13 +1324,13 @@
               "$isLocationJunk|Caves Candy Chunky, $isShopVisible|CrystalCavesCandyChunky"
             ],
             "access_rules": [
-              "chunky, candy"
+              "$loc|ChunkyCavesInstrument"
             ]
           },
           {
             "name": "Caves Candy Shared",
             "access_rules": [
-              "candy"
+              "$loc|ThirdMelon"
             ],
             "visibility_rules": [
               "$isShopVisible|CrystalCavesCandyShared"
@@ -1328,14 +1351,16 @@
   {
     "name": "Castle Shops",
     "access_rules": [
-      "^$canEnterCastle"
+      "^$canEnter|Castle"
     ],
     "chest_unopened_img": "images/items/cranky.png",
     "chest_opened_img": "images/items/crankybw.png",
     "children": [
       {
         "name": "Castle Cranky",
-        "access_rules": [],
+        "access_rules": [
+          "$loc|DonkeyCastlePotion"
+        ],
         "sections": [
           {
             "name": "Castle Cranky Donkey",
@@ -1343,7 +1368,7 @@
               "$isLocationJunk|Castle Cranky Donkey, $isShopVisible|CreepyCastleCrankyDonkey"
             ],
             "access_rules": [
-              "donkey, cranky"
+              "$loc|DonkeyCastlePotion"
             ]
           },
           {
@@ -1352,7 +1377,7 @@
               "$isLocationJunk|Castle Cranky Diddy, $isShopVisible|CreepyCastleCrankyDiddy"
             ],
             "access_rules": [
-              "diddy, cranky"
+              "$loc|DiddyCastlePotion"
             ]
           },
           {
@@ -1361,7 +1386,7 @@
               "$isLocationJunk|Castle Cranky Lanky, $isShopVisible|CreepyCastleCrankyLanky"
             ],
             "access_rules": [
-              "lanky, cranky"
+              "$loc|LankyCastlePotion"
             ]
           },
           {
@@ -1370,7 +1395,7 @@
               "$isLocationJunk|Castle Cranky Tiny, $isShopVisible|CreepyCastleCrankyTiny"
             ],
             "access_rules": [
-              "tiny, cranky"
+              "$loc|TinyCastlePotion"
             ]
           },
           {
@@ -1379,13 +1404,13 @@
               "$isLocationJunk|Castle Cranky Chunky, $isShopVisible|CreepyCastleCrankyChunky"
             ],
             "access_rules": [
-              "chunky, cranky"
+              "$loc|ChunkyCastlePotion"
             ]
           },
           {
             "name": "Castle Cranky Shared",
             "access_rules": [
-              "cranky"
+              "$loc|SuperDuperSimianSlam"
             ],
             "visibility_rules": [
               "$isShopVisible|CreepyCastleCrankyShared"
@@ -1405,7 +1430,9 @@
         "name": "Castle Funky",
         "chest_unopened_img": "images/items/funky.png",
         "chest_opened_img": "images/items/funkybw.png",
-        "access_rules": [],
+        "access_rules": [
+          "$loc|DonkeyCastleGun"
+        ],
         "sections": [
           {
             "name": "Castle Funky Donkey",
@@ -1413,7 +1440,7 @@
               "$isLocationJunk|Castle Funky Donkey, $isShopVisible|CreepyCastleFunkyDonkey"
             ],
             "access_rules": [
-              "donkey, funky"
+              "$loc|DonkeyCastleGun"
             ]
           },
           {
@@ -1422,7 +1449,7 @@
               "$isLocationJunk|Castle Funky Diddy, $isShopVisible|CreepyCastleFunkyDiddy"
             ],
             "access_rules": [
-              "diddy, funky"
+              "$loc|DiddyCastleGun"
             ]
           },
           {
@@ -1431,7 +1458,7 @@
               "$isLocationJunk|Castle Funky Lanky, $isShopVisible|CreepyCastleFunkyLanky"
             ],
             "access_rules": [
-              "lanky, funky"
+              "$loc|LankyCastleGun"
             ]
           },
           {
@@ -1440,7 +1467,7 @@
               "$isLocationJunk|Castle Funky Tiny, $isShopVisible|CreepyCastleFunkyTiny"
             ],
             "access_rules": [
-              "tiny, funky"
+              "$loc|TinyCastleGun"
             ]
           },
           {
@@ -1449,13 +1476,13 @@
               "$isLocationJunk|Castle Funky Chunky, $isShopVisible|CreepyCastleFunkyChunky"
             ],
             "access_rules": [
-              "chunky, funky"
+              "$loc|ChunkyCastleGun"
             ]
           },
           {
             "name": "Castle Funky Shared",
             "access_rules": [
-              "funky"
+              "$loc|SniperSight"
             ],
             "visibility_rules": [
               "$isShopVisible|CreepyCastleFunkyShared"
@@ -1475,7 +1502,9 @@
         "name": "Castle Candy",
         "chest_unopened_img": "images/items/candy.png",
         "chest_opened_img": "images/items/candybw.png",
-        "access_rules": [],
+        "access_rules": [
+          "$loc|DonkeyCastleInstrument"
+        ],
         "sections": [
           {
             "name": "Castle Candy Donkey",
@@ -1483,7 +1512,7 @@
               "$isLocationJunk|Castle Candy Donkey, $isShopVisible|CreepyCastleCandyDonkey"
             ],
             "access_rules": [
-              "donkey, candy"
+              "$loc|DonkeyCastleInstrument"
             ]
           },
           {
@@ -1492,7 +1521,7 @@
               "$isLocationJunk|Castle Candy Diddy, $isShopVisible|CreepyCastleCandyDiddy"
             ],
             "access_rules": [
-              "diddy, candy"
+              "$loc|DiddyCastleInstrument"
             ]
           },
           {
@@ -1501,7 +1530,7 @@
               "$isLocationJunk|Castle Candy Lanky, $isShopVisible|CreepyCastleCandyLanky"
             ],
             "access_rules": [
-              "lanky, candy"
+              "$loc|LankyCastleInstrument"
             ]
           },
           {
@@ -1510,7 +1539,7 @@
               "$isLocationJunk|Castle Candy Tiny, $isShopVisible|CreepyCastleCandyTiny"
             ],
             "access_rules": [
-              "tiny, candy"
+              "$loc|TinyCastleInstrument"
             ]
           },
           {
@@ -1519,13 +1548,13 @@
               "$isLocationJunk|Castle Candy Chunky, $isShopVisible|CreepyCastleCandyChunky"
             ],
             "access_rules": [
-              "chunky, candy"
+              "$loc|ChunkyCastleInstrument"
             ]
           },
           {
             "name": "Castle Candy Shared",
             "access_rules": [
-              "candy"
+              "$loc|MusicUpgrade2"
             ],
             "visibility_rules": [
               "$isShopVisible|CreepyCastleCandyShared"
